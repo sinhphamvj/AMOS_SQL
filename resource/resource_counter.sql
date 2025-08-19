@@ -1,0 +1,1 @@
+--đếm số lượng resource của AMO
