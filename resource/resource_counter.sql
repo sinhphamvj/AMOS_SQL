@@ -1,4 +1,3 @@
-
 SELECT 
     -- Tổng số user dept = AMO VJC
     MAX(CASE WHEN "DEPT" = 'AMO' THEN "RESOURCE_COUNT" ELSE 0 END) AS "AMO_TOTAL",
@@ -20,8 +19,9 @@ FROM (
 
     UNION ALL
     -- Query
-    SELECT COUNT(*) AS "RESOURCE_COUNT", 'MOC' AS "DEPT"
+    SELECT COUNT(user_sign) AS "RESOURCE_COUNT", 'MOC' AS "DEPT"
     FROM sign
     WHERE 
     status = 0
+    AND shift_group LIKE 'MOC%'
     ) AS resource_count
