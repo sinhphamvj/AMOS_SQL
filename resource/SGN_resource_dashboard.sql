@@ -69,7 +69,7 @@ FROM (
                             vendor
                         FROM address
                         WHERE
-                            address_i IN (29762,29766,29847,29761)
+                            address_i IN (29762,29766,29847,29761,30846,30847,30848,30849) -- AMO OFFICE
                     ) 
     UNION ALL
     -- Query số User Special    
