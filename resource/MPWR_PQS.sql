@@ -2,7 +2,8 @@ SELECT
 spq.ac_type,
 spq.limitation as "RATING",
 spq.scope AS "SCOPE",
-spq.notes AS "NOTES"
+spq.notes AS "NOTES",
+spq.special_text_1 as "LIMITATION"
 
 FROM
     staff_pqs_qualification spq
