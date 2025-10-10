@@ -1,10 +1,6 @@
 SELECT 
-    -- Tổng số user dept = HOD
-    MAX(CASE WHEN "DEPT" = 'HOD' THEN "RESOURCE_COUNT" ELSE 0 END) AS "HOD_TOTAL",
-    
     -- Tổng số user dept = MAITNENANCE
     MAX(CASE WHEN "DEPT" = 'MAINT' THEN "RESOURCE_COUNT" ELSE 0 END) AS "MAINT_TOTAL",
-
      -- Tổng số user dept = OFFICE
     MAX(CASE WHEN "DEPT" = 'OFFICE' THEN "RESOURCE_COUNT" ELSE 0 END) AS "OFFICE_TOTAL",
         
@@ -32,21 +28,6 @@ SELECT
     SUM("RESOURCE_COUNT")::INTEGER AS "ALL_TOTAL" 
 
 FROM (
-    -- Query số user HOD
-    SELECT COUNT(user_sign) AS "RESOURCE_COUNT", 'HOD' AS "DEPT"
-    FROM sign
-    WHERE 
-    department = 'VJC AMO'
-    AND status = 0
-    AND workgroup IN (
-                        SELECT
-                            vendor
-                        FROM address
-                        WHERE
-                                  address_i =  29868 --AMO HAN STATION MANAGER 
-                    )
-
-    UNION ALL
     -- Query số User Maintenance
     SELECT COUNT(user_sign) AS "RESOURCE_COUNT", 'MAINT' AS "DEPT"
     FROM sign
@@ -72,7 +53,7 @@ FROM (
                             vendor
                         FROM address
                         WHERE
-                            address_i IN (29870,29871,29911) -- ADMIN,PPC,DATA ENTRY
+                            address_i IN (29870,29871,29911,29868) -- ADMIN,PPC,DATA ENTRY , HOD
                     ) 
     UNION ALL
     -- Query số User DUTY AT VTE  

@@ -10,7 +10,7 @@ SELECT 'A' AS "SKILL", COUNT(DISTINCT user_sign) AS "TOTAL"
                             vendor
                         FROM address
                         WHERE
-                                  address_i =  29877 --AMO HAN TEAM 1
+                                  address_i =  29878 --AMO HAN TEAM 2
                     )
 
 UNION ALL
@@ -26,7 +26,7 @@ UNION ALL
                             vendor
                         FROM address
                         WHERE
-                                  address_i =  29877 --AMO HAN TEAM 1
+                                  address_i =  29878 --AMO HAN TEAM 2
                     )
 UNION ALL
     SELECT 'B2' AS "SKILL", COUNT(DISTINCT user_sign) AS "TOTAL"
@@ -41,7 +41,7 @@ UNION ALL
                             vendor
                         FROM address
                         WHERE
-                                  address_i = 29877 --AMO HAN TEAM 1
+                                  address_i = 29878 --AMO HAN TEAM 2
                     )
 UNION ALL
     SELECT 'MECH' AS "SKILL", COUNT(DISTINCT user_sign) AS "TOTAL"
@@ -55,7 +55,7 @@ UNION ALL
                             vendor
                         FROM address
                         WHERE
-                                  address_i = 29877 --AMO HAN TEAM 1
+                                  address_i = 29878 --AMO HAN TEAM 2
                     )
 UNION ALL
     SELECT 'TRAINEE' AS "SKILL", COUNT(DISTINCT user_sign) AS "TOTAL"
@@ -69,5 +69,5 @@ UNION ALL
                             vendor
                         FROM address
                         WHERE
-                                  address_i = 29877 --AMO HAN TEAM 1
+                                  address_i = 29878 --AMO HAN TEAM 2
                     )

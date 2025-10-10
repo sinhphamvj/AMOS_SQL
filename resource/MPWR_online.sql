@@ -21,17 +21,18 @@ LEFT JOIN
 WHERE
     s.department = 'VJC AMO'
     AND s.status = 0
+AND s.homebase = 'SGN'
     AND (
         DATE '1971-12-31' + sua.start_date + CASE WHEN sua.start_time + 420 >= 1440 THEN 1 ELSE 0 END
-    )::DATE = (current_timestamp + INTERVAL '7 hours')::DATE
+    )::DATE = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY')
    AND (
         (
-            (current_timestamp + INTERVAL '7 hours')::time BETWEEN '05:00:00' AND '17:00:00'
-            AND (entry_type IN ('B1', 'B11', 'B12', 'B16', 'B20', 'B21', 'B3', 'B5', 'B7','EC')
+            ('@VAR.SHIFT@' = 'M' or '@VAR.SHIFT@' = 'm')
+            AND (entry_type IN ('B1', 'B11', 'B12', 'B16', 'B20', 'B21', 'B3', 'B5', 'B7')
                 OR (entry_type = 'OT' AND end_time <= 720)
             )
         )OR (
-            (current_timestamp + INTERVAL '7 hours')::time NOT BETWEEN '05:00:00' AND '17:00:00'
+            ('@VAR.SHIFT@' = 'N' or '@VAR.SHIFT@' = 'n')
             AND (entry_type IN ('B10', 'B13', 'B19', 'B2', 'B22', 'B4', 'B6', 'B8', 'E')
                 OR (entry_type = 'OT' AND end_time > 720)
             )
