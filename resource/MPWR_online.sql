@@ -18,10 +18,12 @@ JOIN
     sp_user_availability sua ON s.user_sign = sua.user_sign
 LEFT JOIN
     staff_pqs_qualification spq ON s.employee_no_i = spq.employee_no_i
+LEFT JOIN 
+    sp_shift ON sp_shift.shift_id = sua.shift_id
 WHERE
     s.department = 'VJC AMO'
     AND s.status = 0
-AND s.homebase = 'SGN'
+    AND sp_shift.location = 'SGN'
     AND (
         DATE '1971-12-31' + sua.start_date + CASE WHEN sua.start_time + 420 >= 1440 THEN 1 ELSE 0 END
     )::DATE = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY')
