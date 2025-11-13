@@ -11,22 +11,7 @@ SELECT
     MAX(CASE WHEN "DEPT" = 'DO_AL' THEN "RESOURCE_COUNT" ELSE 0 END) AS "DO_AL_TOTAL"
 
 FROM (
-    -- Query số user HOD
-    SELECT COUNT(user_sign) AS "RESOURCE_COUNT", 'HOD' AS "DEPT"
-    FROM sign
-    WHERE 
-    department = 'VJC AMO'
-    AND status = 0
-    AND workgroup IN (
-                        SELECT
-                            vendor
-                        FROM address
-                        WHERE
-                                  address_i =  29760 --AMO SGN STATION MANAGER 
-                    )
-
-    UNION ALL
-    -- Query số User Maintenance
+        -- Query số User Maintenance
     SELECT COUNT(user_sign) AS "RESOURCE_COUNT", 'MAINT' AS "DEPT"
     FROM sign
     WHERE 
@@ -37,7 +22,7 @@ FROM (
                             vendor
                         FROM address
                         WHERE
-                            parent =  29748 OR address_i IN(29764,30049,30050,30147,30048,29760)
+                            parent =  29869 OR address_i IN(29877,29878,29879,29880,29881,29869)-- T1,T2,T3,T4,,T5
                     )
     UNION ALL
     -- Query số User Office      
@@ -51,11 +36,11 @@ FROM (
                             vendor
                         FROM address
                         WHERE
-                            address_i IN (29762,29766,29847,29761,29846,30846,30847,30848,30849)
+                            address_i IN (29870,29871,29911,29868) -- ADMIN,PPC,DATA ENTRY , HOD
                     ) 
     UNION ALL
-    -- Query số User Special    
-    SELECT COUNT(user_sign) AS "RESOURCE_COUNT", 'SPECIAL' AS "DEPT"    
+    -- Query số User DUTY AT VTE  
+    SELECT COUNT(user_sign) AS "RESOURCE_COUNT", 'VTE' AS "DEPT"    
     FROM sign
     WHERE       
     status = 0
@@ -65,13 +50,13 @@ FROM (
                             vendor
                         FROM address
                         WHERE
-                            address_i = 30147 -- AMO SGN LINE FOR VTE PERSON
+                            address_i = 29919 -- AMO HAN LINE FOR VTE PERSON
                     )
 
     
     UNION ALL
-    -- Query tổng số user BMV
-    SELECT COUNT(user_sign) AS "RESOURCE_COUNT", 'BMV' AS "DEPT"    
+    -- Query tổng số user THD
+    SELECT COUNT(user_sign) AS "RESOURCE_COUNT", 'THD' AS "DEPT"    
     FROM sign
     WHERE       
     status = 0
@@ -81,11 +66,11 @@ FROM (
                             vendor
                         FROM address
                         WHERE
-                            address_i = 29882 -- AMO BMV
+                            address_i = 29909 -- AMO THD_LM
                     )
     UNION ALL
-    -- Query tổng số user DLI
-    SELECT COUNT(user_sign) AS "RESOURCE_COUNT", 'DLI' AS "DEPT"    
+    -- Query tổng số user GSE and WS
+    SELECT COUNT(user_sign) AS "RESOURCE_COUNT", 'GSE_WS' AS "DEPT"    
     FROM sign
     WHERE       
     status = 0
@@ -95,25 +80,12 @@ FROM (
                             vendor
                         FROM address
                         WHERE
-                            address_i = 29883 -- AMO DLI         
+                            address_i IN (29874,29913) -- HAN GSE and WS         
             )
-UNION ALL
-    -- Query tổng số user DEPT = BSI
-    SELECT COUNT(user_sign) AS "RESOURCE_COUNT", 'BSI' AS "DEPT"    
-    FROM sign
-    WHERE       
-    status = 0
-    AND department = 'VJC AMO'          
-    AND workgroup IN (
-                        SELECT
-                            vendor
-                        FROM address
-                        WHERE
-                            address_i = 29765 -- AMO BSI
-    ) 
+
     UNION ALL
     -- Query tổng số user DEPT = CABIN
-    SELECT COUNT(user_sign) AS "RESOURCE_COUNT", 'CABIN' AS "DEPT"    
+    SELECT COUNT(user_sign) AS "RESOURCE_COUNT", 'CABIN_STR' AS "DEPT"    
     FROM sign
     WHERE       
     status = 0
@@ -123,11 +95,11 @@ UNION ALL
                             vendor
                         FROM address
                         WHERE
-                            address_i = 29756 -- AMO CABIN
-    ) 
+                            address_i IN (29873,29876) -- AMO CABIN & STRUCTURE HAN
+    )  
     UNION ALL
-    -- Query tổng số user DEPT = STRUCTURE
-    SELECT COUNT(user_sign) AS "RESOURCE_COUNT", 'STRUCTURE' AS "DEPT"    
+    -- Query tổng số user DEPT = STO
+    SELECT COUNT(user_sign) AS "RESOURCE_COUNT", 'STO' AS "DEPT"    
     FROM sign
     WHERE       
     status = 0
@@ -137,36 +109,46 @@ UNION ALL
                             vendor
                         FROM address
                         WHERE
-                            address_i = 29755 -- AMO STRUCTURE
+                            address_i = 29872 -- HAN STORE
+    )
+    UNION ALL
+    -- Query tổng số user DEPT = DRIVER
+    SELECT COUNT(user_sign) AS "RESOURCE_COUNT", 'DRIVER' AS "DEPT"    
+    FROM sign
+    WHERE       
+    status = 0
+    AND department = 'VJC AMO'          
+    AND workgroup IN (
+                        SELECT
+                            vendor
+                        FROM address
+                        WHERE
+                            address_i = 29910 -- HAN DRIVER
     )     
     UNION ALL
+
         -- Query số user ONLINE
     SELECT COUNT(DISTINCT sp_user_availability.user_sign) AS "RESOURCE_COUNT", 'ONLINE' AS "DEPT"
     FROM sp_user_availability
     LEFT JOIN sign ON sp_user_availability.user_sign = sign.user_sign
     LEFT JOIN sp_shift ON sp_shift.shift_id = sp_user_availability.shift_id
     WHERE 
-    (
-        DATE '1971-12-31' + start_date + CASE
-            WHEN start_time + 420 >= 1440 THEN 1
-            ELSE 0
-        END
-    )::DATE = (current_timestamp + INTERVAL '7 hours')::DATE
+    (DATE '1971-12-31' + start_date)::DATE = (current_timestamp + INTERVAL '7 hours')::DATE
     AND (
         (
-            (current_timestamp + INTERVAL '7 hours')::time BETWEEN '05:00:00' AND '17:00:00'
-            AND (entry_type IN ('B1', 'B11', 'B12', 'B16', 'B20', 'B21', 'B3', 'B5', 'B7','EC','B1_O','HC','OT_M')
-                OR (entry_type IN('OT','B17') AND end_time <= 720)
+              (current_timestamp + INTERVAL '7 hours')::time BETWEEN '08:00:00' AND '20:00:00'
+            AND (entry_type IN ('B1', 'B11', 'B12', 'B16', 'B20', 'B21', 'B3', 'B5', 'B7','EC','B1_O','HC','BD1','BD5_O','OT_M')
+                 OR (entry_type IN('BD3','BD3_O') AND start_time < 840)
             )
         )OR (
-            (current_timestamp + INTERVAL '7 hours')::time NOT BETWEEN '05:00:00' AND '17:00:00'
-            AND (entry_type IN ('B10', 'B13', 'B19', 'B2', 'B22', 'B4', 'B6', 'B8', 'E','B2_O','OT_N')
-                OR (entry_type = 'OT' AND end_time > 720)
+               (current_timestamp + INTERVAL '7 hours')::time NOT BETWEEN '08:00:00' AND '20:00:00'
+            AND (entry_type IN ('B10', 'B13', 'B19', 'B2', 'B22', 'B4', 'B6', 'B8', 'E','B2_O','BD2','OT_N')
+            OR (entry_type IN('BD3','BD3_O') AND start_time >= 840)
             )
         )
     )
     AND sign.status <> 9
-    AND sp_shift.location = 'SGN'
+    AND sp_shift.location = 'HAN'
 
     -- Query số user DUTYTRAVEL
     UNION ALL
@@ -176,9 +158,9 @@ UNION ALL
     LEFT JOIN sp_shift ON sp_shift.shift_id = sp_user_availability.shift_id
     WHERE 
     (DATE '1971-12-31' + start_date)::DATE = (current_timestamp + INTERVAL '7 hours')::DATE
-    AND entry_type IN ('FE','FE_DYG','FE_HKT','FE_HND','FE_NGO','DT','DT_PUS','DT_DPS','DT_ICN','DT_PQC','DT_SIN','T_REP')  
+    AND entry_type IN ('FE','FE_DYG','FE_HKT','FE_HND','FE_NGO','DT','DT_PUS','DT_DPS','DT_ICN','DT_PQC','DT_SIN','T_REP','FE_BQS', 'FE_CJJ', 'FE_CZX', 'FE_DYG_1', 'FE_FUK', 'FE_GAY', 'FE_HIJ', 'FE_KHV', 'FE_KIX', 'FE_NGO_1', 'FE_NRT', 'FE_PKX', 'FE_TAK', 'FE_VNS', 'FE_VOO')  
     AND sign.status <> 9
-    AND sp_shift.location = 'SGN'
+    AND sp_shift.location = 'HAN'
 
     -- Query số user TRAINING
     UNION ALL
@@ -190,7 +172,7 @@ UNION ALL
     (DATE '1971-12-31' + start_date)::DATE = (current_timestamp + INTERVAL '7 hours')::DATE
     AND entry_type IN ('T')   
     AND sign.status <> 9
-    AND sp_shift.location = 'SGN'
+    AND sp_shift.location = 'HAN'
     -- Query số user DO_AL
     UNION ALL
     SELECT COUNT(DISTINCT sp_user_availability.user_sign) AS "RESOURCE_COUNT", 'DO_AL' AS "DEPT"
@@ -201,5 +183,5 @@ UNION ALL
     (DATE '1971-12-31' + start_date)::DATE = (current_timestamp + INTERVAL '7 hours')::DATE
     AND entry_type IN ('DO','AL','UL','H','LW','ML','WS','PL','VS','KT','S')   
     AND sign.status <> 9
-    AND sp_shift.location = 'SGN'
+    AND sp_shift.location = 'HAN'
 ) AS resource_count

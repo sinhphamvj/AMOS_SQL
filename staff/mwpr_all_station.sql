@@ -20,24 +20,19 @@ FROM
             WHEN s.skill_shop = 'TRAINEE_MECH' THEN 'TRAINEE_MECH'
         END AS skill
     FROM
-        (SELECT TO_DATE('@VAR.DATE@', 'DD.MON.YYYY') AS day) AS d
+        (SELECT TO_DATE('03.Nov.2025', 'DD.MON.YYYY') AS day) AS d
     LEFT JOIN (
-        SELECT s.user_sign, s.employee_no_i, s.skill_shop, sua.end_date, sua.start_time, sua.entry_type, sua.end_time, sp_shift.location as station
+        SELECT s.user_sign, s.employee_no_i, s.skill_shop, sua.start_date, sua.start_time, sua.entry_type, sua.end_time, sp_shift.location as station
         FROM sign s
         JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
         LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
-        WHERE s.department = 'VJC AMO' AND s.status = 0 AND sp_shift.location IN ('SGN', 'HAN', 'DAD')
+        WHERE s.department = 'VJC AMO' AND s.status = 0 AND sp_shift.location IN ('SGN', 'HAN', 'DAD','CXR')
           AND (
-             (
-                    ('@VAR.SHIFT@' = 'M' or '@VAR.SHIFT@' = 'm')
-                    AND (entry_type IN ('B1', 'B11', 'B12', 'B16', 'B20', 'B21', 'B3', 'B5', 'B7','OT_M','BD1')
-                   
-                    )
-            ) OR (
-                    ('@VAR.SHIFT@' = 'N' or '@VAR.SHIFT@' = 'n')
-                    AND (entry_type IN ('B10', 'B13', 'B19', 'B2', 'B22', 'B4', 'B6', 'B8', 'E','OT_N','BD2')
+              (
+                    
+                     entry_type IN ('B10', 'B13', 'B19', 'B2', 'B22', 'B4', 'B6', 'B8', 'E','OT_N','BD2','K2')
                         
-                    )
+                    
             )
           )
     ) s ON (DATE '1971-12-31' + s.start_date)::DATE = d.day

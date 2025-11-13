@@ -1,23 +1,33 @@
 SELECT
-   wh.ac_registr,
-   wh.event_perfno_i,
-   TO_CHAR(
-      DATE '1971-12-31' + wh.closing_date,
-      'DD MON YYYY'
-   ) AS c_date,
-   wh.release_station,
-   TO_CHAR(
-      (wh.release_time) :: time,
-      'HH24:MI'
-   ) AS closing_time,
-   wo_text_action.text
+    wpno_i,
+    wpno,
+    TO_CHAR(
+        TO_DATE(SUBSTRING(wpno FROM '[0-9]{6}'), 'DDMMYY'),
+        'DD.MM.YYYY'
+    ) AS wpno_date,
+    TO_CHAR(DATE '1971-12-31' + start_date, 'DD.MON.YYYY') AS "START_DATE",
+    TO_CHAR(DATE '1971-12-31' + MIN(start_date) OVER (), 'DD.MON.YYYY') AS "FROM",
+    TO_CHAR(DATE '1971-12-31' + MAX(start_date) OVER (), 'DD.MON.YYYY') AS "TO"
+    
 FROM
-    wo_header as wh
-   LEFT JOIN wo_text_action ON wh.event_perfno_i = wo_text_action.event_perfno_i
-
+    wp_header
 WHERE
-   wh.closing_date >= 17533
-   and wh.state = 'C'
-   and wh.ac_registr != 'COMP'
-   and (wh.mech_sign = 'VJC1694' or wo_text_action.sign_performed = 'VJC1694')
-and wh.type IN ('M','P')
+    wp_header.wpno_i IN (@VAR.WP@)
+
+ORDER BY
+    CASE 
+        WHEN @VAR.SORT@ = '1' THEN 
+            CASE
+                WHEN wp_header.station = 'SGN' THEN 1
+                WHEN wp_header.station = 'HAN' THEN 2
+                WHEN wp_header.station = 'DAD' THEN 3
+                WHEN wp_header.station = 'CXR' THEN 4
+                WHEN wp_header.station = 'HPH' THEN 5
+                WHEN wp_header.station = 'VII' THEN 6
+                WHEN wp_header.station = 'VCA' THEN 7
+                WHEN wp_header.station = 'PQC' THEN 8
+                ELSE 9
+            END
+        ELSE NULL
+    END,
+    wp_header.ac_registr

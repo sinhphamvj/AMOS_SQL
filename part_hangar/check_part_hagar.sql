@@ -1,67 +1,49 @@
 SELECT 
+ROW_NUMBER() OVER (ORDER BY
+    CASE
+        WHEN pickslip_header.station_to = 'SGN' THEN 1
+        WHEN pickslip_header.station_to = 'HAN' THEN 2
+        WHEN pickslip_header.station_to = 'DAD' THEN 3
+        WHEN pickslip_header.station_to = 'CXR' THEN 4
+        WHEN pickslip_header.station_to = 'HPH' THEN 5
+        WHEN pickslip_header.station_to = 'VCA' THEN 6
+        WHEN pickslip_header.station_to = 'PQC' THEN 7
+        ELSE 8
+    END,pickslip_header.pickslip_date) AS "SEQ",
 rotables.locationno_i,
 rotables.partno as "PN",
 rotables.serialno AS "SN",
-pickslip_header.pickslipno,
+pickslip_header.pickslipno AS "PICKSLIP",
 TO_CHAR(DATE '1971-12-31' + pickslip_header.pickslip_date, 'DD.MON.YYYY') AS "ISSUE_DATE",
-pickslip_header.mech_sign,
-pickslip_header.station_to,
-pickslip_header.receiver,
+pickslip_header.mech_sign AS "MECH_SIGN",
+pickslip_header.station_to AS "STATION",
+pickslip_header.receiver AS "AC",
 pickslip_header.event_type,
-pickslip_header.event_key,
-(
-          SELECT COALESCE (
-                    (
-                       SELECT DISTINCT workstep_link.event_perfno_i
-                       FROM part_request_2
-                       JOIN workstep_link ON part_request_2.event_key = workstep_link.workstep_linkno_i AND (part_request_2.event_type = 'WSL')
-                       LEFT JOIN wo_header ON workstep_link.event_perfno_i = wo_header.event_perfno_i AND (wo_header.workorderno_display IS NOT NULL)
-                       WHERE pickslip_detail.part_requestno_i = part_request_2.part_requestno_i
-                    ),
-                    (
-                       SELECT event_pending.workorderno
-                       FROM part_request_2 pr
-                       JOIN event_pending ON pr.event_key = event_pending.pendingno_i AND (pr.event_type = 'GENEVENT')
-                       WHERE pickslip_detail.part_requestno_i = pr.part_requestno_i
-                    )
-                 )
-) as "WORKORDER_NO",
-pickslip_header.remarks,
+pickslip_header.event_key AS "WO",
+pickslip_header.remarks AS "REMARKS",
 pickslip_header.pickslip_text,
-pickslip_booked.status AS "BOOKED_STATUS",
-pickslip_booked.location_from as "LOCATION_FROM",
-pickslip_booked.location_to as "LOCATION_TO"
+pickslip_booked.status AS "BOOKED_STATUS"
 FROM
 rotables
 LEFT JOIN pickslip_booked ON rotables.partno = pickslip_booked.partno AND rotables.serialno = pickslip_booked.serialno
 LEFT JOIN part ON rotables.partno = part.partno AND part.mat_class = 'R'
-JOIN pickslip_header ON pickslip_header.pickslipno = pickslip_booked.pickslipno
-JOIN pickslip_detail ON pickslip_header.pickslipno = pickslip_detail.pickslipno
+LEFT JOIN pickslip_header ON pickslip_header.pickslipno = pickslip_booked.pickslipno
 LEFT JOIN sign ON pickslip_header.mech_sign = sign.user_sign
 WHERE
 rotables.location = 'HANGAR'
 AND pickslip_booked.status = 9
 AND pickslip_booked.location_to <> 'TRANSFER'
-AND pickslip_header.pickslip_date >= 19630
-AND ((DATE '1971-12-31' + pickslip_header.pickslip_date) :: date < current_timestamp :: date)
+AND ((DATE '1971-12-31' + pickslip_header.pickslip_date)::DATE >= TO_DATE('@VAR.START_DATE@', 'DD.MON.YYYY'))
+AND ((DATE '1971-12-31' + pickslip_header.pickslip_date)::DATE <  TO_DATE('@VAR.END_DATE@', 'DD.MON.YYYY'))
 AND NOT EXISTS (
     SELECT 1
     FROM wo_part_on_off
     WHERE
         wo_part_on_off.partno = rotables.partno
         AND wo_part_on_off.serialno = rotables.serialno
-        AND wo_part_on_off.created_date >= 19630
+        AND (DATE '1971-12-31' + wo_part_on_off.created_date)::DATE >= TO_DATE('@VAR.START_DATE@', 'DD.MON.YYYY')
         AND wo_part_on_off.status = 0
 )
 AND sign.department = 'VJC AMO'
 AND pickslip_header.station_to != 'VTE'
 AND (pickslip_header.receiver LIKE 'A%' OR pickslip_header.receiver = 'COMP')
-AND pickslip_header.receiver NOT IN (
-    SELECT 
-            mdr.ac_registr
-    FROM moc_daily_records mdr
-    WHERE mdr.event_type IN ( 'A_CHK', 'C_CHK')
-    AND mdr.closed <> 'Y' 
-    AND ((mdr.occurance_date * 24 * 60) + mdr.occurance_time) <= 
-      (((CURRENT_DATE - DATE '1971-12-31') * 24 * 60) + (EXTRACT(HOUR FROM CURRENT_TIME) * 60 + EXTRACT(MINUTE FROM CURRENT_TIME)))
-)

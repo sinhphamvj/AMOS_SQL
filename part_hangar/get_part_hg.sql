@@ -20,16 +20,7 @@ SELECT rotables.partno,
                 AND R2.condition <> 'US'
        ) = 2 THEN 'Y' ELSE 'N' END,
        rotables.labelno,
-       rotables.rec_detailno_i,
-       (
-          SELECT project.projectno
-          FROM project
-          WHERE COALESCE (
-                   rotables.projectno_i,
-                   0
-                ) <> 0
-                AND project.projectno_i = rotables.projectno_i
-       ),
+       
        contract_data.contract_code,
        (
           SELECT part.special_measure_unit
