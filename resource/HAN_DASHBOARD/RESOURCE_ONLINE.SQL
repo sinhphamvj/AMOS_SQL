@@ -9,20 +9,22 @@ SELECT
 
 FROM(
     -- Query số user ONLINE
-    SELECT COUNT(DISTINCT sp_user_availability.user_sign) AS "MPWR_COUNT", 'ONLINE' AS "USER"
+   SELECT COUNT(DISTINCT sp_user_availability.user_sign) AS "MPWR_COUNT", 'ONLINE' AS "USER"
     FROM sp_user_availability
     LEFT JOIN sign ON sp_user_availability.user_sign = sign.user_sign
     LEFT JOIN sp_shift ON sp_shift.shift_id = sp_user_availability.shift_id
     WHERE 
-    (DATE '1971-12-31' + start_date)::DATE = (current_timestamp)::DATE
+    (DATE '1971-12-31' + start_date)::DATE = (current_timestamp + INTERVAL '7 hours')::DATE
     AND (
         (
-            (current_timestamp + INTERVAL '7 hours')::time BETWEEN '08:00:00' AND '20:00:00'
-            AND (entry_type IN ('B1', 'B11', 'B12', 'B16', 'B20', 'B21', 'B3', 'B5', 'B7','EC','B1_O','HC','BD1','BD5_O')
+              (current_timestamp + INTERVAL '7 hours')::time BETWEEN '08:00:00' AND '20:00:00'
+            AND (entry_type IN ('B1', 'B11', 'B12', 'B16', 'B20', 'B21', 'B3', 'B5', 'B7','EC','B1_O','HC','BD1','BD5_O','OT_M','SBD1','OBD1','BD5_O','BD1_O')
+                 OR (entry_type IN ('OT_O','BD3','BD3_O') AND start_time BETWEEN 0 AND 540)
             )
         )OR (
-            (current_timestamp + INTERVAL '7 hours')::time NOT BETWEEN '08:00:00' AND '20:00:00'
-            AND (entry_type IN ('B10', 'B13', 'B19', 'B2', 'B22', 'B4', 'B6', 'B8', 'E','B2_O','BD2')
+               (current_timestamp + INTERVAL '7 hours')::time NOT BETWEEN '08:00:00' AND '20:00:00'
+            AND (entry_type IN ('B10', 'B13', 'B19', 'B2', 'B22', 'B4', 'B6', 'B8', 'E','B2_O','BD2','OT_N','SBD2','OBD2','BD2_O')
+            OR (entry_type IN ('OT_O','OT_N','BD3','BD3_O') AND start_time BETWEEN 540 AND 1440)
             )
         )
     )

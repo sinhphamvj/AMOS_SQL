@@ -22,7 +22,7 @@ LEFT JOIN LATERAL (
     WHERE 
         wo_text_action.event_perfno_i = wo_header.event_perfno_i
         AND db_link.source_type = 'WOA'
-        AND db_link.ref_type IN ('MEL','AMM','CDL','SRM','NTM','TSM')
+        AND db_link.ref_type IN ('MEL','AMM','CDL','SRM','NTM','TSM','DOC_REF')
     ORDER BY wo_text_action.actionno_i ASC
     LIMIT 1
 ) doc_ref_data ON true

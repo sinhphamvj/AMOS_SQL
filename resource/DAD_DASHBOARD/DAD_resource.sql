@@ -11,7 +11,7 @@ SELECT
     MAX(CASE WHEN "DEPT" = 'DO_AL' THEN "RESOURCE_COUNT" ELSE 0 END) AS "DO_AL_TOTAL"
 
 FROM (
-    -- Query số user DAD
+    -- Query số user DAD\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
     SELECT COUNT(user_sign) AS "RESOURCE_COUNT", 'TOTAL' AS "DEPT"
     FROM sign
     WHERE 
@@ -54,12 +54,12 @@ FROM (
     AND (
         (
             (current_timestamp + INTERVAL '7 hours')::time BETWEEN '06:00:00' AND '18:00:00'
-            AND (entry_type IN ('B1', 'B11', 'B12', 'B16', 'B20', 'B21', 'B3', 'B5', 'B7','EC','B1_O','HC','OT_M','E1','E1_O','B9')
+            AND (entry_type IN ('B1', 'B11', 'B12', 'B16', 'B20', 'B21', 'B3', 'B5', 'B7','EC','B1_O','HC','OT_M','E1','E1_O','E9')
                 OR (entry_type IN('OT','B17') AND end_time <= 720)
             )
         )OR (
             (current_timestamp + INTERVAL '7 hours')::time NOT BETWEEN '06:00:00' AND '18:00:00'
-            AND (entry_type IN ('B10', 'B13', 'B19', 'B2', 'B22', 'B4', 'B6', 'B8', 'E','B2_O','OT_N','E2','E2_O','CK')
+            AND (entry_type IN ('B10', 'B13', 'B19', 'B2', 'B22', 'B4', 'B6', 'B8', 'E','B2_O','OT_N','E2','E2_O','CK','E10','E4','E4_O')
                 OR (entry_type IN ('OT','B17') AND end_time > 720)
             )
         )
