@@ -13,7 +13,7 @@ ROW_NUMBER() OVER (ORDER BY
 wo_header.ac_registr AS "AC",
 wo_part_on_off.event_perfno_i AS "WO",
 TO_CHAR(DATE '1971-12-31' + wo_part_on_off.created_date,'DD MON YYYY') AS "CREATE_DATE",
-sign.homebase AS "STATION",
+pickslip_header.station_to AS "STATION",
 wo_part_on_off.partno AS "PN_ON",
 wo_part_on_off.serialno AS "SN_ON",
 wo_part_on_off.partno_off AS "PN_OFF",
@@ -24,9 +24,12 @@ FROM
    JOIN wo_header ON wo_part_on_off.event_perfno_i = wo_header.event_perfno_i
    LEFT JOIN wo_text_action ON wo_part_on_off.actionno_i = wo_text_action.actionno_i
    LEFT JOIN sign ON wo_text_action.sign_performed = sign.user_sign
+   LEFT JOIN pickslip_booked ON pickslip_booked.partno = wo_part_on_off.partno AND pickslip_booked.serialno = wo_part_on_off.serialno
+   LEFT JOIN pickslip_header ON pickslip_header.pickslipno = pickslip_booked.pickslipno
 WHERE
 (DATE '1971-12-31' + wo_part_on_off.created_date) :: date >= TO_DATE('@VAR.START_DATE@', 'DD.MON.YYYY')
 AND (DATE '1971-12-31' + wo_part_on_off.created_date) :: date <= TO_DATE('@VAR.END_DATE@', 'DD.MON.YYYY')
+AND  (DATE '1971-12-31' +  pickslip_header.issue_date) :: date between TO_DATE('@VAR.START_DATE@', 'DD.MON.YYYY') and TO_DATE('@VAR.END_DATE@', 'DD.MON.YYYY')
 AND wo_part_on_off.status = 0
 AND wo_text_action.sign_performed not like ('TVJ%')
-AND wo_header.ac_registr != 'DUMMY'
+AND wo_header.ac_registr LIKE 'A%'

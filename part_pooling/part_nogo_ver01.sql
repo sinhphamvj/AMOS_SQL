@@ -10,4 +10,4 @@ FROM part
 JOIN spa_detail on spa_detail.partno = part.partno
 JOIN spa_header ON spa_header.listno_i = spa_detail.spa_listno_i
 WHERE 
-spa_header.name = 'NOGO_L_SGN'
+spa_header.name = 'NOGO_L_HAN'
