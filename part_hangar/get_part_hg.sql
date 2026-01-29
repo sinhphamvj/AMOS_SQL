@@ -1,146 +1,61 @@
-SELECT rotables.partno,
-       location.station,
-       location.store,
-       location.location,
-       rotables.serialno,
-       CASE WHEN (
-          SELECT inspection_detail.status
-          FROM inspection_detail
-          WHERE inspection_detail.inspection_detailno_i = (
-                   SELECT MAX (inspection_detail.inspection_detailno_i)
-                   FROM inspection_detail
-                   WHERE inspection_detail.ref_type = 'RO'
-                         AND inspection_detail.ref_key = rotables.psn
-                )
-       ) = 1
-       OR (
-          SELECT R2.rotable_status
-          FROM rotables R2
-          WHERE R2.psn = rotables.psn
-                AND R2.condition <> 'US'
-       ) = 2 THEN 'Y' ELSE 'N' END,
-       rotables.labelno,
-       
-       contract_data.contract_code,
-       (
-          SELECT part.special_measure_unit
-          FROM part
-          WHERE part.partno = rotables.partno
-       ),
-       rotables.pma,
-       rotables.owner,
-       rotables.condition,
-       entity_header.entity_code,
-       '',
-       COALESCE (
-          od_header.orderno,
-          rotables.orderno
-       ),
-       (
-          SELECT MAX (MAX1.vendor)
-          FROM od_header MAX1
-          WHERE MAX1.orderno = COALESCE (
-                   od_header.orderno,
-                   rotables.orderno
-                )
-       ),
-       '1',
-       '',
-       '',
-       '',
-       '',
-       '',
-       '',
-       '',
-       'N',
-       (
-          SELECT 1
-          FROM part_special
-          WHERE part_special.partno = rotables.partno
-                AND part_special.special = 'KIT'
-       ),
-       rotables.is_managed,
-       rotables.shelf_inspection_date,
-       (
-          SELECT requirement_type.description
-          FROM requirement_type
-          WHERE requirement_type.requirement = rotables.shelf_inspection_type
-       ),
-       rotables.shelf_inspection_type,
-       location.location_restriction,
-       location.location_type,
-       rotables.psn,
-       rotables.locationno_i,
-       (
-          SELECT COALESCE (
-                    COUNT (*),
-                    0
-                 )
-          FROM wo_header
-          WHERE rotables.psn = wo_header.psn
-                AND wo_header.state = 'O'
-                AND wo_header.type IN (
-                   'S',
-                   'C',
-                   'M',
-                   'P'
-                )
-                AND wo_header.workorderno_display IS NOT NULL
-       ),
-       rotables.projectno_i,
-       (
-          SELECT (
-                    MAX (rotables_weight_history.weight)
-                 )
-          FROM rotables_weight_history
-          WHERE rotables_weight_history.psn = rotables.psn
-                AND rotables_weight_history.del_date = (
-                   SELECT (
-                             MAX (rotables_weight_history.del_date)
-                          )
-                   FROM rotables_weight_history
-                   WHERE rotables_weight_history.psn = rotables.psn
-                )
-                AND rotables_weight_history.recno = (
-                   SELECT (
-                             MAX (RW2.recno)
-                          )
-                   FROM rotables_weight_history RW2
-                   WHERE RW2.psn = rotables_weight_history.psn
-                         AND RW2.del_date = rotables_weight_history.del_date
-                )
-       ),
-       (
-          SELECT MAX (MAX2.status)
-          FROM od_header MAX2
-          WHERE MAX2.orderno = COALESCE (
-                   od_header.orderno,
-                   rotables.orderno
-                )
-       ),
-       rotables.rec_detailno_i,
-       rotables.purch_recdetailno_i,
-       entity_header.entityno_i,
-       rotables.linked_contract
-FROM rotables
-JOIN location ON rotables.locationno_i = location.locationno_i
-JOIN entity_header ON rotables.entityno_i = entity_header.entityno_i
-LEFT JOIN contract_data ON rotables.linked_contract = contract_data.contract_id
-LEFT JOIN od_detail ON rotables.material_lifecycle_id = od_detail.material_lifecycle_id AND (od_detail.state = 'O')
-LEFT JOIN od_header ON od_header.orderno_i = od_detail.orderno_i
-WHERE rotables.partno = 'S6-01-0005-320'
-      AND rotables.ac_registr IN (
-         '',
-         'TRANSF'
-      )
-      AND NOT EXISTS (
-         SELECT rotables_tree.rotables_treeno_i
-         FROM rotables_tree
-         WHERE rotables_tree.rotables_treeno_i = rotables.psn
-               AND rotables_tree.left_key > 1
-      )
-      AND rotables.condition <> 'US'
-      AND rotables.locationno_i <> -200
-      AND location.station = 'SGN'
-      AND location.location_type <> -3
-      AND location.location_type <> -107  
+SELECT 
+    base.station AS "STATION",
+    MAX(CASE WHEN task_counts."TYPE" = 'PART_HANGAR' THEN task_counts."COUNT" ELSE 0 END) AS "PART_HANGAR_COUNT"
+FROM (
+    SELECT 'SGN' AS station UNION ALL SELECT 'HAN' UNION ALL SELECT 'DAD' UNION ALL 
+    SELECT 'CXR' UNION ALL SELECT 'PQC' UNION ALL SELECT 'VCA' UNION ALL 
+    SELECT 'VII' UNION ALL SELECT 'HPH' UNION ALL SELECT 'VTE'
+) AS base
+LEFT JOIN (
+    SELECT 
+        t.station,
+        COUNT(*) AS "COUNT",
+        'PART_HANGAR' AS "TYPE"
+    FROM (
+        SELECT DISTINCT ON (rotables.partno, rotables.serialno)
+            pickslip_header.station_to AS station
+        FROM rotables
+        LEFT JOIN pickslip_booked ON rotables.partno = pickslip_booked.partno AND rotables.serialno = pickslip_booked.serialno
+        LEFT JOIN pickslip_header ON pickslip_header.pickslipno = pickslip_booked.pickslipno
+        LEFT JOIN sign ON pickslip_header.mech_sign = sign.user_sign
+        WHERE
+            rotables.location = 'HANGAR'
+            AND pickslip_booked.status = 9
+            AND pickslip_booked.location_to <> 'TRANSFER'
+            AND (DATE '1971-12-31' + pickslip_header.pickslip_date)::DATE BETWEEN TO_DATE('@VAR.START_DATE@', 'DD.MON.YYYY') AND TO_DATE('@VAR.END_DATE@', 'DD.MON.YYYY')
+            AND NOT EXISTS (
+                SELECT 1
+                FROM wo_part_on_off
+                WHERE
+                    wo_part_on_off.partno = rotables.partno
+                    AND wo_part_on_off.serialno = rotables.serialno
+                    AND (DATE '1971-12-31' + wo_part_on_off.created_date)::DATE >= TO_DATE('@VAR.START_DATE@', 'DD.MON.YYYY')
+                    AND wo_part_on_off.status = 0
+            )
+            AND sign.department = 'VJC AMO'
+            AND (EXISTS (
+                     SELECT aircraft.ac_registr
+                     FROM aircraft
+                     WHERE pickslip_header.receiver = aircraft.ac_registr
+                           AND aircraft.ac_registr LIKE 'A%'
+                           AND aircraft.operator = 'VJC'
+                           AND aircraft.non_managed = 'N'
+            ) OR pickslip_header.receiver = 'COMP')
+        ORDER BY rotables.partno, rotables.serialno, pickslip_header.pickslip_date DESC
+    ) t
+    GROUP BY t.station
+) AS task_counts ON base.station = task_counts.station
+GROUP BY base.station
+ORDER BY 
+    CASE
+        WHEN base.station = 'SGN' THEN 1
+        WHEN base.station = 'HAN' THEN 2
+        WHEN base.station = 'DAD' THEN 3
+        WHEN base.station = 'CXR' THEN 4
+        WHEN base.station = 'HPH' THEN 5
+        WHEN base.station = 'PQC' THEN 6
+        WHEN base.station = 'VCA' THEN 7
+        WHEN base.station = 'VII' THEN 8
+        WHEN base.station = 'VTE' THEN 9
+        ELSE 10
+    END;

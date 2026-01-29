@@ -17,8 +17,6 @@ LEFT JOIN wo_remarks ON wo_header.event_perfno_i = wo_remarks.event_perfno_i
 WHERE
 wo_header.type IN ('S','M')
 AND wo_header.state = 'O'
-AND wo_header.issue_sign IN ('VJC11532', 'VJC10830', 'VJC12532', 'VJC9016', 'VJC6814', 'VJC4676', 'VJC4700', 'VJC6277', 'VJC10891', 'VJC11458', 'VJC6825', 'VJC9014')
-AND wo_header_4.event_type_mandatory = 'WR'
-AND (DATE '1971-12-31' + wo_header.issue_date)::DATE >= TO_DATE('@VAR.DATE@', 'DD.MON.YYYY')
+AND wo_text_description.phaseno_i = 11
 ORDER BY
 wo_header.ac_registr

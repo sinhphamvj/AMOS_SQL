@@ -1,4 +1,4 @@
-SELECT DISTINCT ON (rotables.partno, rotables.serialno) 
+SELECT DISTINCT ON (rotables.partno,rotables.serialno)
 rotables.locationno_i,
 rotables.partno as "PN",
 rotables.serialno AS "SN",
@@ -22,18 +22,25 @@ WHERE
 rotables.location = 'HANGAR'
 AND pickslip_booked.status = 9
 AND pickslip_booked.location_to <> 'TRANSFER'
-AND ((DATE '1971-12-31' + pickslip_header.pickslip_date)::DATE >= TO_DATE('31.DEC.2024', 'DD.MON.YYYY'))
-AND ((DATE '1971-12-31' + pickslip_header.pickslip_date)::DATE <  TO_DATE('18.JAN.2026', 'DD.MON.YYYY'))
+AND ((DATE '1971-12-31' + pickslip_header.pickslip_date)::DATE >= TO_DATE('@VAR.START_DATE@', 'DD.MON.YYYY'))
+AND ((DATE '1971-12-31' + pickslip_header.pickslip_date)::DATE <  TO_DATE('@VAR.END_DATE@', 'DD.MON.YYYY'))
 AND NOT EXISTS (
     SELECT 1
     FROM wo_part_on_off
     WHERE
         wo_part_on_off.partno = rotables.partno
         AND wo_part_on_off.serialno = rotables.serialno
-        AND (DATE '1971-12-31' + wo_part_on_off.created_date)::DATE >= TO_DATE('31.DEC.2024', 'DD.MON.YYYY')
+        AND (DATE '1971-12-31' + wo_part_on_off.created_date)::DATE >= TO_DATE('@VAR.START_DATE@', 'DD.MON.YYYY')
         AND wo_part_on_off.status = 0
 )
 AND sign.department = 'VJC AMO'
-AND pickslip_header.station_to != 'VTE'
-AND (pickslip_header.receiver LIKE 'A%' OR pickslip_header.receiver = 'COMP')
+AND (CASE WHEN '@VAR.ALL@' = 'N' THEN pickslip_header.station_to = '@VAR.STATION@' ELSE 1 = 1 END)
+AND (EXISTS (
+         SELECT aircraft.ac_registr
+         FROM aircraft
+         WHERE pickslip_header.receiver = aircraft.ac_registr
+               AND aircraft.ac_registr LIKE 'A%'
+               AND aircraft.operator = 'VJC'
+               AND aircraft.non_managed = 'N'
+) OR pickslip_header.receiver = 'COMP')
 ORDER BY rotables.partno, rotables.serialno, pickslip_header.pickslip_date DESC
