@@ -17,15 +17,7 @@ LEFT JOIN part_forecast AS pf ON wh.event_perfno_i = pf.event_perfno_i
 LEFT JOIN (
     SELECT prei.partno, prei.remarks
     FROM part_request_event_inf prei
-    JOIN (
-        SELECT partno, mutation_time, mutation
-        FROM part_request_event_inf
-        WHERE (partno, mutation_time, mutation) IN (
-            SELECT partno, MAX(mutation_time) AS max_mutation_time, MAX(mutation) AS max_mutation
-            FROM part_request_event_inf
-            GROUP BY partno
-        )
-    ) latest ON prei.partno = latest.partno AND prei.mutation_time = latest.mutation_time AND prei.mutation = latest.mutation
+    WHERE prei.event_key = @ADD7D_SR.WO@
 ) latest_prei ON pf.partno = latest_prei.partno
 LEFT JOIN (
     SELECT partno,
