@@ -17,7 +17,7 @@ LEFT JOIN part_forecast AS pf ON wh.event_perfno_i = pf.event_perfno_i
 LEFT JOIN (
     SELECT prei.partno, prei.remarks
     FROM part_request_event_inf prei
-    WHERE prei.event_key = @ADD7D_SR.WO@
+   	WHERE prei.event_key = @ADD7D_WO.WO@
 ) latest_prei ON pf.partno = latest_prei.partno
 LEFT JOIN (
     SELECT partno,

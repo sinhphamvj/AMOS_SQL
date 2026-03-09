@@ -41,12 +41,7 @@ FROM
                 WHEN s.jobcode = 'B1LE' THEN spq.special_text_2
                 WHEN s.jobcode = 'B2LE' THEN spq.special_text_2
                 ELSE ''
-            END AS system /* spq.special_text_2 AS system*/
-        FROM
-            sign s
-            LEFT JOIN staff_pqs_qualification spq ON spq.employee_no_i = s.employee_no_i
-            LEFT JOIN staff_pqs_type ON staff_pqs_type.pqs_type_no_i = spq.pqs_type_no_i
-            LEFT JOIN rm_property_value ON rm_property_value.owner_amos_key = spq.pqs_qualification_no_i
+            END AS system /* spq.special_text_2 AS sy
         WHERE
             s.employee_no_i NOT IN (
                 SELECT
