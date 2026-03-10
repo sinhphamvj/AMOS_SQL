@@ -29,3 +29,4 @@ FROM db_link
 WHERE
     db_link.source_pk = 'VJC4679'
     AND db_link.source_type = 'SG'
+    AND db_link.description = 'PERSONAL_INFO_RELATIVES'
