@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0" xsi:schemaLocation="http://www.swiss-as.com/xml/report_3.0 http://www.swiss-as.com/xml/report_3.0.xsd http://www.swiss-as.com/xml/datasource_2.0 http://www.swiss-as.com/xml/datasource_2.0.xsd" xmlns="http://www.swiss-as.com/xml/report_3.0">
+  <header>
+    <report_id>VJC.REP.1000331</report_id>
+    <revision_number>0</revision_number>
+    <meta name="serialization">v3</meta>
+    <rights>
+      <access_right name="visibleToCustomer">true</access_right>
+    </rights>
+  </header>
+  <page_master>
+    <view class="PageReportView" id="2501">
+      <attribute name="position">0 0</attribute>
+      <attribute name="size">700 1000</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="header-size">0</attribute>
+      <attribute name="footer-size">0</attribute>
+      <attribute name="orientation">PORTRAIT</attribute>
+    </view>
+    <content/>
+  </page_master>
+  <content>
+    <view class="DatasourceTableView" id="2502">
+      <attribute name="name">DatasourceTable_1</attribute>
+      <attribute name="position">19 33</attribute>
+      <attribute name="size">649 101</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="header-height">16</attribute>
+      <attribute name="row-height">16</attribute>
+      <attribute name="column-resize">LAST</attribute>
+      <attribute name="repeat-header">NO</attribute>
+      <attribute name="minimum-rows">0</attribute>
+      <column_model class="TableViewColumnModel">
+        <column class="TableViewColumn" id="COL1">
+          <attribute name="width">100</attribute>
+          <view class="LabelReportView" id="2505" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">100 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">20.Oct.2025  06:49</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">DATE</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="2506" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">100 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">20.Oct.2025  06:49</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">@MPWR_MONTHLY.DATE@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="COL2">
+          <attribute name="width">80</attribute>
+          <view class="LabelReportView" id="2509" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">80 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">20.Oct.2025  06:49</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">MECH</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="2510" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">80 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">20.Oct.2025  06:49</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">@MPWR_MONTHLY.MECH@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">80</attribute>
+          <view class="LabelReportView" id="2513" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">80 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">20.Oct.2025  06:49</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">TRAINEE</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="2514" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">80 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">20.Oct.2025  06:49</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">@MPWR_MONTHLY.TRAINEE_MECH@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">80</attribute>
+          <view class="LabelReportView" id="2517" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">80 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">20.Oct.2025  06:49</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">CRS A</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="2518" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">80 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">20.Oct.2025  06:49</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">@MPWR_MONTHLY.A@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">80</attribute>
+          <view class="LabelReportView" id="2521" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">80 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">20.Oct.2025  06:49</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">CRS B1</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="2522" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">80 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">20.Oct.2025  06:49</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">@MPWR_MONTHLY.B1@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">80</attribute>
+          <view class="LabelReportView" id="2525" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">80 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">20.Oct.2025  06:49</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">CRS B2</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="2526" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">80 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">20.Oct.2025  06:49</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">@MPWR_MONTHLY.B2@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="COL3">
+          <attribute name="width">149</attribute>
+          <view class="LabelReportView" id="2529" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">149 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">20.Oct.2025  06:49</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">TOTAL MANPOWER</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="2530" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">149 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">20.Oct.2025  06:49</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">@MPWR_MONTHLY.TOTAL@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+      </column_model>
+      <attribute name="data-source">MPWR_MONTHLY</attribute>
+    </view>
+  </content>
+  <dataSourceList>
+    <ds:dataSource xmlns:ds="http://www.swiss-as.com/xml/datasource_2.0" id="VAR" type="PARAMETER_DATASOURCE" version="2.0">
+      <ds:description>Contains all user defined variables and constants.</ds:description>
+      <ds:columnDescriptors>
+        <ds:columnDescriptor amosType="ALPHANUM" description="" id="SHIFT"/>
+        <ds:columnDescriptor amosType="DATE" description="" id="END_DATE"/>
+        <ds:columnDescriptor amosType="DATE" description="" id="START_DATE"/>
+      </ds:columnDescriptors>
+      <ds:configurationParameters>
+        <ds:value amosType="NONE" description="SHIFT" id="SHIFT">
+          <ds:map>
+            <ds:keyValuePair>
+              <ds:key>relativeDate</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>mandatory</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>defaultValue</ds:key>
+              <ds:data>M</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>selectionValues</ds:key>
+              <ds:data>*</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>multi</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+          </ds:map>
+        </ds:value>
+        <ds:value amosType="NONE" description="2. END DATE" id="END_DATE">
+          <ds:map>
+            <ds:keyValuePair>
+              <ds:key>relativeDate</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>mandatory</ds:key>
+              <ds:data>true</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>defaultValue</ds:key>
+              <ds:data/>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>selectionValues</ds:key>
+              <ds:data>*</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>multi</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+          </ds:map>
+        </ds:value>
+        <ds:value amosType="NONE" description="1. START DATE" id="START_DATE">
+          <ds:map>
+            <ds:keyValuePair>
+              <ds:key>relativeDate</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>mandatory</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>defaultValue</ds:key>
+              <ds:data/>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>selectionValues</ds:key>
+              <ds:data>*</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>multi</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+          </ds:map>
+        </ds:value>
+      </ds:configurationParameters>
+    </ds:dataSource>
+    <ds:dataSource xmlns:ds="http://www.swiss-as.com/xml/datasource_2.0" id="MPWR_MONTHLY" type="SQL_EDITOR_DATASOURCE" version="2.0">
+      <ds:description>COUNT ALL MPWR FOR STATION SGN</ds:description>
+      <ds:columnDescriptors>
+        <ds:columnDescriptor amosType="ALPHANUM" description="TO_CHAR(dc.day'DD.MON.YYYY') AS &quot;DATE&quot;" id="DATE"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="COUNT(DISTINCT dc.user_sign) FILTER (WHERE dc.skill = 'A') AS &quot;A&quot;" id="A"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="COUNT(DISTINCT dc.user_sign) FILTER (WHERE dc.skill = 'B1') AS &quot;B1&quot;" id="B1"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="COUNT(DISTINCT dc.user_sign) FILTER (WHERE dc.skill = 'B2') AS &quot;B2&quot;" id="B2"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="COUNT(DISTINCT dc.user_sign) FILTER (WHERE dc.skill = 'MECH') AS &quot;MECH&quot;" id="MECH"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="COUNT(DISTINCT dc.user_sign) FILTER (WHERE dc.skill = 'TRAINEE_MECH') AS &quot;TRAINEE_MECH&quot;" id="TRAINEE_MECH"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="&#10;    COUNT(DISTINCT dc.user_sign) FILTER (WHERE dc.skill IN ('A' 'B1' 'B2' 'MECH''TRAINEE_MECH')) AS &quot;TOTAL&quot;" id="TOTAL"/>
+      </ds:columnDescriptors>
+      <ds:configurationParameters>
+        <ds:value amosType="ALPHANUM" description="string placeholder" id="@VAR.START_DATE@">
+          <ds:object>@VAR.START_DATE@</ds:object>
+        </ds:value>
+        <ds:value amosType="ALPHANUM" description="string placeholder" id="@VAR.END_DATE@">
+          <ds:object>@VAR.END_DATE@</ds:object>
+        </ds:value>
+        <ds:value amosType="ALPHANUM" description="string placeholder" id="@VAR.SHIFT@">
+          <ds:object>@VAR.SHIFT@</ds:object>
+        </ds:value>
+      </ds:configurationParameters>
+      <ds:sqlEditorDataSource>
+        <se:sqlStatement xmlns:se="http://www.swiss-as.com/xml/sqlStatement_2.0" type="TEXT_EDITOR" version="2.0">
+          <se:textStatement>SELECT 
+    TO_CHAR(dc.day, 'DD.MON.YYYY') AS "DATE",
+    COUNT(DISTINCT dc.user_sign) FILTER (WHERE dc.skill = 'A') AS "A",
+    COUNT(DISTINCT dc.user_sign) FILTER (WHERE dc.skill = 'B1') AS "B1",
+    COUNT(DISTINCT dc.user_sign) FILTER (WHERE dc.skill = 'B2') AS "B2",
+    COUNT(DISTINCT dc.user_sign) FILTER (WHERE dc.skill = 'MECH') AS "MECH",
+    COUNT(DISTINCT dc.user_sign) FILTER (WHERE dc.skill = 'TRAINEE_MECH') AS "TRAINEE_MECH",
+    COUNT(DISTINCT dc.user_sign) FILTER (WHERE dc.skill IN ('A', 'B1', 'B2', 'MECH', 'TRAINEE_MECH')) AS "TOTAL"
+FROM
+    (
+    SELECT
+        d.day,
+        s.user_sign,
+        CASE
+            WHEN spq.pqs_type_no_i = 1378 THEN 'A'
+            WHEN spq.pqs_type_no_i = 1379 THEN 'B1'
+            WHEN spq.pqs_type_no_i IN (1380, 2771) THEN 'B2'
+            WHEN s.skill_shop = 'MECH' THEN 'MECH'
+            WHEN s.skill_shop = 'TRAINEE_MECH' THEN 'TRAINEE_MECH'
+        END AS skill
+    FROM
+        generate_series(
+            TO_DATE('@VAR.START_DATE@', 'DD.MON.YYYY'), 
+            TO_DATE('@VAR.END_DATE@', 'DD.MON.YYYY'),
+            '1 day'
+        ) AS d(day)
+    LEFT JOIN (
+        SELECT s.user_sign, s.employee_no_i, s.skill_shop, sua.end_date, sua.start_time, sua.entry_type, sua.end_time
+        FROM sign s
+        JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+        WHERE s.department = 'VJC AMO' AND s.status = 0 AND sp_shift.location = 'SGN'
+          AND (
+             (
+                    ('@VAR.SHIFT@' = 'M' or '@VAR.SHIFT@' = 'm')
+                    AND (entry_type IN ('B1', 'B11', 'B12', 'B16', 'B20', 'B21', 'B3', 'B5', 'B7','OT_M')
+                   
+                    )
+            ) OR (
+                    ('@VAR.SHIFT@' = 'N' or '@VAR.SHIFT@' = 'n')
+                    AND (entry_type IN ('B10', 'B13', 'B19', 'B2', 'B22', 'B4', 'B6', 'B8', 'E','OT_N')
+                        
+                    )
+            )
+          )
+    ) s ON (DATE '1971-12-31' + s.end_date)::DATE = d.day
+    LEFT JOIN staff_pqs_qualification spq ON s.employee_no_i = spq.employee_no_i
+) dc
+GROUP BY
+    dc.day
+ORDER BY
+    dc.day</se:textStatement>
+        </se:sqlStatement>
+      </ds:sqlEditorDataSource>
+    </ds:dataSource>
+  </dataSourceList>
+</report>

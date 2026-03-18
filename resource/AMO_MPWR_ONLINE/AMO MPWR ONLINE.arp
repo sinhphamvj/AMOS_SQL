@@ -1,0 +1,3312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0" xsi:schemaLocation="http://www.swiss-as.com/xml/report_3.0 http://www.swiss-as.com/xml/report_3.0.xsd http://www.swiss-as.com/xml/datasource_2.0 http://www.swiss-as.com/xml/datasource_2.0.xsd" xmlns="http://www.swiss-as.com/xml/report_3.0">
+  <header>
+    <report_id>VJC.REP.1000382</report_id>
+    <revision_number>28</revision_number>
+    <meta name="serialization">v3</meta>
+    <rights>
+      <access_right name="visibleToCustomer">true</access_right>
+    </rights>
+  </header>
+  <page_master>
+    <view class="PageReportView" id="46132">
+      <attribute name="position">0 0</attribute>
+      <attribute name="size">1000 700</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="header-size">0</attribute>
+      <attribute name="footer-size">0</attribute>
+      <attribute name="orientation">LANDSCAPE</attribute>
+    </view>
+    <content/>
+  </page_master>
+  <content>
+    <view class="BoxReportView" id="46133">
+      <attribute name="name">Box_2</attribute>
+      <attribute name="position">692 225</attribute>
+      <attribute name="size">300 36</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="background-color">99CC00</attribute>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">1 SOLID 000000</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46160</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>18</y_offset>
+      </anchor>
+    </view>
+    <view class="BoxReportView" id="46134">
+      <attribute name="name">Box_27</attribute>
+      <attribute name="position">8 146</attribute>
+      <attribute name="size">300 36</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="background-color">99CC00</attribute>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">1 SOLID 000000</attribute>
+    </view>
+    <view class="BoxReportView" id="46135">
+      <attribute name="name">Box_3</attribute>
+      <attribute name="position">692 305</attribute>
+      <attribute name="size">300 36</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="background-color">99CC00</attribute>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">1 SOLID 000000</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46189</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>17</y_offset>
+      </anchor>
+    </view>
+    <view class="BoxReportView" id="46136">
+      <attribute name="name">Box_4</attribute>
+      <attribute name="position">353 225</attribute>
+      <attribute name="size">300 36</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="background-color">99CC00</attribute>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">1 SOLID 000000</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46265</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>16</y_offset>
+      </anchor>
+    </view>
+    <view class="BoxReportView" id="46137">
+      <attribute name="name">Box_5</attribute>
+      <attribute name="position">692 385</attribute>
+      <attribute name="size">300 36</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="background-color">99CC00</attribute>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">1 SOLID 000000</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46202</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>17</y_offset>
+      </anchor>
+    </view>
+    <view class="BoxReportView" id="46138">
+      <attribute name="name">Box_6</attribute>
+      <attribute name="position">8 225</attribute>
+      <attribute name="size">300 36</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="background-color">99CC00</attribute>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">1 SOLID 000000</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46147</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>16</y_offset>
+      </anchor>
+    </view>
+    <view class="BoxReportView" id="46139">
+      <attribute name="name">Box_7</attribute>
+      <attribute name="position">353 146</attribute>
+      <attribute name="size">300 36</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="background-color">99CC00</attribute>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">1 SOLID 000000</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46134</anchor_view>
+        <anchor_location>TOP_RIGHT</anchor_location>
+        <x_offset>45</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="BoxReportView" id="46140">
+      <attribute name="name">Box_1</attribute>
+      <attribute name="position">692 144</attribute>
+      <attribute name="size">300 36</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="background-color">99CC00</attribute>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">1 SOLID 000000</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46139</anchor_view>
+        <anchor_location>TOP_RIGHT</anchor_location>
+        <x_offset>39</x_offset>
+        <y_offset>-2</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="46141">
+      <attribute name="name">Label_18</attribute>
+      <attribute name="position">8 13</attribute>
+      <attribute name="size">985 34</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="background-color">DCDCDC</attribute>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 2 0 0</attribute>
+      <attribute name="border">1 SOLID 000000</attribute>
+      <attribute name="date-time">16.Sep.2025  03:06</attribute>
+      <attribute name="user-sign">VJC4679</attribute>
+      <attribute name="text">AMO HDQ MWPR ONLINE ON @VAR.DATE@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif BOLD 18</attribute>
+      <attribute name="text-align">CENTER</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="LabelReportView" id="46142">
+      <attribute name="name">Label_6</attribute>
+      <attribute name="position">403 148</attribute>
+      <attribute name="size">200 30</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">27.Oct.2025  09:29</attribute>
+      <attribute name="user-sign">VJC4679</attribute>
+      <attribute name="text">MCC</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif BOLD 18</attribute>
+      <attribute name="text-align">CENTER</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46139</anchor_view>
+        <anchor_location>TOP_LEFT</anchor_location>
+        <x_offset>50</x_offset>
+        <y_offset>2</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="46143">
+      <attribute name="name">Label_1</attribute>
+      <attribute name="position">743 147</attribute>
+      <attribute name="size">200 30</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">27.Oct.2025  09:29</attribute>
+      <attribute name="user-sign">VJC4679</attribute>
+      <attribute name="text">ICT</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif BOLD 18</attribute>
+      <attribute name="text-align">CENTER</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46140</anchor_view>
+        <anchor_location>TOP_LEFT</anchor_location>
+        <x_offset>51</x_offset>
+        <y_offset>3</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="46144">
+      <attribute name="name">Label_2</attribute>
+      <attribute name="position">58 228</attribute>
+      <attribute name="size">200 30</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">27.Oct.2025  09:29</attribute>
+      <attribute name="user-sign">VJC4679</attribute>
+      <attribute name="text">ADD CONTROL TEAM</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif BOLD 18</attribute>
+      <attribute name="text-align">CENTER</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46138</anchor_view>
+        <anchor_location>TOP_LEFT</anchor_location>
+        <x_offset>50</x_offset>
+        <y_offset>3</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="46145">
+      <attribute name="name">Label_4</attribute>
+      <attribute name="position">741 387</attribute>
+      <attribute name="size">200 30</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">27.Oct.2025  09:29</attribute>
+      <attribute name="user-sign">VJC4679</attribute>
+      <attribute name="text">READINESS TEAM</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif BOLD 18</attribute>
+      <attribute name="text-align">CENTER</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46137</anchor_view>
+        <anchor_location>TOP_LEFT</anchor_location>
+        <x_offset>49</x_offset>
+        <y_offset>2</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="46146">
+      <attribute name="name">Label_7</attribute>
+      <attribute name="position">402 227</attribute>
+      <attribute name="size">200 30</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">27.Oct.2025  09:29</attribute>
+      <attribute name="user-sign">VJC4679</attribute>
+      <attribute name="text">FORECAST TEAM</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif BOLD 18</attribute>
+      <attribute name="text-align">CENTER</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46136</anchor_view>
+        <anchor_location>TOP_LEFT</anchor_location>
+        <x_offset>49</x_offset>
+        <y_offset>2</y_offset>
+      </anchor>
+    </view>
+    <view class="DatasourceTableView" id="46147">
+      <attribute name="name">DatasourceTable_8</attribute>
+      <attribute name="position">8 182</attribute>
+      <attribute name="size">300 27</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="header-height">16</attribute>
+      <attribute name="row-height">16</attribute>
+      <attribute name="column-resize">LAST</attribute>
+      <attribute name="repeat-header">NO</attribute>
+      <attribute name="minimum-rows">0</attribute>
+      <column_model class="TableViewColumnModel">
+        <column class="TableViewColumn" id="COL1">
+          <attribute name="width">50</attribute>
+          <view class="LabelReportView" id="46150" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">STT</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46151" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">@AMO_MOC_247.STT@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="COL2">
+          <attribute name="width">200</attribute>
+          <view class="LabelReportView" id="46154" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">200 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">FULLNAME</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46155" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">200 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">@AMO_MOC_247.firstname@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">50</attribute>
+          <view class="LabelReportView" id="46158" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  17:18</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">SHIFT</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46159" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  17:18</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">@AMO_MOC_247.shift_type@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+      </column_model>
+      <attribute name="data-source">AMO_MOC_247</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46134</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="DatasourceTableView" id="46160">
+      <attribute name="name">DatasourceTable_18</attribute>
+      <attribute name="position">692 180</attribute>
+      <attribute name="size">300 27</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="header-height">16</attribute>
+      <attribute name="row-height">16</attribute>
+      <attribute name="column-resize">LAST</attribute>
+      <attribute name="repeat-header">NO</attribute>
+      <attribute name="minimum-rows">0</attribute>
+      <column_model class="TableViewColumnModel">
+        <column class="TableViewColumn" id="COL1">
+          <attribute name="width">50</attribute>
+          <view class="LabelReportView" id="46163" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">STT</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46164" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">@AMO_ICT.STT@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="COL2">
+          <attribute name="width">200</attribute>
+          <view class="LabelReportView" id="46167" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">200 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">FULLNAME</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46168" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">200 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">@AMO_ICT.firstname@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">50</attribute>
+          <view class="LabelReportView" id="46171" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  17:20</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">SHIFT</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46172" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  17:20</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">@AMO_ICT.shift_type@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+      </column_model>
+      <attribute name="data-source">AMO_ICT</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46140</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="46173">
+      <attribute name="name">Label_19</attribute>
+      <attribute name="position">743 307</attribute>
+      <attribute name="size">200 30</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">27.Oct.2025  09:29</attribute>
+      <attribute name="user-sign">VJC4679</attribute>
+      <attribute name="text">TRAINING</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif BOLD 18</attribute>
+      <attribute name="text-align">CENTER</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46135</anchor_view>
+        <anchor_location>TOP_LEFT</anchor_location>
+        <x_offset>51</x_offset>
+        <y_offset>2</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="46174">
+      <attribute name="name">Label_20</attribute>
+      <attribute name="position">744 227</attribute>
+      <attribute name="size">200 30</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">27.Oct.2025  09:29</attribute>
+      <attribute name="user-sign">VJC4679</attribute>
+      <attribute name="text">ADMIN &amp; FINANCE</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif BOLD 18</attribute>
+      <attribute name="text-align">CENTER</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46133</anchor_view>
+        <anchor_location>TOP_LEFT</anchor_location>
+        <x_offset>52</x_offset>
+        <y_offset>2</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="46175">
+      <attribute name="name">Label_5</attribute>
+      <attribute name="position">59 149</attribute>
+      <attribute name="size">200 30</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">27.Oct.2025  09:29</attribute>
+      <attribute name="user-sign">VJC4679</attribute>
+      <attribute name="text">MOC 24/7</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif BOLD 18</attribute>
+      <attribute name="text-align">CENTER</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46134</anchor_view>
+        <anchor_location>TOP_LEFT</anchor_location>
+        <x_offset>51</x_offset>
+        <y_offset>3</y_offset>
+      </anchor>
+    </view>
+    <view class="DatasourceTableView" id="46176">
+      <attribute name="name">DatasourceTable_1</attribute>
+      <attribute name="position">353 261</attribute>
+      <attribute name="size">300 27</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="header-height">16</attribute>
+      <attribute name="row-height">16</attribute>
+      <attribute name="column-resize">LAST</attribute>
+      <attribute name="repeat-header">NO</attribute>
+      <attribute name="minimum-rows">0</attribute>
+      <column_model class="TableViewColumnModel">
+        <column class="TableViewColumn" id="COL1">
+          <attribute name="width">50</attribute>
+          <view class="LabelReportView" id="46179" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">STT</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46180" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">@AMO_MOC_MF.STT@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="COL2">
+          <attribute name="width">200</attribute>
+          <view class="LabelReportView" id="46183" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">200 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">FULLNAME</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46184" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">200 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">@AMO_MOC_MF.firstname@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">50</attribute>
+          <view class="LabelReportView" id="46187" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  17:20</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">SHIFT</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46188" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  17:20</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">@AMO_MOC_MF.shift_type@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+      </column_model>
+      <attribute name="data-source">AMO_MOC_MF</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46136</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="DatasourceTableView" id="46189">
+      <attribute name="name">DatasourceTable_2</attribute>
+      <attribute name="position">692 261</attribute>
+      <attribute name="size">300 27</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="header-height">16</attribute>
+      <attribute name="row-height">16</attribute>
+      <attribute name="column-resize">LAST</attribute>
+      <attribute name="repeat-header">NO</attribute>
+      <attribute name="minimum-rows">0</attribute>
+      <column_model class="TableViewColumnModel">
+        <column class="TableViewColumn" id="COL1">
+          <attribute name="width">50</attribute>
+          <view class="LabelReportView" id="46192" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">STT</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46193" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">@AMO_ADFN.STT@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="COL2">
+          <attribute name="width">200</attribute>
+          <view class="LabelReportView" id="46196" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">200 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">FULLNAME</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46197" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">200 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">@AMO_ADFN.firstname@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">50</attribute>
+          <view class="LabelReportView" id="46200" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  17:20</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">SHIFT</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46201" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  17:20</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">@AMO_ADFN.shift_type@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+      </column_model>
+      <attribute name="data-source">AMO_ADFN</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46133</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="DatasourceTableView" id="46202">
+      <attribute name="name">DatasourceTable_3</attribute>
+      <attribute name="position">692 341</attribute>
+      <attribute name="size">300 27</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="header-height">16</attribute>
+      <attribute name="row-height">16</attribute>
+      <attribute name="column-resize">LAST</attribute>
+      <attribute name="repeat-header">NO</attribute>
+      <attribute name="minimum-rows">0</attribute>
+      <column_model class="TableViewColumnModel">
+        <column class="TableViewColumn" id="COL1">
+          <attribute name="width">50</attribute>
+          <view class="LabelReportView" id="46205" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">STT</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46206" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">@AMO_TRN.STT@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="COL2">
+          <attribute name="width">200</attribute>
+          <view class="LabelReportView" id="46209" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">200 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">FULLNAME</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46210" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">200 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">@AMO_TRN.firstname@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">50</attribute>
+          <view class="LabelReportView" id="46213" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  17:20</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">SHIFT</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46214" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  17:20</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">@AMO_TRN.shift_type@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+      </column_model>
+      <attribute name="data-source">AMO_TRN</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46135</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="DatasourceTableView" id="46215">
+      <attribute name="name">DatasourceTable_4</attribute>
+      <attribute name="position">692 421</attribute>
+      <attribute name="size">300 27</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="header-height">16</attribute>
+      <attribute name="row-height">16</attribute>
+      <attribute name="column-resize">LAST</attribute>
+      <attribute name="repeat-header">NO</attribute>
+      <attribute name="minimum-rows">0</attribute>
+      <column_model class="TableViewColumnModel">
+        <column class="TableViewColumn" id="COL1">
+          <attribute name="width">50</attribute>
+          <view class="LabelReportView" id="46218" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">STT</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46219" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">@AMO_MOC_AR.STT@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="COL2">
+          <attribute name="width">200</attribute>
+          <view class="LabelReportView" id="46222" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">200 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">FULLNAME</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46223" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">200 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">@AMO_MOC_AR.firstname@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">50</attribute>
+          <view class="LabelReportView" id="46226" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  17:20</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">SHIFT</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46227" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  17:20</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">@AMO_MOC_AR.shift_type@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+      </column_model>
+      <attribute name="data-source">AMO_MOC_AR</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46137</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="DatasourceTableView" id="46228">
+      <attribute name="name">DatasourceTable_5</attribute>
+      <attribute name="position">8 261</attribute>
+      <attribute name="size">300 27</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="header-height">16</attribute>
+      <attribute name="row-height">16</attribute>
+      <attribute name="column-resize">LAST</attribute>
+      <attribute name="repeat-header">NO</attribute>
+      <attribute name="minimum-rows">0</attribute>
+      <column_model class="TableViewColumnModel">
+        <column class="TableViewColumn" id="COL1">
+          <attribute name="width">50</attribute>
+          <view class="LabelReportView" id="46231" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">STT</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46232" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">@AMO_MOC_ADD.STT@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="COL2">
+          <attribute name="width">200</attribute>
+          <view class="LabelReportView" id="46235" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">200 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">FULLNAME</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46236" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">200 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">@AMO_MOC_ADD.firstname@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">50</attribute>
+          <view class="LabelReportView" id="46239" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  17:20</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">SHIFT</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46240" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  17:20</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">@AMO_MOC_ADD.shift_type@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+      </column_model>
+      <attribute name="data-source">AMO_MOC_ADD</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46138</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="RoundRectReportView" id="46241">
+      <attribute name="name">RoundRect_1</attribute>
+      <attribute name="position">9 57</attribute>
+      <attribute name="size">300 64</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="line-style">SOLID</attribute>
+      <attribute name="line-width">1</attribute>
+      <attribute name="color">000000</attribute>
+      <attribute name="background-color">FFFF00</attribute>
+      <attribute name="arc-width">20</attribute>
+      <attribute name="arc-height">20</attribute>
+    </view>
+    <view class="RoundRectReportView" id="46242">
+      <attribute name="name">RoundRect_2</attribute>
+      <attribute name="position">353 57</attribute>
+      <attribute name="size">300 64</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="line-style">SOLID</attribute>
+      <attribute name="line-width">1</attribute>
+      <attribute name="color">000000</attribute>
+      <attribute name="background-color">6666FF</attribute>
+      <attribute name="arc-width">20</attribute>
+      <attribute name="arc-height">20</attribute>
+    </view>
+    <view class="RoundRectReportView" id="46243">
+      <attribute name="name">RoundRect_3</attribute>
+      <attribute name="position">691 58</attribute>
+      <attribute name="size">300 64</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="line-style">SOLID</attribute>
+      <attribute name="line-width">1</attribute>
+      <attribute name="color">000000</attribute>
+      <attribute name="background-color">FF9900</attribute>
+      <attribute name="arc-width">20</attribute>
+      <attribute name="arc-height">20</attribute>
+    </view>
+    <view class="LabelReportView" id="46244">
+      <attribute name="name">Label_8</attribute>
+      <attribute name="position">58 60</attribute>
+      <attribute name="size">196 18</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">18.Mar.2026  09:17</attribute>
+      <attribute name="user-sign">VJC4679</attribute>
+      <attribute name="text">TOTAL STAFF:  @TOTAL STAFF.total.total_staff@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif BOLD 10</attribute>
+      <attribute name="text-align">CENTER</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="LabelReportView" id="46245">
+      <attribute name="name">Label_9</attribute>
+      <attribute name="position">388 60</attribute>
+      <attribute name="size">234 15</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">FFFFFF</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">18.Mar.2026  09:17</attribute>
+      <attribute name="user-sign">VJC4679</attribute>
+      <attribute name="text">ONLINE RATING</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif BOLD 10</attribute>
+      <attribute name="text-align">CENTER</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="LabelReportView" id="46246">
+      <attribute name="name">Label_10</attribute>
+      <attribute name="position">693 73</attribute>
+      <attribute name="size">89 33</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">18.Mar.2026  09:17</attribute>
+      <attribute name="user-sign">VJC4679</attribute>
+      <attribute name="text">TOTAL
+AL/DO/UL/T:</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif BOLD 10</attribute>
+      <attribute name="text-align">CENTER</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="RoundRectReportView" id="46247">
+      <attribute name="name">RoundRect_11</attribute>
+      <attribute name="position">64 88</attribute>
+      <attribute name="size">83 24</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="line-style">SOLID</attribute>
+      <attribute name="line-width">1</attribute>
+      <attribute name="color">000000</attribute>
+      <attribute name="background-color">99CC00</attribute>
+      <attribute name="arc-width">20</attribute>
+      <attribute name="arc-height">20</attribute>
+    </view>
+    <view class="LabelReportView" id="46248">
+      <attribute name="name">Label_15</attribute>
+      <attribute name="position">82 93</attribute>
+      <attribute name="size">83 18</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">18.Mar.2026  09:00</attribute>
+      <attribute name="user-sign">VJC4679</attribute>
+      <attribute name="text">Present:   @TOTAL STAFF.today_p.today_present@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif PLAIN 10</attribute>
+      <attribute name="text-align">TOP_LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46247</anchor_view>
+        <anchor_location>TOP_LEFT</anchor_location>
+        <x_offset>18</x_offset>
+        <y_offset>5</y_offset>
+      </anchor>
+    </view>
+    <view class="RoundRectReportView" id="46249">
+      <attribute name="name">RoundRect_16</attribute>
+      <attribute name="position">171 88</attribute>
+      <attribute name="size">83 24</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="line-style">SOLID</attribute>
+      <attribute name="line-width">1</attribute>
+      <attribute name="color">000000</attribute>
+      <attribute name="background-color">FF9900</attribute>
+      <attribute name="arc-width">20</attribute>
+      <attribute name="arc-height">20</attribute>
+    </view>
+    <view class="LabelReportView" id="46250">
+      <attribute name="name">Label_20</attribute>
+      <attribute name="position">189 93</attribute>
+      <attribute name="size">83 21</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">18.Mar.2026  09:00</attribute>
+      <attribute name="user-sign">VJC4679</attribute>
+      <attribute name="text">Absent:  @TOTAL STAFF.today_absent@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif PLAIN 10</attribute>
+      <attribute name="text-align">TOP_LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46249</anchor_view>
+        <anchor_location>TOP_LEFT</anchor_location>
+        <x_offset>18</x_offset>
+        <y_offset>5</y_offset>
+      </anchor>
+    </view>
+    <view class="RoundRectReportView" id="46251">
+      <attribute name="name">RoundRect_21</attribute>
+      <attribute name="position">358 88</attribute>
+      <attribute name="size">83 24</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="line-style">SOLID</attribute>
+      <attribute name="line-width">1</attribute>
+      <attribute name="color">000000</attribute>
+      <attribute name="background-color">99CC00</attribute>
+      <attribute name="arc-width">20</attribute>
+      <attribute name="arc-height">20</attribute>
+    </view>
+    <view class="RoundRectReportView" id="46252">
+      <attribute name="name">RoundRect_22</attribute>
+      <attribute name="position">459 88</attribute>
+      <attribute name="size">83 24</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="line-style">SOLID</attribute>
+      <attribute name="line-width">1</attribute>
+      <attribute name="color">000000</attribute>
+      <attribute name="background-color">FF9900</attribute>
+      <attribute name="arc-width">20</attribute>
+      <attribute name="arc-height">20</attribute>
+    </view>
+    <view class="RoundRectReportView" id="46253">
+      <attribute name="name">RoundRect_23</attribute>
+      <attribute name="position">559 89</attribute>
+      <attribute name="size">79 24</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="line-style">SOLID</attribute>
+      <attribute name="line-width">1</attribute>
+      <attribute name="color">000000</attribute>
+      <attribute name="arc-width">20</attribute>
+      <attribute name="arc-height">20</attribute>
+    </view>
+    <view class="LabelReportView" id="46254">
+      <attribute name="name">Label_24</attribute>
+      <attribute name="position">364 92</attribute>
+      <attribute name="size">83 18</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">18.Mar.2026  09:00</attribute>
+      <attribute name="user-sign">VJC4679</attribute>
+      <attribute name="text">Today:  @TOTAL STAFF.today_pct@%</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif PLAIN 10</attribute>
+      <attribute name="text-align">TOP_LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="LabelReportView" id="46255">
+      <attribute name="name">Label_25</attribute>
+      <attribute name="position">462 92</attribute>
+      <attribute name="size">83 18</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">18.Mar.2026  09:00</attribute>
+      <attribute name="user-sign">VJC4679</attribute>
+      <attribute name="text">Yesterday: @TOTAL STAFF.yesterday_pct@%</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif PLAIN 10</attribute>
+      <attribute name="text-align">TOP_LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="LabelReportView" id="46256">
+      <attribute name="name">Label_26</attribute>
+      <attribute name="position">571 93</attribute>
+      <attribute name="size">79 18</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">FFFFFF</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">18.Mar.2026  09:00</attribute>
+      <attribute name="user-sign">VJC4679</attribute>
+      <attribute name="text">Δ: @TOTAL STAFF.delta_pct@%</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif PLAIN 10</attribute>
+      <attribute name="text-align">TOP_LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="RoundRectReportView" id="46257">
+      <attribute name="name">RoundRect_27</attribute>
+      <attribute name="position">782 64</attribute>
+      <attribute name="size">87 24</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="line-style">SOLID</attribute>
+      <attribute name="line-width">1</attribute>
+      <attribute name="color">000000</attribute>
+      <attribute name="background-color">99CC00</attribute>
+      <attribute name="arc-width">20</attribute>
+      <attribute name="arc-height">20</attribute>
+    </view>
+    <view class="RoundRectReportView" id="46258">
+      <attribute name="name">RoundRect_28</attribute>
+      <attribute name="position">782 93</attribute>
+      <attribute name="size">87 24</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="line-style">SOLID</attribute>
+      <attribute name="line-width">1</attribute>
+      <attribute name="color">000000</attribute>
+      <attribute name="arc-width">20</attribute>
+      <attribute name="arc-height">20</attribute>
+    </view>
+    <view class="RoundRectReportView" id="46259">
+      <attribute name="name">RoundRect_29</attribute>
+      <attribute name="position">878 64</attribute>
+      <attribute name="size">87 24</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="line-style">SOLID</attribute>
+      <attribute name="line-width">1</attribute>
+      <attribute name="color">000000</attribute>
+      <attribute name="background-color">6666FF</attribute>
+      <attribute name="arc-width">20</attribute>
+      <attribute name="arc-height">20</attribute>
+    </view>
+    <view class="LabelReportView" id="46260">
+      <attribute name="name">Label_30</attribute>
+      <attribute name="position">793 68</attribute>
+      <attribute name="size">80 18</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">18.Mar.2026  09:00</attribute>
+      <attribute name="user-sign">VJC4679</attribute>
+      <attribute name="text">AL: @TOTAL STAFF.total_al@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif PLAIN 10</attribute>
+      <attribute name="text-align">TOP_LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="LabelReportView" id="46261">
+      <attribute name="name">Label_31</attribute>
+      <attribute name="position">793 97</attribute>
+      <attribute name="size">80 18</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">18.Mar.2026  09:00</attribute>
+      <attribute name="user-sign">VJC4679</attribute>
+      <attribute name="text">DO: @TOTAL STAFF.total_al@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif PLAIN 10</attribute>
+      <attribute name="text-align">TOP_LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="RoundRectReportView" id="46262">
+      <attribute name="name">RoundRect_32</attribute>
+      <attribute name="position">878 93</attribute>
+      <attribute name="size">87 24</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="line-style">SOLID</attribute>
+      <attribute name="line-width">1</attribute>
+      <attribute name="color">000000</attribute>
+      <attribute name="background-color">9933FF</attribute>
+      <attribute name="arc-width">20</attribute>
+      <attribute name="arc-height">20</attribute>
+    </view>
+    <view class="LabelReportView" id="46263">
+      <attribute name="name">Label_33</attribute>
+      <attribute name="position">887 68</attribute>
+      <attribute name="size">71 18</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">FFFFFF</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">18.Mar.2026  09:00</attribute>
+      <attribute name="user-sign">VJC4679</attribute>
+      <attribute name="text">T: @TOTAL STAFF.total_t@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif PLAIN 10</attribute>
+      <attribute name="text-align">TOP_LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="LabelReportView" id="46264">
+      <attribute name="name">Label_34</attribute>
+      <attribute name="position">887 97</attribute>
+      <attribute name="size">80 18</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">FFFFFF</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">18.Mar.2026  09:00</attribute>
+      <attribute name="user-sign">VJC4679</attribute>
+      <attribute name="text">OT:   @TOTAL STAFF.total_ot@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif PLAIN 10</attribute>
+      <attribute name="text-align">TOP_LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="DatasourceTableView" id="46265">
+      <attribute name="name">DatasourceTable_1</attribute>
+      <attribute name="position">353 182</attribute>
+      <attribute name="size">300 27</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="header-height">16</attribute>
+      <attribute name="row-height">16</attribute>
+      <attribute name="column-resize">LAST</attribute>
+      <attribute name="repeat-header">NO</attribute>
+      <attribute name="minimum-rows">0</attribute>
+      <column_model class="TableViewColumnModel">
+        <column class="TableViewColumn" id="COL1">
+          <attribute name="width">50</attribute>
+          <view class="LabelReportView" id="46268" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">STT</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46269" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">@AMO_MCC.STT@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="COL2">
+          <attribute name="width">200</attribute>
+          <view class="LabelReportView" id="46272" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">200 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">FULLNAME</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46273" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">200 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  05:56</attribute>
+            <attribute name="user-sign">VJC2741</attribute>
+            <attribute name="text">@AMO_MCC.firstname@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">50</attribute>
+          <view class="LabelReportView" id="46276" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  17:20</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">SHIFT</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="46277" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">16.Mar.2026  17:20</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">@AMO_MCC.shift_type@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+      </column_model>
+      <attribute name="data-source">AMO_MCC</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>46139</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+  </content>
+  <dataSourceList>
+    <ds:dataSource xmlns:ds="http://www.swiss-as.com/xml/datasource_2.0" id="VAR" type="PARAMETER_DATASOURCE" version="2.0">
+      <ds:description>Contains all user defined variables and constants.</ds:description>
+      <ds:columnDescriptors>
+        <ds:columnDescriptor amosType="DATE" description="" id="DATE"/>
+      </ds:columnDescriptors>
+      <ds:configurationParameters>
+        <ds:value amosType="NONE" description="DATE" id="DATE">
+          <ds:map>
+            <ds:keyValuePair>
+              <ds:key>selectionValues</ds:key>
+              <ds:data>*</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>relativeDate</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>defaultValue</ds:key>
+              <ds:data>14.Oct.2025</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>mandatory</ds:key>
+              <ds:data>true</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>multi</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+          </ds:map>
+        </ds:value>
+      </ds:configurationParameters>
+    </ds:dataSource>
+    <ds:dataSource xmlns:ds="http://www.swiss-as.com/xml/datasource_2.0" id="AMO_ICT" type="SQL_EDITOR_DATASOURCE" version="2.0">
+      <ds:description>AMO_ICT</ds:description>
+      <ds:columnDescriptors>
+        <ds:columnDescriptor amosType="ALPHANUM" description="STT" id="STT"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="ID" id="ID"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="VJC ID" id="VJC_ID"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Lastname" id="lastname"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Firstname" id="firstname"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Jobcode" id="jobcode"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Work Group" id="WORK_GROUP"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Station" id="STATION"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="start_date" id="start_date"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="start_time" id="start_time"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="end_time" id="end_time"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Shift Type" id="shift_type"/>
+      </ds:columnDescriptors>
+      <ds:configurationParameters>
+        <ds:value amosType="ALPHANUM" description="string placeholder" id="@VAR.DATE@">
+          <ds:object>@VAR.DATE@</ds:object>
+        </ds:value>
+      </ds:configurationParameters>
+      <ds:sqlEditorDataSource>
+        <se:sqlStatement xmlns:se="http://www.swiss-as.com/xml/sqlStatement_2.0" type="TEXT_EDITOR" version="2.0">
+                    
+          <se:textStatement>SELECT
+    ROW_NUMBER() OVER (ORDER BY
+        CASE "VJC_ID"
+            WHEN 'VJC1138' THEN 1
+            WHEN 'VJC8994' THEN 2
+            WHEN 'VJC4679' THEN 3
+            WHEN 'VJC6300' THEN 4
+            WHEN 'VJC2741' THEN 5
+            ELSE 6
+        END
+    ) AS "STT",
+    employee_no_i AS "ID",
+    "VJC_ID",
+    lastname,
+    firstname,
+    jobcode,
+    "WORK_GROUP",
+    "STATION",
+    start_date,
+    start_time,
+    end_time,
+    CASE
+        WHEN entry_type LIKE '%HC%'
+            THEN 'HC'
+        WHEN entry_type LIKE '%OT%'
+            THEN 'OT'
+    END AS shift_type
+FROM (
+    SELECT DISTINCT
+        s.employee_no_i,
+        s.user_sign AS "VJC_ID",
+        s.lastname,
+        s.firstname,
+        s.jobcode,
+        sua.entry_type,
+        s.workgroup AS "WORK_GROUP",
+        sp_shift.location AS "STATION",
+        TO_CHAR(CAST(DATE '1971-12-31' + sua.start_date AS DATE), 'DD.MON.YYYY') AS start_date,
+        sua.start_time,
+        sua.end_time
+    FROM sign s
+    JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+    LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+    WHERE s.department = 'VJC AMO'
+        AND s.status = 0
+        AND sp_shift.location = 'SGN'
+        AND sua.status &lt;&gt; 9
+        AND sua.shift_id IN ('AMO_ICT')
+        AND sua.entry_type NOT LIKE 'AL%'
+        AND sua.entry_type NOT LIKE 'DO%'
+        AND sua.entry_type NOT LIKE 'T'
+        AND (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY')
+) sub</se:textStatement>
+                  
+        </se:sqlStatement>
+      </ds:sqlEditorDataSource>
+    </ds:dataSource>
+    <ds:dataSource xmlns:ds="http://www.swiss-as.com/xml/datasource_2.0" id="AMO_MOC_247" type="SQL_EDITOR_DATASOURCE" version="2.0">
+      <ds:description>AMO_MOC_247</ds:description>
+      <ds:columnDescriptors>
+        <ds:columnDescriptor amosType="ALPHANUM" description="STT" id="STT"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="ID" id="ID"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="VJC ID" id="VJC_ID"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Firstname" id="firstname"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="start_date" id="start_date"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="start_time" id="start_time"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="end_time" id="end_time"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Shift Type" id="shift_type"/>
+      </ds:columnDescriptors>
+      <ds:configurationParameters>
+        <ds:value amosType="ALPHANUM" description="string placeholder" id="@VAR.DATE@">
+          <ds:object>@VAR.DATE@</ds:object>
+        </ds:value>
+      </ds:configurationParameters>
+      <ds:sqlEditorDataSource>
+        <se:sqlStatement xmlns:se="http://www.swiss-as.com/xml/sqlStatement_2.0" type="TEXT_EDITOR" version="2.0">
+          <se:textStatement>SELECT
+    ROW_NUMBER() OVER (ORDER BY
+        CASE "VJC_ID"
+            WHEN 'VJC0561' THEN 0
+            WHEN 'VJC0203' THEN 0
+            WHEN 'VJC1686' THEN 0
+            WHEN 'VJC12584' THEN 0
+            WHEN 'VJC12414' THEN 0
+            WHEN 'VJC3555' THEN 0
+            WHEN 'VJC15267' THEN 0
+            WHEN 'VJC1922' THEN 0
+            WHEN 'VJC15216' THEN 0
+            ELSE 1
+        END,
+        CASE shift_type
+            WHEN 'M'  THEN 1
+            WHEN 'N'  THEN 2
+            WHEN 'FE' THEN 3
+            ELSE 4
+        END,
+        CASE "VJC_ID"
+            WHEN 'VJC11532' THEN 1
+            WHEN 'VJC12532' THEN 2
+            WHEN 'VJC6814' THEN 3
+            WHEN 'VJC4700' THEN 4
+            WHEN 'VJC10891' THEN 5
+            WHEN 'VJC11458' THEN 6
+            WHEN 'VJC6825' THEN 7
+            WHEN 'VJC9014' THEN 8
+            WHEN 'VJC16279' THEN 9
+            WHEN 'VJC16459' THEN 10
+            WHEN 'VJC7276' THEN 11
+            WHEN 'VJC2768' THEN 12
+            WHEN 'VJC6290' THEN 13
+            WHEN 'VJC12830' THEN 14
+            ELSE 15
+        END
+    ) AS "STT",
+    employee_no_i AS "ID",
+    "VJC_ID",
+    firstname,
+    start_date,
+    start_time,
+    end_time,
+    shift_type
+FROM (
+    SELECT
+        s.employee_no_i,
+        s.user_sign AS "VJC_ID",
+        s.firstname,
+        sua.entry_type,
+        sua.shift_id,
+        TO_CHAR(CAST(DATE '1971-12-31' + sua.start_date AS DATE), 'DD.MON.YYYY') AS start_date,
+        sua.start_time,
+        sua.end_time,
+        CASE
+            WHEN sua.entry_type IN ('B12_O')
+                AND (sua.start_time &gt;= 1380 OR sua.start_time &lt;= 660) THEN 'M'
+            WHEN sua.entry_type IN ('B13_O','B22_O')
+                AND sua.end_time &gt;= 660 AND sua.end_time &lt;= 1380 THEN 'N'
+            WHEN sua.entry_type IN ('B21_O','B21_M')
+                AND (sua.start_time &gt;= 1410 OR sua.start_time &lt;= 690) THEN 'M'
+            WHEN sua.entry_type IN ('B22_O')
+                AND sua.end_time &gt;= 690 AND sua.end_time &lt;= 1410 THEN 'N'
+            WHEN sua.entry_type IN ('OT_M') THEN 'OT_M'
+            WHEN sua.entry_type IN ('OT_N') THEN 'OT_N'
+            WHEN sua.entry_type LIKE '%FE%' THEN 'FE'
+            WHEN sua.entry_type IN ('OT','OT_O') THEN
+                CASE
+                    WHEN sua.end_time &lt;= 690  THEN 'OT_M'
+                    WHEN sua.end_time &lt;= 1410 THEN 'OT_N'
+                    ELSE NULL
+                END
+            ELSE NULL
+        END AS shift_type
+    FROM sign s
+    JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+    LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+    WHERE s.department = 'VJC AMO'
+        AND s.status = 0
+        AND sp_shift.location = 'SGN'
+        AND sua.status &lt;&gt; 9
+        AND sua.shift_id IN ('MOC_DM','MOC_COOR','MOC_FME','MOC_FMSE','MOC_AR')
+        AND sua.shift_pattern &lt;&gt; 'MOC_AR_O'
+        AND sua.entry_type NOT LIKE '%AL%'
+        AND sua.entry_type NOT LIKE '%DO%'
+        AND sua.entry_type NOT LIKE 'T'
+AND sua.user_sign NOT IN ('VJC18826')
+        AND (
+            (
+                (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY')
+                AND sua.start_time &lt; 1380
+            )
+            OR (
+                (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY') - 1
+                AND sua.start_time &gt;= 1380
+            )
+        )
+) sub
+ORDER BY
+    CASE "VJC_ID"
+        WHEN 'VJC0561' THEN 0
+        WHEN 'VJC0203' THEN 0
+        WHEN 'VJC1686' THEN 0
+        WHEN 'VJC12584' THEN 0
+        WHEN 'VJC12414' THEN 0
+        WHEN 'VJC3555' THEN 0
+        WHEN 'VJC15267' THEN 0
+        WHEN 'VJC1922' THEN 0
+        WHEN 'VJC15216' THEN 0
+        ELSE 1
+    END,
+    CASE shift_type
+        WHEN 'M'  THEN 1
+        WHEN 'N'  THEN 2
+        WHEN 'FE' THEN 3
+        ELSE 4
+    END,
+    CASE "VJC_ID"
+        WHEN 'VJC0561' THEN 1
+        WHEN 'VJC0203' THEN 2
+        WHEN 'VJC1686' THEN 3
+        WHEN 'VJC12584' THEN 4
+        WHEN 'VJC12414' THEN 5
+        WHEN 'VJC3555' THEN 6
+        WHEN 'VJC15267' THEN 7
+        WHEN 'VJC1922' THEN 8
+        WHEN 'VJC15216' THEN 9
+        WHEN 'VJC11532' THEN 10
+        WHEN 'VJC12532' THEN 11
+        WHEN 'VJC6814' THEN 12
+        WHEN 'VJC4700' THEN 13
+        WHEN 'VJC10891' THEN 14
+        WHEN 'VJC11458' THEN 15
+        WHEN 'VJC6825' THEN 16
+        WHEN 'VJC9014' THEN 17
+        WHEN 'VJC16279' THEN 18
+        WHEN 'VJC16459' THEN 19
+        WHEN 'VJC7276' THEN 20
+        WHEN 'VJC2768' THEN 21
+        WHEN 'VJC6290' THEN 22
+        WHEN 'VJC12830' THEN 23
+        ELSE 24
+    END</se:textStatement>
+        </se:sqlStatement>
+      </ds:sqlEditorDataSource>
+    </ds:dataSource>
+    <ds:dataSource xmlns:ds="http://www.swiss-as.com/xml/datasource_2.0" id="AMO_MOC_MF" type="SQL_EDITOR_DATASOURCE" version="2.0">
+      <ds:description>AMO_MOC_MF</ds:description>
+      <ds:columnDescriptors>
+        <ds:columnDescriptor amosType="ALPHANUM" description="STT" id="STT"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="ID" id="ID"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="VJC ID" id="VJC_ID"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Firstname" id="firstname"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Work group" id="WORK_GROUP"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Station" id="STATION"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="start_date" id="start_date"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Shift Type" id="shift_type"/>
+      </ds:columnDescriptors>
+      <ds:configurationParameters>
+        <ds:value amosType="ALPHANUM" description="string placeholder" id="@VAR.DATE@">
+          <ds:object>@VAR.DATE@</ds:object>
+        </ds:value>
+      </ds:configurationParameters>
+      <ds:sqlEditorDataSource>
+        <se:sqlStatement xmlns:se="http://www.swiss-as.com/xml/sqlStatement_2.0" type="TEXT_EDITOR" version="2.0">
+          <se:textStatement>SELECT
+    ROW_NUMBER() OVER (ORDER BY
+        CASE "VJC_ID"
+            WHEN 'VJC4695' THEN 1
+            WHEN 'VJC2765' THEN 2
+            WHEN 'VJC4683' THEN 3
+            WHEN 'VJC11580' THEN 4
+            WHEN 'VJC6287' THEN 5
+            WHEN 'VJC8972' THEN 6
+            WHEN 'VJC18841' THEN 7
+            WHEN 'VJC18840' THEN 8
+            ELSE 9
+        END
+    ) AS "STT",
+    employee_no_i AS "ID",
+    "VJC_ID",
+    firstname,
+    "WORK_GROUP",
+    "STATION",
+    start_date,
+    CASE
+        WHEN entry_type LIKE '%R3%'
+            THEN 'O'
+        WHEN entry_type LIKE '%HC%'
+            THEN 'HC'
+        WHEN entry_type LIKE '%B6%'
+            THEN 'A'
+WHEN entry_type IN ('OT','OT_O')
+            THEN 'OT'
+    END AS shift_type
+FROM (
+    SELECT DISTINCT
+        s.employee_no_i,
+        s.user_sign AS "VJC_ID",
+        s.firstname,
+        sua.entry_type,
+        s.workgroup AS "WORK_GROUP",
+        sp_shift.location AS "STATION",
+        TO_CHAR(CAST(DATE '1971-12-31' + sua.start_date AS DATE), 'DD.MON.YYYY') AS start_date
+    FROM sign s
+    JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+    LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+    WHERE s.department = 'VJC AMO'
+        AND s.status = 0
+        AND sp_shift.location = 'SGN'
+        AND sua.status &lt;&gt; 9
+        AND sua.shift_id IN ('MOC_MF')
+        AND sua.entry_type NOT LIKE 'AL%'
+        AND sua.entry_type NOT LIKE 'DO%'
+        AND sua.entry_type NOT LIKE 'T'
+        AND sua.entry_type NOT LIKE 'DT%'
+        AND (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY')
+) sub</se:textStatement>
+        </se:sqlStatement>
+      </ds:sqlEditorDataSource>
+    </ds:dataSource>
+    <ds:dataSource xmlns:ds="http://www.swiss-as.com/xml/datasource_2.0" id="AMO_MOC_ADD" type="SQL_EDITOR_DATASOURCE" version="2.0">
+      <ds:description>AMO_MOC_ADD</ds:description>
+      <ds:columnDescriptors>
+        <ds:columnDescriptor amosType="ALPHANUM" description="STT" id="STT"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="ID" id="ID"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="VJC ID" id="VJC_ID"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Lastname" id="lastname"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Firstname" id="firstname"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Jobcode" id="jobcode"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Workgroup" id="WORK_GROUP"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Station" id="STATION"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="start_date" id="start_date"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Shift Type" id="shift_type"/>
+      </ds:columnDescriptors>
+      <ds:configurationParameters>
+        <ds:value amosType="ALPHANUM" description="string placeholder" id="@VAR.DATE@">
+          <ds:object>@VAR.DATE@</ds:object>
+        </ds:value>
+      </ds:configurationParameters>
+      <ds:sqlEditorDataSource>
+        <se:sqlStatement xmlns:se="http://www.swiss-as.com/xml/sqlStatement_2.0" type="TEXT_EDITOR" version="2.0">
+                    
+          <se:textStatement>SELECT
+    ROW_NUMBER() OVER (ORDER BY
+        CASE "VJC_ID"
+            WHEN 'VJC1666' THEN 1
+            WHEN 'VJC8289' THEN 2
+            WHEN 'VJC0550' THEN 3
+            WHEN 'VJC0762' THEN 4
+            WHEN 'VJC2766' THEN 5
+            WHEN 'VJC2758' THEN 6
+            WHEN 'VJC1663' THEN 7
+            WHEN 'VJC15673' THEN 8
+            ELSE 9
+        END
+    ) AS "STT",
+    employee_no_i AS "ID",
+    "VJC_ID",
+    lastname,
+    firstname,
+    jobcode,
+    "WORK_GROUP",
+    "STATION",
+    start_date,
+    CASE
+        WHEN entry_type LIKE '%B23%'
+            THEN 'M'
+        WHEN entry_type LIKE '%B24%'
+            THEN 'N'
+        WHEN entry_type LIKE '%OT%'
+            THEN 'OT'
+        WHEN entry_type LIKE '%HC%'
+        THEN 'HC'
+    END AS shift_type
+FROM (
+    SELECT DISTINCT
+        s.employee_no_i,
+        s.user_sign AS "VJC_ID",
+        s.lastname,
+        s.firstname,
+        s.jobcode,
+        sua.entry_type,
+        s.workgroup AS "WORK_GROUP",
+        sp_shift.location AS "STATION",
+        TO_CHAR(CAST(DATE '1971-12-31' + sua.start_date AS DATE), 'DD.MON.YYYY') AS start_date
+    FROM sign s
+    JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+    LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+    WHERE s.department = 'VJC AMO'
+        AND s.status = 0
+        AND sp_shift.location = 'SGN'
+        AND sua.status &lt;&gt; 9
+        AND sua.shift_id IN ('MOC_ADD')
+        AND sua.entry_type NOT LIKE 'AL%'
+        AND sua.entry_type NOT LIKE 'DO%'
+        AND sua.entry_type NOT LIKE 'T'
+        AND sua.entry_type NOT LIKE 'DT%'
+        AND (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY')
+) sub
+</se:textStatement>
+                  
+        </se:sqlStatement>
+      </ds:sqlEditorDataSource>
+    </ds:dataSource>
+    <ds:dataSource xmlns:ds="http://www.swiss-as.com/xml/datasource_2.0" id="AMO_MOC_AR" type="SQL_EDITOR_DATASOURCE" version="2.0">
+      <ds:description>AMO_MOC_AR</ds:description>
+      <ds:columnDescriptors>
+        <ds:columnDescriptor amosType="ALPHANUM" description="STT" id="STT"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="ID" id="ID"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="VJC ID" id="VJC_ID"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Firstname" id="firstname"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="start_date" id="start_date"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Shift Type" id="shift_type"/>
+      </ds:columnDescriptors>
+      <ds:configurationParameters>
+        <ds:value amosType="ALPHANUM" description="string placeholder" id="@VAR.DATE@">
+          <ds:object>@VAR.DATE@</ds:object>
+        </ds:value>
+      </ds:configurationParameters>
+      <ds:sqlEditorDataSource>
+        <se:sqlStatement xmlns:se="http://www.swiss-as.com/xml/sqlStatement_2.0" type="TEXT_EDITOR" version="2.0">
+                    
+          <se:textStatement>SELECT
+    ROW_NUMBER() OVER (ORDER BY
+        CASE "VJC_ID"
+            WHEN 'VJC4697' THEN 1
+            WHEN 'VJC4680' THEN 2
+            WHEN 'VJC18826' THEN 3
+            ELSE 4
+        END
+    ) AS "STT",
+    employee_no_i AS "ID",
+    "VJC_ID",
+    firstname,
+    start_date,
+    CASE
+        WHEN entry_type LIKE '%HC%'
+            THEN 'HC'
+        WHEN entry_type LIKE 'OT%' THEN 'OT'
+    END AS shift_type
+FROM (
+    SELECT DISTINCT
+        s.employee_no_i,
+        s.user_sign AS "VJC_ID",
+        s.firstname,
+        sua.entry_type,
+        TO_CHAR(CAST(DATE '1971-12-31' + sua.start_date AS DATE), 'DD.MON.YYYY') AS start_date
+    FROM sign s
+    JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+    LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+    WHERE s.department = 'VJC AMO'
+        AND s.status = 0
+        AND sp_shift.location = 'SGN'
+        AND sua.status &lt;&gt; 9
+        AND sua.shift_id IN ('MOC_AR')
+        AND sua.entry_type NOT LIKE 'AL%'
+        AND sua.entry_type NOT LIKE 'DO%'
+        AND sua.entry_type NOT LIKE 'T'
+        AND sua.entry_type NOT LIKE 'DT%'
+        AND sua.user_sign IN ('VJC4697','VJC4680','VJC18826')
+        AND (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY')
+) sub</se:textStatement>
+                  
+        </se:sqlStatement>
+      </ds:sqlEditorDataSource>
+    </ds:dataSource>
+    <ds:dataSource xmlns:ds="http://www.swiss-as.com/xml/datasource_2.0" id="AMO_TRN" type="SQL_EDITOR_DATASOURCE" version="2.0">
+      <ds:description>AMO_TRN</ds:description>
+      <ds:columnDescriptors>
+        <ds:columnDescriptor amosType="ALPHANUM" description="STT" id="STT"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="ID" id="ID"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="VJC ID" id="VJC_ID"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Firstname" id="firstname"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="start_date" id="start_date"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Shift Type" id="shift_type"/>
+      </ds:columnDescriptors>
+      <ds:configurationParameters>
+        <ds:value amosType="ALPHANUM" description="string placeholder" id="@VAR.DATE@">
+          <ds:object>@VAR.DATE@</ds:object>
+        </ds:value>
+      </ds:configurationParameters>
+      <ds:sqlEditorDataSource>
+        <se:sqlStatement xmlns:se="http://www.swiss-as.com/xml/sqlStatement_2.0" type="TEXT_EDITOR" version="2.0">
+                    
+          <se:textStatement>SELECT
+    ROW_NUMBER() OVER (ORDER BY
+        CASE "VJC_ID"
+            WHEN 'VJC9273' THEN 1
+            WHEN 'VJC12113' THEN 2
+            WHEN 'VJC12254' THEN 3
+            WHEN 'VJC12238' THEN 4
+            WHEN 'VJC1823' THEN 5
+            WHEN 'VJC14499' THEN 6
+            ELSE 7
+        END
+    ) AS "STT",
+    employee_no_i AS "ID",
+    "VJC_ID",
+    firstname,
+    start_date,
+    CASE
+        WHEN entry_type LIKE '%HC%'
+            THEN 'HC'
+        WHEN entry_type LIKE 'OT%' THEN 'OT'
+    END AS shift_type
+FROM (
+    SELECT DISTINCT
+        s.employee_no_i,
+        s.user_sign AS "VJC_ID",
+        s.firstname,
+        sua.entry_type,
+        TO_CHAR(CAST(DATE '1971-12-31' + sua.start_date AS DATE), 'DD.MON.YYYY') AS start_date
+    FROM sign s
+    JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+    LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+    WHERE s.department = 'VJC AMO'
+        AND s.status = 0
+        AND sp_shift.location = 'SGN'
+        AND sua.status &lt;&gt; 9
+        AND sua.shift_id IN ('AMO_TRN')
+        AND sua.entry_type NOT LIKE 'AL%'
+        AND sua.entry_type NOT LIKE 'DO%'
+        AND sua.entry_type NOT LIKE 'T'
+        AND sua.entry_type NOT LIKE 'DT%'
+        AND (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY')
+) sub
+</se:textStatement>
+                  
+        </se:sqlStatement>
+      </ds:sqlEditorDataSource>
+    </ds:dataSource>
+    <ds:dataSource xmlns:ds="http://www.swiss-as.com/xml/datasource_2.0" id="AMO_ADFN" type="SQL_EDITOR_DATASOURCE" version="2.0">
+      <ds:description>AMO_ADFN</ds:description>
+      <ds:columnDescriptors>
+        <ds:columnDescriptor amosType="ALPHANUM" description="STT" id="STT"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="ID" id="ID"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="VJC ID" id="VJC_ID"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Firstname" id="firstname"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="start_date" id="start_date"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Shift Type" id="shift_type"/>
+      </ds:columnDescriptors>
+      <ds:configurationParameters>
+        <ds:value amosType="ALPHANUM" description="string placeholder" id="@VAR.DATE@">
+          <ds:object>@VAR.DATE@</ds:object>
+        </ds:value>
+      </ds:configurationParameters>
+      <ds:sqlEditorDataSource>
+        <se:sqlStatement xmlns:se="http://www.swiss-as.com/xml/sqlStatement_2.0" type="TEXT_EDITOR" version="2.0">
+                    
+          <se:textStatement>SELECT
+    ROW_NUMBER() OVER (ORDER BY employee_no_i) AS "STT",
+    employee_no_i AS "ID",
+    "VJC_ID",
+    firstname,
+    start_date,
+    CASE
+        WHEN entry_type LIKE '%HC%'
+            THEN 'HC'
+WHEN entry_type LIKE 'OT%' THEN 'OT'
+    END AS shift_type
+FROM (
+    SELECT DISTINCT
+        s.employee_no_i,
+        s.user_sign AS "VJC_ID",
+        s.firstname,
+        sua.entry_type,
+        TO_CHAR(CAST(DATE '1971-12-31' + sua.start_date AS DATE), 'DD.MON.YYYY') AS start_date
+    FROM sign s
+    JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+    LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+    WHERE s.department = 'VJC AMO'
+        AND s.status = 0
+        AND sp_shift.location = 'SGN'
+        AND sua.status &lt;&gt; 9
+        AND sua.shift_id IN ('AMO_ADFIN')
+        AND sua.entry_type NOT LIKE 'AL%'
+        AND sua.entry_type NOT LIKE 'DO%'
+        AND sua.entry_type NOT LIKE 'T'
+        AND sua.entry_type NOT LIKE 'DT%'
+        AND (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY')
+) sub</se:textStatement>
+                  
+        </se:sqlStatement>
+      </ds:sqlEditorDataSource>
+    </ds:dataSource>
+    <ds:dataSource xmlns:ds="http://www.swiss-as.com/xml/datasource_2.0" id="AMO_MCC" type="SQL_EDITOR_DATASOURCE" version="2.0">
+      <ds:description>AMO_MCC</ds:description>
+      <ds:columnDescriptors>
+        <ds:columnDescriptor amosType="ALPHANUM" description="STT" id="STT"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="ID" id="ID"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="VJC ID" id="VJC_ID"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Firstname" id="firstname"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="start_date" id="start_date"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="start_time" id="start_time"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="end_time" id="end_time"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Shift Type" id="shift_type"/>
+      </ds:columnDescriptors>
+      <ds:configurationParameters>
+        <ds:value amosType="ALPHANUM" description="string placeholder" id="@VAR.DATE@">
+          <ds:object>@VAR.DATE@</ds:object>
+        </ds:value>
+      </ds:configurationParameters>
+      <ds:sqlEditorDataSource>
+        <se:sqlStatement xmlns:se="http://www.swiss-as.com/xml/sqlStatement_2.0" type="TEXT_EDITOR" version="2.0">
+                    
+          <se:textStatement>SELECT
+    ROW_NUMBER() OVER (ORDER BY
+        CASE "VJC_ID"
+            WHEN 'VJC6509' THEN 0
+            WHEN 'VJC0557' THEN 0
+            ELSE 1
+        END,
+        CASE shift_type
+            WHEN 'M'  THEN 1
+            WHEN 'N'  THEN 2
+            WHEN 'HC' THEN 3
+            WHEN 'FE' THEN 4
+            ELSE 5
+        END,
+        CASE "VJC_ID"
+            WHEN 'VJC6509' THEN 1
+            WHEN 'VJC0557' THEN 2
+            WHEN 'VJC13144' THEN 3
+            WHEN 'VJC1987' THEN 4
+            WHEN 'VJC12534' THEN 5
+            WHEN 'VJC4676' THEN 6
+            WHEN 'VJC6277' THEN 7
+            WHEN 'VJC10830' THEN 8
+            WHEN 'VJC9016' THEN 9
+            WHEN 'VJC1690' THEN 10
+            WHEN 'VJC8412' THEN 11
+            WHEN 'VJC10957' THEN 12
+            WHEN 'VJC9872'  THEN 13
+            ELSE 14
+        END
+    ) AS "STT",
+    employee_no_i AS "ID",
+    "VJC_ID",
+    firstname,
+    start_date,
+    start_time,
+    end_time,
+    shift_type
+FROM (
+    SELECT
+        s.employee_no_i,
+        s.user_sign AS "VJC_ID",
+        s.firstname,
+        sua.entry_type,
+        sua.shift_id,
+        TO_CHAR(CAST(DATE '1971-12-31' + sua.start_date AS DATE), 'DD.MON.YYYY') AS start_date,
+        sua.start_time,
+        sua.end_time,
+        CASE
+            WHEN sua.entry_type IN ('B12_O','B21_O')
+                AND (sua.start_time &gt;= 1380 OR sua.start_time &lt;= 660) THEN 'M'
+            WHEN sua.entry_type IN ('B13_O','B22_O','B21_M')
+                AND sua.end_time &gt;= 660 AND sua.end_time &lt;= 1380 THEN 'N'
+            WHEN sua.entry_type LIKE 'HC%' THEN 'HC'
+            WHEN sua.entry_type IN ('B21_O')
+                AND (sua.start_time &gt;= 1410 OR sua.start_time &lt;= 690) THEN 'M'
+            WHEN sua.entry_type IN ('B22_O')
+                AND sua.end_time &gt;= 690 AND sua.end_time &lt;= 1410 THEN 'N'
+            WHEN sua.entry_type LIKE '%FE%' THEN 'FE'
+            WHEN sua.entry_type IN ('OT_M') THEN 'OT_M'
+            WHEN sua.entry_type IN ('OT_N') THEN 'OT_N'
+            WHEN sua.entry_type IN ('OT','OT_O') THEN
+                CASE
+                    WHEN sua.end_time &lt;= 690  THEN 'OT_M'
+                    WHEN sua.end_time &lt;= 1410 THEN 'OT_N'
+                    ELSE NULL
+                END
+            ELSE NULL
+        END AS shift_type
+    FROM sign s
+    JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+    LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+    WHERE s.department = 'VJC AMO'
+        AND s.status = 0
+        AND sp_shift.location = 'SGN'
+        AND sua.status &lt;&gt; 9
+        AND sua.shift_id IN ('AMO_MCC_HC','AMO_MCC_MN')
+        AND sua.entry_type NOT LIKE '%AL%'
+        AND sua.entry_type NOT LIKE '%DO%'
+        AND sua.entry_type NOT LIKE 'T'
+        AND (
+            (
+                (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY')
+                AND sua.start_time &lt; 1380
+            )
+            OR (
+                (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY') - 1
+                AND sua.start_time &gt;= 1380
+            )
+        )
+) sub
+ORDER BY
+    CASE "VJC_ID"
+        WHEN 'VJC6509' THEN 0
+        WHEN 'VJC0557' THEN 0
+        ELSE 1
+    END,
+    CASE shift_type
+        WHEN 'M'  THEN 1
+        WHEN 'N'  THEN 2
+        WHEN 'HC' THEN 3
+        WHEN 'FE' THEN 4
+        ELSE 5
+    END,
+    CASE "VJC_ID"
+        WHEN 'VJC6509' THEN 1
+        WHEN 'VJC0557' THEN 2
+        WHEN 'VJC13144' THEN 3
+        WHEN 'VJC1987' THEN 4
+        WHEN 'VJC12534' THEN 5
+        WHEN 'VJC4676' THEN 6
+        WHEN 'VJC6277' THEN 7
+        WHEN 'VJC10830' THEN 8
+        WHEN 'VJC9016' THEN 9
+        WHEN 'VJC1690' THEN 10
+        WHEN 'VJC8412' THEN 11
+        WHEN 'VJC10957' THEN 12
+        WHEN 'VJC9872'  THEN 13
+        ELSE 14
+    END</se:textStatement>
+                  
+        </se:sqlStatement>
+      </ds:sqlEditorDataSource>
+    </ds:dataSource>
+    <ds:dataSource xmlns:ds="http://www.swiss-as.com/xml/datasource_2.0" id="TOTAL STAFF" type="SQL_EDITOR_DATASOURCE" version="2.0">
+      <ds:description>TOTAL STAFF</ds:description>
+      <ds:columnDescriptors>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Total Staff" id="total.total_staff"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Today_present" id="today_p.today_present"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Today_absent" id="today_absent"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Yesterday_present" id="yesterday_p.yesterday_present"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Yesterday_absent" id="yesterday_absent"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Today_pct" id="today_pct"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Yesterday_pct" id="yesterday_pct"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Delta_pct" id="delta_pct"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Total_AL" id="total_al"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Total_DO" id="total_do"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Total_T" id="total_t"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Total_OT" id="total_ot"/>
+      </ds:columnDescriptors>
+      <ds:configurationParameters>
+        <ds:value amosType="ALPHANUM" description="string placeholder" id="@VAR.DATE@">
+          <ds:object>@VAR.DATE@</ds:object>
+        </ds:value>
+      </ds:configurationParameters>
+      <ds:sqlEditorDataSource>
+        <se:sqlStatement xmlns:se="http://www.swiss-as.com/xml/sqlStatement_2.0" type="TEXT_EDITOR" version="2.0">
+          <se:textStatement>SELECT 
+    total.total_staff,
+    today_p.today_present,
+    total.total_staff - today_p.today_present AS today_absent,
+    yesterday_p.yesterday_present,
+    total.total_staff - yesterday_p.yesterday_present AS yesterday_absent,
+    ROUND(today_p.today_present * 100.0 / total.total_staff, 1) AS today_pct,
+    ROUND(yesterday_p.yesterday_present * 100.0 / total.total_staff, 1) AS yesterday_pct,
+    ROUND((today_p.today_present - yesterday_p.yesterday_present) * 100.0 / total.total_staff, 1) AS delta_pct,
+    COALESCE(leave_cnt.total_al, 0) AS total_al,
+    COALESCE(leave_cnt.total_do, 0) AS total_do,
+    COALESCE(leave_cnt.total_t, 0) AS total_t,
+    COALESCE(leave_cnt.total_ot, 0) AS total_ot
+FROM (
+    SELECT COUNT(DISTINCT spa.user_sign) AS total_staff
+    FROM sp_shift_assign spa
+    WHERE spa.shift_id IN (
+        'MOC_DM','MOC_COOR','MOC_FME','MOC_FMSE',
+        'AMO_MCC_HC','AMO_MCC_MN',
+        'MOC_TRN','MOC_ADD','MOC_MF','MOC_AR',
+        'AMO_ICT','AMO_ADFIN','AMO_TRN','AMO_ADFN'
+    )
+) total,
+(
+    SELECT COUNT(*) AS today_present
+    FROM (
+        SELECT DISTINCT s.user_sign
+        FROM sign s
+        JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+        LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+        WHERE s.department = 'VJC AMO'
+            AND s.status = 0
+            AND sp_shift.location = 'SGN'
+            AND sua.status &lt;&gt; 9
+            AND sua.shift_id IN ('MOC_DM','MOC_COOR','MOC_FME','MOC_FMSE','MOC_AR')
+            AND sua.shift_pattern &lt;&gt; 'MOC_AR_O'
+            AND sua.entry_type NOT LIKE '%AL%'
+            AND sua.entry_type NOT LIKE '%DO%'
+            AND sua.entry_type NOT LIKE 'T'
+            AND sua.user_sign NOT IN ('VJC18826')
+            AND (
+                ((DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY') AND sua.start_time &lt; 1380)
+                OR ((DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY') - 1 AND sua.start_time &gt;= 1380)
+            )
+        UNION
+        SELECT DISTINCT s.user_sign
+        FROM sign s
+        JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+        LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+        WHERE s.department = 'VJC AMO'
+            AND s.status = 0
+            AND sp_shift.location = 'SGN'
+            AND sua.status &lt;&gt; 9
+            AND sua.shift_id IN ('AMO_MCC_HC','AMO_MCC_MN')
+            AND sua.entry_type NOT LIKE '%AL%'
+            AND sua.entry_type NOT LIKE '%DO%'
+            AND sua.entry_type NOT LIKE 'T'
+            AND (
+                ((DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY') AND sua.start_time &lt; 1380)
+                OR ((DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY') - 1 AND sua.start_time &gt;= 1380)
+            )
+        UNION
+        SELECT DISTINCT s.user_sign
+        FROM sign s
+        JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+        LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+        WHERE s.department = 'VJC AMO' AND s.status = 0 AND sp_shift.location = 'SGN' AND sua.status &lt;&gt; 9
+            AND sua.shift_id IN ('MOC_ADD')
+            AND sua.entry_type NOT LIKE 'AL%' AND sua.entry_type NOT LIKE 'DO%' AND sua.entry_type NOT LIKE 'T' AND sua.entry_type NOT LIKE 'DT%'
+            AND (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY')
+        UNION
+        SELECT DISTINCT s.user_sign
+        FROM sign s
+        JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+        LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+        WHERE s.department = 'VJC AMO' AND s.status = 0 AND sp_shift.location = 'SGN' AND sua.status &lt;&gt; 9
+            AND sua.shift_id IN ('MOC_MF')
+            AND sua.entry_type NOT LIKE 'AL%' AND sua.entry_type NOT LIKE 'DO%' AND sua.entry_type NOT LIKE 'T' AND sua.entry_type NOT LIKE 'DT%'
+            AND (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY')
+        UNION
+        SELECT DISTINCT s.user_sign
+        FROM sign s
+        JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+        LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+        WHERE s.department = 'VJC AMO' AND s.status = 0 AND sp_shift.location = 'SGN' AND sua.status &lt;&gt; 9
+            AND sua.shift_id IN ('AMO_ICT')
+            AND sua.entry_type NOT LIKE 'AL%' AND sua.entry_type NOT LIKE 'DO%' AND sua.entry_type NOT LIKE 'T'
+            AND (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY')
+        UNION
+        SELECT DISTINCT s.user_sign
+        FROM sign s
+        JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+        LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+        WHERE s.department = 'VJC AMO' AND s.status = 0 AND sp_shift.location = 'SGN' AND sua.status &lt;&gt; 9
+            AND sua.shift_id IN ('AMO_ADFIN')
+            AND sua.entry_type NOT LIKE 'AL%' AND sua.entry_type NOT LIKE 'DO%' AND sua.entry_type NOT LIKE 'T' AND sua.entry_type NOT LIKE 'DT%'
+            AND (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY')
+        UNION
+        SELECT DISTINCT s.user_sign
+        FROM sign s
+        JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+        LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+        WHERE s.department = 'VJC AMO' AND s.status = 0 AND sp_shift.location = 'SGN' AND sua.status &lt;&gt; 9
+            AND sua.shift_id IN ('MOC_AR')
+            AND sua.entry_type NOT LIKE 'AL%' AND sua.entry_type NOT LIKE 'DO%' AND sua.entry_type NOT LIKE 'T' AND sua.entry_type NOT LIKE 'DT%'
+            AND sua.user_sign IN ('VJC4697','VJC4680','VJC18826')
+            AND (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY')
+        UNION
+        SELECT DISTINCT s.user_sign
+        FROM sign s
+        JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+        LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+        WHERE s.department = 'VJC AMO' AND s.status = 0 AND sp_shift.location = 'SGN' AND sua.status &lt;&gt; 9
+            AND sua.shift_id IN ('AMO_TRN')
+            AND sua.entry_type NOT LIKE 'AL%' AND sua.entry_type NOT LIKE 'DO%' AND sua.entry_type NOT LIKE 'T' AND sua.entry_type NOT LIKE 'DT%'
+            AND (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY')
+    ) t
+) today_p,
+(
+    SELECT COUNT(*) AS yesterday_present
+    FROM (
+        SELECT DISTINCT s.user_sign
+        FROM sign s
+        JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+        LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+        WHERE s.department = 'VJC AMO'
+            AND s.status = 0
+            AND sp_shift.location = 'SGN'
+            AND sua.status &lt;&gt; 9
+            AND sua.shift_id IN ('MOC_DM','MOC_COOR','MOC_FME','MOC_FMSE','MOC_AR')
+            AND sua.shift_pattern &lt;&gt; 'MOC_AR_O'
+            AND sua.entry_type NOT LIKE '%AL%'
+            AND sua.entry_type NOT LIKE '%DO%'
+            AND sua.entry_type NOT LIKE 'T'
+            AND sua.user_sign NOT IN ('VJC18826')
+            AND (
+                ((DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY') - 1 AND sua.start_time &lt; 1380)
+                OR ((DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY') - 2 AND sua.start_time &gt;= 1380)
+            )
+        UNION
+        SELECT DISTINCT s.user_sign
+        FROM sign s
+        JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+        LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+        WHERE s.department = 'VJC AMO'
+            AND s.status = 0
+            AND sp_shift.location = 'SGN'
+            AND sua.status &lt;&gt; 9
+            AND sua.shift_id IN ('AMO_MCC_HC','AMO_MCC_MN')
+            AND sua.entry_type NOT LIKE '%AL%'
+            AND sua.entry_type NOT LIKE '%DO%'
+            AND sua.entry_type NOT LIKE 'T'
+            AND (
+                ((DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY') - 1 AND sua.start_time &lt; 1380)
+                OR ((DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY') - 2 AND sua.start_time &gt;= 1380)
+            )
+        UNION
+        SELECT DISTINCT s.user_sign
+        FROM sign s
+        JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+        LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+        WHERE s.department = 'VJC AMO' AND s.status = 0 AND sp_shift.location = 'SGN' AND sua.status &lt;&gt; 9
+            AND sua.shift_id IN ('MOC_ADD')
+            AND sua.entry_type NOT LIKE 'AL%' AND sua.entry_type NOT LIKE 'DO%' AND sua.entry_type NOT LIKE 'T' AND sua.entry_type NOT LIKE 'DT%'
+            AND (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY') - 1
+        UNION
+        SELECT DISTINCT s.user_sign
+        FROM sign s
+        JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+        LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+        WHERE s.department = 'VJC AMO' AND s.status = 0 AND sp_shift.location = 'SGN' AND sua.status &lt;&gt; 9
+            AND sua.shift_id IN ('MOC_MF')
+            AND sua.entry_type NOT LIKE 'AL%' AND sua.entry_type NOT LIKE 'DO%' AND sua.entry_type NOT LIKE 'T' AND sua.entry_type NOT LIKE 'DT%'
+            AND (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY') - 1
+        UNION
+        SELECT DISTINCT s.user_sign
+        FROM sign s
+        JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+        LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+        WHERE s.department = 'VJC AMO' AND s.status = 0 AND sp_shift.location = 'SGN' AND sua.status &lt;&gt; 9
+            AND sua.shift_id IN ('AMO_ICT')
+            AND sua.entry_type NOT LIKE 'AL%' AND sua.entry_type NOT LIKE 'DO%' AND sua.entry_type NOT LIKE 'T'
+            AND (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY') - 1
+        UNION
+        SELECT DISTINCT s.user_sign
+        FROM sign s
+        JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+        LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+        WHERE s.department = 'VJC AMO' AND s.status = 0 AND sp_shift.location = 'SGN' AND sua.status &lt;&gt; 9
+            AND sua.shift_id IN ('AMO_ADFIN')
+            AND sua.entry_type NOT LIKE 'AL%' AND sua.entry_type NOT LIKE 'DO%' AND sua.entry_type NOT LIKE 'T' AND sua.entry_type NOT LIKE 'DT%'
+            AND (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY') - 1
+        UNION
+        SELECT DISTINCT s.user_sign
+        FROM sign s
+        JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+        LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+        WHERE s.department = 'VJC AMO' AND s.status = 0 AND sp_shift.location = 'SGN' AND sua.status &lt;&gt; 9
+            AND sua.shift_id IN ('MOC_AR')
+            AND sua.entry_type NOT LIKE 'AL%' AND sua.entry_type NOT LIKE 'DO%' AND sua.entry_type NOT LIKE 'T' AND sua.entry_type NOT LIKE 'DT%'
+            AND sua.user_sign IN ('VJC4697','VJC4680','VJC18826')
+            AND (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY') - 1
+        UNION
+        SELECT DISTINCT s.user_sign
+        FROM sign s
+        JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+        LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+        WHERE s.department = 'VJC AMO' AND s.status = 0 AND sp_shift.location = 'SGN' AND sua.status &lt;&gt; 9
+            AND sua.shift_id IN ('AMO_TRN')
+            AND sua.entry_type NOT LIKE 'AL%' AND sua.entry_type NOT LIKE 'DO%' AND sua.entry_type NOT LIKE 'T' AND sua.entry_type NOT LIKE 'DT%'
+            AND (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY') - 1
+    ) y
+) yesterday_p,
+(
+    SELECT
+        COUNT(DISTINCT CASE WHEN sua.entry_type LIKE 'AL%' THEN s.user_sign END) AS total_al,
+        COUNT(DISTINCT CASE WHEN sua.entry_type LIKE 'DO%' THEN s.user_sign END) AS total_do,
+        COUNT(DISTINCT CASE WHEN sua.entry_type = 'T' THEN s.user_sign END) AS total_t,
+        COUNT(DISTINCT CASE WHEN sua.entry_type LIKE 'OT%' OR sua.entry_type LIKE '%OT%' THEN s.user_sign END) AS total_ot
+    FROM sign s
+    JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+    LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+    WHERE s.department = 'VJC AMO'
+        AND s.status = 0
+        AND sp_shift.location = 'SGN'
+        AND sua.status &lt;&gt; 9
+        AND sua.shift_id IN (
+            'MOC_DM','MOC_COOR','MOC_FME','MOC_FMSE','MOC_AR',
+            'AMO_MCC_HC','AMO_MCC_MN',
+            'MOC_ADD','MOC_MF',
+            'AMO_ICT','AMO_ADFIN','AMO_TRN','AMO_ADFN'
+        )
+        AND (
+            sua.entry_type LIKE 'AL%'
+            OR sua.entry_type LIKE 'DO%'
+            OR sua.entry_type = 'T'
+            OR sua.entry_type LIKE 'OT%'
+            OR sua.entry_type LIKE '%OT%'
+        )
+        AND (
+            (sua.shift_id IN ('MOC_DM','MOC_COOR','MOC_FME','MOC_FMSE','MOC_AR','AMO_MCC_HC','AMO_MCC_MN')
+             AND (
+                ((DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY') AND sua.start_time &lt; 1380)
+                OR ((DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY') - 1 AND sua.start_time &gt;= 1380)
+             )
+            )
+            OR
+            (sua.shift_id IN ('MOC_ADD','MOC_MF','AMO_ICT','AMO_ADFIN','AMO_TRN','AMO_ADFN')
+             AND (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY')
+            )
+        )
+) leave_cnt</se:textStatement>
+        </se:sqlStatement>
+      </ds:sqlEditorDataSource>
+    </ds:dataSource>
+  </dataSourceList>
+</report>
