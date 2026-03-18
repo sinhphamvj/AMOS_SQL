@@ -213,30 +213,40 @@ FROM (
 ) yesterday_p,
 (
     SELECT
-        COUNT(DISTINCT CASE WHEN entry_type LIKE 'AL%' THEN user_sign END) AS total_al,
-        COUNT(DISTINCT CASE WHEN entry_type LIKE 'DO%' THEN user_sign END) AS total_do,
-        COUNT(DISTINCT CASE WHEN entry_type = 'T' THEN user_sign END) AS total_t,
-        COUNT(DISTINCT CASE WHEN entry_type LIKE 'OT%' THEN user_sign END) AS total_ot
-    FROM (
-        SELECT s.user_sign, sua.entry_type
-        FROM sign s
-        JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
-        LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
-        WHERE s.department = 'VJC AMO' AND s.status = 0 AND sp_shift.location = 'SGN' AND sua.status <> 9
-            AND sua.shift_id IN ('MOC_DM','MOC_COOR','MOC_FME','MOC_FMSE','MOC_AR','AMO_MCC_HC','AMO_MCC_MN')
-            AND (sua.entry_type LIKE 'AL%' OR sua.entry_type LIKE 'DO%' OR sua.entry_type = 'T' OR sua.entry_type LIKE 'OT%')
-            AND (
+        COUNT(DISTINCT CASE WHEN sua.entry_type LIKE 'AL%' THEN s.user_sign END) AS total_al,
+        COUNT(DISTINCT CASE WHEN sua.entry_type LIKE 'DO%' THEN s.user_sign END) AS total_do,
+        COUNT(DISTINCT CASE WHEN sua.entry_type = 'T' THEN s.user_sign END) AS total_t,
+        COUNT(DISTINCT CASE WHEN sua.entry_type LIKE 'OT%' OR sua.entry_type LIKE '%OT%' THEN s.user_sign END) AS total_ot
+    FROM sign s
+    JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
+    LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
+    WHERE s.department = 'VJC AMO'
+        AND s.status = 0
+        AND sp_shift.location = 'SGN'
+        AND sua.status <> 9
+        AND sua.shift_id IN (
+            'MOC_DM','MOC_COOR','MOC_FME','MOC_FMSE','MOC_AR',
+            'AMO_MCC_HC','AMO_MCC_MN',
+            'MOC_ADD','MOC_MF',
+            'AMO_ICT','AMO_ADFIN','AMO_TRN','AMO_ADFN'
+        )
+        AND (
+            sua.entry_type LIKE 'AL%'
+            OR sua.entry_type LIKE 'DO%'
+            OR sua.entry_type = 'T'
+            OR sua.entry_type LIKE 'OT%'
+            OR sua.entry_type LIKE '%OT%'
+        )
+        AND (
+            (sua.shift_id IN ('MOC_DM','MOC_COOR','MOC_FME','MOC_FMSE','MOC_AR','AMO_MCC_HC','AMO_MCC_MN')
+             AND (
                 ((DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY') AND sua.start_time < 1380)
                 OR ((DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY') - 1 AND sua.start_time >= 1380)
+             )
             )
-        UNION
-        SELECT s.user_sign, sua.entry_type
-        FROM sign s
-        JOIN sp_user_availability sua ON s.user_sign = sua.user_sign
-        LEFT JOIN sp_shift ON sp_shift.shift_id = sua.shift_id
-        WHERE s.department = 'VJC AMO' AND s.status = 0 AND sp_shift.location = 'SGN' AND sua.status <> 9
-            AND sua.shift_id IN ('MOC_ADD','MOC_MF','AMO_ICT','AMO_ADFIN','AMO_TRN','AMO_ADFN')
-            AND (sua.entry_type LIKE 'AL%' OR sua.entry_type LIKE 'DO%' OR sua.entry_type = 'T' OR sua.entry_type LIKE 'OT%')
-            AND (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY')
-    ) combined
+            OR
+            (sua.shift_id IN ('MOC_ADD','MOC_MF','AMO_ICT','AMO_ADFIN','AMO_TRN','AMO_ADFN')
+             AND (DATE '1971-12-31' + sua.start_date) = TO_DATE('@VAR.DATE@', 'DD.MON.YYYY')
+            )
+        )
 ) leave_cnt
