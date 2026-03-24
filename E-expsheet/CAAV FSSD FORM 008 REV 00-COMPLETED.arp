@@ -1,0 +1,2685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0" xsi:schemaLocation="http://www.swiss-as.com/xml/report_3.0 http://www.swiss-as.com/xml/report_3.0.xsd http://www.swiss-as.com/xml/datasource_2.0 http://www.swiss-as.com/xml/datasource_2.0.xsd" xmlns="http://www.swiss-as.com/xml/report_3.0">
+  <header>
+    <report_id>VJC.REP.1000370</report_id>
+    <revision_number>0</revision_number>
+    <meta name="serialization">v3</meta>
+    <rights>
+      <access_right name="visibleToCustomer">true</access_right>
+    </rights>
+  </header>
+  <page_master>
+    <view class="PageReportView" id="191">
+      <attribute name="position">0 0</attribute>
+      <attribute name="size">700 1000</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="header-size">50</attribute>
+      <attribute name="footer-size">20</attribute>
+      <attribute name="orientation">PORTRAIT</attribute>
+    </view>
+    <content>
+      <view class="LabelReportView" id="192">
+        <attribute name="name">Label_14</attribute>
+        <attribute name="position">16 981</attribute>
+        <attribute name="size">200 18</attribute>
+        <attribute name="visible">YES</attribute>
+        <attribute name="auto-resize">NO</attribute>
+        <attribute name="rotation">0.0</attribute>
+        <conditional_attributes/>
+        <attribute name="color">000000</attribute>
+        <attribute name="margin">0 0 0 0</attribute>
+        <attribute name="padding">0 0 0 0</attribute>
+        <attribute name="border">0 SOLID 000000</attribute>
+        <attribute name="date-time">03.Mar.2026  01:09</attribute>
+        <attribute name="user-sign">VJC1138</attribute>
+        <attribute name="text">CAAV FSSD Form 008 [2]2023</attribute>
+        <attribute name="text-decoration">NONE</attribute>
+        <attribute name="font">Serif PLAIN 10</attribute>
+        <attribute name="text-align">LEFT</attribute>
+        <attribute name="line-break">AS_IS</attribute>
+        <attribute name="splitable">NO</attribute>
+        <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+        <attribute name="antialias">false</attribute>
+      </view>
+      <view class="ImageReportView" id="193">
+        <attribute name="name">Image_16</attribute>
+        <attribute name="position">274 1</attribute>
+        <attribute name="size">158 42</attribute>
+        <attribute name="visible">YES</attribute>
+        <attribute name="auto-resize">NO</attribute>
+        <attribute name="rotation">0.0</attribute>
+        <conditional_attributes/>
+        <attribute name="color">000000</attribute>
+        <attribute name="margin">0 0 0 0</attribute>
+        <attribute name="padding">0 0 0 0</attribute>
+        <attribute name="border">0 SOLID 000000</attribute>
+        <attribute name="date-time">03.Mar.2026  01:09</attribute>
+        <attribute name="user-sign">VJC1138</attribute>
+        <attribute name="image-source">web://MOC/CAAVLOGO.png</attribute>
+        <attribute name="scale-mode">FILL</attribute>
+      </view>
+    </content>
+  </page_master>
+  <content>
+    <view class="LabelReportView" id="194">
+      <attribute name="name">Label_1</attribute>
+      <attribute name="position">136 72</attribute>
+      <attribute name="size">552 64</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:58</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">SƠ YẾU LÝ LỊCH/
+CURRICULUM VITAE</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif BOLD 18</attribute>
+      <attribute name="text-align">CENTER</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="LabelReportView" id="195">
+      <attribute name="name">Label_2</attribute>
+      <attribute name="position">136 16</attribute>
+      <attribute name="size">552 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:58</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif BOLD 14</attribute>
+      <attribute name="text-align">CENTER</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="BoxReportView" id="196">
+      <attribute name="name">Box_3</attribute>
+      <attribute name="position">10 15</attribute>
+      <attribute name="size">100 130</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">1 SOLID 000000</attribute>
+    </view>
+    <view class="ImageReportView" id="197">
+      <attribute name="name">Image_4</attribute>
+      <attribute name="position">14 25</attribute>
+      <attribute name="size">94 116</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:58</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="image-source">./Icons/photo_landscape.png</attribute>
+      <attribute name="scale-mode">FILL</attribute>
+    </view>
+    <view class="LabelReportView" id="198">
+      <attribute name="name">Label_5</attribute>
+      <attribute name="position">136 40</attribute>
+      <attribute name="size">552 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:58</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">Độc lập - Tự do- Hạnh phúc</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif BOLD 12</attribute>
+      <attribute name="text-align">CENTER</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="LabelReportView" id="199">
+      <attribute name="name">Label_6</attribute>
+      <attribute name="position">16 168</attribute>
+      <attribute name="size">672 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:58</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">I. THÔNG TIN BẢN THÂN (PERSONNAL INFORMATION)</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif BOLD 12</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="LabelReportView" id="200">
+      <attribute name="name">Label_7</attribute>
+      <attribute name="position">25 201</attribute>
+      <attribute name="size">485 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">1. Họ và tên (in hoa) (Full name): @CAAV FSSD FORM 008 - SECTION I.s.lastname@ @CAAV FSSD FORM 008 - SECTION I.s.firstname@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="LabelReportView" id="201">
+      <attribute name="name">Label_8</attribute>
+      <attribute name="position">512 201</attribute>
+      <attribute name="size">176 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">Nam/ Nữ (Gender): @CAAV FSSD FORM 008 - SECTION I.s.sex@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="LabelReportView" id="202">
+      <attribute name="name">Label_9</attribute>
+      <attribute name="position">25 226</attribute>
+      <attribute name="size">359 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">2. Ngày sinh (Date of birth): @CAAV FSSD FORM 008 - SECTION I.birthdate@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>200</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="203">
+      <attribute name="name">Label_10</attribute>
+      <attribute name="position">386 226</attribute>
+      <attribute name="size">302 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">Nơi sinh (Place of birth):  @CAAV FSSD FORM 008 - SECTION I.place_of_birth@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="BoxReportView" id="204">
+      <attribute name="name">Box_13</attribute>
+      <attribute name="position">277 66</attribute>
+      <attribute name="size">273 5</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <border class="StyledReportBorder">
+        <attribute name="border-top-width">0</attribute>
+        <attribute name="border-top-style">SOLID</attribute>
+        <attribute name="border-top-color">000000</attribute>
+        <attribute name="border-left-width">0</attribute>
+        <attribute name="border-left-style">SOLID</attribute>
+        <attribute name="border-left-color">000000</attribute>
+        <attribute name="border-bottom-width">1</attribute>
+        <attribute name="border-bottom-style">SOLID</attribute>
+        <attribute name="border-bottom-color">000000</attribute>
+        <attribute name="border-right-width">0</attribute>
+        <attribute name="border-right-style">SOLID</attribute>
+        <attribute name="border-right-color">000000</attribute>
+      </border>
+    </view>
+    <view class="LabelReportView" id="205">
+      <attribute name="name">Label_17</attribute>
+      <attribute name="position">25 251</attribute>
+      <attribute name="size">662 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">3. Nguyên quán (Homeland):   @CAAV FSSD FORM 008 - SECTION I.homeland@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>202</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="206">
+      <attribute name="name">Label_18</attribute>
+      <attribute name="position">25 276</attribute>
+      <attribute name="size">662 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">4. Nơi thường trú (Place of residence): @CAAV FSSD FORM 008 - SECTION I.s.street@ @CAAV FSSD FORM 008 - SECTION I.religion@ @CAAV FSSD FORM 008 - SECTION I.country@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>205</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="207">
+      <attribute name="name">Label_19</attribute>
+      <attribute name="position">25 301</attribute>
+      <attribute name="size">662 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">5. Chỗ ở hiện nay (Current address):  @CAAV FSSD FORM 008 - SECTION I.s.street2@ @CAAV FSSD FORM 008 - SECTION I.s.city2@ @CAAV FSSD FORM 008 - SECTION I.country2@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>206</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="208">
+      <attribute name="name">Label_20</attribute>
+      <attribute name="position">25 326</attribute>
+      <attribute name="size">664 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">6. Điện thoại liên hệ (Mobile phone): @CAAV FSSD FORM 008 - SECTION I.phoneno@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>207</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="209">
+      <attribute name="name">Label_21</attribute>
+      <attribute name="position">25 351</attribute>
+      <attribute name="size">319 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">7. Dân tộc (Ethnic): @CAAV FSSD FORM 008 - SECTION I.ethnic@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>208</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="210">
+      <attribute name="name">Label_22</attribute>
+      <attribute name="position">344 351</attribute>
+      <attribute name="size">343 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">Tôn giáo (Religion): @CAAV FSSD FORM 008 - SECTION I.religion@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>LEFT</location>
+        <anchor_view>209</anchor_view>
+        <anchor_location>RIGHT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="211">
+      <attribute name="name">Label_23</attribute>
+      <attribute name="position">25 376</attribute>
+      <attribute name="size">663 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">8. Số CMT/CCCD/HC (ID card/ Passport number): @CAAV FSSD FORM 008 - SECTION I.passport_no@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>209</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="212">
+      <attribute name="name">Label_24</attribute>
+      <attribute name="position">24 451</attribute>
+      <attribute name="size">664 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">9. Trình độ văn hóa (Education): @CAAV FSSD FORM 008 - SECTION I.education@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="LabelReportView" id="213">
+      <attribute name="name">Label_25</attribute>
+      <attribute name="position">40 401</attribute>
+      <attribute name="size">319 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">Ngày cấp (Issued date):  @CAAV FSSD FORM 008 - SECTION I.passport_issued_date@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="LabelReportView" id="214">
+      <attribute name="name">Label_26</attribute>
+      <attribute name="position">40 426</attribute>
+      <attribute name="size">319 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">Nơi cấp (Place of issue): @CAAV FSSD FORM 008 - SECTION I.passport_issued_place@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>213</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="215">
+      <attribute name="name">Label_27</attribute>
+      <attribute name="position">24 476</attribute>
+      <attribute name="size">664 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">10. Kết nạp Đảng CSVN ngày (Member of Vietnam Communist Party since):   @CAAV FSSD FORM 008 - SECTION I.ket_nap_dang_date@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>212</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="216">
+      <attribute name="name">Label_28</attribute>
+      <attribute name="position">17 512</attribute>
+      <attribute name="size">672 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:58</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">II. QUAN HỆ GIA ĐÌNH (RELATIVES)</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif BOLD 12</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="LabelReportView" id="217">
+      <attribute name="name">Label_2</attribute>
+      <attribute name="position">790 734</attribute>
+      <attribute name="size">399 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">1. Họ và tên cha (Father’s full name):</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif BOLD 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="LabelReportView" id="218">
+      <attribute name="name">Label_3</attribute>
+      <attribute name="position">1189 734</attribute>
+      <attribute name="size">265 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">Năm sinh (Year of birth):</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>LEFT</location>
+        <anchor_view>217</anchor_view>
+        <anchor_location>RIGHT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="219">
+      <attribute name="name">Label_4</attribute>
+      <attribute name="position">791 762</attribute>
+      <attribute name="size">664 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">- Nghề nghiệp hiện nay (Occupation):</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>217</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>1</x_offset>
+        <y_offset>3</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="220">
+      <attribute name="name">Label_5</attribute>
+      <attribute name="position">791 787</attribute>
+      <attribute name="size">664 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">- Cơ quan công tác(Company’s name):</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>219</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="221">
+      <attribute name="name">Label_6</attribute>
+      <attribute name="position">791 812</attribute>
+      <attribute name="size">664 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">- Chỗ ở hiện nay (Current address):</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>220</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="222">
+      <attribute name="name">Label_7</attribute>
+      <attribute name="position">791 915</attribute>
+      <attribute name="size">664 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">- Chỗ ở hiện nay (Current address):</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>226</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="223">
+      <attribute name="name">Label_8</attribute>
+      <attribute name="position">791 865</attribute>
+      <attribute name="size">664 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">- Nghề nghiệp hiện nay (Occupation):</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>225</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>-3</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="224">
+      <attribute name="name">Label_9</attribute>
+      <attribute name="position">1190 843</attribute>
+      <attribute name="size">265 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">Năm sinh (Year of birth):</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>LEFT</location>
+        <anchor_view>225</anchor_view>
+        <anchor_location>RIGHT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="225">
+      <attribute name="name">Label_10</attribute>
+      <attribute name="position">791 843</attribute>
+      <attribute name="size">399 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">2. Họ và tên mẹ (Mother’s full name):</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif BOLD 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>221</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>6</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="226">
+      <attribute name="name">Label_11</attribute>
+      <attribute name="position">791 890</attribute>
+      <attribute name="size">664 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">- Cơ quan công tác(Company’s name):</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>223</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="227">
+      <attribute name="name">Label_12</attribute>
+      <attribute name="position">791 993</attribute>
+      <attribute name="size">664 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">- Cơ quan công tác(Company’s name):</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>230</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="228">
+      <attribute name="name">Label_13</attribute>
+      <attribute name="position">1190 943</attribute>
+      <attribute name="size">265 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">Năm sinh (Year of birth):</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>LEFT</location>
+        <anchor_view>231</anchor_view>
+        <anchor_location>RIGHT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="229">
+      <attribute name="name">Label_14</attribute>
+      <attribute name="position">791 1018</attribute>
+      <attribute name="size">664 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">- Chỗ ở hiện nay (Current address):</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>227</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="230">
+      <attribute name="name">Label_15</attribute>
+      <attribute name="position">791 968</attribute>
+      <attribute name="size">664 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">- Nghề nghiệp hiện nay (Occupation):</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>231</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="231">
+      <attribute name="name">Label_16</attribute>
+      <attribute name="position">791 943</attribute>
+      <attribute name="size">399 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">3. Họ và tên Anh/ chị em ruột (Sibling’s full name):</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif BOLD 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>222</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>3</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="232">
+      <attribute name="name">Label_17</attribute>
+      <attribute name="position">1175 989</attribute>
+      <attribute name="size">265 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">Năm sinh (Year of birth):</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>LEFT</location>
+        <anchor_view>233</anchor_view>
+        <anchor_location>RIGHT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="233">
+      <attribute name="name">Label_18</attribute>
+      <attribute name="position">776 989</attribute>
+      <attribute name="size">399 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">4. Họ và tên Anh/ chị em ruột (Sibling’s full name):</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif BOLD 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="LabelReportView" id="234">
+      <attribute name="name">Label_19</attribute>
+      <attribute name="position">776 1064</attribute>
+      <attribute name="size">664 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">- Chỗ ở hiện nay (Current address):</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>235</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="235">
+      <attribute name="name">Label_20</attribute>
+      <attribute name="position">776 1039</attribute>
+      <attribute name="size">664 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">- Cơ quan công tác(Company’s name):</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>236</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="236">
+      <attribute name="name">Label_21</attribute>
+      <attribute name="position">776 1014</attribute>
+      <attribute name="size">664 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">- Nghề nghiệp hiện nay (Occupation):</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>233</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="237">
+      <attribute name="name">Label_22</attribute>
+      <attribute name="position">13 625</attribute>
+      <attribute name="size">672 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:58</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">III. TÓM TẮT QUÁ TRÌNH ĐÀO TẠO (EDUCATIONAL RECORD)</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif BOLD 12</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>304</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>-6</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="DatasourceTableView" id="238">
+      <attribute name="name">DatasourceTable_23</attribute>
+      <attribute name="position">19 681</attribute>
+      <attribute name="size">663 78</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="header-height">60</attribute>
+      <attribute name="row-height">18</attribute>
+      <attribute name="column-resize">LAST</attribute>
+      <attribute name="repeat-header">NO</attribute>
+      <attribute name="minimum-rows">0</attribute>
+      <column_model class="TableViewColumnModel">
+        <column class="TableViewColumn" id="COL1">
+          <attribute name="width">120</attribute>
+          <view class="LabelReportView" id="241" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">120 60</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">05.Mar.2026  08:24</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text">Từ tháng năm đến tháng năm
+From – To 
+(mm/yyyy)</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="242" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">120 18</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">05.Mar.2026  08:24</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text">@CAAV FSSD 008 - SECTION III.pqs_start_date@ - @CAAV FSSD 008 - SECTION III.pqs_end_date@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="COL2">
+          <attribute name="width">150</attribute>
+          <view class="LabelReportView" id="245" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">150 60</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">05.Mar.2026  08:24</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text">Tên trường
+hoặc cơ sở đào tạo
+Training Organisation</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="246" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">150 18</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">05.Mar.2026  08:24</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text">@CAAV FSSD 008 - SECTION III.training_org@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">200</attribute>
+          <view class="LabelReportView" id="249" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">200 60</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">05.Mar.2026  08:24</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text">Ngành học
+Major</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="250" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">200 18</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">05.Mar.2026  08:24</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text">@CAAV FSSD 008 - SECTION III.major@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">100</attribute>
+          <view class="LabelReportView" id="253" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">100 60</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">05.Mar.2026  08:24</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text">Hình thức đào tạo
+Form of training</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="254" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">100 18</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">05.Mar.2026  08:24</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text">@CAAV FSSD 008 - SECTION III.form_of_training@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="COL3">
+          <attribute name="width">93</attribute>
+          <view class="LabelReportView" id="257" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">93 60</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">05.Mar.2026  08:24</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text">Văn bằng chứng chỉ
+Degree/ Diploma/
+Certificate</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="258" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">93 18</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">05.Mar.2026  08:24</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text">@CAAV FSSD 008 - SECTION III.degree_diploma_cert@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+      </column_model>
+      <attribute name="data-source">CAAV FSSD 008 - SECTION III</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>259</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>-1</x_offset>
+        <y_offset>9</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="259">
+      <attribute name="name">Label_25</attribute>
+      <attribute name="position">20 647</attribute>
+      <attribute name="size">665 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">(Listing of related formal training related to the rating/designation sought is attached and arranged in ascending chronological order)</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif ITALIC 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>237</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>7</x_offset>
+        <y_offset>-3</y_offset>
+      </anchor>
+    </view>
+    <view class="DatasourceTableView" id="260">
+      <attribute name="name">DatasourceTable_26</attribute>
+      <attribute name="position">737 1128</attribute>
+      <attribute name="size">663 63</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="header-height">55</attribute>
+      <attribute name="row-height">16</attribute>
+      <attribute name="column-resize">LAST</attribute>
+      <attribute name="repeat-header">NO</attribute>
+      <attribute name="minimum-rows">0</attribute>
+      <column_model class="TableViewColumnModel">
+        <column class="TableViewColumn" id="COL1">
+          <attribute name="width">100</attribute>
+          <view class="LabelReportView" id="263" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">100 55</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">05.Mar.2026  08:24</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text">Từ tháng năm đến tháng năm
+From – To 
+(mm/yyyy)</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="264" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">100 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">05.Mar.2026  08:24</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">LEFT</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="COL2">
+          <attribute name="width">300</attribute>
+          <view class="LabelReportView" id="267" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">300 55</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">05.Mar.2026  08:24</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text">Đơn vị công tác
+Organisation</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="268" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">300 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">05.Mar.2026  08:24</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">LEFT</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">263</attribute>
+          <view class="LabelReportView" id="271" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">263 55</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">05.Mar.2026  08:24</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text">Vị trí công việc/ Chức năng nhiệm vụ
+Positions/ Duties</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="272" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">263 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">05.Mar.2026  08:24</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">LEFT</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+      </column_model>
+    </view>
+    <view class="LabelReportView" id="273">
+      <attribute name="name">Label_27</attribute>
+      <attribute name="position">22 794</attribute>
+      <attribute name="size">665 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">(Outlining in ascending chronological order the job/ positions/ experience that are related to the rating/ designation sought)</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif ITALIC 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>274</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>3</x_offset>
+        <y_offset>5</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="274">
+      <attribute name="name">Label_28</attribute>
+      <attribute name="position">19 764</attribute>
+      <attribute name="size">672 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:58</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">IV. TÓM TẮT QUÁ TRÌNH CÔNG TÁC (EMPLOYMENT HISTORY)</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif BOLD 12</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>238</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>5</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="275">
+      <attribute name="name">Label_30</attribute>
+      <attribute name="position">20 1013</attribute>
+      <attribute name="size">665 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">(Outlining in ascending chronological order the job/ positions/ experience that are related to the rating/ designation sought)</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif ITALIC 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>289</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>7</x_offset>
+        <y_offset>5</y_offset>
+      </anchor>
+    </view>
+    <view class="DatasourceTableView" id="276">
+      <attribute name="name">DatasourceTable_31</attribute>
+      <attribute name="position">18 1043</attribute>
+      <attribute name="size">663 63</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="header-height">55</attribute>
+      <attribute name="row-height">16</attribute>
+      <attribute name="column-resize">LAST</attribute>
+      <attribute name="repeat-header">NO</attribute>
+      <attribute name="minimum-rows">0</attribute>
+      <column_model class="TableViewColumnModel">
+        <column class="TableViewColumn" id="COL1">
+          <attribute name="width">200</attribute>
+          <view class="LabelReportView" id="279" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">200 55</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">05.Mar.2026  08:24</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text">Số GP/ QĐ phêchuẩn
+Licence/ Approval  No.</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="280" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">200 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">05.Mar.2026  08:24</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">LEFT</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="COL2">
+          <attribute name="width">300</attribute>
+          <view class="LabelReportView" id="283" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">300 55</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">05.Mar.2026  08:24</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text">Năng định
+Ratings</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="284" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">300 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">05.Mar.2026  08:24</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">LEFT</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">163</attribute>
+          <view class="LabelReportView" id="287" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">163 55</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">05.Mar.2026  08:24</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text">Ngày cấp
+Date of issue</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="288" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">163 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">05.Mar.2026  08:24</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">LEFT</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+      </column_model>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>275</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>-2</x_offset>
+        <y_offset>5</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="289">
+      <attribute name="name">Label_32</attribute>
+      <attribute name="position">13 970</attribute>
+      <attribute name="size">672 38</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:58</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">V. GIẤY PHÉP, NĂNG ĐỊNH VÀ CÁC PHÊ CHUẨN GIÁO VIÊN HIỆN HÀNH (CURRENT VALID LICENCE AND RELATED APPROVAL)</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif BOLD 12</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">WORD</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>303</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>-8</x_offset>
+        <y_offset>10</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="290">
+      <attribute name="name">Label_33</attribute>
+      <attribute name="position">14 1135</attribute>
+      <attribute name="size">522 28</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:58</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">VI. KHẢ NĂNG THÀNH THẠO TIẾNG ANH (PROFICIENCY OF THE ENGLISH LANGUAGE):</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif BOLD 12</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">WORD</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>276</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>-4</x_offset>
+        <y_offset>29</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="291">
+      <attribute name="name">Label_34</attribute>
+      <attribute name="position">538 1134</attribute>
+      <attribute name="size">148 29</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>290</anchor_view>
+        <anchor_location>TOP_RIGHT</anchor_location>
+        <x_offset>2</x_offset>
+        <y_offset>-1</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="292">
+      <attribute name="name">Label_35</attribute>
+      <attribute name="position">14 1172</attribute>
+      <attribute name="size">254 28</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:58</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">VII. HỒ SƠ AN TOÀN (SAFETY RECORDS):</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif BOLD 12</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">WORD</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>290</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>0</x_offset>
+        <y_offset>9</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="293">
+      <attribute name="name">Label_36</attribute>
+      <attribute name="position">304 1171</attribute>
+      <attribute name="size">35 28</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:58</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">YES</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif BOLD 12</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">WORD</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>295</anchor_view>
+        <anchor_location>TOP_RIGHT</anchor_location>
+        <x_offset>3</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="294">
+      <attribute name="name">Label_37</attribute>
+      <attribute name="position">375 1171</attribute>
+      <attribute name="size">35 28</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:58</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">NO</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif BOLD 12</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">WORD</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>296</anchor_view>
+        <anchor_location>TOP_RIGHT</anchor_location>
+        <x_offset>2</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="CheckboxReportView" id="295">
+      <attribute name="name">Checkbox_38</attribute>
+      <attribute name="position">272 1171</attribute>
+      <attribute name="size">29 29</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes>
+        <conditional_attribute id="1">
+          <attribute name="checked">YES</attribute>
+          <conditions>
+            <condition class="GenericStyleCondition">
+              <field id="1">@VAR.SAFETY@</field>
+              <field id="2">Y</field>
+              <operator negated="NO">EQUALS</operator>
+            </condition>
+          </conditions>
+        </conditional_attribute>
+      </conditional_attributes>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">1 SOLID 000000</attribute>
+      <attribute name="checked">NO</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>292</anchor_view>
+        <anchor_location>TOP_RIGHT</anchor_location>
+        <x_offset>4</x_offset>
+        <y_offset>-1</y_offset>
+      </anchor>
+    </view>
+    <view class="CheckboxReportView" id="296">
+      <attribute name="name">Checkbox_39</attribute>
+      <attribute name="position">344 1171</attribute>
+      <attribute name="size">29 29</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes>
+        <conditional_attribute id="1">
+          <attribute name="checked">YES</attribute>
+          <conditions>
+            <condition class="GenericStyleCondition">
+              <field id="1">@VAR.SAFETY@</field>
+              <field id="2">N</field>
+              <operator negated="NO">EQUALS</operator>
+            </condition>
+          </conditions>
+        </conditional_attribute>
+      </conditional_attributes>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">1 SOLID 000000</attribute>
+      <attribute name="checked">NO</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>293</anchor_view>
+        <anchor_location>TOP_RIGHT</anchor_location>
+        <x_offset>5</x_offset>
+        <y_offset>0</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="297">
+      <attribute name="name">Label_40</attribute>
+      <attribute name="position">13 1203</attribute>
+      <attribute name="size">671 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">(A attached record as a pilot, AMT, flight instructor in regard to accidents, incidents, and violations)</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif ITALIC 10</attribute>
+      <attribute name="text-align">LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>292</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>-1</x_offset>
+        <y_offset>3</y_offset>
+      </anchor>
+    </view>
+    <view class="HtmlReportView" id="298">
+      <attribute name="name">Html_41</attribute>
+      <attribute name="position">14 1231</attribute>
+      <attribute name="size">670 40</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="html-content">&lt;p&gt;&lt;span style="font-family:serif"&gt;&lt;span style="font-size:12pt"&gt; &amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;Tôi xin cam đoan bản khai sơ yếu lý lịch trên đúng sự thật, nếu có điều gì không đúng tôi chịu trách nhiệm trước pháp luật về lời khai của mình. &lt;/span&gt;&lt;/span&gt;&lt;strong&gt;&lt;em&gt;&lt;span style="font-family:serif"&gt;&lt;span style="font-size:12pt"&gt;I hereby certify that the above information is true. If there is anything wrong, I will be responsible before the law.&lt;/span&gt;&lt;/span&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</attribute>
+      <attribute name="scale-images">NO</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>297</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>1</x_offset>
+        <y_offset>3</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="299">
+      <attribute name="name">Label_42</attribute>
+      <attribute name="position">37 1298</attribute>
+      <attribute name="size">231 76</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">06.Mar.2026  00:41</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">Xác nhận của cơ quan đang công tác
+hoặc địa phương nơi thường trú
+Endorsement by local government or 
+the current company.</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif BOLD 11</attribute>
+      <attribute name="text-align">CENTER</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>298</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>23</x_offset>
+        <y_offset>27</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="300">
+      <attribute name="name">Label_43</attribute>
+      <attribute name="position">359 1299</attribute>
+      <attribute name="size">325 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">TP.HCM, ngày@VAR@tháng@VAR@năm @VAR@</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif ITALIC 10</attribute>
+      <attribute name="text-align">CENTER</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>299</anchor_view>
+        <anchor_location>TOP_RIGHT</anchor_location>
+        <x_offset>91</x_offset>
+        <y_offset>1</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="301">
+      <attribute name="name">Label_44</attribute>
+      <attribute name="position">358 1315</attribute>
+      <attribute name="size">327 29</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">06.Mar.2026  00:41</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">Người khai/ Applicant</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif BOLD 11</attribute>
+      <attribute name="text-align">CENTER</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>300</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>-1</x_offset>
+        <y_offset>-9</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="302">
+      <attribute name="name">Label_45</attribute>
+      <attribute name="position">359 1338</attribute>
+      <attribute name="size">328 34</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">03.Mar.2026  00:59</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">ký và ghi rõ họ tên)
+(Sign with full name)</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">Serif PLAIN 10</attribute>
+      <attribute name="text-align">CENTER</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>301</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>1</x_offset>
+        <y_offset>-6</y_offset>
+      </anchor>
+    </view>
+    <view class="HtmlReportView" id="303">
+      <attribute name="name">Html_1</attribute>
+      <attribute name="position">21 833</attribute>
+      <attribute name="size">663 127</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="html-content">&lt;html&gt;@EMPL_HISTORY.db_link.link_remarks@&lt;/html&gt;</attribute>
+      <attribute name="scale-images">NO</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>273</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>-1</x_offset>
+        <y_offset>14</y_offset>
+      </anchor>
+    </view>
+    <view class="HtmlReportView" id="304">
+      <attribute name="name">Html_1</attribute>
+      <attribute name="position">19 538</attribute>
+      <attribute name="size">663 87</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="html-content">&lt;html&gt;@RELATIVE.db_link.link_remarks@&lt;/html&gt;</attribute>
+      <attribute name="scale-images">NO</attribute>
+    </view>
+  </content>
+  <dataSourceList>
+    <ds:dataSource xmlns:ds="http://www.swiss-as.com/xml/datasource_2.0" id="VAR" type="PARAMETER_DATASOURCE" version="2.0">
+      <ds:description>Contains all user defined variables and constants.</ds:description>
+      <ds:columnDescriptors>
+        <ds:columnDescriptor amosType="SG" description="" id="VJCID"/>
+        <ds:columnDescriptor amosType="BOOL" description="" id="SAFETY"/>
+      </ds:columnDescriptors>
+      <ds:configurationParameters>
+        <ds:value amosType="NONE" description="VJCID" id="VJCID">
+          <ds:map>
+            <ds:keyValuePair>
+              <ds:key>multi</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>defaultValue</ds:key>
+              <ds:data>VJC2741</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>relativeDate</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>selectionValues</ds:key>
+              <ds:data>*</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>mandatory</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+          </ds:map>
+        </ds:value>
+        <ds:value amosType="NONE" description="HO SO AN TOAN (SAFETY RECORDS)" id="SAFETY">
+          <ds:map>
+            <ds:keyValuePair>
+              <ds:key>multi</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>defaultValue</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>relativeDate</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>selectionValues</ds:key>
+              <ds:data>*</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>mandatory</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+          </ds:map>
+        </ds:value>
+      </ds:configurationParameters>
+    </ds:dataSource>
+    <ds:dataSource xmlns:ds="http://www.swiss-as.com/xml/datasource_2.0" id="CAAV FSSD FORM 008 - SECTION I" type="SQL_EDITOR_DATASOURCE" version="2.0">
+      <ds:description>CAAV FSSD FORM 008 - SECTION I</ds:description>
+      <ds:columnDescriptors>
+        <ds:columnDescriptor amosType="ALPHANUM" description="firstname" id="s.firstname"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="lastname" id="s.lastname"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="Sex" id="Sex"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="birthdate" id="birthdate"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="nationality" id="s.nationality"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="street" id="s.street"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="city" id="s.city"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="country_code" id="country_code"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="country" id="country"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="s.street2" id="s.street2"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="s.zipcode2" id="s.zipcode2"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="s.city2" id="s.city2"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="country_code2" id="country_code2"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="country2" id="country2"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="place_of_birth" id="place_of_birth"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="country_of_birth" id="country_of_birth"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="ethnic" id="ethnic"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="religion" id="religion"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="passport_no" id="passport_no"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="homeland" id="homeland"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="phoneno" id="phoneno"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="passport_issued_date" id="passport_issued_date"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="passport_issued_place" id="passport_issued_place"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="education" id="education"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="ket_nap_dang_date" id="ket_nap_dang_date"/>
+      </ds:columnDescriptors>
+      <ds:configurationParameters>
+        <ds:value amosType="ALPHANUM" description="string placeholder" id="@VAR.VJCID@">
+          <ds:object>@VAR.VJCID@</ds:object>
+        </ds:value>
+      </ds:configurationParameters>
+      <ds:sqlEditorDataSource>
+        <se:sqlStatement xmlns:se="http://www.swiss-as.com/xml/sqlStatement_2.0" type="TEXT_EDITOR" version="2.0">
+          <se:textStatement>SELECT 
+    s.firstname,
+    s.lastname,
+    CASE 
+        WHEN s.sex = 'M' THEN 'Male'
+        WHEN s.sex = 'F' THEN 'Female'
+    END AS Sex,
+    TO_CHAR((DATE '1971-12-31' + s.birthdate)::DATE, 'DD/MM/YYYY') AS birthdate,
+    s.nationality,
+    s.street,
+    s.city,
+    s.country AS country_code,
+    cc.description AS country,
+    s.street2,
+    s.zipcode2,
+    s.city2,
+    s.country2 AS country_code2,
+    cc.description AS country2,
+    MAX(CASE WHEN rpv.property_type_no_i = 2086 THEN rpv.char_value END) AS place_of_birth,
+    MAX(CASE WHEN rpv.property_type_no_i = 2087 THEN rpv.char_value END) AS country_of_birth,
+    MAX(CASE WHEN rpv.property_type_no_i = 2093 THEN rpv.char_value END) AS ethnic,
+    MAX(CASE WHEN rpv.property_type_no_i = 2094 THEN rpv.char_value END) AS religion,
+    MAX(CASE WHEN rpv.property_type_no_i = 2098 THEN rpv.char_value END) AS passport_no,
+    MAX(CASE WHEN rpv.property_type_no_i = 2092 THEN rpv.char_value END) AS homeland,
+    MAX(CASE WHEN rpv.property_type_no_i = 178 THEN rpv.char_value END) AS phoneno,
+    TO_CHAR(DATE '1971-12-31' + MAX(CASE WHEN rpv.property_type_no_i = 2099 THEN rpv.int_value END)::INTEGER,'DD/MM/YYYY') AS passport_issued_date,
+    MAX(CASE WHEN rpv.property_type_no_i = 2100 THEN rpv.char_value END) AS passport_issued_place,
+    MAX(CASE WHEN rpv.property_type_no_i = 2101 THEN rpv.char_value END) AS education,
+    TO_CHAR(DATE '1971-12-31' + MAX(CASE WHEN rpv.property_type_no_i = 2102 THEN rpv.int_value END)::INTEGER,'DD/MM/YYYY') AS ket_nap_dang_date
+FROM sign s
+LEFT JOIN rm_property_value rpv 
+    ON s.employee_no_i = rpv.owner_amos_key
+    AND rpv.owner_amos_type = 'SG'
+LEFT JOIN country cc
+    ON cc.country = s.country
+WHERE
+s.user_sign='@VAR.VJCID@'
+GROUP BY s.employee_no_i, s.firstname, s.lastname, s.sex, 
+         s.birthdate, s.nationality, s.street, s.city, s.country, s.street2, s.zipcode2, s.city2, s.country2,cc.description</se:textStatement>
+        </se:sqlStatement>
+      </ds:sqlEditorDataSource>
+    </ds:dataSource>
+    <ds:dataSource xmlns:ds="http://www.swiss-as.com/xml/datasource_2.0" id="CAAV FSSD 008 - SECTION III" type="SQL_EDITOR_DATASOURCE" version="2.0">
+      <ds:description>CAAV FSSD 008 - SECTION III</ds:description>
+      <ds:columnDescriptors>
+        <ds:columnDescriptor amosType="ALPHANUM" description="pqs_start_date" id="pqs_start_date"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="pqs_end_date" id="pqs_end_date"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="spt.type_description" id="spt.type_description"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="pqc.pqs_class_id" id="pqc.pqs_class_id"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="pqc.label" id="pqc.label"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="major" id="major"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="training_org" id="training_org"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="form_of_training" id="form_of_training"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="degree_diploma_cert" id="degree_diploma_cert"/>
+      </ds:columnDescriptors>
+      <ds:configurationParameters/>
+      <ds:sqlEditorDataSource>
+        <se:sqlStatement xmlns:se="http://www.swiss-as.com/xml/sqlStatement_2.0" type="TEXT_EDITOR" version="2.0">
+                              
+          
+          <se:textStatement>SELECT 
+    TO_CHAR(DATE '1971-12-31' + pqs.start_date::INTEGER,'DD/MM/YYYY') AS pqs_start_date,
+    TO_CHAR(DATE '1971-12-31' + pqs.end_date::INTEGER,'DD/MM/YYYY') AS pqs_end_date,
+    spt.type_description,
+    pqc.pqs_class_id,
+    pqc.label,
+    COALESCE(MAX(CASE WHEN rpv.property_type_no_i = 2281 THEN rpv.char_value END), spt.type_description) AS major,
+    COALESCE(MAX(CASE WHEN rpv.property_type_no_i = 2381 THEN rpv.char_value END), 'HỌC VIỆN HÀNG KHÔNG VICTORIA') AS training_org,
+    COALESCE(MAX(CASE WHEN rpv.property_type_no_i = 2282 THEN rpv.char_value END), 'Lý thuyết + Thực hành') AS form_of_training,
+    COALESCE(MAX(CASE WHEN rpv.property_type_no_i = 2283 THEN rpv.char_value END), 'Chứng Chỉ') AS degree_diploma_cert
+FROM sign s
+LEFT JOIN staff_pqs_qualification pqs ON pqs.employee_no_i = s.employee_no_i
+LEFT JOIN staff_pqs_type spt ON spt.pqs_type_no_i = pqs.pqs_type_no_i
+LEFT JOIN staff_pqs_class pqc ON pqc.pqs_class_no_i = spt.pqs_class_no_i
+LEFT JOIN rm_property_value rpv ON rpv.owner_amos_key = pqs.pqs_qualification_no_i
+WHERE
+    s.user_sign='VJC2741'
+    AND (spt.pqs_type_no_i = 894 OR spt.pqs_type_no_i = 374
+         OR (pqs.pqs_type_no_i = 12173 AND rpv.owner_amos_type = 'PQSE'))
+GROUP BY s.employee_no_i, pqs.start_date, pqs.end_date, spt.type_description, pqc.pqs_class_id, pqc.label</se:textStatement>
+                            
+        
+        </se:sqlStatement>
+      </ds:sqlEditorDataSource>
+    </ds:dataSource>
+    <ds:dataSource xmlns:ds="http://www.swiss-as.com/xml/datasource_2.0" id="EMPL_HISTORY" type="SQL_EDITOR_DATASOURCE" version="2.0">
+      <ds:description>Unknown data source</ds:description>
+      <ds:columnDescriptors>
+        <ds:columnDescriptor amosType="ALPHANUM" description="db_link.link_remarks" id="db_link.link_remarks"/>
+      </ds:columnDescriptors>
+      <ds:configurationParameters>
+        <ds:value amosType="ALPHANUM" description="string placeholder" id="@VAR.VJCID@">
+          <ds:object>@VAR.VJCID@</ds:object>
+        </ds:value>
+      </ds:configurationParameters>
+      <ds:sqlEditorDataSource>
+        <se:sqlStatement xmlns:se="http://www.swiss-as.com/xml/sqlStatement_2.0" type="TEXT_EDITOR" version="2.0">
+                    
+          <se:textStatement>SELECT
+db_link.link_remarks
+FROM db_link
+WHERE
+db_link.source_pk = '@VAR.VJCID@'
+AND db_link.description = 'EMPLOYMENT_HISTORY'
+AND db_link.source_type = 'SG'</se:textStatement>
+                  
+        </se:sqlStatement>
+      </ds:sqlEditorDataSource>
+    </ds:dataSource>
+    <ds:dataSource xmlns:ds="http://www.swiss-as.com/xml/datasource_2.0" id="RELATIVE" type="SQL_EDITOR_DATASOURCE" version="2.0">
+      <ds:description>Unknown data source</ds:description>
+      <ds:columnDescriptors>
+        <ds:columnDescriptor amosType="ALPHANUM" description="db_link.link_remarks" id="db_link.link_remarks"/>
+      </ds:columnDescriptors>
+      <ds:configurationParameters>
+        <ds:value amosType="ALPHANUM" description="string placeholder" id="@LOGIN_SIGN@">
+          <ds:object>@LOGIN_SIGN@</ds:object>
+        </ds:value>
+      </ds:configurationParameters>
+      <ds:sqlEditorDataSource>
+        <se:sqlStatement xmlns:se="http://www.swiss-as.com/xml/sqlStatement_2.0" type="TEXT_EDITOR" version="2.0">
+                                                  
+          
+          
+          
+          <se:textStatement>SELECT
+db_link.link_remarks
+FROM db_link
+WHERE
+db_link.source_pk = '@LOGIN_SIGN@'
+AND db_link.description = 'PERSONAL_INFO_RELATIVES'
+AND db_link.source_type = 'SG'</se:textStatement>
+                                                
+        
+        
+        
+        </se:sqlStatement>
+      </ds:sqlEditorDataSource>
+    </ds:dataSource>
+  </dataSourceList>
+</report>
