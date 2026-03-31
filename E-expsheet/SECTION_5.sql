@@ -1,15 +1,16 @@
 SELECT 
     b.event_perfno_i,
-    TRIM(SUBSTRING(b.text FROM 'AC:\s*([A-Z0-9]+)')) AS "AC",
-    TRIM(SUBSTRING(b.text FROM 'WP:\s*([A-Z0-9]+)')) AS "WP",
+    TRIM(SUBSTRING(b.text FROM 'AC:\s*([A-Z0-9-]+)')) AS "AC",
+    TRIM(SUBSTRING(b.text FROM 'WP:\s*([A-Z0-9-]+)')) AS "WP",
     b.extracted_wo_id AS "WO",
     TRIM(SUBSTRING(b.text FROM 'MAINT RECORD:\s*(.*)$')) AS "MAINT RECORD",
-    b."CAT",
+    dl.classification AS "CAT",
     b.text,
     b.created_by,
     b."REMARKS",
     TO_CHAR(DATE '1971-12-31' + b.created_date, 'DD.MON.YYYY') AS "CREATED_DATE",
-    wt.template_number,
+    b.other as "MHR",
+    SPLIT_PART(wt.template_number, '-', 4) AS "ID",
     wt.template_title,
     dl.description,
     dl.link_remarks
@@ -19,14 +20,26 @@ FROM (
     SELECT 
         wo_header.event_perfno_i,
         wo_header.template_revisionno_i,
-        wo_header_more.other AS "CAT",
         wo_text_description.text,
         wo_text_description.created_by,
         wo_text_description.desc_comment AS "REMARKS",
         wo_text_description.created_date,
         wp_header.wpno_i,
-        -- Chuyển số WO lấy được sang SỐ NGUYÊN luôn (không dùng ::VARCHAR)
-        NULLIF(TRIM(SUBSTRING(wo_text_description.text FROM 'WO:\s*([0-9]+)')), '')::BIGINT AS extracted_wo_id
+        wo_header_more.other,
+        -- Chuyển số WO lấy được sang SỐ NGUYÊN luôn
+        -- Dùng Regex để bắt đúng phần số nguyên sau "WO:", tránh lấy thừa ký tự
+        CAST(
+            NULLIF(
+                -- Bước 1: Xóa backtick (CHR(96)) ra khỏi text bằng REPLACE
+                -- Bước 2: SUBSTRING bắt duy nhất CÁC CHỮ SỐ [0-9]+ ngay sau WO:
+                -- Nếu có dạng 10592432.00 hoặc 10592432 WP:, Regex sẽ dừng tự động ngay trước dấu chấm/khoảng trắng.
+                SUBSTRING(
+                    REPLACE(wo_text_description.text, CHR(96), '')
+                    FROM 'WO:\s*([0-9]+)'
+                ),
+                ''
+            )
+        AS BIGINT) AS extracted_wo_id
     FROM wp_header
     JOIN wp_assignment ON wp_header.wpno_i = wp_assignment.wpno_i
     JOIN wo_header ON wp_assignment.event_perfno_i = wo_header.event_perfno_i
@@ -35,8 +48,10 @@ FROM (
     JOIN wo_text_description ON wo_text_description.descno_i = workstep_link.descno_i
     WHERE 
         -- Bộ chốt ID của bạn (sẽ làm tập query nhỏ đi ngay lập tức trước khi chạy subquery)
-        wp_header.wpno_i = 136637
-        AND wo_header.event_perfno_i = 7970733
+        wp_header.wpno LIKE '%EXP-VJC2741%'
+        AND wo_header.event_type = 'JC'
+        AND wo_header.state = 'C'
+        
 ) b
 LEFT JOIN event_template et ON b.template_revisionno_i = et.template_revisionno_i
 LEFT JOIN work_template wt ON et.wtno_i = wt.wtno_i
@@ -57,3 +72,17 @@ WHERE EXISTS (
          -- số lượng rows lọt xuống cấp độ này đã bị thu hẹp bởi CTE và JOIN/WHERE bên trên
          AND sub_dl.description LIKE '%' || dl.description || '%'
 )
+OR
+EXISTS (
+    SELECT 1
+    FROM wp_header 
+    LEFT JOIN wp_assignment ON wp_header.wpno_i = wp_assignment.wpno_i
+    JOIN forecast ON forecast.event_perfno_i = wp_assignment.event_perfno_i
+    LEFT JOIN db_link ON forecast.event_perfno_i::VARCHAR =db_link.source_pk AND db_link.source_type = 'WO'
+                    
+    WHERE
+    wp_header.wpno LIKE '%' || TRIM(SUBSTRING(b.text FROM 'WP:\s*([A-Z0-9-]+)')) || '%'
+    AND forecast.sequence LIKE '%' || TRIM(SUBSTRING(b.text FROM 'MAINT RECORD:\s*([A-Z0-9.]+)')) || '%'
+    AND db_link.description LIKE '%' || dl.description || '%'
+)
+
