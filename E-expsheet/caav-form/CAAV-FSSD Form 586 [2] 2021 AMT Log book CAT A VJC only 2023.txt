@@ -1,0 +1,5763 @@
+﻿           Section 1. Personal Data
+
+Title:
+Forename(s):
+Surname:
+Date of Birth:
+Nationality:
+Licence No:
+Permanent Address:
+
+
+Change of Permanent Address:
+
+
+Post Code:
+Change of Post Code:
+
+
+Log Book Holder’s Name: ...............................................................   Signature:
+
+           Record of Training
+           It is important to note that the logbook holder may not certify his/her own entries. However, certain pages require the name of the logbook holder. This is primarily for traceability and identification purposes, particularly when logbook pages are separated from the logbook and used in isolation.
+           
+
+Type of Training Completed
+
+Training Organization
+Date
+
+Result
+
+
+From
+To
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Log Book Holder’s Name: ..............................................................   Signature:
+
+           Section 2. Employment Record
+Employer:
+From:
+To:
+Position in Company:
+Nature of Duties:
+Types of aircraft or other products:
+Confirmed by:
+
+Signature:
+
+
+Date:
+
+
+Position in Company:
+Employer:
+From:
+To:
+Position in Company:
+Nature of Duties:
+Type of aircraft or other products:
+Confirmed by:
+
+Signature:
+
+
+
+Date:
+
+
+
+Position in Company:
+
+Log Book Holder’s Name: ............................................................  Signature:
+           Section 3. Instructor/ Supervisor Details
+The instructor/ supervisor named below sign and confirm that the trainee (log book holder) named in the section 1 has completed the required tasks under his/ her instruction/ supervision, and is able to safety perform the task signed by him/her.
+The Task Supervisor/ Instructor are approved by the CAAV and may be any one of the following:
+(1) An appropriately qualified VAR Part-9 training instructor authorised by the organisation under the terms of its approval to conduct practical training or OJT (on the job training).
+(2) An appropriately qualified licensed aircraft maintenance engineer employed by a VAR Part-5 maintenance organisation and authorised to conduct OJT.
+No.
+Full Name
+Staff ID
+Company/ Department
+Signature, Stamp or Licence Number
+1.
+
+
+
+
+2.
+
+
+
+
+3.
+
+
+
+
+4.
+
+
+
+
+5.
+
+
+
+
+6.
+
+
+
+
+Log Book Holder’s Name: 	  Signature: 
+
+No.
+Full Name
+Staff ID
+Company/ Department
+Signature, Stamp or Licence Number
+7.
+
+
+
+
+8.
+
+
+
+
+9.
+
+
+
+
+10.
+
+
+
+
+11.
+
+
+
+
+12.
+
+
+
+
+13.
+
+
+
+
+14.
+
+
+
+
+            
+Log Book Holder’s Name: 	  Signature: 
+           Section 4. Basic Skills
+                               This section is to record the achievement of practical competencies required to show completion of the appropriate category. The basic skill credits may be obtained before or after the basic training course and valid within 10 (ten) years to the date of application for the license. The skills identified in this section relate directly to corresponding license privileges:
+                               +The required training and assessment may be carried out on in-service aircraft, in workshops, on training equipment or on simulators.
+                               +Each entry must be confirmed by an instructor/ supervisor, with his/her signature, position and organization details, to indicate that the logbook holder has achieved the required competence on the subject. 
+                               + A specific task should only be entered once. There is no requirement to make multiple entries for the same or similar tasks.
+                               + The skills that are not applicable to corresponding license privileges may not be required and specified by entering “N/A” in “Instructor/ Supervisor Signature and/or Stamp” column.
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+Log Book Holder’s Name: 	  Signature: 
+                               
+Date
+Competence obtained
+Category
+Instructor/ Supervisor
+Signature and/or Stamp
+Remark
+
+    1. General Aircraft Maintenance
+
+
+
+
+1.1 Awareness of hazards when working with aircraft – noise, heat, moving surfaces, propellers, intakes, exhausts.
+A, B1, B2
+
+
+
+1.2 Safety precautions when using fluids, gasses and chemicals.
+A, B1, B2
+
+
+
+    2. Mechanical Fitting Practices (Common)
+
+
+
+
+2.1 Related safety practices.
+B1
+
+
+
+2.2 Use a range of hand tools and power tools to achieve a dimensional accuracy of  ± 0.010 in / 0.25 mm.
+B1
+
+
+
+2.3 Interpret and work to engineering drawings.
+B1
+
+
+
+2.4 Use basic tools and equipment for: cutting, forming and joining commonly used materials. (Ferrous and non-ferrous).
+B1
+
+
+
+2.5 Mark out use measuring equipment e.g. micrometers, rulers, verniers, height gauges, squares, vee blocks and surface tables.
+B1
+
+
+
+2.6 Select and use feeler, slip, limit, go / no go gauges.
+A, B1
+
+
+
+2.7 Fit and remove thread inserts.
+A, B1
+
+
+
+Log Book Holder’s Name: ............................................................... Signature:
+
+
+
+Date
+Competence obtained
+Category
+Instructor/ Supervisor
+Signature and/or Stamp
+Remark
+
+2.8 Drill and tap a threaded hole.
+B1
+
+
+
+2.9 Drill and ream perpendicular holes in ferrous and non-ferrous material.
+B1
+
+
+
+    3. Assembly / Disassembly Practices (Common)
+
+
+
+
+3.1 Apply correct procedures: Material storage and handling.
+B1, B2
+
+
+
+3.2 Identification of a range of materials.
+B1, B2
+
+
+
+3.3 Cleaning and Contamination control.
+A, B1, B2
+
+
+
+3.4 Use of a range of common assembly and disassembly tools plus specific application tools.
+A, B1, B2
+
+
+
+3.5 Adjust, set and use torque spanners.
+A, B1, B2
+
+
+
+3.6 Identify standards and specifications of common use parts i.e. nuts, bolts, washers and split pins.
+A, B1, B2
+
+
+
+3.7 Identify part numbers and serial numbers from an approved component overhaul manual or illustrated parts catalogue.
+A, B1, B2
+
+
+
+3.8 Fit and remove a range of common use components e.g. split pins, tabs, spring and plain washers, plain and lock nuts.
+A, B1, B2
+
+
+
+Log Book Holder’s Name: ............................................................... Signature:
+
+Date
+Competence obtained
+Category
+Instructor/ Supervisor
+Signature and/or Stamp
+Remark
+
+3.9 Demonstrate competence when wire locking a variety of assemblies.
+A, B1, B2
+
+
+
+3.10 Measure shafts, bores, flanges, and adjacent surfaces using a variety of precision measuring instruments & record dimensions.
+B1
+
+
+
+3.11 Disassemble and assemble an aircraft component IAW manufacturer’s overhaul manual.
+B1, B2
+
+
+
+    4. Wiring and Looming (Common)
+
+
+
+
+4.1 Identify cables and cables values by reference to the maintenance manuals.
+B1, B2
+
+
+
+4.2 Identify a range of electrical component symbols.
+B1, B2
+
+
+
+4.3 Interpret typical electrical wiring diagrams and schematics circuits.
+B1, B2
+
+
+
+4.4 Select and use appropriate cable stripping tools.
+B1, B2
+
+
+
+4.5 Using at least two crimping systems, select appropriate cable crimping tools and crimp cables to prepare cable ends or plug / socket terminals.
+
+B1, B2
+
+
+
+4.6 Solder cables to single and multi-pin connectors / tag boards.
+B1, B2
+
+
+
+Log Book Holder’s Name: ............................................................... Signature:
+
+
+Date
+Competence obtained
+Category
+Instructor/ Supervisor
+Signature and/or Stamp
+Remark
+
+4.7 Check an aircraft electrical circuit for continuity in conjunction with an electrical wiring diagram.
+B1, B2
+
+
+
+4.8 Carry out basic fault finding techniques using a range of test meters.
+B1, B2
+
+
+
+4.9 Prepare, and install a simple loom, using at least two binding methods.
+B1, B2
+
+
+
+4.10 Discuss and demonstrate the use of a range of test meters to measure volts, amps and resistance in practical task circumstances.
+
+B1, B2
+
+
+
+4.11 Carry out bonding and insulation tests.
+B1, B2
+
+
+
+4.12 Explain / demonstrate how to inspect aircraft areas for HIRF protection.
+B1, B2
+
+
+
+4.13 Carry out an inspection for lightning strike protection.
+A, B1, B2
+
+
+
+4.14 Insertion / extraction of electrical inserts in a variety of electrical connectors.
+B1, B2
+
+
+
+4.15 Inspection of electrical cable looms / bundles and cable trunking.
+B1, B2
+
+
+
+Log Book Holder’s Name: ............................................................... Signature:
+
+
+Date
+Competence obtained
+Category
+Instructor/ Supervisor
+Signature and/or Stamp
+Remark
+
+    5. Electrical Power / Avionic Systems (Common)
+
+
+
+
+5.1 Reading and interpretation of electrical schematic and wiring diagrams.
+B1, B2
+
+
+
+5.2 Replace a range of Avionic LRUs and apply associated BITE.
+B1, B2
+
+
+
+5.3 Remove / Refit Power Distribution Control & Protection equipment.
+B1, B2
+
+
+
+5.4 Generator power check / voltage adjustment.
+B1, B2
+
+
+
+5.5 Internal lighting bulb and filament changes.
+A, B1, B2
+
+
+
+5.6 Replace and function test IFE Equipment (excludes public address).
+A, B1, B2
+
+
+
+5.7 Replacement of ovens, boilers and beverage makers.
+A, B1
+
+
+
+5.8 Compass / Standby Compass compensation swing and calculations.
+B1, B2
+
+
+
+5.9 External lighting bulb and filament changes.
+A, B1
+
+
+
+5.10 Implement ESD procedures.
+A, B1, B2
+
+
+
+Log Book Holder’s Name: ............................................................... Signature:
+
+
+Date
+Competence obtained
+Category
+Instructor/ Supervisor
+Signature and/or Stamp
+Remark
+
+    6. Sheet Metal Practices
+
+
+
+
+6.1 Interpret engineering drawings and calculate size of material required to produce a component of material with one or more bends.
+
+B1
+
+
+
+6.2 Bend metal to a bend radius, angle and dimensions as given in the engineering drawing.’
+B1
+
+
+
+6.3 Use a range of hand & power tools to position rivet holes to an accuracy of: ± 0.30ins / 0.75mm.
+B1
+
+
+
+6.4 Identify a range of solid and blind rivets and fasteners.
+B1
+
+
+
+6.5 Identify, select and use a range of rivet setting equipment.
+B1
+
+
+
+6.6 Set a range of rivets in aluminum sheet. Range to include raised and countersunk rivets.
+B1
+
+
+
+6.7 Select and use a range of appropriate rivet closing tools.
+B1
+
+
+
+6.8 Select and fit sheet gripping pins.
+B1
+
+
+
+6.9 Identify rivet setting faults.
+B1
+
+
+
+Log Book Holder’s Name: ............................................................... Signature:
+
+
+
+Date
+Competence obtained
+Category
+Instructor/ Supervisor
+Signature and/or Stamp
+Remark
+
+6.10 Remove defective rivets without causing further damage to skin.
+B1
+
+
+
+6.11 Select and install oversize rivets as instructed in SRM.
+B1
+
+
+
+6.12 Set a range of other fasteners in aluminum sheet.
+B1
+
+
+
+6.13 Removal of corrosion and reprotection of aluminum sheet metal.
+B1
+
+
+
+6.14 Cut and shape material to required profile, finish edges and deburr using approved procedures.
+B1
+
+
+
+    7. Composite and Non-Metallic Practices (other than wood and fabric)
+
+
+
+
+7.1 Identification of the characteristics and properties of common composite and non-metallic materials other than wood, used in aircraft.
+
+A, B1, B2
+
+
+
+7.2 Identification of sealing and bonding agents.
+A, B1, B2
+
+
+
+7.3 Detection of defects/deterioration in composite and non- metallic material.
+A, B1
+
+
+
+7.4 Repair of composite and non-metallic materials and structures.
+A, B1
+
+
+
+Log Book Holder’s Name: ............................................................... Signature:
+
+
+Date
+Competence obtained
+Category
+Instructor/ Supervisor
+Signature and/or Stamp
+Remark
+
+
+    8. Wooden Structures Practices
+
+
+
+
+
+8.1 Identification of the characteristics and properties of common types of wood and glue used in aircraft.
+A, B1
+N/A
+
+
+
+8.2 Identification of construction methods used in wooden structures.
+A, B1
+N/A
+
+
+
+8.3 Methods of preservation and maintenance of wooden structures.
+A, B1
+N/A
+
+
+
+8.4 Identification and detection of defects in wood material and wooden structures.
+A, B1
+N/A
+
+
+
+8.5 Repair of wooden structures.
+A, B1
+N/A
+
+
+
+    9. Fabric Covering Practices
+
+
+
+
+
+9.1 Identification of the characteristics and properties of common fabrics and adhesives used in wooden structured aircraft.
+A, B1
+N/A
+
+
+
+9.2 Inspection method for fabrics.
+A, B1
+N/A
+
+
+
+9.3 Identification of defects in fabrics.
+A, B1
+N/A
+
+
+
+9.4 Repair of fabric covering.
+A, B1
+N/A
+
+
+
+Log Book Holder’s Name: ............................................................... Signature:
+
+
+N/A
+Date
+Competence obtained
+Category
+Instructor/ Supervisor
+Signature and/or Stamp
+Remark
+
+    10. Maintenance Practices
+
+
+
+
+10.1 Inspection of a structure using a mirror and a light source.
+A, B1
+
+
+
+10.2 Remove & replace a range of flexible hoses including clips and brackets.
+A, B1
+
+
+
+10.3 Remove & replace a range of rigid pipes, including clips and brackets.
+A, B1
+
+
+
+10.4 Locate components using referencing system, e.g. station numbers.
+B1
+
+
+
+10.5 Carry out a heavy landing / turbulence check.
+A, B1
+
+
+
+10.6 Assist in the raising / lowering of an aircraft on or off jacks.
+A, B1
+
+
+
+10.7 Jack aircraft level to rigging position.
+A, B1
+
+
+
+10.8 Assist in the towing of an aircraft.
+A, B1
+
+
+
+10.9 Remove and refit a range of aircraft panels.
+A, B1
+
+
+
+Log Book Holder’s Name: ............................................................... Signature:
+
+
+
+
+
+
+Date
+Competence obtained
+Category
+Instructor/ Supervisor
+Signature and/or Stamp
+Remark
+
+10.10 Lubrication of bearings, flight controls and undercarriages.
+A, B1
+
+
+
+10.11 Carry out Pre-Departure inspections
+a - Refuel aircraft.
+b - Check & replenish oil, hydraulic and pneumatic systems, Tyre Pressures.
+c - Perform Pre-flight Check.
+
+
+A, B1
+
+
+
+10.12 Carry out Daily inspections
+a - Service toilet and potable water system.
+b - Connect and use correctly ground electrical power.
+c - Connect and use correctly ground air supply.
+
+
+A, B1
+
+
+
+10.13 Replenish oxygen system.
+A, B1
+
+
+
+10.14 Assist in pressurization test.
+B1
+
+
+
+10.15 Operational check of ground power.
+A, B1
+
+
+
+10.16 Carry out a VHF Radio check.
+B1
+
+
+
+10.17 Remove / Refit Main and APU Batteries.
+A, B1, B2
+
+
+
+Log Book Holder’s Name: ............................................................... Signature:
+Date
+Competence obtained
+Category
+Instructor/ Supervisor
+Signature and/or Stamp
+Remark
+
+10.18 Remove / Refit Emergency Battery.
+A, B1, B2
+
+
+
+10.19 Replace carpets.
+A, B1
+
+
+
+10.20 Replace crew seats.
+A, B1
+
+
+
+10.21 Replace passenger seats.
+A, B1
+
+
+
+10.22 Check seat belts for serviceability.
+A, B1
+
+
+
+10.23 Replace and test a range of electrical airframe / engine system components / boards.
+B1
+
+
+
+10.24 Check emergency equipment.
+A, B1
+
+
+
+10.25 Functional test of emergency equipment.
+A, B1
+
+
+
+10.26 Inspect toilet / vestibule unit for serviceability.
+A, B1
+
+
+
+10.27 Inspect Galley unit for serviceability.
+A, B1
+
+
+
+Log Book Holder’s Name: ............................................................... Signature:
+
+Date
+Competence obtained
+Category
+Instructor/ Supervisor
+Signature and/or Stamp
+Remark
+
+10.28 Inspect and test Engine and Airframe fire detecting systems.
+B1
+
+
+
+10.29 Inspection and functional testing of fire protection systems.
+B1
+
+
+
+10.30 Replace fire bottle.
+B1
+
+
+
+10.31 Removal / refit of Flight Control and subsequent rigging of system.
+B1
+
+
+
+10.32 Functional checks on hydraulically operated flight control systems.
+B1
+
+
+
+10.33 Hydraulic PFCU change.
+B1
+
+
+
+10.34 Replace and test fuel pump.
+B1
+
+
+
+10.35 Hydraulic Reservoir inspection, fluid replenishment and recharging.
+A, B1
+
+
+
+10.36 Hydraulic System Component Changes.
+B1
+
+
+
+10.37 Engine driven Hydraulic pump change (EDP).
+B1
+
+
+
+Log Book Holder’s Name:................................................................ Signature:
+
+Date
+Competence obtained
+Category
+Instructor/ Supervisor
+Signature and/or Stamp
+Remark
+
+10.38 Electrical Hydraulic Pump Change (ACMP).
+B1
+
+
+
+10.39 Hydraulic pump quill drive inspection.
+B1
+
+
+
+10.40 Functional test of windscreen wiper system.
+A, B1
+
+
+
+10.41 Removal / refit of windscreen wiper blade.
+A, B1
+
+
+
+10.42 Wheel removal / installation.
+A, B1
+
+
+
+10.43 Wheel Brake removal / installation.
+A, B1
+
+
+
+10.44 Bleed hydraulic brakes.
+A, B1
+
+
+
+10.45 Replace oleo seals.
+B1
+
+
+
+10.46 Assess fluid levels and charge oleo.
+B1
+
+
+
+10.47 Functional test of Anti Skid system.
+B1
+
+
+
+Log Book Holder’s Name:................................................................ Signature:
+Date
+Competence obtained
+Category
+Instructor/ Supervisor
+Signature and/or Stamp
+Remark
+
+10.48 Replace vacuum pump.
+B1
+
+
+
+10.49 Retrieve data from central maintenance system (CMU).
+B1
+
+
+
+10.50 Assist in APU removal / refit.
+B1
+
+
+
+10.51 Windows & Transparencies cleaning & polishing.
+A, B1
+
+
+
+10.52 Replacement of door seals.
+B1
+
+
+
+10.53 Remove / Refit cockpit windshield.
+B1
+
+
+
+10.54 Assist in a power plant removal & refit.
+B1
+
+
+
+10.55 Rig engine thrust lever.
+B1
+
+
+
+10.56 Replenish water / methanol system.
+A, B1
+
+
+
+10.57 Application of one / two component sealers and compounds.
+B1
+
+
+
+Log Book Holder’s Name:................................................................ Signature:
+
+Date
+Competence obtained
+Category
+Instructor/ Supervisor
+Signature and/or Stamp
+Remark
+
+10.58 Assist in propeller removal / refit.
+B1
+
+
+
+10.59 Check propeller track.
+B1
+
+
+
+10.60 Mooring and picketing (Helicopter only).
+A, B1
+N/A
+
+
+10.61 Removal / refit main rotor head (Helicopter only).
+B1
+N/A
+
+
+10.62 Removal / refit transmission drive shaft (Helicopter only).
+B1
+N/A
+
+
+10.63 Removal / refit main rotor gearbox (Helicopter only).
+B1
+N/A
+
+
+10.64 Removal / refit tail rotor (Helicopter only).
+B1
+N/A
+
+
+10.65 Flight control rigging.
+B1
+
+
+
+10.66 Main rotor track and balance (Helicopter only).
+B1
+N/A
+
+
+10.67 VHF Comms LRU replacement and Communication Check.
+B2
+
+
+
+Log Book Holder’s Name:................................................................ Signature:
+
+Date
+Competence obtained
+Category
+Instructor/ Supervisor
+Signature and/or Stamp
+Remark
+
+10.68 HF LRU replacement and Communication Check.
+B2
+
+
+
+10.69 VHF NAV LRU replacement and system tests.
+B2
+
+
+
+10.70 Aerial replacement (various).
+B2
+
+
+
+10.71 Radio Standing Wave Measurement Tests.
+B2
+
+
+
+10.72 ATC / TCAS system component replacement and tests.
+B2
+
+
+
+10.73 Intercommunication / Passenger Address Component replacement and testing.
+B2
+
+
+
+10.74 Removal / installation of Pitot Static Instruments.
+B1, B2
+
+
+
+10.75 Check calibration of a Pitot Static System using a Pitot Static Leak tester.
+B1, B2
+
+
+
+10.76 Inertial Reference Unit / Platform Initialisation Check.
+B2
+
+
+
+10.77 Test ILS / VOR Systems using appropriate test equipment e.g. Nav 401/402.
+B2
+
+
+
+Log Book Holder’s Name:................................................................ Signature:
+
+Date
+Competence obtained
+Category
+Instructor/ Supervisor
+Signature and/or Stamp
+Remark
+
+10.78 Gyroscopic Instrument component replacements and functional tests.
+B2
+
+
+
+10.79 Fuel Quantity Indicating systems functional testing.
+B2
+
+
+
+10.80 General Engine and aircraft temperature / pressure and flow instrumentation component replacement and testing.
+B2
+
+
+
+10.81 Flight Director Systems functional tests.
+B2
+
+
+
+10.82 Radio Altimeter system test utilizing appropriate (555) test set.
+B2
+
+
+
+10.83 DME Functional Testing utilizing appropriate test set.
+B2
+
+
+
+10.84 Weather Radar system component replacements and functional tests.
+B2
+
+
+
+10.85 Auto throttle systems experience and Functional Testing. (optional, fixed wing only).
+B2
+
+
+
+10.86 Automatic Flight Modes experience and Functional Testing. (optional, fixed wing only).
+B2
+
+
+
+10.87 Stability Augmentation Systems experience and functional testing. (optional, helicopters only).
+B2
+
+
+
+Log Book Holder’s Name:................................................................ Signature:
+
+Date
+Competence obtained
+Category
+Instructor/ Supervisor
+Signature and/or Stamp
+Remark
+
+10.88 ADF component replacements and functional tests.
+B2
+
+
+
+10.89 Discuss / demonstrate typical maintenance practices on Electronic Flight Instrument systems.
+B2
+
+
+
+10.90 Discuss / demonstrate typical maintenance practices on Flight Management systems.
+B2
+
+
+
+Log Book Holder’s Name:................................................................ Signature:
+           Section 5. Maintenance Experience (OJT)
+                               This section is to record the experience gained on in-serviced aircraft. Each entry in the maintenance experience logbook is an on-the-job training (OJT) task. The type and range of OJT tasks under taken must be in respect of the category and/or type rating applied for. The OJT task details should be recorded by the logbook holder on completion of the task and countersigned by the task supervisor as soon as practicable after completion of the task. A specific task should only be entered once. There is no requirement to make multiple entries for the same or similar tasks.
+    1. The OJT is gained by a AMT in the workplace. The objective of OJT is to gain the required competence and experience in performing safe maintenance. The OJT competence credits are valid within 3 (three) years to the date of application for the license.
+    2. The OJT task lists are part of maintenance training program and approved by CAAV.
+    3. The OJT tasks to be completed shall be representative of the aircraft and systems both in complexity and in the technical input required to complete that task.
+    4. The OJT should include one to one supervision and should involve actual work task performance on aircraft/components, covering line and/or base maintenance tasks. 
+    5. The use of simulators for OJT should not be allowed.
+    6. The OJT should cover at least 50% of the tasks in each group (bold letter) contained in Appendix 1 for the first aircraft type rating or the first license category. Some tasks should be selected from each paragraph of the Appendix 1. Other tasks than those in the Appendix 1 may be considered as a replacement when they are relevant. The selected task shall:
+    • be representative of the aircraft/aircraft components and systems both in complexity and in the technical input required to complete that task. While relatively simple tasks may be included, other more complex maintenance tasks shall also be incorporated and undertaken as appropriate to the aircraft/aircraft component type;
+    • be selected among those applicable to the type of aircraft and license (sub) category applied for;
+    • be representative of the maintenance to be performed in terms of complexity, frequency, variety, safety, criticality, novelty etc….;
+    • include components unique to the type, or type-specific maintenance practices;
+    • be distributed in order that all ATA chapters and task categories (servicing, trouble shooting, component location, deactivation, removal/installation, etc.)  are covered;
+    • take into account, when available, the feedback from in-service experience or customer specific additional training needs.
+    7. Up to 50% of the required OJT may be undertaken before the aircraft theoretical type training starts.
+    8. Regarding the day-to-day supervision of the OJT programme in the approved maintenance organisation and the role of the supervisor(s), the following should be considered:
+    • It is sufficient that the completion of individual OJT task is confirmed by the direct supervisor;
+    • During the day-to-day OJT performance, the supervision aims at overseeing the complete process, including task completion, use of manuals and procedures, observance of safety measures, warnings and recommendations and adequate behaviour in the maintenance environment;
+    • The supervisor(s) should personally observe the work being performed to ensure the safe completeness and should be readily available for consultation, if needed during the OJT performance;
+    • The supervisor(s) should countersign the tasks and release the maintenance tasks as the trainee is still not qualified to do so.
+    • The supervisor(s) should therefore:
+    • have certifying staff privileges relevant to the OJT tasks;
+    • be competent for the selected tasks;
+    • be safety-orientated;
+    • be capable to coach (setting objectives, giving training, performing supervision, evaluating, handling trainee’s reactions and cultural issues, managing objectively and positively debriefing sessions, determining the need for extra training or re-orientate the training, reporting, etc.);
+    • be designated by the approved maintenance organisation to carry out the supervision.
+    9. The organization providing the on-the-job training should provide trainees a schedule or plan indicating the list of tasks to be performed under supervision. A record of the tasks completed should be entered into a logbook which should be designed such that each task or group of tasks is countersigned by the corresponding supervisor.
+    10. The final assessment of completed OJT is mandatory and shall be performed by assessors, designated and appropriately qualified.
+                               OJT tasks for AMT category A A320/ A321 CFM56/ PW1100G
+1.
+ID
+2.
+Task description
+3.
+Task reference
+4.
+CAT
+5.
+ A/C Reg.
+6.
+Date
+7.
+Maintenance record reference
+8.
+Trainee’s signature
+9.
+Supervisor’s signature and license number
+10.
+Remark
+A.1 PREFLIGHT CHECK/ TRANSIT CHECK/ VISUAL INSPECTION AND RE-APPLY HIGH SPEED TAPE FOR DEFERRED DEFECT AS REQUIRED BY AMM/ SRM
+    1 
+ENERGIZE THE AIRCRAFT ELECTRICAL CIRCUITS FROM THE EXTERNAL POWER
+AMM 24-41-00-861-002-A
+M/P
+
+
+
+
+
+
+    2 
+ENERGIZE THE AIRCRAFT ELECTRICAL CIRCUITS FROM THE APU
+AMM 24-41-00-861-002-A01
+M/P
+
+
+
+
+
+
+    3 
+ZONAL INSPECTION AS FAR AS VISIBLE FROM THE GROUND OF THE LANDING GEAR AND THE LANDING GEAR DOORS
+AMM 05-27-00-200-001-A
+GVI
+
+
+
+
+
+
+    4 
+INSPECTION/CHECK OF THE WHEELS AND TIRES
+AMM 32-41-00-210-002-A
+I/C
+
+
+
+
+
+
+    5 
+NITROGEN FILLING OF THE TIRES
+AMM 12-14-32-614-001
+SGH
+
+
+
+
+
+
+    6 
+INSPECTION/CHECK OF THE BRAKE WITH THE WHEEL INSTALLED
+AMM 32-42-27-210-001-A
+I/C
+
+
+
+
+
+
+    7 
+INSPECTION OF THE MLG SHOCK ABSORBERS BEFORE FLIGHT
+AMM 12-14-32-200-001-A
+I/C
+
+
+
+
+
+
+    8 
+GENERAL VISUAL INSPECTION OF THE NOSE LANDING GEAR
+AMM 32-21-00-200-002-A
+GVI
+
+
+
+
+
+
+    9 
+GENERAL VISUAL INSPECTION OF THE NOSE LANDING GEAR
+AMM 32-21-00-200-002-A
+GVI
+
+
+
+
+
+Gộp với MLG Insp
+
+GENERAL VISUAL INSPECTION AS FAR AS VISIBLE FROM THE GROUND OF THE LOWER HALF OF THE FUSELAGE
+AMM 05-21-00-200-001-A
+GVI
+
+
+
+
+
+
+    10 
+ZONAL INSPECTION AS FAR AS VISIBLE FROM THE GROUND OF THE UPPER HALF OF THE FUSELAGE
+AMM 05-22-00-200-001-A
+GVI
+
+
+
+
+
+
+    11 
+ZONAL INSPECTION AS FAR AS VISIBLE FROM THE GROUND OF THE POWER PLANT, THE NACELLES AND THE PYLONS
+AMM 05-24-00-200-001-A
+GVI
+
+
+
+
+
+
+    12 
+ZONAL INSPECTION OF THE WINGS AS FAR AS VISIBLE FROM THE GROUND
+AMM 05-25-00-200-001-A
+GVI
+
+
+
+
+
+
+    13 
+ZONAL INSPECTION AS FAR AS VISIBLE FROM THE GROUND OF THE LANDING GEAR AND THE LANDING GEAR DOORS
+AMM 05-27-00-200-001-A
+GVI
+
+
+
+
+
+
+    14 
+ZONAL INSPECTION OF THE DOORS AS FAR AS VISIBLE FROM THE GROUND
+AMM 05-28-00-200-001-A
+GVI
+
+
+
+
+
+
+    15 
+INSPECTION OF THE STATIC PORT
+AMM 34-11-16-200-001-A
+I/C
+
+
+
+
+
+
+    16 
+INSPECTION/CHECK OF THE TAT SENSOR
+AMM 34-11-18-200-002-A
+I/C
+
+
+
+
+
+
+    17 
+INSPECTION/CHECK OF THE PITOT PROBE
+AMM 34-11-15-200-001-A
+I/C
+
+
+
+
+
+
+    18 
+INSPECTION OF THE ANGLE-OF-ATTACK SENSOR
+AMM 34-11-19-200-001-A
+I/C
+
+
+
+
+
+
+    19 
+INSPECTION/CHECK OF THE APU FIRE EXTINGUISHING SYSTEM
+AMM 26-22-00-200-001-A
+I/C
+
+
+
+
+
+
+    20 
+DRAIN WATER CONTENT
+AMM 12-32-28-281-001-A
+SGH
+
+
+
+
+
+
+    21 
+INSPECTION/CHECK OF THE TIRE PRESSURE
+AMM 32-41-00-210-003-A
+I/C
+
+
+
+
+
+
+    22 
+ZONAL INSPECTION AS FAR AS VISIBLE FROM THE GROUND OF THE POWER PLANT, THE NACELLES AND THE PYLONS
+AMM 05-24-00-200-001-A
+GVI
+
+
+
+
+
+Trùng Item 10
+
+CHECK OF THE RESERVOIR QUANTITY INDICATION ON THE ECAM DISPLAY UNIT
+AMM 29-30-00-200-002-A
+I/C
+
+
+
+
+
+
+    23 
+SERVICING OF THE TOILET SYSTEM
+AMM 12-16-38-613-001-A
+SGH
+
+
+
+
+
+
+    24 
+DRAINING OF THE POTABLE WATER SYSTEM (WITH ELECTRICAL POWER)
+AMM 12-24-38-680-001-A
+SGH
+
+
+
+
+
+
+    25 
+FILL THE POTABLE WATER TANK SYSTEM (AIRCRAFT ELECTRICAL POWER AVAILABLE)
+AMM 12-15-38-613-001-A
+SGH
+
+
+
+
+
+
+    26 
+DRAINING OF THE POTABLE WATER SYSTEM (WITHOUT ELECTRICAL POWER)
+AMM 12-24-38-680-002-A
+SGH
+
+
+
+
+
+
+    27 
+FILL THE POTABLE WATER TANK SYSTEM (AIRCRAFT ELECTRICAL POWER NOT AVAILABLE)
+AMM 12-15-38-613-002-A
+SGH
+
+
+
+
+
+
+    28 
+REMOVAL OF THE AIRCRAFT PROTECTION EQUIPMENT
+AMM 10-11-00-555-014-A
+R/I
+
+
+
+
+
+
+    29 
+TEMPORARYY SKIN PROTECTION USING HIGH SPEED TAPE
+SRM 51-77-12-911-001 OR
+SRM 51-77-13-911-009
+M/P
+
+
+
+
+
+
+A.2 DAILY CHECK/ TERMINAL CHECK OR EQUIVALENT
+    28 
+PROCEDURE FOR THE INSTALLATION OF WHEEL CHOCKS ON AIRCRAFT
+AMM 10-11-00-555-015-A
+M/P
+
+
+
+
+
+
+    29 
+INSTALLATION OF THE SAFETY DEVICES ON THE LANDING GEARS
+AMM 32-00-00-481-001-A
+R/I
+
+
+
+
+
+
+    30 
+OPERATIONAL TEST OF THE NAVIGATION LIGHTS
+AMM 33-41-00-710-001-A
+FOT
+
+
+
+
+
+
+    31 
+OPERATIONAL TEST OF THE LANDING LIGHTS
+AMM 33-42-00-710-001-A
+FOT
+
+
+
+
+
+
+    32 
+OPERATIONAL TEST OF THE RUNWAY TURNOFF LIGHTS
+AMM 33-43-00-710-001-A
+FOT
+
+
+
+
+
+
+    33 
+OPERATIONAL TEST OF THE TAXI AND TAKE OFF LIGHTS
+AMM 33-46-00-710-001-A
+FOT
+
+
+
+
+
+
+    34 
+OPERATIONAL TEST OF THE LOGO LIGHTS
+AMM 33-47-00-710-002-A
+FOT
+
+
+
+
+
+
+    35 
+OPERATIONAL TEST OF THE ANTI-COLLISION/STROBE LIGHTING
+AMM 33-48-00-710-002-A
+FOT
+
+
+
+
+
+
+    36 
+OPERATIONAL TEST OF THE WING AND ENGINE SCAN LIGHTS
+AMM 33-49-00-710-001-A
+FOT
+
+
+
+
+
+
+    37 
+OPERATIONAL TEST OF THE GENERAL ILLUMINATION
+AMM 33-21-00-710-001-A
+FOT
+
+
+
+
+
+
+    38 
+DETAILED INSPECTION OF THE WASTE COMPARTMENT INCLUDING WASTE FLAP AND OPERATIONAL CHECK OF WASTE FLAP
+AMM 25-40-00-210-001-A
+DI
+
+
+
+
+
+
+    39 
+GENERAL VISUAL INSPECTION OF THE MAIN LANDING GEAR
+AMM 32-11-00-200-001-A
+GVI
+
+
+
+
+
+
+    40 
+PRINTOUT OF THE ENGINE/APU HOURS AND CYCLES STORED IN THE FLIGHT DATA INTERFACE AND MANAGEMENT UNIT (FDIMU)
+AMM 31-36-00-740-015-A
+M/P
+
+
+
+
+
+Chuyển A19
+
+ZONAL INSPECTION AS FAR AS VISIBLE FROM THE GROUND OF THE STABILIZERS AND THE CONE/REAR FUSELAGE
+AMM 05-23-00-200-001-A
+GVI
+
+
+
+
+
+
+    41 
+DE-ENERGIZE THE AIRCRAFT ELECTRICAL CIRCUITS SUPPLIED FROM THE EXTERNAL POWER
+AMM 24-41-00-862-002-A
+M/P
+
+
+
+
+
+
+    42 
+DE-ENERGIZE THE AIRCRAFT ELECTRICAL CIRCUITS SUPPLIED FROM THE APU
+AMM 24-41-00-862-002-A01
+M/P
+
+
+
+
+
+
+A.3 REFUELING
+    43 
+GENERAL REFUEL/DEFUEL SAFETY PROCEDURES
+AMM 12-11-28-650-001
+SGH
+
+
+
+
+
+
+    44 
+REFUEL/DEFUEL SAFETY PROCEDURES FOR USE IN THE HANGAR
+AMM 12-11-28-650-002
+SGH
+
+
+
+
+
+Bỏ
+
+PRESSURE REFUEL WITH AUTOMATIC CONTROL
+AMM 12-11-28-650-003
+SGH
+
+
+
+
+
+
+    45 
+PRESSURE REFUEL WITH MANUAL CONTROL
+AMM 12-11-28-650-004
+SGH
+
+
+
+
+
+
+    46 
+PRESSURE REFUEL WITHOUT ELECTRICAL POWER
+AMM 12-11-28-650-005
+SGH
+
+
+
+
+
+
+    47 
+PROCEDURE TO USE THE FQIC INPUT PARAMETERS TO FIND THE PITCH AND ROLL DATA
+AMM 12-11-28-860-002
+M/P
+
+
+
+
+
+
+    48 
+USE OF MAGNETIC LEVEL INDICATORS (MLI)
+AMM 12-11-28-650-007
+SGH
+
+
+
+
+
+
+    49 
+PRESSURE DEFUELING
+AMM 28-25-00-650-001
+SGH
+
+
+
+
+
+
+    50 
+FUEL TRANSFER
+AMM 28-25-00-869-001
+SGH
+
+
+
+
+
+
+A.4 REPLACEMENT OF WHEEL ASSEMBLIES
+    50 
+TIRE MIXABILITY PRECAUTIONS
+AMM 32-41-00-910-001
+M/P
+
+
+
+
+
+
+    51 
+WHEELS- INSPECTION/ CHECK
+AMM 32-41-00-210-002-A32-41-00-06
+I/C
+
+
+
+
+
+Đưa AMM  cụ thể
+    52 
+REMOVAL/ INSTALLATION OF THE MLG WHEEL
+AMM 32-41-11-000/400-006-A
+R/I
+
+
+
+
+
+
+    53 
+REMOVAL/ INSTALLATION OF THE NLG WHEEL
+AMM 32-41-12-000/400-001
+R/I
+
+
+
+
+
+
+    54 
+GENERAL VISUAL INSPECTION OF THE NOSE LANDING GEAR
+AMM 32-21-00-200-002-A
+GVI
+
+
+
+
+
+
+A.5 REPLACEMENT OF BRAKE UNITS
+541
+BRAKE – INSPECTION/CHECK
+AMM 32-42-27-06
+I/C
+
+
+
+
+
+
+552
+REMOVAL/ INSTALLATION OF THE BRAKE ASSEMBLY
+AMM 32-42-27-000/400-001
+R/I
+
+
+
+
+
+
+A.6 REPLACEMENT OF SIMPLE EMERGENCY EQUIPMENT THAT IS EASILY ACCESSIBLE (EXCEPT PORTABLE ELT)REPLACEMENT OF EMERGENCY EQUIPMENT
+    56 
+REPLACEMENT OF THE MEGAPHONE BATTERIES
+AMM 25-65-51-920-001
+R/I
+
+
+
+
+
+
+    57 
+OPERATIONAL TEST OF THE MEGAPHONE
+AMM 25-65-51-710-002
+FOT
+
+
+
+
+
+
+    58 
+LIFE VEST- REMOVAL/INSTALLATION
+AMM 25-66-52-04
+R/I
+
+
+
+
+
+
+    59 
+VISUAL INSPECTION OF THE FIRST AID EQUIPMENT
+AMM 25-64-00-200-001
+GVI
+
+
+
+
+
+
+    60 
+REMOVAL/INSTALLATION OF THE PROTECTIVE BREATHING EQUIPMENT
+AMM 35-32-52-04
+R/I
+
+
+
+
+
+
+    61 
+INSPECTION/CHECK OF THE PORTABLE FIRE EXTINGUISHERS
+AMM 26-24-00-210-001
+I/C
+
+
+
+
+
+
+    62 
+CHECK PRESSURE GAUGE READING PORTABLE FIRE EXTINGUISHERS
+AMM 26-24-00-210-002
+GVI
+
+
+
+
+
+
+    63 
+INSPECTION/CHECK OF THE PORTABLE OXYGEN
+AMM 35-30-00-06
+I/C
+
+
+
+
+
+
+A.7 REPLACEMENT OF OVENS, BOILERS AND BEVERAGE
+641
+OVEN - REMOVAL/INSTALLATION
+AMM 25-35-19-04
+R/I
+
+
+
+
+
+
+652
+OPERATIONAL TEST OF THE OVEN
+AMM 25-35-00-710-015-A
+FOT
+
+
+
+
+
+
+663
+WATER BOILER - REMOVAL/INSTALLATION
+AMM 25-35-27-04
+R/I
+
+
+
+
+
+
+674
+OPERATIONAL TEST OF THE WATER BOILER/HEATER
+AMM 25-35-00-710-023-A
+FOT
+
+
+
+
+
+
+A.8 REPLACEMENT OF CABIN LIGHTS, AND EXTERNAL LAMP, BULB, LENS (xem lại nhóm lại các đèn có CHUNG về cách thức thực hiện
+Xem lại các loại đèn đã thay thế thành LED, có thể chú thích cho các loại cấu hình tàu
+    68 
+REMOVAL/INSTALLATION OF THE COCKPIT DOME LIGHT
+AMM 33-12-11-04
+R/I
+
+
+
+
+
+
+    69 
+REMOVAL/INSTALLATION OF THE MAP TABLE LIGHTS
+AMM 33-12-13-04
+R/I
+
+
+
+
+
+
+    70 
+ALTERNATE:
+REMOVAL/ INSTALLATION OF THE CONSOLE AND BRIEFCASE LIGHT
+AMM 33-12-15-04
+R/I
+
+
+
+
+
+
+    71 
+REMOVAL/INSTALLATION OF THE MAIN INSTRUMENT-PANEL LIGHTS AND PANEL CENTER-LIGHT
+AMM 33-12-13-04
+R/I
+
+
+
+
+
+
+
+ALTERNATE:
+ REMOVAL/INSTALLATION OF THE CENTER PEDESTAL LIGHT
+AMM 33-12-14-04
+R/I
+
+
+
+
+
+Alternate cho Item 3
+    72 
+REMOVAL/INSTALLATION OF THE CONSOLE AND BRIEFCASE LIGHT
+AMM 33-12-15-04
+R/I
+
+
+
+
+
+
+    73 
+REMOVAL/INSTALLATION OF THE BALLAST UNIT
+AMM 33-21-11-04
+R/I
+
+
+
+
+
+
+    74 
+REMOVAL/INSTALLATION OF THE LAVATORY OCCUPIED SIGNS
+AMM 33-26-23-04
+R/I
+
+
+
+
+
+Bỏ Item
+
+REMOVAL/ INSTALLATION OF THE LAMP IN THE WINGTIP NAVIGATION LIGHT
+AMM 33-41-11-000/400-002
+R/I
+
+
+
+
+
+
+
+ALTERNATE
+REMOVAL/ INSTALLATION OF THE LAMP(S) OF THE TAIL NAVIGATION LIGHT
+AMM 33-41-15-000/400-002
+R/I
+
+
+
+
+
+
+    75 
+REMOVAL/ INSTALLATION OF THE LANDING LIGHT LAMP
+AMM 33-42-11-000/400-002
+R/I
+
+
+
+
+
+
+    76 
+REPLACEMENT OF THE LAMP OF THE RUNWAY TURNOFF LIGHT
+AMM 33-43-11-960-002
+R/I
+
+
+
+
+
+
+
+ALTERNATE:
+REPLACEMENT OF THE LAMP IN THE TAKE OFF LIGHT
+AMM 33-46-11-960-001
+R/I
+
+
+
+
+
+
+
+ALTERNATE:
+REPLACEMENT OF THE LAMP IN THE TAXI LIGHT
+AMM 33-46-12-960-001
+R/I
+
+
+
+
+
+
+    77 
+REMOVAL/ INSTALLATION OF THE LOGO LIGHT
+AMM 33-47-11-04
+R/I
+
+
+
+
+
+
+    78 
+REMOVAL/INSTALLATION OF THE FLASH TUBE ASSEMBLY OF THE UPPER/ LOWER BEACON LIGHT
+AMM 33-48-11-04 OR
+AMM 33-48-12-04
+R/I
+
+
+
+
+
+
+    79 
+REMOVAL/INSTALLATION OF THE TAIL CONE STROBE-LIGHT
+AMM 33-48-13-04
+R/I
+
+
+
+
+
+
+
+ALTERNATE:
+REMOVAL/INSTALLATION OF THE STROBE LIGHT
+AMM 33-48-14-04
+R/I
+
+
+
+
+
+
+    80 
+CABIN EMERGENCY LIGHTS - LAMP REPLACEMENT
+AMM 33-51-11-04
+R/I
+
+
+
+
+
+GOM
+
+ALTERNATE: CABIN WALL-MOUNTED EMERGENCY-EXIT-MARKERS LAMP REPLACEMENT
+AMM 33-51-13-04
+R/I
+
+
+
+
+
+
+
+ALTERNATE: REPLACEMENT OF THE EMERGENCY EXIT SIGN
+AMM 33-51-16-04
+R/I
+
+
+
+
+
+
+A.9 REPLACEMENT OF WINDSCREEN WIPER BLADES
+791
+REMOVAL/ INSTALLATION OF THE WIPER BLADE
+AMM 30-45-53-000/400-001
+R/I
+
+
+
+
+
+
+
+ALTERNATE
+ADJUSTMENT OF THE WIPER ARM
+AMM Subtask 30-45-52-820-050A
+AMM Subtask 30-45-52-820-052A
+AT
+
+
+
+
+
+
+A.10 REPLACEMENT OF PASSENGER AND CABIN CREW SEATBELTS AND HARNESSES CREW, ATTENDANT & PAX SEAT MAINTENANCE (thay đổi theo đúng tên và năng định trong MOPM)
+Xem xét rút các công việc PAX SEAT R.A.I
+    80 
+REMOVAL / INSTALLATION OF THE CAPT/FO SEAT
+AMM 25-11-51-000/400-001-A
+R/I
+
+
+
+
+
+
+    81 
+CAPTAIN/FIRST OFFICER - INSPECTION/ CHECK
+AMM 25-11-51-06
+I/C
+
+
+
+
+
+
+    82 
+REMOVAL /INSTALLATION OF THE THIRD OCCUPANT SEAT
+AMM 25-11-41-000/400-001-A
+R/I
+
+
+
+
+
+
+    83 
+THIRD OCCUPANT - INSPECTION/CHECK
+AMM  25-11-41-06
+I/C
+
+
+
+
+
+
+    84 
+REMOVAL / INSTALLATION OF THE FOURTH OCCUPANT SEAT
+AMM 25-11-42-000/400-001-A
+R/I
+
+
+
+
+
+
+    85 
+FOURTH OCCUPANT - INSPECTION/CHECK
+AMM 25-11-42-06
+I/C
+
+
+
+
+
+
+    86 
+REMOVAL/ INSTALLATION OF CABIN ATTENDANT SEATBELTSREMOVAL/ INSTALLATION OF CAPT/FO SEAT SAFETY HARNESS ASSEMBLY
+AMM 25-22-41-000/400-002-AAMM 25-11-63-000/400-001A
+R/I
+
+
+
+
+
+
+    87 
+REMOVAL/ INSTALLATION OF THIRD OCCUPANT SEAT SAFETY HARNESS ASSEMBLY
+AMM 25-11-73-000/400-801A
+R/I
+
+
+
+
+
+
+    88 
+REMOVAL/ INSTALLATION OF FOURTH OCCUPANT SEAT SAFETY HARNESS ASSEMBLY
+AMM 25-11-83-000/400-801A
+R/I
+
+
+
+
+
+
+    89 
+CABIN ATTENDANT SEAT - INSPECTION/CHECK
+AMM 25-22-00-06
+I/C
+
+
+
+
+
+
+    90 
+REMOVAL/ INSTALLATION OF THE PASSENGER SEATS
+AMM 25-21-41-000/400-001-A
+R/I
+
+
+
+
+
+
+    91 
+GENERAL VISUALDETAILED INSPECTION OF SEAT ATTACHMENTS, SEAT STRUCTURE, SEAT BELTS, BUCKLES AND BAGGAGE BAR
+AMM 25-21-00-210-001-A
+DI
+
+
+
+
+
+
+    92 
+REMOVAL/ INSTALLATION OF THE SEAT BELTS - PAX
+AMM 25-21-42-000/400-002
+R/I
+
+
+
+
+
+
+A.11 OPENING AND CLOSING OF COWLINGS AND RE-FITMENT OF QUICK ACCESSS INSPECTION PANELS
+    87 
+OPEN/ CLOSE THE FAN COWL DOORS (CFM56)
+AMM 71-13-00-010/410-040
+M/P
+
+
+
+
+
+
+    88 
+OPEN/ CLOSE THE FAN COWL DOORS (PW1100)
+AMM 71-13-00-010/410-802
+M/P
+
+
+
+
+
+
+    89 
+OPEN/ CLOSE THE THRUST REVERSER DOORS (CFM56)
+AMM 78-36-00-010/410-040
+M/P
+
+
+
+
+
+
+    90 
+OPEN/ CLOSE THE THRUST REVERSER DOORS (PW1100)
+AMM 78-36-00-010/410-802
+M/P
+
+
+
+
+
+
+    91 
+OPEN/ CLOSE THE AVIONICS COMPARTMENT DOORS
+AMM 52-41-00-010/410-002
+M/P
+
+
+
+
+
+
+    92 
+OPEN/ CLOSE THE MAIN GEAR DOOR
+AMM 32-12-00-010/410-001
+M/P
+
+
+
+
+
+
+    93 
+OPEN/ CLOSE THE NOSE GEAR DOOR
+AMM 32-22-00-010/410-001
+M/P
+
+
+
+
+
+
+    94 
+OPEN/ CLOSE THE APU DOORS
+AMM 52-41-00-010/410-001
+M/P
+
+
+
+
+
+
+A.12 REPLACEMENT OF TOILET SYSTEM COMPONENTS BUT EXCLUDING GATE/FLUSH VALVESMAINTENANCE OF LAVATORY
+    95 
+REMOVAL/ INSTALLATION OF THE WATER FAUCET
+AMM 38-12-41-04
+R/I
+
+
+
+
+
+
+    96 
+TOILET DEACTIVATION: MANUAL SHUT-OFF VALVE CLOSURE
+AMM 38-12-00-01
+D/R
+
+
+
+
+
+
+    97 
+CLEAN FILTER ELEMENT OF WASHBASIN DRAIN VALVES
+AMM 38-32-00-100-002-A
+SGH
+
+
+
+
+
+
+    98 
+REMOVAL/ INSTALLATION OF THE SERVICE CABINET DOOR
+AMM 25-45-12-000/400-001-A
+R/I
+
+
+
+
+
+
+    99 
+REMOVAL/ INSTALLATION OF THE LAVATORY MIRROR
+AMM 25-45-13-04
+R/I
+
+
+
+
+
+
+    100 
+REMOVAL/ INSTALLATION OF THE SOAP DISPENSER
+AMM 25-45-14-04
+R/I
+
+
+
+
+
+
+    101 
+REMOVAL/ INSTALLATION OF THE WASTE CHUTE FLAP
+AMM 25-45-15-04
+R/I
+
+
+
+
+
+
+    102 
+REMOVAL/ INSTALLATION OF THE ASH TRAY
+AMM 25-45-16-04
+R/I
+
+
+
+
+
+
+    103 
+REMOVAL/ INSTALLATION OF ACCESS DOOR
+AMM 25-45-18-04
+R/I
+
+
+
+
+
+
+    104 
+REMOVAL/ INSTALLATION OF THE TOILET SHROUD AND THE SEAT
+AMM 25-45-22-04
+R/I
+
+
+
+
+
+
+    105 
+REMOVAL/ INSTALLATION OF THE WASTE CHUTE FLAP
+AMM 25-45-15-04
+R/I
+
+
+
+
+
+
+
+ALTERNATE:
+REMOVAL/ INSTALLATION OF THE ASH TRAY
+AMM 25-45-16-04
+R/I
+
+
+
+
+
+
+
+ALTERNATE:
+REMOVAL/ INSTALLATION OF ACCESS DOOR
+AMM 25-45-18-04
+R/I
+
+
+
+
+
+
+A.13 REPLACEMENT OF CABIN FURNISHING ITEM, INTERNAL AND EXTERNAL PLACARDS
+Thêm Item Placard
+    102 
+LINING PANELS - REMOVAL/ INSTALLATION
+AMM 25-13-41-04
+R/I
+
+
+
+
+
+
+
+ALTERNATE:
+THE UPPER SIDEWALL PANEL(S) - REMOVAL/ INSTALLATION
+AMM 25-23-43-04
+R/I
+
+
+
+
+
+
+
+ALTERNATE:
+LOWER SIDEWALL-PANELS (DADO PANELS) - REMOVAL/ INSTALLATION
+AMM 25-23-44-04
+R/I
+
+
+
+
+
+
+    103 
+REPLACEMENT OF THE DECOMPRESSION PANELS
+AMM 25-68-41-960-001
+R/I
+
+
+
+
+
+
+    104 
+LINING-DOOR FRAME- REMOVAL/INSTALLATION
+AMM 25-23-45-04
+R/I
+
+
+
+
+
+Bỏ
+
+PANEL-COVE LIGHT - REMOVAL/ INSTALLATION
+AMM 25-23-48-04
+R/I
+
+
+
+
+
+
+    105 
+CURTAINS - REMOVAL/ INSTALLATION
+AMM 25-26-41-04
+R/I
+
+
+
+
+
+
+    106 
+COVERING - FLOOR, TEXTILE -– REMOVAL/ INSTALLATION
+AMM 25-28-41-04
+R/I
+
+
+
+
+
+
+    107 
+PASSENGER SERVICE/INFORMATION (PSIU) - REMOVAL/INSTALLATION
+Bổ sung ALTERNATE
+AMM 25-25-11-04
+R/I
+
+
+
+
+
+
+    108 
+REPLACEMENT OF SEAT CUSHION, COVER
+Standard Practice
+R/I
+
+
+
+
+
+
+    109 
+ADJUSTMENT OF THE OVERHEAD STOWAGE-COMPARTMENT DOORS
+AMM 25-24-00-710-001
+R/I
+
+
+
+
+
+
+    110 
+PLACARDS AND MARKINGS
+AMM 11-00-00-02 CONF 00
+M
+
+
+
+
+
+
+A.14 REPLACEMENT OF STATIC WICKS
+110
+REMOVAL/ INSTALLATION OF THE STATIC DISCHARGER
+AMM 23-61-41-000/400-001
+R/I
+
+
+
+
+
+
+A.15 REPLACEMENT OF AIRCRAFT BATTERIES
+111
+REMOVAL/ INSTALLATION OF THE BATTERIES
+AMM 24-38-51-000-001
+R/I
+
+
+
+
+
+
+A.16 REPLACEMENT OF IN-FLIGHT ENTERTAINMENT SYSTEM
+112
+REMOVAL/INSTALLATION OF THE INTEGRATED PRERECORDED ANNOUNCEMENT AND BOARDING MUSIC (PRAM) FLASHCARD
+AMM 23-32-36-000/400-001
+R/I
+
+
+
+
+
+
+
+ALTERNATE:
+
+HOT PLUG REPLACEMENT OF THE INTEGRATED PRERECORDED ANNOUNCEMENT AND BOARDING MUSIC (PRAM)
+AMM 23-32-36-960-001
+R/I
+
+
+
+
+
+
+A.17 ROUTINE LUBRICATION AND REPLENISHMENT OF ALL SYSTEM FLUID AND GASES & GROUND HANDLING
+    113 
+OPENING/ CLOSING OF THE PASSENGER/CREW DOOR
+AMM 52-10-00-010/410-001
+M/P
+
+
+
+
+
+
+    114 
+SPECIAL PRECAUTIONS BEFORE WORK ON THE PASSENGER/ CREW DOOR
+AMM 52-10-00-860-001
+M/P
+
+
+
+
+
+
+    115 
+SPECIAL PRECAUTIONS AFTER WORK ON THE PASSENGER/ CREW DOOR
+AMM 52-10-00-860-002
+M/P
+
+
+
+
+
+
+    116 
+OPEN/ CLOSE THE FWD OR AFT CARGO-COMPARTMENT DOOR WITH THE YELLOW ELECTRIC PUMP
+AMM 52-30-00-860-001/002
+M/P
+
+
+
+
+
+
+    117 
+OPEN/ CLOSE THE FWD OR AFT CARGO-COMPARTMENT DOOR WITH THE HAND PUMP
+AMM 52-30-00-860-003/004
+M/P
+
+
+
+
+
+
+    118 
+ENERGIZE THE GROUND SERVICE NETWORK FROM THE EXTERNAL POWER
+AMM 24-42-00-861-001
+M/P
+
+
+
+
+
+
+    119 
+DE-ENERGIZE THE GROUND SERVICE NETWORK SUPPLIED FROM THE EXTERNAL POWER
+AMM 24-42-00-862-001
+M/P
+
+
+
+
+
+
+    120 
+CHECK RESERVOIR AIR PRESSURE ON RESERVOIR GAUGE
+AMM 29-10-00-200-002
+GVI
+
+
+
+
+
+
+    121 
+CHECK FLUID LEVEL ON RESERVOIR INDICATORS
+AMM 29-10-00-200-001
+GVI
+
+
+
+
+
+
+    122 
+FILL THE HYDRAULIC FLUID RESERVOIR WITH A HAND PUMP
+AMM 12-12-29-611-001
+SGH
+
+
+
+
+
+
+    123 
+CHECK NITROGEN CHARGE PRESSURE ON HYDRAULIC POWER ACCUMULATORS
+AMM 29-10-00-200-008
+GVI
+
+
+
+
+
+
+    124 
+DRAIN IDG OIL SYSTEM, DISCARD FILTER ELEMENT(S) AND REPLENISH
+AMM 24-21-00-920-040-A
+SGH
+
+
+
+
+
+Bỏ
+
+REPLENISHDRAINING OF THE OIL FROM THE IDG
+AMM 12-13-24-680-040-A
+SGH
+
+
+
+
+
+CHUYỂN A19
+
+CHECK OF THE OIL LEVEL AND OIL-FILTER DIFFERENTIAL-PRESSURE INDICATOR (IDG)
+AMM 24-21-00-210-046
+SGH
+
+
+
+
+
+
+    125 
+IDG SERVICING - FILLING OF THE IDG WITH OIL OR ADDITION OF OIL AFTER A LEVEL CHECK
+AMM 12-13-24-612-041-A
+SGH
+
+
+
+
+
+
+    126 
+CHECK OIL LEVEL AND REPLENISH, CHECK POP OUT INDICATOR OF EMCD (CFM56)
+AMM 12-13-79-610-002
+SGH
+
+
+
+
+
+
+    127 
+ENGINE STARTING - DRAIN AND REPLENISH OIL SYSTEM (CFM56)
+AMM 12-13-80-610-001
+SGH
+
+
+
+
+
+Bỏ
+
+ALTERNATE:
+REPLENISH OIL SYSTEM (CFM56)
+AMM 12-13-80-610-002
+SGH
+
+
+
+
+
+BỎ
+
+ENGINE OIL SERVICING (PW1100)
+AMM 12-13-79-612-803
+SGH
+
+
+
+
+
+
+    128 
+PRESSURIZATION OF THE BLEED SYSTEM WITH THE APU
+AMM 36-12-00-860-001
+M/P
+
+
+
+
+
+
+    129 
+PRESSURIZATION OF THE BLEED SYSTEM THROUGH THE HP GROUND CONNECTOR
+AMM 36-12-00-860-002
+M/P
+
+
+
+
+
+
+    130 
+PRE-CONDITIONING THROUGH THE LP GROUND CONNECTION
+AMM 12-33-21-600-001
+SGH
+
+
+
+
+
+
+    131 
+DRAIN AND REPLENISH OIL SYSTEM AIR STARTER (CFM56)
+AMM 12-13-80-610-001
+SGH
+
+
+
+
+
+
+    132 
+NITROGEN FILLING OF THE TIRES
+AMM 12-14-32-614-001
+SGH
+
+
+
+
+
+
+    133 
+NITROGEN FILLING OF THE YELLOW HYDRAULIC SYSTEM, BRAKE PRESSURE ACCUMULATOR
+AMM 12-14-32-614-002
+SGH
+
+
+
+
+
+
+    134 
+INSPECTION OF THE MLG SHOCK ABSORBERS BEFORE FLIGHT
+AMM 12-14-32-200-001
+DI
+
+
+
+
+
+
+    135 
+DRAINING OF THE POTABLE WATER SYSTEM (WITH ELECTRICAL POWER)
+AMM 12-24-38-680-001
+SGH
+
+
+
+
+
+
+    136 
+DRAINING OF THE POTABLE WATER SYSTEM (WITHOUT ELECTRICAL POWER)
+AMM 12-24-38-680-002
+SGH
+
+
+
+
+
+
+    137 
+SERVICING OF THE TOILET SYSTEM
+AMM 12-16-38-613-001
+SGH
+
+
+
+
+
+
+    138 
+FILL THE POTABLE WATER TANK SYSTEM (AIRCRAFT ELECTRICAL POWER AVAILABLE)
+AMM 12-15-38-613-001
+SGH
+
+
+
+
+
+
+
+ALTERNATE:
+FILL THE POTABLE WATER TANK SYSTEM (AIRCRAFT ELECTRICAL POWER NOT AVAILABLE)
+AMM 12-15-38-613-002
+SGH
+
+
+
+
+
+
+    139 
+FILL THE HYDRAULIC POWER ACCUMULATORS WITH NITROGEN
+AMM 12-14-29-614-001
+SGH
+
+
+
+
+
+
+    140 
+AIRCRAFT LUBRICATION
+AMM 12-22-27-03 OR
+AMM 12-22-29-03 OR
+AMM 12-22-32-03 OR
+AMM 12-22-52-03 OR
+AMM 12-22-53-03 OR
+AMM 12-22-55-03 OR
+AMM 12-22-56-03
+SGH
+
+
+
+
+
+
+A.18 AIRCRAFT TOWING
+139
+TOWING WITH THE NOSE GEAR FROM THE FRONT
+AMM 09-10-00-584-002-A
+M/P
+
+
+
+
+
+
+1402
+TOWING BY THE NOSE LANDING GEAR FROM THE FRONT WITH A TOWBAR (ON BATTERIES ONLY)
+AMM 09-10-00-584-008-A
+M/P
+
+
+
+
+
+
+A.19 WEEKLY CHECK
+    141 
+CHECK IDG OIL LEVEL
+AMM 24-21-00-210-046
+I/C
+
+
+
+
+
+
+    142 
+DRAIN WATER CONTENT FROM FUEL TANKS
+AMM 12-32-28-281-001-A
+SGH
+
+
+
+
+
+
+    143 
+OPERATIONAL CHECK OF EMERGENCY GENERATOR SYSTEM
+AMM 24-24-00-710-001
+FOT
+
+
+
+
+
+
+    144 
+VISUAL CHECK OF CARGO COMPARTMENT
+AMM 25-50-00-200-002
+GVI
+
+
+
+
+
+
+    145 
+CLEANING OF CARGO COMPARTMENT
+AMM 12-21-12-100-007
+SGH
+
+
+
+
+
+
+    146 
+DETAILED INSPECTION OF CARGO NETS
+AMM 25-50-00-200-025
+DI
+
+
+
+
+
+
+    147 
+CLEANING OF DISPLAY UNITS
+AMM 31-63-22-100-001
+SGH
+
+
+
+
+
+
+    148 
+CHECK EMERGENCY CYLINDER/ ACCUMULATOR PRESSURE - PAX DOOR
+AMM 52-10-00-210-004
+I/C
+
+
+
+
+
+
+    149 
+CHECK EMERGENCY CYLINDER/ ACCUMULATOR PRESSURE - EMER EXIT
+AMM 52-22-00-200-001
+I/C
+
+
+
+
+
+
+    150 
+VISUAL CHECK OF PASSENGER SEATS
+AMM 25-21-00-210-001-A
+GVI
+
+
+
+
+
+
+    151 
+CLEAN VACCUM WASTE LINES WITH CHEMICAL CLEANING AGENT AND CRUSHED ICE
+AMM 38-31-00-100-018
+SGH
+
+
+
+
+
+
+    152 
+REPLACE FDIMU/ PCMCIA
+AMM 31-36-00-000/400-001
+R/I
+
+
+
+
+
+
+    153 
+CHECK APU OIL LEVEL AND REPLENISH
+AMM 12-13-49-612-001
+SGH
+
+
+
+
+
+
+    154 
+RECORD APU HOURS & CYCLES
+AMM 49-70-00-00
+M/P
+
+
+
+
+
+
+    155 
+VISUAL INSPECTION OF LANDING GEAR BAYS
+AMM 05-21-20-200-002
+AMM 05-21-40-200-003
+GVI
+
+
+
+
+
+
+    156 
+PRINTOUT OF THE ENGINE/APU HOURS AND CYCLES STORED IN THE FLIGHT DATA INTERFACE AND MANAGEMENT UNIT (FDIMU)
+AMM 31-36-00-740-015-A
+M/P
+
+
+
+
+
+
+    157 
+REPLENISH OF THE OIL FROM THE IDG
+AMM 12-13-24-680-040-A
+SGH
+
+
+
+
+
+
+A.20 APU START AND SHUTDOWN
+    158 
+SAFETY PRECAUTIONS FOR THE OPERATION OF THE APU
+AMM 49-00-00-02
+M/P
+
+
+
+
+
+
+    159 
+SELF-TEST OF THE ECB
+AMM 49-00-00-05
+FOT
+
+
+
+
+
+
+    160 
+APU START BY EXTERNAL POWER
+AMM 49-00-00-02
+M/P
+
+
+
+
+
+
+    161 
+APU START BY BATTERIES
+AMM 49-00-00-02
+M/P
+
+
+
+
+
+
+    162 
+OPERATIONAL TEST OF THE APU
+AMM 49-00-00-05
+FOT
+
+
+
+
+
+
+    163 
+APU SHUTDOWN BY EXTERNAL POWER
+AMM 49-00-00-02
+M/P
+
+
+
+
+
+
+    164 
+APU SHUTDOWN BY BATTERIES
+AMM 49-00-00-02
+M/P
+
+
+
+
+
+
+    165 
+APU EMERGENCY SHUTDOWN & AUTO SHUTDOWN
+AMM 49-62-00
+M/P
+
+
+
+
+
+BỎ
+A.21 RAISE AND CLEAR DEFECT OF ATA 11 & 25
+    165 
+RAISING NON-AIRWORTHINESS DEFECT OF ATA 11
+VJC Procedure
+MEL
+
+
+
+
+
+
+    166 
+CLEARING NON-AIRWORTHINESS DEFECT OF ATA 11
+VJC Procedure
+MEL
+
+
+
+
+
+
+    167 
+RAISING NON-AIRWORTHINESS DEFECT OF ATA 25
+VJC Procedure
+MEL
+
+
+
+
+
+
+    168 
+CLEARING NON-AIRWORTHINESS DEFECT OF ATA 25
+VJC Procedure
+MEL
+
+
+
+
+
+
+    169 
+PLACARDS AND MARKINGS WHICH DISPLAYED/ INSTRUCTED/ DESCRIBED AIRCRAFT SYSTEM OPERATION LIMITATION, EMERGENCY/ SAFETY INSTRUCTIONS, WARNINGS, CAUTIONS
+MEL 11-01-01A
+MEL
+
+
+
+
+
+
+    170 
+OTHER PLACARD AND MARKING EXCLUDING PLACARDS INSTALLED TO COVER HOIST POINTS
+MEL 11-01-01B
+MEL
+
+
+
+
+
+
+    171 
+SURVIVAL KIT
+MEL 25-62-05
+MEL
+
+
+
+
+
+
+
+ALTERNATE: FIRST AID KIT
+MEL 25-64-01
+MEL
+
+
+
+
+
+
+
+ALTERNATE:
+ SUPPLEMENTARY LIFE RAFT
+ALTERNATE FOR ITEM 7, 8
+MEL 25-66-02A
+MEL
+
+
+
+
+
+
+    172 
+EMERGENCY MEDICAL KIT
+MEL 25-64-02
+MEL
+
+
+
+
+
+
+    173 
+COCKPIT FLASHLIGHT
+MEL 25-65-01
+MEL
+
+
+
+
+
+
+
+ALTERNATE: CABIN FLASHLIGHT
+ALTERNATE FOR ITEM 10
+MEL 25-65-02
+MEL
+
+
+
+
+
+
+    174 
+FIREPROOF GLOVES
+MEL 25-65-06
+MEL
+
+
+
+
+
+
+    175 
+MEGAPHONE
+MEL 25-65-07
+MEL
+
+
+
+
+
+
+    176 
+ADULT LIFEVEST
+MEL 25-66-01A
+MEL
+
+
+
+
+
+
+    177 
+INFANT LIFEVEST AND SAFETY BELT
+ALTERNATE FOR ITEM 14
+MEL 25-66-031AB
+MEL
+
+
+
+
+
+
+
+ALTERNATE:
+ SPARE LIFEVEST
+ALTERNATE FOR ITEM 14
+MEL 25-66-01AC
+MEL
+
+
+
+
+
+
+    178 
+SUPPLEMENTARY LIFE RAFT
+ALTERNATE FOR ITEM 7, 8
+MEL 25-66-02A
+MEL
+
+
+
+
+
+
+A.22 PERFORMING PREFLIGHT VISUAL CHECK/OPERATIONAL TEST VIA MCDU REQUIRED BY A320/A321 MEL
+    1 
+VENT BLOWER FAULT ALERT
+MEL 21-09-01A
+MEL
+
+
+
+
+
+
+    2 
+VENT EXTRACT FAULT ALERT
+MEL 21-09-02A
+MEL
+
+
+
+
+
+
+    3 
+BLOWER FAN
+MEL 21-26-01-B/C
+MEL
+
+
+
+
+
+
+    4 
+EXTRACT FAN
+MEL 21-26-02-B/C
+MEL
+
+
+
+
+
+
+    5 
+SKIN EXCHANGER INLET BYPASS VALVE
+MEL 21-26-03-A
+MEL
+
+
+
+
+
+
+    6 
+SKIN AIR OUTLET VALVE
+MEL 21-26-04-A
+MEL
+
+
+
+
+
+
+    7 
+SKIN AIR INLET VALVE
+MEL 21-26-05
+MEL
+
+
+
+
+
+
+    8 
+SKIN EXCHANGER ISOLATION VALVE
+MEL 21-26-06
+MEL
+
+
+
+
+
+
+    9 
+AIR CONDITIONING INLET VALVE
+MEL 21-26-08-A
+MEL
+
+
+
+
+
+
+    10 
+VENTILATION FILTER
+MEL 21-26-09-B/C
+MEL
+
+
+
+
+
+
+    11 
+AVIONIC EQUIPMENT VENTILATION COMPUTER
+MEL 21-26-10-A
+MEL
+
+
+
+
+
+
+    12 
+MANUAL CABIN PRESSURE CONTROL SYSTEM
+MEL 21-31-02A
+MEL
+
+
+
+
+
+
+    13 
+AC MAIN GENERATION
+MEL 24-22-01A
+MEL
+
+
+
+
+
+
+    14 
+INDICATIONS ON THE DOOR/OXY SD PAGE
+MEL 25-07
+MEL
+
+
+
+
+
+
+    15 
+SFCC FLAP CHANNEL
+MEL 27-51-01A
+MEL
+
+
+
+
+
+
+    16 
+SFCC SLAT CHANNEL
+MEL 27-51-02 A
+MEL
+
+
+
+
+
+
+    17 
+ELAC 1
+MEL 27-93-01 A
+MEL
+
+
+
+
+
+
+    18 
+SEC 1
+MEL 27-94-01A
+MEL
+
+
+
+
+
+
+    19 
+SEC 2
+MEL 27-94-02A
+MEL
+
+
+
+
+
+
+    20 
+CROSS-FEED VALVE INDICATION ON THE FUEL SD PAGE
+MEL 28-07-04-03
+MEL
+
+
+
+
+
+
+    21 
+WING TRANSFER VALVE INDICATION ON THE FUEL SD PAGE
+MEL 28-07-04-04
+MEL
+
+
+
+
+
+
+    22 
+OVERPRESSURE PROTECTOR BETWEEN INNER AND OUTER TANK
+MEL 28-12-01-B
+MEL
+
+
+
+
+
+
+    23 
+RESERVOIR QUANTITY INDICATIONS ON THE HYD SD PAGE
+MEL 29-07-05 A
+MEL
+
+
+
+
+
+
+    24 
+HYD G(B)(Y) RSVR LO AIR PR ALERT
+MEL 29- 09-04A
+MEL
+
+
+
+
+
+
+    25 
+HYD G(B)(Y) RSVR LO LVL ALERT
+MEL 29- 09-05A
+MEL
+
+
+
+
+
+
+    26 
+HYD PTU FAULT ALERT
+MEL 29-09-07 A
+MEL
+
+
+
+
+
+
+    27 
+PROBE HEAT COMPUTER
+MEL 30-31-01A
+MEL
+
+
+
+
+
+
+    28 
+WINDOW HEAT COMPUTER
+MEL 30-42-01A
+MEL
+
+
+
+
+
+
+    29 
+BSCU SYSTEMS
+MEL 32-42-03/04
+MEL
+
+
+
+
+
+
+    30 
+CREW OXY HIGH PRESSURE INDICATION ON THE DOOR/OXY SD PAGE
+MEL 35-07-01A
+MEL
+
+
+
+
+
+
+    31 
+INDICATIONS ON THE DOOR/OXY SD PAGE
+MEL 52-07
+MEL
+
+
+
+
+
+
+    32 
+CARGO DOOR (FWD, AFT AND BULK)
+MEL 52-30-01B
+MEL
+
+
+
+
+
+
+    33 
+OIL QUANTITY INDICATION ON THE ENGINE SD PAGE
+MEL 79-07-03A
+MEL
+
+
+
+
+
+
+A23. DEFECT DEFERMENT
+    1 
+AFT CRG HEAT MAINTENANCE Message
+MEL 21-00-03
+MEL
+
+
+
+
+
+
+    2 
+TEMP CTL 1(2) MAINTENANCE Message
+MEL 21-00-04
+MEL
+
+
+
+
+
+
+    3 
+CPC 1(2) MAINTENANCE Message
+MEL 21-00-05
+MEL
+
+
+
+
+
+
+    4 
+PACK pb-sw OFF light
+MEL 21-01-01-02
+MEL
+
+
+
+
+
+
+    5 
+HOT AIR pb-sw OFF light
+MEL 21-01-01-04
+MEL
+
+
+
+
+
+
+    6 
+VENT BLOWER FAULT Alert
+MEL 21-09-01A Blower fan operative
+MEL
+
+
+
+
+
+
+    7 
+VENT EXTRACT FAULT Alert
+MEL 21-09-02A Extract fan operative
+MEL
+
+
+
+
+
+
+    8 
+Lavatory and Galley Extraction Fan
+MEL 21-23-01B
+MEL
+
+
+
+
+
+
+    9 
+CIDS 1(2) MAINTENANCE Message
+MEL 23-00-01
+MEL
+
+
+
+
+
+
+    10 
+Ground External Horn
+MEL 23-40-01
+MEL
+
+
+
+
+
+
+    11 
+Headset/Boomset
+MEL 23-51-02
+MEL
+
+
+
+
+
+
+    12 
+Hand Microphone
+MEL 23-51-03
+MEL
+
+
+
+
+
+
+    13 
+CAPT and F/O ACP
+MEL 23-52-01
+MEL
+
+
+
+
+
+
+    14 
+ACP 3
+MEL 23-52-02
+MEL
+
+
+
+
+
+
+    15 
+ACP Reception knob light
+MEL 23-52-07
+MEL
+
+
+
+
+
+
+    16 
+Cabin Handset
+MEL 23-73-06-02
+MEL
+
+
+
+
+
+
+    17 
+DC BUS TIE MAINTENANCE Message
+MEL 24-00-01
+MEL
+
+
+
+
+
+
+    18 
+AC GEN MAINTENANCE Message
+MEL 24-00-03
+MEL
+
+
+
+
+
+
+    19 
+GEN pb-sw OFF light and APU GEN pb-sw OFF light
+MEL 24-01-01-04
+MEL
+
+
+
+
+
+
+    20 
+EXT PWR pb AVAIL light
+MEL 24-01-01-07
+MEL
+
+
+
+
+
+
+    21 
+EXT PWR pb ON light
+MEL 24-01-01-08
+MEL
+
+
+
+
+
+
+    22 
+Battery Voltmeter
+MEL 24-38-03
+MEL
+
+
+
+
+
+
+    23 
+Pilot Sliding Table
+MEL 25-13-01A Table stowed
+MEL
+
+
+
+
+
+
+    24 
+Galley Waste Compartment Flapper Door
+MEL 25-13-01B Table removed
+MEL
+
+
+
+
+
+
+
+
+MEL 25-35-01A One or more Galley Waste Compartment Flapper Door affected
+MEL
+
+
+
+
+
+
+    25 
+Toilet Waste Compartment Flapper Door
+MEL 25-35-01B One Galley Waste Compartment Flapper Door affected
+MEL
+
+
+
+
+
+
+    26 
+Exterior Lavatory Ashtray
+MEL 25-40-01
+MEL
+
+
+
+
+
+
+    27 
+SMOKE MAINTENANCE Message
+MEL 25-40-02
+MEL
+
+
+
+
+
+
+    28 
+Bulb/LED in the APU FIRE-PUSH pb-sw
+MEL 26-00-01
+MEL
+
+
+
+
+
+
+    29 
+Lavatory Waste Bin Fire Extinguishing System
+MEL 26-01-01-04A A maximum of four bulbs or LEDs inoperative
+MEL
+
+
+
+
+
+
+    30 
+F/CTL MAINTENANCE Message
+MEL 26-25-01
+MEL
+
+
+
+
+
+
+    31 
+SFCS MAINTENANCE Message
+MEL 27-00-01
+MEL
+
+
+
+
+
+
+    32 
+Aileron Position Indication on the F/CTL SD page
+MEL 27-00-02
+MEL
+
+
+
+
+
+
+    33 
+FUEL MAINTENANCE Message
+MEL 27-07-02
+MEL
+
+
+
+
+
+
+    34 
+Wing TK PUMP pb-sw OFF light
+MEL 28-00-01
+MEL
+
+
+
+
+
+
+    35 
+X FEED pb-sw ON light
+MEL 28-01-01-02
+MEL
+
+
+
+
+
+
+    36 
+X FEED pb-sw OPEN light
+MEL 28-01-01-03
+MEL
+
+
+
+
+
+
+    37 
+CTR TK PUMP pb-sw OFF light
+MEL 28-01-01-04
+MEL
+
+
+
+
+
+
+    38 
+FUEL MODE SEL pb-sw FAULT light
+MEL 28-01-01-06
+MEL
+
+
+
+
+
+
+    39 
+ACT pb-sw FAULT light
+MEL 28-01-01-07
+MEL
+
+
+
+
+
+
+    40 
+ACT pb-sw FWD light
+MEL 28-01-01-08
+MEL
+
+
+
+
+
+
+    41 
+Fuel Temperature Indication on the FUEL SD page
+MEL 28-01-01-09
+MEL
+
+
+
+
+
+
+    42 
+Overpressure Protector in the Vent Surge Tank
+MEL 28-07-02-01
+MEL
+
+
+
+
+
+
+    43 
+Fuel Quantity Preselector
+MEL 28-12-02
+MEL
+
+
+
+
+
+
+    44 
+Fuel Quantity on the Refuel/Defuel Control Panel
+MEL 28-25-01
+MEL
+
+
+
+
+
+
+    45 
+Y ELEC PUMP pb-sw ON light
+MEL 28-25-02
+MEL
+
+
+
+
+
+
+    46 
+G(Y) ENG 1(2) PUMP pb-sw OFF light
+MEL 29-01-01-03
+MEL
+
+
+
+
+
+
+    47 
+Yellow ELEC Pump Indication on the HYD SD page
+MEL 29-01-01-05
+MEL
+
+
+
+
+
+
+    48 
+System Label Indication on the HYD SD page
+MEL 29-07-01
+MEL
+
+
+
+
+
+
+    49 
+System Pressure Indication on the HYD SD page
+MEL 29-07-07
+MEL
+
+
+
+
+
+
+    50 
+Yellow System Electric Pump
+MEL 29-07-08
+MEL
+
+
+
+
+
+
+    51 
+ENG 1(2) A.ICE MAINTENANCE Message
+MEL 29-24-01
+MEL
+
+
+
+
+
+
+    52 
+Fixed Lateral Window and Sliding Window Heating
+MEL 30-00-02
+MEL
+
+
+
+
+
+
+    53 
+Rain Repellent System
+MEL 30-42-02
+MEL
+
+
+
+
+
+
+    54 
+Lighting of External Visual Icing Indicator
+MEL 30-45-03
+MEL
+
+
+
+
+
+
+    55 
+ACMS MAINTENANCE Message
+MEL 30-81-03
+MEL
+
+
+
+
+
+
+    56 
+DAR MAINTENANCE Message
+MEL 31-00-02
+MEL
+
+
+
+
+
+
+    57 
+CFDIU MAINTENANCE Message
+MEL 31-00-03
+MEL
+
+
+
+
+
+
+    58 
+DMC 1/3 MAINTENANCE Message
+MEL 31-00-04
+MEL
+
+
+
+
+
+
+    59 
+DMC 2/3 MAINTENANCE Message
+MEL 31-00-05
+MEL
+
+
+
+
+
+
+    60 
+DFDR ACCEL MAINTENANCE Message
+MEL 31-00-06
+MEL
+
+
+
+
+
+
+    61 
+Printer
+MEL 31-00-07
+MEL
+
+
+
+
+
+
+    62 
+Nose Wheel Tie Bolt
+MEL 31-30-07
+MEL
+
+
+
+
+
+
+    63 
+Main Wheel Tie Bolt
+MEL 32-41-01
+MEL
+
+
+
+
+
+
+    64 
+Brake Temperature Monitoring Unit (BTMU)
+MEL 32-41-02
+MEL
+
+
+
+
+
+
+    65 
+Brake Fan System
+MEL 32-47-01
+MEL
+
+
+
+
+
+
+    66 
+BRK FAN pb-sw HOT light
+MEL 32-48-01A Brake Fan System not used
+MEL
+
+
+
+
+
+
+    67 
+BRK FAN pb-sw ON light
+MEL 32-48-02
+MEL
+
+
+
+
+
+
+    68 
+PARKING BRAKE light on the NWS Electrical Deactivation Box
+MEL 32-48-03
+MEL
+
+
+
+
+
+
+    69 
+ANN LT Overhead Panel
+MEL 32-51-04
+MEL
+
+
+
+
+
+
+    70 
+SIGNS Overhead Panel
+MEL 33-01-01
+MEL
+
+
+
+
+
+
+    71 
+Cabin General Illumination
+MEL 33-01-02
+MEL
+
+
+
+
+
+
+    72 
+Cabin Signs (No Smoking/No Electronic
+Devices/Fasten Seat Belt/Return to Seat)
+MEL 33-20-01
+MEL
+
+
+
+
+
+
+    73 
+Lavatory Sign (Return to seat)
+MEL 33-20-02
+MEL
+
+
+
+
+
+
+    74 
+Cargo and Service Compartment Lighting System
+MEL 33-20-03
+MEL
+
+
+
+
+
+
+    75 
+Exterior Lighting
+MEL 33-30-01
+MEL
+
+
+
+
+
+
+    76 
+ADR MAINTENANCE Message
+MEL 33-40
+MEL
+
+
+
+
+
+
+    77 
+IR MAINTENANCE Message
+MEL 34-00-01
+MEL
+
+
+
+
+
+
+    78 
+ADR pb-sw OFF light
+MEL 34-00-02
+MEL
+
+
+
+
+
+
+    79 
+IR pb-sw OFF light
+MEL 34-01-01-02
+MEL
+
+
+
+
+
+
+    80 
+ON BAT light
+MEL 34-01-01-04
+MEL
+
+
+
+
+
+
+    81 
+Chrono Indication on the ND
+MEL 34-01-01-05
+MEL
+
+
+
+
+
+
+    82 
+Exterior Crew Oxygen Overpressure Indicator Disc (Green Disc)
+MEL 34-06-07
+MEL
+
+
+
+
+
+
+    83 
+Lavatory Oxygen Unit
+MEL 35-10-03
+MEL
+
+
+
+
+
+
+    84 
+Manual Release Tool
+MEL 35-20-03
+MEL
+
+
+
+
+
+
+    85 
+Flight Crew Portable Protective Breathing Equipment
+MEL 35-20-05
+MEL
+
+
+
+
+
+
+    86 
+APU Bleed Air Supply System
+MEL 35-30-02
+MEL
+
+
+
+
+
+
+    87 
+Fuel Tank Inerting System
+MEL 36-12-01A
+MEL
+
+
+
+
+
+
+    88 
+APU MAINTENANCE Message
+MEL 47-10-01
+MEL
+
+
+
+
+
+
+    89 
+APU MASTER SW pb-sw FAULT light
+MEL 49-00-01
+MEL
+
+
+
+
+
+
+    90 
+APU MASTER SW pb-sw ON light
+MEL 49-01-01
+MEL
+
+
+
+
+
+
+    91 
+APU START pb-sw AVAIL light
+MEL 49-01-02
+MEL
+
+
+
+
+
+
+    92 
+APU START pb-sw ON light
+MEL 49-01-03
+MEL
+
+
+
+
+
+
+    93 
+Cargo Doors Open/Locked Indicator light
+MEL 49-01-04
+MEL
+
+
+
+
+
+
+    94 
+CDLS Keypad LED
+MEL 52-30-07
+MEL
+
+
+
+
+
+
+    95 
+ENG EIU MAINTENANCE Message
+MEL 52-51-05
+MEL
+
+
+
+
+
+
+    96 
+ENG EVMU MAINTENANCE Message
+MEL 70-00-02
+MEL
+
+
+
+
+
+
+Completion instruction
+Index
+Description
+    1. ID
+Enter task progressive identification number.
+    2. Task description
+Enter maintenance task description needed to be performed. This field is pre-entered or by supervisor for alternate task.
+    3. Task reference
+Enter maintenance data task reference number (i.e. AMM ATA-Sub-Task). This field is normally pre-entered.
+    4. CAT
+Enter category of maintenance task, it may be:
+FOT: Functional/Operational test 	M/P: maintenance practice
+R/I: Removal/Installation  	I/C: Inspection/ check
+SGH: Servicing/Ground Handling 	GVI: General Inspection
+MEL: Minimum Equipment List 	DI: Detail Inspection
+T/S: Troubleshooting 	D/R: Deactivation/Reactivation
+    5. A/C Reg.
+Enter aircraft registration mark. To be entered by the trainee.
+    • The aircraft registration shall correspond to the same aircraft type for which the OJT is conducted.
+    • The engine difference shall be also considered when performing maintenance tasks applicable to the engine.
+For example, a B1 category training on A320(CFM56) aircraft may be performed on an A320(V2500) aircraft when the OJT tasks related to the landing gear, but must be on A320(CFM56) aircraft when the OJT tasks related to the engine.
+    6. Date
+Enter date when the specific task is carried out. Dates entered shall follow the format DD/MM/YYYY or DDMMMYYYY and by the trainee. E.g. 25/12/2019 or 25DEC2019
+    7. Maintenance record reference
+Enter the aircraft technical log page, work card/ job card number (together with a work package number), worksheet reference or work order number... to retrieve the evidence of the task carried out. To be entered by the trainee.
+    8. Trainee’s signature
+Signature entered by trainee (logbook’s holder).
+    9. Supervisor’s signature and licence number
+The supervisor enters his/her signature and licence number to confirm that the task has been carried out correctly under his/her direct supervision.
+    10. Remark
+Enter other information that may need for assessment (if any).
+       	
+       Example: 
+1.
+ID
+2.
+Task description
+
+3.
+Task reference
+4.
+CAT
+5.
+ A/C Reg.
+6.
+Date
+7.
+Maintenance record reference
+8.
+Trainee’s signature
+9.
+Supervisor’s signature and licence number
+10.
+Remark
+
+ATA 21-Air Conditioning
+
+
+
+
+
+
+
+
+1
+OPERATIONAL CHECK OF OVERRIDE FUNCTION (BLOWER AND EXTRACT)
+AMM 21-26-00-710-002-A
+FOT
+VN-A336
+01/07/2019
+WO 00123456
+
+
+
+2
+FUNCTIONAL TEST OF THE AFT CARGO COMPARTMENT VENTILATION-SYSTEM
+AMM 21-28-00-720-004-A
+FOT
+VN-A325
+05/07/2019
+JC#39, WP VN0045678
+
+
+
+3
+REMOVAL/INSTALLATION OF THE PRIMARY HEAT EXCHANGER
+AMM  21-52-25 PB401
+R/I
+VN-A604
+10/07/2019
+JC#76 WP VN0025643
+
+
+
+
+Or
+REMOVAL/INSTALLATION OF THE CONDENSOR
+AMM 21-52-26 PB401
+
+
+
+
+
+
+
+
+
+Appendix 1. Typical maintenance tasks
+
+Time limits/Maintenance checks
+100-hour check (general aviation aircraft).
+“B” or “C” check (transport category aircraft).
+Assist in carrying out a scheduled maintenance check i.a.w. AMM. 
+Review Aircraft Maintenance Log for correct completion.
+Review records for compliance with airworthiness directives. 
+Review records for compliance with component life limits.
+Procedure for Inspection following heavy landing. 
+Procedure for Inspection following lightning strike.
+
+Dimensions/Areas
+Locate component(s) by zone/station number. 
+Perform symmetry check.
+
+Lifting and Shoring
+Assist in:
+Jack aircraft nose or tail wheel. 
+Jack complete aircraft.
+Sling or trestle major component.
+
+Levelling/Weighing
+Level aircraft. 
+Weigh aircraft.
+Prepare weight and balance amendment. 
+Check aircraft against equipment list.
+
+Towing and Taxiing
+Prepare aircraft for towing. 
+Tow aircraft.
+Be part of aircraft towing team.
+
+Parking and Mooring
+Tie down aircraft.
+Park, secure and cover aircraft. 
+Position aircraft in maintenance dock. 
+Secure rotor blades.
+
+Placards and Markings
+Check aircraft for correct placards. 
+Check aircraft for correct markings.
+
+Servicing
+Refuel aircraft.
+Defuel aircraft.
+Carry out tank to tank fuel transfer. 
+Check/adjust tyre pressures.
+Check/replenish oil level.
+Check/replenish hydraulic fluid level.
+Check/replenish accumulator pressure.
+Charge pneumatic system.
+Grease aircraft. 
+Connect ground power.
+Service toilet/water system. 
+Perform pre-flight/daily check.
+
+Vibration and Noise Analysis
+Analyse helicopter vibration problem. 
+Analyse noise spectrum.
+Analyse engine vibration.
+
+Air Conditioning
+
+Replace combustion heater. 
+Replace flow control valve.
+Replace outflow valve.
+Replace safety valve.
+Replace vapour cycle unit.
+Replace air cycle unit.
+Replace cabin blower.
+Replace heat exchanger.
+Replace pressurization controller.
+Clean outflow valves.
+Check operation of air conditioning/heating system.
+Check operation of pressurization system.
+Troubleshoot faulty system.
+
+Autoflight
+Install servos.
+Rig bridle cables
+Replace controller.
+Replace amplifier.
+Replacement of auto flight system LRUs in the case of fly-by-wire aircraft
+Check operation of auto-pilot.
+Check operation of auto-throttle/auto-thrust.
+Check operation of yaw damper.
+Perform autopilot gain adjustments.
+Perform mach trim functional check.
+Check autoland system.
+Check flight management systems.
+Check stability augmentation system.
+Troubleshoot faulty system.
+
+Communications
+Replace VHF comm unit.
+Replace HF comm unit.
+Replace existing antenna.
+Replace static discharge wicks.
+Check operation of radios.
+Perform antenna VSWR check.
+Perform Selcal operational check.
+Perform operational check of passenger address system.
+Functionally check audio integrating system.
+Repair co-axial cable.
+Troubleshoot faulty system.
+
+Electrical Power
+Charge lead/acid battery.
+Charge ni-cad battery.
+Check battery capacity.
+Deep-cycle ni-cad battery.
+Replace integrated drive/generator/alternator.
+Replace switches.
+Replace circuit breakers.
+Adjust voltage regulator.
+Change voltage regulator.
+Amend electrical load analysis report.
+Repair/replace electrical feeder cable.
+Perform functional check of integrated drive/generator/altenator.
+Perform functional check of voltage regulator.
+Troubleshoot faulty system.
+
+Equipment/Furnishings
+Replace carpets.
+Replace crew seats.
+Replace passenger seats.
+Check inertia reels.
+Check seats/belts for security.
+Check emergency equipment.
+Check ELT for compliance with regulations.
+Repair toilet waste container.
+Repair upholstery.
+Change cabin configuration.
+Replace cargo loading system actuator.
+Test cargo loading system.
+Replace escape slides/ropes.
+
+Fire Protection
+Check fire bottle contents.
+Check/test operation of fire/smoke detection and warning system.
+Check cabin fire extinguisher contents.
+Check lavatory smoke detector system.
+Check cargo panel sealing.
+Install new fire bottle.
+Replace fire bottle squib.
+Inspect engine fire wire detection systems.
+Troubleshoot faulty system.
+
+Flight Controls
+Inspect primary flight controls and related components i.a.w. AMM.
+Inspect extending/retracting flaps and slats.
+Replace horizontal stabilizer.
+Replace spoiler/lift dumper.
+Replace elevator.
+Deactivation/reactivation of aileron servo control.
+Replace aileron.
+Replace rudder.
+Replace trim tabs.
+Install control cable and fittings.
+Replace slats.
+Replace flaps.
+Replace powered flying control unit
+Replace flap actuator
+Rig primary flight controls.
+Adjust trim tab.
+Adjust control cable tension.
+Check control range and sense direction of movement.
+Check for correct assembly and locking.
+Functional test of primary flight controls.
+Functional test of flap system.
+Operational test of the side stick assembly.
+Operational test of the THS
+THS system wear check.
+Troubleshoot faulty system.
+
+Fuel
+Water drain system (operation).
+Replace booster pump.
+Replace fuel selector.
+Replace fuel tank cells.
+Replace/test fuel control valves.
+Replace magnetic fuel level indicators. Replace water drain valve.
+Check/calculate fuel contents manually.
+Check filters.
+Flow check system.
+Check calibration of fuel quantity gauges.
+Check operation feed/selectors
+Check operation of fuel dump/jettison system.
+Fuel transfer between tanks.
+Pressure de-fuel
+Pressure re-fuel (manual control)
+Deactivation/reactivation of the fuel valves (transfer de-fuel, X-feed, re-fuel)
+Troubleshoot faulty system.
+
+Hydraulics
+Replace engine driven pump.
+Check/replace case drain filter.
+Replace standby pump.
+Replace hydraulic motor pump/generator.
+Replace accumulator.
+Check operation of shut off valve.
+Check filters/clog indicators.
+Check indicating systems.
+Perform functional checks.
+Pressurization/depressurization of the hydraulic system.
+PTU operation
+Troubleshoot faulty system.
+
+                                   Ice and Rain Protection
+Replace pump. Replace timer.
+Inspect/repair propeller de-ice boot.
+Test propeller de-icing system.
+Inspect/test wing leading edge de-icer boot.
+Replace anti-ice/de-ice valve.
+Install wiper motor.
+Check operation of systems.
+Operational test of the pitot-probe ice protection.
+Operational test of the TAT ice protection.
+Operational test of the wing ice protection system.
+Operational test of the engine air-intake ice protection (with engines in operation).
+Troubleshoot faulty system.
+                                   
+                                   Indicating/recording systems
+Replace flight data recorder (FDR).
+Replace cockpit voice recorder.
+Replace clock.
+Replace master caution unit.
+Perform flight data recorder data retrieval.
+Implement ESD procedures.
+Inspect for HIRF requirements.
+Start/stop EIS procedure.
+Bite test of the CFDIU.
+Ground scanning of the central warning system.
+Troubleshoot faulty system.
+
+                                   Landing Gear
+Build up wheel.
+Replace main wheel.
+Replace nose wheel.
+Replace steering actuator.
+Replace truck tilt actuator.
+Replace gear retraction actuator.
+Replace uplock/downlock assembly.
+Replace shimmy damper.
+Rig nose wheel steering.
+Functional test of the nose wheel steering system.
+Replace shock strut seals.
+Servicing of shock strut.
+Replace brake unit.
+Replace brake control valve.
+Bleed brakes.
+Replace brake fan.
+Test anti-skid unit.
+Test gear retraction.
+Change bungees.
+Adjust micro switches/sensors.
+Charge struts with oil and air.
+Test outbrake system.
+Replace rotorcraft skids.
+Replace rotorcraft skid shoes.
+Pack and check floats.
+Check/test emergency blowdown.
+Operational test of the landing gear doors.
+Troubleshoot faulty system.
+                                   
+                                   Lights
+Repair/replace rotating beacon.
+Repair/replace landing lights.
+Repair/replace navigation lights.
+Repair/replace interior lights.
+Replace ice inspection lights.
+Repair/replace logo lights.
+Repair/replace emergency lighting system.
+Perform emergency lighting system checks.
+Troubleshoot faulty system.
+
+Navigation
+Calibrate magnetic direction indicator.
+Replace airspeed indicator.
+Replace altimeter.
+Replace air data computer.
+Replace VOR unit.
+Replace ADI. Replace HSI.
+Check pitot static system for leaks.
+Check operation of directional gyro.
+Functional check weather radar.
+Functional check doppler.
+Functional check TCAS.
+Functional check DME.
+Functional check ATC Transponder.
+Functional check flight director system.
+Functional check inertial nav system.
+Complete quadrantal error correction of ADF system.
+Update flight management system database.
+Check calibration of pitot static instruments.
+Check calibration of pressure altitude reporting system.
+Check marker systems.
+Compass replacement direct/indirect.
+Check Satcom.
+Check GPS.
+Test AVM.
+Troubleshoot faulty system.
+
+Oxygen
+Inspect on board oxygen equipment.
+Purge and recharge oxygen system.
+Replace regulator.
+Replace oxygen generator.
+Test crew oxygen system.
+Perform auto oxygen system deployment check.
+Troubleshoot faulty system.
+
+Pneumatic Systems
+Replace filter.
+Replace air shut off valve. 
+Replace pressure regulating valve.
+Replace compressor.
+Recharge dessicator.
+Adjust regulator.
+Check for leaks.
+Troubleshoot faulty system.
+
+Vacuum Systems
+Inspect the vacuum system i.a.w. AMM.
+Replace vacuum pump.
+Check/replace filters.
+Adjust regulator.
+Troubleshoot faulty system.
+
+Water/Waste
+Replace water pump.
+Replace tap.
+Replace toilet pump.
+Inspect waste bin flap closure.
+Troubleshoot faulty system.
+
+Central Maintenance System
+Retrieve data from CMU.
+Replace CMU.
+Perform BITE check.
+Troubleshoot faulty system.
+
+Airborne Auxiliary power
+Install APU.
+Inspect hot section.
+Troubleshoot faulty system.
+
+Structures
+Sheet metal repair.
+Fibre glass repair.
+Wooden repair.
+Fabric repair.
+Recover fabric control surface.
+Treat corrosion.
+Apply protective treatment.
+
+Doors
+Inspect passenger door i.a.w. AMM.
+Rig/adjust locking mechanism.
+Adjust air stair system.
+Check operation of emergency exits.
+Test door warning system.
+Remove and install passenger door i.a.w. AMM.
+Remove and install emergency exit i.a.w. AMM.
+Inspect cargo door i.a.w. AMM.
+Troubleshoot faulty system.
+
+Windows
+Replace windshield.
+Replace direct vision window.
+Replace cabin window.
+Repair transparency.
+
+Wings
+Skin repair.
+Recover fabric wing.
+Replace tip.
+Replace rib.
+Replace integral fuel tank panel.
+Check incidence/rig.
+
+Propeller
+Assemble prop after transportation.
+Replace propeller.
+Replace governor.
+Adjust governor.
+Perform static functional checks. 
+Check operation during ground run.
+Check track.
+Check setting of micro switches.
+Assess and dress out blade damage i.a.w. AMM.
+Dynamically balance prop.
+Troubleshoot faulty system.
+
+Main Rotors
+Install rotor assembly.
+Replace blades.
+Replace damper assembly.
+Check track.
+Check static balance.
+Check dynamic balance.
+Troubleshoot.
+
+Rotor Drive
+Replace mast.
+Replace drive coupling.
+Replace clutch/freewheel unit
+Replace drive belt.
+Install main gearbox.
+Overhaul main gearbox.
+Check gearbox chip detectors.
+
+
+Tail Rotors
+Install rotor assembly.
+Replace  blades.
+Troubleshoot.
+
+Tail Rotor Drive
+Replace bevel gearbox.
+Replace universal joints.
+Overhaul bevel gearbox.
+Install drive assembly.
+Check chip detectors.
+Check/install bearings and hangers. 
+Check/service/assemble flexible couplings. 
+Check alignment of drive shafts.
+Install and rig drive shafts.
+
+Rotorcraft Flight Controls
+Install swash plate. Install mixing box. 
+Adjust pitch links.
+Rig collective system. 
+Rig cyclic system.
+Rig anti-torque system.
+Check controls for assembly and locking. 
+Check controls for operation and sense. 
+Troubleshoot faulty system.
+
+Power Plant
+Build up ECU. Replace engine. 
+Repair cooling baffles. 
+Repair cowling.
+Adjust cowl flaps. 
+Repair faulty wiring.
+Assist in dry monitoring check. 
+Assist in wet monitoring check. 
+Assist in engine start (manual mode). 
+Troubleshoot.
+
+Piston Engines
+Remove/install reduction gear. 
+Check crankshaft run-out.
+Check tappet clearance. 
+Check compression.
+Extract broken stud. 
+Install helicoil.
+Perform ground run. 
+Establish/check reference RPM. 
+Troubleshoot.
+
+Turbine Engines
+Replace module. 
+Replace fan blade.
+Hot section inspection/boroscope check. 
+Carry out engine/compressor wash.
+Carry out engine dry cycle. 
+Engine ground run.
+Establish reference power.
+Trend monitoring/gas path analysis. 
+Troubleshoot.
+
+Fuel and Control – Piston
+Replace engine driven pump. 
+Adjust AMC.
+Adjust ABC.
+Install carburettor/injector. 
+Adjust carburettor/injector. 
+Clean injector nozzles.
+Replace primer line.
+Check carburettor float setting. 
+Troubleshoot faulty system.
+
+Fuel and Control – Turbine
+Replace FCU.
+Replace Engine Electronic Control Unit (FADEC). 
+Replace Fuel Metering Unit (FADEC).
+Replace engine driven pump. 
+Clean/test fuel nozzles.
+Clean/replace filters. 
+Adjust FCU.
+Functional test of FADEC. 
+Troubleshoot faulty system.
+
+Ignition Systems – Piston
+Change magneto. 
+Change ignition vibrator.
+Change plugs.
+Test plugs. 
+Check H.T. leads. 
+Install new leads. 
+Check timing.
+Check system bonding. 
+Troubleshoot faulty system.
+
+Ignition Systems – Turbine
+Perform functional test of the ignition system. 
+Check glow plugs/ignitors.
+Check H.T. leads. 
+Check ignition unit. 
+Replace ignition unit.
+Troubleshoot faulty system.
+
+Engine Controls
+Rig thrust lever. 
+Rig RPM control.
+Rig mixture HP cock lever. 
+Rig power lever.
+Check control sync (multi-eng).
+Check controls for correct assembly and locking.
+Check controls for range and sense of operation  direction  of movement.
+Adjust pedestal micro-switches. 
+Troubleshoot faulty system.
+
+Engine Indicating
+Replace engine instrument(s). 
+Replace oil temperature bulb. 
+Replace thermocouples.
+Check calibration. 
+Troubleshoot faulty system.
+
+Exhaust – Piston
+Replace exhaust gasket. 
+Inspect welded repair.
+Pressure check cabin heater muff. 
+Troubleshoot faulty system.
+
+Exhaust – Turbine
+Change jet pipe.
+Change shroud assembly. 
+Install trimmers.
+Inspect/replace thrust reverser. 
+Replace thrust reverser component. 
+Deactivate/reactivate thrust reverser.
+Operational test of the thrust reverser system.
+
+Oil
+Change oil. 
+Check filter(s).
+Adjust pressure relief valve. 
+Replace oil tank.
+Replace oil pump.
+Replace oil cooler.
+Replace firewall shut-off valve. 
+Perform oil dilution test.
+Troubleshoot faulty system.
+
+Starting
+Replace starter. 
+Replace start relay.
+Replace start control valve. 
+Check cranking speed.
+Troubleshoot faulty system.
+
+Turbocharger – Piston Engines
+Replace PRT.  
+Replace turbo-blower. 
+Replace heat shields. 
+Replace waste gate.
+Adjust density controller.
+
+Engine Water Injection
+Replace water/methanol pump. 
+Flow check water/methanol system. 
+Adjust water/methanol control unit. 
+Check fluid for quality.
+Troubleshoot faulty system.
+
+Accessory Gearboxes
+Replace gearbox. 
+Replace drive shaft.
+Check/inspect magnetic chip detector.
+
+APU
+Removal/installation of the APU. 
+Removal/installation of the inlet guide-vane actuator. 
+Operational test of the APU.
+
+
+           Glossary
+
+
+ABC
+Automatic Boost Control
+FDR
+Flight Data Recorder
+
+ADI
+Attitude Direction Indicator
+GPS
+Global Positioning System
+
+AMC
+Automatic Mixture Control
+HF
+High Frequency
+
+AMM
+Aircraft Maintenance Manual
+HIRF
+High Intensity Radiated Field
+
+APU
+Auxiliary Power Unit
+HP
+High Pressure
+
+ATC
+Air Traffic Control
+HSI
+Horizontal Situation Indicator
+
+AVM
+Aircraft Vibration Monitor
+LRU
+Line Replaceable Unit
+
+BITE
+Built in Test Equipment
+PRT
+Power Recovery Turbine
+
+CFDIU
+Centralized Fault Display Interface Unit
+PTU
+Power Transfer Unit
+
+CMU
+Central Monitoring Unit
+RPM
+Revolutions Per Minute
+
+DME
+Distance Measuring Equipment
+TAT
+Total Air Temperature
+
+ECU
+Electronic Control Unit
+TCAS
+Traffic Collision Avoidance System
+
+EIS
+Electronic Instrument System
+THS
+Trimmable Horizontal Stabilizer
+
+ELT
+Emergency Locator Transmitter
+VHF
+Very High Frequency
+
+ESD
+Electrostatic Sensitive Device
+VOR
+Visual Omni Range
+
+FADEC
+Full Authority Digital Engine Control
+VSWR
+Voltage Standing Wave Ratio
+
+FCU
+Fuel Control Unit
+
+
+
+
