@@ -3,17 +3,17 @@ SELECT
     TRIM(SUBSTRING(b.text FROM 'AC:\s*([A-Z0-9-]+)')) AS "AC",
     TRIM(SUBSTRING(b.text FROM 'WP:\s*([A-Z0-9-]+)')) AS "WP",
     b.extracted_wo_id AS "WO",
-    TRIM(SUBSTRING(b.text FROM 'MAINT RECORD:\s*(.*)$')) AS "MAINT RECORD",
+    TRIM(SUBSTRING(b.text FROM 'MAINTENANCE RECORD:\s*(.*)$')) AS "MAINT RECORD",
     dl.classification AS "CAT",
     b.text,
     b.created_by,
-    b."REMARKS",
     TO_CHAR(DATE '1971-12-31' + b.created_date, 'DD.MON.YYYY') AS "CREATED_DATE",
     b.other as "MHR",
-    SPLIT_PART(wt.template_number, '-', 4) AS "ID",
-    wt.template_title,
-    dl.description,
-    dl.link_remarks
+    CAST(REPLACE(wt.template_number, ',', '.') AS NUMERIC) AS "ID",
+    dl.ref_type AS "TASK_TYPE",
+    dl.description AS "TASK_REFERENCE",
+    dl.link_remarks AS "TASK_DESCRIPTION",
+    b."REMARKS"
 FROM (
     -- BƯỚC 1: Lấy số liệu nền, lọc ngay lập tức từ lúc truy vấn gốc bắt đầu
     -- Cắt Regex tại đây 1 lần để giảm vòng lặp Regex thừa của CPU
@@ -78,11 +78,10 @@ EXISTS (
     FROM wp_header 
     LEFT JOIN wp_assignment ON wp_header.wpno_i = wp_assignment.wpno_i
     JOIN forecast ON forecast.event_perfno_i = wp_assignment.event_perfno_i
-    LEFT JOIN db_link ON forecast.event_perfno_i::VARCHAR =db_link.source_pk AND db_link.source_type = 'WO'
-                    
+    LEFT JOIN db_link ON forecast.event_perfno_i::VARCHAR =db_link.source_pk AND db_link.source_type = 'WO'AND db_link.ref_type = 'AMTOSS'
     WHERE
     wp_header.wpno LIKE '%' || TRIM(SUBSTRING(b.text FROM 'WP:\s*([A-Z0-9-]+)')) || '%'
-    AND forecast.sequence LIKE '%' || TRIM(SUBSTRING(b.text FROM 'MAINT RECORD:\s*([A-Z0-9.]+)')) || '%'
-    AND db_link.description LIKE '%' || dl.description || '%'
+    AND forecast.sequence LIKE '%' || TRIM(SUBSTRING(b.text FROM 'MAINTENANCE RECORD:[^0-9]*([0-9]+(?:\.[0-9]+)?)')) || '%'
+    AND SUBSTRING(REPLACE(db_link.description, '-', ''), 1, 12) = SUBSTRING(REPLACE(dl.description, '-', ''), 1, 12)
 )
-
+ORDER BY "ID"

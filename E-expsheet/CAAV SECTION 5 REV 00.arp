@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0" xsi:schemaLocation="http://www.swiss-as.com/xml/report_3.0 http://www.swiss-as.com/xml/report_3.0.xsd http://www.swiss-as.com/xml/datasource_2.0 http://www.swiss-as.com/xml/datasource_2.0.xsd" xmlns="http://www.swiss-as.com/xml/report_3.0">
+  <header>
+    <report_id>VJC.REP.1000400</report_id>
+    <revision_number>0</revision_number>
+    <meta name="serialization">v3</meta>
+    <rights>
+      <access_right name="visibleToCustomer">true</access_right>
+    </rights>
+  </header>
+  <page_master>
+    <view class="PageReportView" id="38">
+      <attribute name="name">Section 4</attribute>
+      <attribute name="position">0 0</attribute>
+      <attribute name="size">1000 700</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="header-size">70</attribute>
+      <attribute name="footer-size">20</attribute>
+      <attribute name="orientation">LANDSCAPE</attribute>
+    </view>
+    <content>
+      <view class="LabelReportView" id="41">
+        <attribute name="name">Label_3</attribute>
+        <attribute name="position">228 18</attribute>
+        <attribute name="size">540 55</attribute>
+        <attribute name="visible">YES</attribute>
+        <attribute name="auto-resize">NO</attribute>
+        <attribute name="rotation">0.0</attribute>
+        <conditional_attributes/>
+        <attribute name="color">000000</attribute>
+        <attribute name="margin">0 0 0 0</attribute>
+        <attribute name="padding">0 0 0 0</attribute>
+        <attribute name="border">0 SOLID 000000</attribute>
+        <attribute name="date-time">17.Feb.2025  12:22</attribute>
+        <attribute name="user-sign">VJC1138</attribute>
+        <attribute name="text">Section 5. Maintenance Experience (OJT)
+OJT tasks for AMT category B2</attribute>
+        <attribute name="text-decoration">NONE</attribute>
+        <attribute name="font">Serif BOLD 14</attribute>
+        <attribute name="text-align">CENTER</attribute>
+        <attribute name="line-break">AS_IS</attribute>
+        <attribute name="splitable">NO</attribute>
+        <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+        <attribute name="antialias">false</attribute>
+      </view>
+      <view class="BoxReportView" id="49">
+        <attribute name="name">Box_1</attribute>
+        <attribute name="position">226 0</attribute>
+        <attribute name="size">544 70</attribute>
+        <attribute name="visible">YES</attribute>
+        <attribute name="auto-resize">NO</attribute>
+        <attribute name="rotation">0.0</attribute>
+        <conditional_attributes/>
+        <attribute name="color">000000</attribute>
+        <attribute name="margin">0 0 0 0</attribute>
+        <attribute name="padding">0 0 0 0</attribute>
+        <attribute name="border">1 SOLID 000000</attribute>
+      </view>
+      <view class="BoxReportView" id="50">
+        <attribute name="name">Box_2</attribute>
+        <attribute name="position">770 0</attribute>
+        <attribute name="size">219 70</attribute>
+        <attribute name="visible">YES</attribute>
+        <attribute name="auto-resize">NO</attribute>
+        <attribute name="rotation">0.0</attribute>
+        <conditional_attributes/>
+        <attribute name="color">000000</attribute>
+        <attribute name="margin">0 0 0 0</attribute>
+        <attribute name="padding">0 0 0 0</attribute>
+        <attribute name="border">1 SOLID 000000</attribute>
+      </view>
+      <view class="BoxReportView" id="39">
+        <attribute name="name">Box_6</attribute>
+        <attribute name="position">7 0</attribute>
+        <attribute name="size">219 70</attribute>
+        <attribute name="visible">YES</attribute>
+        <attribute name="auto-resize">NO</attribute>
+        <attribute name="rotation">0.0</attribute>
+        <conditional_attributes/>
+        <attribute name="color">000000</attribute>
+        <attribute name="margin">0 0 0 0</attribute>
+        <attribute name="padding">0 0 0 0</attribute>
+        <attribute name="border">1 SOLID 000000</attribute>
+      </view>
+      <view class="LabelReportView" id="40">
+        <attribute name="name">Label_2</attribute>
+        <attribute name="position">225 -3</attribute>
+        <attribute name="size">545 31</attribute>
+        <attribute name="visible">YES</attribute>
+        <attribute name="auto-resize">NO</attribute>
+        <attribute name="rotation">0.0</attribute>
+        <conditional_attributes/>
+        <attribute name="color">000000</attribute>
+        <attribute name="margin">0 0 0 0</attribute>
+        <attribute name="padding">0 0 0 0</attribute>
+        <attribute name="border">0 SOLID 000000</attribute>
+        <attribute name="date-time">17.Feb.2025  12:22</attribute>
+        <attribute name="user-sign">VJC1138</attribute>
+        <attribute name="text">Aircraft Maintenance Technician’s Log Book</attribute>
+        <attribute name="text-decoration">NONE</attribute>
+        <attribute name="font">Serif PLAIN 16</attribute>
+        <attribute name="text-align">CENTER</attribute>
+        <attribute name="line-break">AS_IS</attribute>
+        <attribute name="splitable">NO</attribute>
+        <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+        <attribute name="antialias">false</attribute>
+      </view>
+      <view class="ImageReportView" id="42">
+        <attribute name="name">Image_1</attribute>
+        <attribute name="position">15 7</attribute>
+        <attribute name="size">199 58</attribute>
+        <attribute name="visible">YES</attribute>
+        <attribute name="auto-resize">NO</attribute>
+        <attribute name="rotation">0.0</attribute>
+        <conditional_attributes/>
+        <attribute name="color">000000</attribute>
+        <attribute name="margin">0 0 0 0</attribute>
+        <attribute name="padding">0 0 0 0</attribute>
+        <attribute name="border">0 SOLID 000000</attribute>
+        <attribute name="date-time">17.Feb.2025  12:26</attribute>
+        <attribute name="user-sign">VJC1138</attribute>
+        <attribute name="image-source">web://Logo/CAAV LOGO.png</attribute>
+        <attribute name="scale-mode">FILL</attribute>
+        <anchor>
+          <location>TOP_LEFT</location>
+          <anchor_view>39</anchor_view>
+          <anchor_location>TOP_LEFT</anchor_location>
+          <x_offset>8</x_offset>
+          <y_offset>7</y_offset>
+        </anchor>
+      </view>
+      <view class="LabelReportView" id="43">
+        <attribute name="name">Label_7</attribute>
+        <attribute name="position">16 670</attribute>
+        <attribute name="size">238 25</attribute>
+        <attribute name="visible">YES</attribute>
+        <attribute name="auto-resize">NO</attribute>
+        <attribute name="rotation">0.0</attribute>
+        <conditional_attributes/>
+        <attribute name="color">000000</attribute>
+        <attribute name="margin">0 0 0 0</attribute>
+        <attribute name="padding">0 0 0 0</attribute>
+        <attribute name="border">0 SOLID 000000</attribute>
+        <attribute name="date-time">17.Feb.2025  12:27</attribute>
+        <attribute name="user-sign">VJC1138</attribute>
+        <attribute name="text">CAAV-FSSD Form 586 [2] 2021</attribute>
+        <attribute name="text-decoration">NONE</attribute>
+        <attribute name="font">SansSerif PLAIN 10</attribute>
+        <attribute name="text-align">LEFT</attribute>
+        <attribute name="line-break">AS_IS</attribute>
+        <attribute name="splitable">NO</attribute>
+        <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+        <attribute name="antialias">false</attribute>
+      </view>
+      <view class="LabelReportView" id="44">
+        <attribute name="name">Label_8</attribute>
+        <attribute name="position">747 671</attribute>
+        <attribute name="size">238 25</attribute>
+        <attribute name="visible">YES</attribute>
+        <attribute name="auto-resize">NO</attribute>
+        <attribute name="rotation">0.0</attribute>
+        <conditional_attributes/>
+        <attribute name="color">000000</attribute>
+        <attribute name="margin">0 0 0 0</attribute>
+        <attribute name="padding">0 0 0 0</attribute>
+        <attribute name="border">0 SOLID 000000</attribute>
+        <attribute name="date-time">17.Feb.2025  12:27</attribute>
+        <attribute name="user-sign">VJC1138</attribute>
+        <attribute name="text">Page</attribute>
+        <attribute name="text-decoration">NONE</attribute>
+        <attribute name="font">SansSerif PLAIN 10</attribute>
+        <attribute name="text-align">RIGHT</attribute>
+        <attribute name="line-break">AS_IS</attribute>
+        <attribute name="splitable">NO</attribute>
+        <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+        <attribute name="antialias">false</attribute>
+      </view>
+      <view class="LabelReportView" id="45">
+        <attribute name="name">Label_12</attribute>
+        <attribute name="position">800 2</attribute>
+        <attribute name="size">187 48</attribute>
+        <attribute name="visible">YES</attribute>
+        <attribute name="auto-resize">NO</attribute>
+        <attribute name="rotation">0.0</attribute>
+        <conditional_attributes/>
+        <attribute name="color">000000</attribute>
+        <attribute name="margin">0 0 0 0</attribute>
+        <attribute name="padding">0 0 0 0</attribute>
+        <attribute name="border">0 SOLID 000000</attribute>
+        <attribute name="date-time">17.Feb.2025  12:32</attribute>
+        <attribute name="user-sign">VJC1138</attribute>
+        <attribute name="text">Log Book Holder`s Name: 
+@VAR.NAME@</attribute>
+        <attribute name="text-decoration">NONE</attribute>
+        <attribute name="font">SansSerif PLAIN 14</attribute>
+        <attribute name="text-align">RIGHT</attribute>
+        <attribute name="line-break">AS_IS</attribute>
+        <attribute name="splitable">NO</attribute>
+        <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+        <attribute name="antialias">false</attribute>
+      </view>
+    </content>
+  </page_master>
+  <content>
+    <view class="LabelReportView" id="47">
+      <attribute name="name">Label_11</attribute>
+      <attribute name="position">16 5</attribute>
+      <attribute name="size">531 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">17.Feb.2025  12:32</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">Section 5. Maintenance Experience (OJT)</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif BOLD 16</attribute>
+      <attribute name="text-align">TOP_LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+    </view>
+    <view class="HtmlReportView" id="97">
+      <attribute name="name">Html_3</attribute>
+      <attribute name="position">17 29</attribute>
+      <attribute name="size">965 743</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">4 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="html-content">&lt;p&gt;&lt;span class="tm8"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;This section is to record the experience gained on in-serviced aircraft. Each entry in the maintenance experience logbook is an on-the-job training (OJT) task. The type and range of OJT tasks under taken must be in respect of the category and/or type rating applied for. The OJT task details should be recorded by the logbook holder on completion of the task and countersigned by the task supervisor as soon as practicable after completion of the task. A specific task should only be entered once. There is no requirement to make multiple entries for the same or similar tasks.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class="tm8"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;1. The OJT is gained by a AMT in the workplace. The objective of OJT is to gain the required competence and experience in performing safe maintenance. The OJT competence credits are valid within 3 (three) years to the date of application for the license.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class="tm8"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;2. The OJT task lists are part of maintenance training program and approved by CAAV.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class="tm8"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;3. The OJT tasks to be completed shall be representative of the aircraft and systems both in complexity and in the technical input required to complete that task.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class="tm8"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;4. The OJT should include one to one supervision and should involve actual work task performance on aircraft/components, covering line and/or base maintenance tasks.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class="tm8"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;5. The use of simulators for OJT should not be allowed.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class="tm8"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;6. The OJT should cover at least 50% of the tasks in each group (bold leter) contained in Appendix 1 for the first aircraft type rating or the first licence category. Some tasks should be selected from each paragraph of the Appendix 1. Other tasks than those in the Appendix 1 may be considered as a replacement when they are relevant. The selected task shall:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="margin-left:20px"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;- &lt;/span&gt;&lt;/span&gt;&lt;span class="tm11"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;be representative of the aircraft/aircraft components and systems both in complexity and in the technical input required to complete that task. While relatively simple tasks may be included, other more complex maintenance tasks shall also be incorporated and undertaken as appropriate to the aircraft/aircraft component type;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="margin-left:20px"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;- &lt;/span&gt;&lt;/span&gt;&lt;span class="tm11"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;be selected among those applicable to the type of aircraft and license (sub) category applied for;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="margin-left:20px"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;- &lt;/span&gt;&lt;/span&gt;&lt;span class="tm11"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;be representative of the maintenance to be performed in terms of complexity, frequency, variety, safety, criticality, novelty etc….;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="margin-left:20px"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;- &lt;/span&gt;&lt;/span&gt;&lt;span class="tm11"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;include components unique to the type, or type-specific maintenance practices;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="margin-left:20px"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;- &lt;/span&gt;&lt;/span&gt;&lt;span class="tm11"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;be distributed in order that all ATA chapters and task categories (servicing, trouble shooting, component location, deactivation, removal/installation, etc.) are covered;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="margin-left:20px"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;- &lt;/span&gt;&lt;/span&gt;&lt;span class="tm11"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;take into account, when available, the feedback from in-service experience or customer specific additional training needs.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class="tm8"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;7. Up to 50% of the required OJT may be undertaken before the aircraft theoretical type training starts.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class="tm8"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;8. Regarding the day-to-day supervision of the OJT programme in the approved maintenance organisation and the role of the supervisor(s), the following should be considered:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="margin-left:20px"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;- &lt;/span&gt;&lt;/span&gt;&lt;span class="tm11"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;It is sufficient that the completion of individual OJT task is confirmed by the direct supervisor;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="margin-left:20px"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;- &lt;/span&gt;&lt;/span&gt;&lt;span class="tm11"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;During the day-to-day OJT performance, the supervision aims at overseeing the complete process, including task completion, use of manuals and procedures, observance of safety measures, warnings and recommendations and adequate behaviour in the maintenance environment;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="margin-left:20px"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;- &lt;/span&gt;&lt;/span&gt;&lt;span class="tm11"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;The supervisor(s) should personally observe the work being performed to ensure the safe completeness and should be readily available for consultation, if needed during the OJT performance;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="margin-left:20px"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;- &lt;/span&gt;&lt;/span&gt;&lt;span class="tm11"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;The supervisor(s) should countersign the tasks and release the maintenance tasks as the trainee is still not qualified to do so.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="margin-left:20px"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;- &lt;/span&gt;&lt;/span&gt;&lt;span class="tm11"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;The supervisor(s) should therefore:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul style="list-style-type:disc"&gt;&lt;li style="margin-left:40px"&gt;&lt;span class="tm13"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="tm11"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;have certifying staff privileges relevant to the OJT tasks;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style="margin-left:40px"&gt;&lt;span class="tm13"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="tm11"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;be competent for the selected tasks;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style="margin-left:40px"&gt;&lt;span class="tm13"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="tm11"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;be safety-orientated;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style="margin-left:40px"&gt;&lt;span class="tm13"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="tm11"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;be capable to coach (setting objectives, giving training, performing supervision, evaluating, handling trainee’s reactions and cultural issues, managing objectively and positively debriefing sessions, determining the need for extra training or re-orientate the training, reporting, etc.);&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style="margin-left:40px"&gt;&lt;span class="tm13"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="tm11"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;be designated by the approved maintenance organisation to carry out the supervision.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;&lt;span class="tm8"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;9. The organization providing the on-the-job training should provide trainees a schedule or plan indicating the list of tasks to be performed under supervision. A record of the tasks completed should be entered into a logbook which should be designed such that each task or group of tasks is countersigned by the corresponding supervisor.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class="tm8"&gt;&lt;span style="font-size:12pt"&gt;&lt;span style="font-family:sans-serif"&gt;10. The final assessment of completed OJT is mandatory and shall be performed by assessors, designated and appropriately qualified.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</attribute>
+      <attribute name="scale-images">NO</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>47</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>1</x_offset>
+        <y_offset>-1</y_offset>
+      </anchor>
+    </view>
+    <view class="PageBreakView" id="1133">
+      <attribute name="name">PageBreak_4</attribute>
+      <attribute name="position">0 780</attribute>
+      <attribute name="size">700 20</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>97</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>-17</x_offset>
+        <y_offset>8</y_offset>
+      </anchor>
+    </view>
+    <view class="LabelReportView" id="1134">
+      <attribute name="name">Label_5</attribute>
+      <attribute name="position">15 808</attribute>
+      <attribute name="size">531 25</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="date-time">17.Feb.2025  12:32</attribute>
+      <attribute name="user-sign">VJC1138</attribute>
+      <attribute name="text">OJT tasks for AMT category B2 A320/ A321 CFM56/ PW1100G</attribute>
+      <attribute name="text-decoration">NONE</attribute>
+      <attribute name="font">SansSerif BOLD 16</attribute>
+      <attribute name="text-align">TOP_LEFT</attribute>
+      <attribute name="line-break">AS_IS</attribute>
+      <attribute name="splitable">NO</attribute>
+      <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+      <attribute name="antialias">false</attribute>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>1133</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>15</x_offset>
+        <y_offset>8</y_offset>
+      </anchor>
+    </view>
+    <view class="DatasourceTableView" id="1329">
+      <attribute name="name">DatasourceTable_6</attribute>
+      <attribute name="position">16 844</attribute>
+      <attribute name="size">969 193</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="header-height">60</attribute>
+      <attribute name="row-height">20</attribute>
+      <attribute name="column-resize">LAST</attribute>
+      <attribute name="repeat-header">YES</attribute>
+      <attribute name="minimum-rows">0</attribute>
+      <column_model class="TableViewColumnModel">
+        <column class="TableViewColumn" id="COL1">
+          <attribute name="width">40</attribute>
+          <view class="LabelReportView" id="1330" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">40 60</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">FFFFFF</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">02.Apr.2026  07:18</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">1.
+ID</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="1331" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">40 20</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">02.Apr.2026  07:18</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">LEFT</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="COL2">
+          <attribute name="width">200</attribute>
+          <view class="LabelReportView" id="1332" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">200 60</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">FFFFFF</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">02.Apr.2026  07:18</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">2.
+Task description</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="1333" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">200 20</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">02.Apr.2026  07:18</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">LEFT</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn">
+          <attribute name="width">130</attribute>
+          <view class="LabelReportView" id="1343" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">130 60</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">FFFFFF</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">02.Apr.2026  07:18</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">3.
+Task reference</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="1344" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">130 20</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">02.Apr.2026  07:18</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">LEFT</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn">
+          <attribute name="width">40</attribute>
+          <view class="LabelReportView" id="1345" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">40 60</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">FFFFFF</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">02.Apr.2026  07:18</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">4.
+CAT</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="1346" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">40 20</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">02.Apr.2026  07:18</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">LEFT</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn">
+          <attribute name="width">60</attribute>
+          <view class="LabelReportView" id="1347" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">60 60</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">FFFFFF</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">02.Apr.2026  07:18</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">5.
+A/C Reg</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="1348" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">60 20</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">02.Apr.2026  07:18</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">LEFT</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn">
+          <attribute name="width">80</attribute>
+          <view class="LabelReportView" id="1349" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">80 60</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">FFFFFF</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">02.Apr.2026  07:18</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">6.
+Date</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="1350" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">80 20</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">02.Apr.2026  07:18</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">LEFT</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn">
+          <attribute name="width">120</attribute>
+          <view class="LabelReportView" id="1351" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">120 60</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">FFFFFF</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">02.Apr.2026  07:18</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">7. 
+Maintenance 
+record reference</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="1352" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">120 20</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">02.Apr.2026  07:18</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">LEFT</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn">
+          <attribute name="width">80</attribute>
+          <view class="LabelReportView" id="1353" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">80 60</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">FFFFFF</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">02.Apr.2026  07:18</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">8. 
+Trainee’s signature</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="1354" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">80 20</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">02.Apr.2026  07:18</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">LEFT</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn">
+          <attribute name="width">100</attribute>
+          <view class="LabelReportView" id="1355" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">100 60</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">FFFFFF</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">02.Apr.2026  07:18</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">9.Supervisor’s signature and licence number </attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="1356" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">100 20</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">02.Apr.2026  07:18</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">LEFT</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="COL3">
+          <attribute name="width">119</attribute>
+          <view class="LabelReportView" id="1334" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">119 60</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">FFFFFF</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">02.Apr.2026  07:18</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">10.
+Remark</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="1335" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">119 20</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">02.Apr.2026  07:18</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">LEFT</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+      </column_model>
+      <anchor>
+        <location>TOP_LEFT</location>
+        <anchor_view>1134</anchor_view>
+        <anchor_location>BOTTOM_LEFT</anchor_location>
+        <x_offset>1</x_offset>
+        <y_offset>11</y_offset>
+      </anchor>
+    </view>
+  </content>
+  <dataSourceList>
+    <ds:dataSource xmlns:ds="http://www.swiss-as.com/xml/datasource_2.0" id="VAR" type="PARAMETER_DATASOURCE" version="2.0">
+      <ds:description>Contains all user defined variables and constants.</ds:description>
+      <ds:columnDescriptors>
+        <ds:columnDescriptor amosType="ALPHANUM" description="" id="NAME"/>
+      </ds:columnDescriptors>
+      <ds:configurationParameters>
+        <ds:value amosType="NONE" description="FULL NAME" id="NAME">
+          <ds:map>
+            <ds:keyValuePair>
+              <ds:key>multi</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>defaultValue</ds:key>
+              <ds:data/>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>mandatory</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>selectionValues</ds:key>
+              <ds:data>*</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>relativeDate</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+          </ds:map>
+        </ds:value>
+      </ds:configurationParameters>
+    </ds:dataSource>
+  </dataSourceList>
+</report>
