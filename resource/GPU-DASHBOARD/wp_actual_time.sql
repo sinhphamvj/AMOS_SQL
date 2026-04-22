@@ -41,12 +41,11 @@ SELECT
 FROM
     wp_header
     LEFT JOIN time_captured_additional ON time_captured_additional.wpno_i = wp_header.wpno_i
-    JOIN time_captured ON time_captured.bookingno_i = time_captured_additional.bookingno_i
+     JOIN time_captured ON time_captured.bookingno_i = time_captured_additional.bookingno_i
                       AND time_captured.mime_type = 'JCA'
     LEFT JOIN rotables ON time_captured.psn = rotables.psn
 WHERE
-    wpno IN ('A656-OWP-080326-REV00','A578-OWP-080326-REV00','A644-OWP-080326-REV00','A650-OWP-080326-REV00')
-
+    wpno IN ('A522-OWP-220426-REV00','A535-OWP-220426-REV00','A524-OWP-220426-REV00','A630-OWP-220426-REV00')
 GROUP BY
     wp_header.wpno_i,
     wp_header.ac_registr,
