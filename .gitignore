@@ -1,1 +1,4 @@
 .agents/
+amos_db_schema/
+.claude/
+.venv/

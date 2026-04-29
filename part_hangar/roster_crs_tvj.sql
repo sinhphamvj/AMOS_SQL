@@ -110,7 +110,7 @@ LEFT JOIN (
         staff_pqs_type ON staff_pqs_type.pqs_type_no_i = spq.pqs_type_no_i 
     WHERE 
         spq.pqs_type_no_i = 1376
-        and spq.ac_type = 'A320'
+        and spq.ac_type like 'A32%'
 ) aml ON aml.employee_no_i = valid_staff.employee_no_i
 WHERE 
     /*staff_pqs_type.type_description ='VJC AUTH'

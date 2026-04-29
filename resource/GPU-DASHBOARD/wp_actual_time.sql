@@ -13,46 +13,41 @@ SELECT
     END AS "maint_time",
     wp_header.status,
     -- Rotables info (chỉ có giá trị khi là dòng GPU)
-    MAX(rotables.partno)                                            AS partno,
-    MAX(rotables.serialno)                                         AS serialno,
+    rotables.partno                                                AS partno,
+    rotables.serialno                                              AS serialno,
     -- GPU: dòng có rotables.partno / serialno không NULL
-    TO_CHAR(DATE '1971-12-31' + MIN(CASE WHEN rotables.partno IS NOT NULL OR rotables.serialno IS NOT NULL
-             THEN time_captured.start_date  END), 'DD.Mon.YYYY')   AS gpu_start_date,
-    (MIN(CASE WHEN rotables.partno IS NOT NULL OR rotables.serialno IS NOT NULL
-             THEN time_captured.start_date * 10000 + time_captured.start_time  END) % 10000) AS gpu_start_time,
-    TO_CHAR(DATE '1971-12-31' + MAX(CASE WHEN rotables.partno IS NOT NULL OR rotables.serialno IS NOT NULL
-             THEN time_captured.end_date    END), 'DD.Mon.YYYY')   AS gpu_end_date,
-    (MAX(CASE WHEN rotables.partno IS NOT NULL OR rotables.serialno IS NOT NULL
-             THEN time_captured.end_date * 10000 + time_captured.end_time    END) % 10000)   AS gpu_end_time,
-    SUM(CASE WHEN rotables.partno IS NOT NULL OR rotables.serialno IS NOT NULL
-             THEN time_captured.duration    END)                   AS gpu_duration,
+    CASE WHEN rotables.partno IS NOT NULL OR rotables.serialno IS NOT NULL
+             THEN TO_CHAR(DATE '1971-12-31' + time_captured.start_date, 'DD.Mon.YYYY') END   AS gpu_start_date,
+    CASE WHEN rotables.partno IS NOT NULL OR rotables.serialno IS NOT NULL
+             THEN time_captured.start_time END                     AS gpu_start_time,
+    CASE WHEN rotables.partno IS NOT NULL OR rotables.serialno IS NOT NULL
+             THEN TO_CHAR(DATE '1971-12-31' + time_captured.end_date, 'DD.Mon.YYYY') END     AS gpu_end_date,
+    CASE WHEN rotables.partno IS NOT NULL OR rotables.serialno IS NOT NULL
+             THEN time_captured.end_time END                       AS gpu_end_time,
+    CASE WHEN rotables.partno IS NOT NULL OR rotables.serialno IS NOT NULL
+             THEN time_captured.duration END                       AS gpu_duration,
     -- ACTUAL_WP: dòng KHÔNG có rotables.partno / serialno
-    TO_CHAR(DATE '1971-12-31' + MIN(CASE WHEN rotables.partno IS NULL AND rotables.serialno IS NULL
-             THEN time_captured.start_date  END), 'DD.Mon.YYYY')   AS actual_wp_start_date,
-    (MIN(CASE WHEN rotables.partno IS NULL AND rotables.serialno IS NULL
-             THEN time_captured.start_date * 10000 + time_captured.start_time  END) % 10000) AS actual_wp_start_time,
-    TO_CHAR(DATE '1971-12-31' + MAX(CASE WHEN rotables.partno IS NULL AND rotables.serialno IS NULL
-             THEN time_captured.end_date    END), 'DD.Mon.YYYY')   AS actual_wp_end_date,
-    (MAX(CASE WHEN rotables.partno IS NULL AND rotables.serialno IS NULL
-             THEN time_captured.end_date * 10000 + time_captured.end_time    END) % 10000)   AS actual_wp_end_time,
-    SUM(CASE WHEN rotables.partno IS NULL AND rotables.serialno IS NULL
-             THEN time_captured.duration    END)                   AS actual_wp_duration
+    CASE WHEN rotables.partno IS NULL AND rotables.serialno IS NULL
+             THEN TO_CHAR(DATE '1971-12-31' + time_captured.start_date, 'DD.Mon.YYYY') END   AS actual_wp_start_date,
+    CASE WHEN rotables.partno IS NULL AND rotables.serialno IS NULL
+             THEN time_captured.start_time END                     AS actual_wp_start_time,
+    CASE WHEN rotables.partno IS NULL AND rotables.serialno IS NULL
+             THEN TO_CHAR(DATE '1971-12-31' + time_captured.end_date, 'DD.Mon.YYYY') END     AS actual_wp_end_date,
+    CASE WHEN rotables.partno IS NULL AND rotables.serialno IS NULL
+             THEN time_captured.end_time END                       AS actual_wp_end_time,
+    CASE WHEN rotables.partno IS NULL AND rotables.serialno IS NULL
+             THEN time_captured.duration END                       AS actual_wp_duration
 
 FROM
     wp_header
     LEFT JOIN time_captured_additional ON time_captured_additional.wpno_i = wp_header.wpno_i
-     JOIN time_captured ON time_captured.bookingno_i = time_captured_additional.bookingno_i
-                      AND time_captured.mime_type = 'JCA'
+    LEFT JOIN time_captured ON time_captured.bookingno_i = time_captured_additional.bookingno_i AND time_captured.mime_type = 'JCA'
+    LEFT JOIN time_captured_history ON time_captured_history.bookingno_i = time_captured.bookingno_i   
     LEFT JOIN rotables ON time_captured.psn = rotables.psn
+
+    JOIN wo_header ON wo_header.event_perfno_i = time_captured_history.primkey
+    JOIN event_template ON event_template.template_revisionno_i = wo_header.template_revisionno_i
+    JOIN work_template ON work_template.wtno_i = event_template.wtno_i
+                      AND work_template.wtno_i = 368233
 WHERE
-    wpno IN ('A522-OWP-220426-REV00','A535-OWP-220426-REV00','A524-OWP-220426-REV00','A630-OWP-220426-REV00')
-GROUP BY
-    wp_header.wpno_i,
-    wp_header.ac_registr,
-    wp_header.wpno,
-    wp_header.station,
-    wp_header.start_date,
-    wp_header.end_date,
-    wp_header.start_time,
-    wp_header.end_time,
-    wp_header.status
+    (wpno LIKE '%OWP-' || TO_CHAR(CURRENT_DATE - 1, 'DDMMYY') || '%' OR wpno LIKE '%TXWP-' || TO_CHAR(CURRENT_DATE - 1, 'DDMMYY') || '%')
