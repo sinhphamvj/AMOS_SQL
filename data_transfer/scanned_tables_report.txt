@@ -1,0 +1,1926 @@
+BÁO CÁO CÁC BẢNG DATA ĐƯỢC SỬ DỤNG TRONG PROJECT AMOS_SQL
+================================================================================
+
+Bảng: ac_future_flights
+Các file tham chiếu:
+  - wp/getfl.sql
+  - wp/get_ground_time.sql
+--------------------------------------------------------------------------------
+Bảng: ac_mission
+Các file tham chiếu:
+  - maint_control/ADD_7D_WO.SQL
+  - daily report/add7day_wo.sql
+--------------------------------------------------------------------------------
+Bảng: ac_suspension
+Các file tham chiếu:
+  - wp/get WP status.sql
+--------------------------------------------------------------------------------
+Bảng: ac_typ
+Các file tham chiếu:
+  - DLYWP_DB/AC_STATUS_COUNT.sql
+  - DLYWP_DB/MOC_AC_COUNT.sql
+  - wp/get WP status.sql
+  - wp/check_groundtime.sql
+  - wp/wp_auto_gen.sql
+  - daily report/wooverdue.sql
+  - dashboard/dashboardAmosMobile.sql
+  - dashboard/Ac_count.sql
+  - dashboard/wo_overdue_moc.sql
+--------------------------------------------------------------------------------
+Bảng: ac_utilization
+Các file tham chiếu:
+  - report/ac_daily_hours_total.sql
+  - report/AC_HOURS.arp
+  - wp/check_groundtime.sql
+  - daily report/get_arr_time.sql
+  - daily report/get_mel.sql
+--------------------------------------------------------------------------------
+Bảng: account
+Các file tham chiếu:
+  - E-expsheet/CAAV SECTION 5 REV 00.arp
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.txt
+  - E-expsheet/caav-form/11-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B2 VJC only.doc
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.doc
+  - E-expsheet/caav-form/09-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B1 VJC only.doc
+--------------------------------------------------------------------------------
+Bảng: action_type
+Các file tham chiếu:
+  - backup/PCD_WP_STATICTIS_FOR_EACH_STATION.SQL
+  - wp/wp_task_list_each_station_ratio.sql
+  - wp/get WP status.sql
+  - wp/MOC_HANDOVER.SQL
+  - wp/check_auto_deasignwp.sql
+  - wp/wp_statictis_for_each_station.sql
+  - wp/PCD_WP_STATION_STATISTIC.SQL
+  - part_hangar/demo.sql
+--------------------------------------------------------------------------------
+Bảng: address
+Các file tham chiếu:
+  - E-expsheet/CAAV FORM 542 PEL GEN APPLICATION-COMPLETED.arp
+  - E-expsheet/FSSD008-RELATIVE.SQL
+  - E-expsheet/CAAV FSSD FORM 008 REV 00-COMPLETED.arp
+  - E-expsheet/caav-form/KET_QUA_OJT_TASKS.csv
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.txt
+  - E-expsheet/caav-form/11-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B2 VJC only.doc
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.doc
+  - E-expsheet/caav-form/09-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B1 VJC only.doc
+  - resource/MPWR_SGN.sql
+  - resource/VCA_RESOURCE.SQL
+  - resource/resource_counter_HPH.sql
+  - resource/SGN_resource_dashboard.sql
+  - resource/resource_counter_VTE.sql
+  - resource/resource_counter_VII.sql
+  - resource/SGN_line_team_dashboard.sql
+  - resource/CXR_RESOURCE.SQL
+  - resource/resource_counter_VCA.sql
+  - resource/resource_counter_DAD.sql
+  - resource/resource_counter_SGN.sql
+  - resource/resource_couter_CXR.sql
+  - resource/counter_resource_online.sql
+  - resource/HPH_RESOURCE.SQL
+  - resource/resource_counter_PQC.sql
+  - resource/AMO_HEAD_RESOURCE.SQL
+  - resource/resource_counter_HAN.sql
+  - resource/HAN_DASHBOARD/RESOURCE_ONLINE.SQL
+  - resource/HAN_DASHBOARD/RESOURCE_HAN.SQL
+  - resource/HAN_DASHBOARD/MPWR_HAN_LINE.SQL
+  - resource/HAN_DASHBOARD/MPWR_PQS.SQL
+  - resource/HAN_DASHBOARD/HAN_resource_dashboard.sql
+  - resource/DAD_DASHBOARD/DAD_resource.sql
+  - wp/get WP status.sql
+--------------------------------------------------------------------------------
+Bảng: adr_details
+Các file tham chiếu:
+  - wp/get WP status.sql
+--------------------------------------------------------------------------------
+Bảng: adr_properties
+Các file tham chiếu:
+  - wp/get WP status.sql
+--------------------------------------------------------------------------------
+Bảng: aircraft
+Các file tham chiếu:
+  - E-expsheet/CAAV SECTION 5 REV 00.arp
+  - E-expsheet/section5-table1.html
+  - E-expsheet/caav-form/KET_QUA_OJT_TASKS.csv
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.txt
+  - E-expsheet/caav-form/11-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B2 VJC only.doc
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.doc
+  - E-expsheet/caav-form/09-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B1 VJC only.doc
+  - report/ac_daily_hours_total.sql
+  - report/AC_HOURS.arp
+  - report/MOC_ADD_AIRWORTHINESS_SHEET_REV01.arp
+  - resource/HAN_DASHBOARD/MWPR_FOR_MONTHLY.SQL
+  - DLYWP_DB/summary_wo_rob_com.sql
+  - DLYWP_DB/AC_STATUS_COUNT.sql
+  - DLYWP_DB/MOC_AC_COUNT.sql
+  - data_transfer/output.txt
+  - maint_control/ADD_7D_WO.SQL
+  - wp/get WP status.sql
+  - wp/check_groundtime.sql
+  - staff/get_mpwr_for_month_rev00.sql
+  - amos_defect/getDefectWoFromAmos.md
+  - ADD_SHEET/wo_last_workstep.sql
+  - ADD_SHEET/WO_Reference_Details.sql
+  - ADD_SHEET/preferred_transfers.sql
+  - ADD_SHEET/latest_transfer_info.sql
+  - ADD_SHEET/MP_FILTER.sql
+  - ADD_SHEET/OPSLIMIT.SQL
+  - ADD_SHEET/transfer_baseline.sql
+  - ADD_SHEET/OPS_FILTER.SQL
+  - daily report/wooverdue.sql
+  - daily report/add7day_wo.sql
+  - daily report/get_mel.sql
+  - dashboard/test.sql
+  - dashboard/dashboardAmosMobile.sql
+  - dashboard/MOPS_MP.sql
+  - dashboard/Ac_count.sql
+  - dashboard/wo_overdue_moc.sql
+  - part_hangar/check_part_hagar.sql
+  - part_hangar/get_part_hg.sql
+  - part_hangar/not_booking.sql
+--------------------------------------------------------------------------------
+Bảng: amm_reference
+Các file tham chiếu:
+  - wp/get WP status.sql
+  - wp/wp_auto_gen.sql
+--------------------------------------------------------------------------------
+Bảng: approval_document
+Các file tham chiếu:
+  - part_pooling/approve_control_board.sql
+--------------------------------------------------------------------------------
+Bảng: area
+Các file tham chiếu:
+  - E-expsheet/caav-form/KET_QUA_OJT_TASKS.csv
+  - E-expsheet/caav-form/09-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B1 VJC only.doc
+--------------------------------------------------------------------------------
+Bảng: ata_chapter
+Các file tham chiếu:
+  - part_pooling/part_nogo_ver01.sql
+  - part_pooling/part_nogo.sql
+  - amos_defect/getDefectWoFromAmos.md
+  - ADD_SHEET/ADD_UNSPECIFIEDREV2.sql
+  - daily report/defectaw.sql
+  - dashboard/test.sql
+--------------------------------------------------------------------------------
+Bảng: bohi_changes
+Các file tham chiếu:
+  - wp/check_prio_task.sql
+  - daily report/diff_closingtimever01.sql
+  - daily report/woclosedbyAM.sql
+  - daily report/diff_closingtime.sql
+  - daily report/woschedule.sql
+  - daily report/amosmobile.sql
+  - daily report/report_counter.sql
+  - dashboard/dashboardAmosMobile.sql
+  - dashboard/db_amosmobile_weekly.sql
+--------------------------------------------------------------------------------
+Bảng: bohi_info
+Các file tham chiếu:
+  - daily report/amosmobile.sql
+--------------------------------------------------------------------------------
+Bảng: bohi_version
+Các file tham chiếu:
+  - wp/check_prio_task.sql
+  - daily report/diff_closingtimever01.sql
+  - daily report/woclosedbyAM.sql
+  - daily report/diff_closingtime.sql
+  - daily report/woschedule.sql
+  - daily report/amosmobile.sql
+  - daily report/report_counter.sql
+  - dashboard/dashboardAmosMobile.sql
+  - dashboard/db_amosmobile_weekly.sql
+--------------------------------------------------------------------------------
+Bảng: capability
+Các file tham chiếu:
+  - E-expsheet/caav-form/KET_QUA_OJT_TASKS.csv
+  - E-expsheet/caav-form/11-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B2 VJC only.doc
+--------------------------------------------------------------------------------
+Bảng: category
+Các file tham chiếu:
+  - part_pooling/check_duplicates.sql
+  - E-expsheet/CAAV SECTION 5 REV 00.arp
+  - E-expsheet/section5-table1.html
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.txt
+  - E-expsheet/caav-form/11-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B2 VJC only.doc
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.doc
+  - E-expsheet/caav-form/09-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B1 VJC only.doc
+--------------------------------------------------------------------------------
+Bảng: certificate
+Các file tham chiếu:
+  - E-expsheet/CAAV FORM 542 PEL GEN APPLICATION-COMPLETED.arp
+  - E-expsheet/CAAV FSSD FORM 008 REV 00-COMPLETED.arp
+--------------------------------------------------------------------------------
+Bảng: condition
+Các file tham chiếu:
+  - E-expsheet/CAAV FORM 542 PEL GEN APPLICATION-COMPLETED.arp
+  - E-expsheet/CAAV FSSD FORM 008 REV 00-COMPLETED.arp
+  - E-expsheet/caav-form/KET_QUA_OJT_TASKS.csv
+  - E-expsheet/caav-form/11-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B2 VJC only.doc
+  - E-expsheet/caav-form/09-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B1 VJC only.doc
+  - report/BRAKE INDICATION MONITORING.arp
+  - report/MOC_ADD_AIRWORTHINESS_SHEET_REV01.arp
+  - resource/AMO-MPWR-ONLINE/AMO MPWR ONLINE-COMPLETED.arp
+  - resource/GPU-DASHBOARD/gpu-status.sql
+  - maint_control/ADD_NEXT_DUE_7D.SQL
+  - maint_control/ADD7D_CCS_WO_SR.SQL
+  - daily report/OPS_LIMIT_RP.sql
+  - daily report/add7day_sr.sql
+  - dashboard/MOPS_MP_SR.sql
+--------------------------------------------------------------------------------
+Bảng: consumables
+Các file tham chiếu:
+  - maint_control/ADD_NEXT_DUE_7D.SQL
+  - maint_control/ADD7D_CCS_WO_SR.SQL
+  - daily report/OPS_LIMIT_RP.sql
+  - daily report/add7day_sr.sql
+  - dashboard/MOPS_MP_SR.sql
+--------------------------------------------------------------------------------
+Bảng: conversation
+Các file tham chiếu:
+  - wp/PCD_WP_DEFER_TOTAL.sql
+  - wp/remark_wp.sql
+  - wp/wp_remark.sql
+--------------------------------------------------------------------------------
+Bảng: cost_type
+Các file tham chiếu:
+  - wp/get WP status.sql
+--------------------------------------------------------------------------------
+Bảng: costcenter
+Các file tham chiếu:
+  - wp/get WP status.sql
+--------------------------------------------------------------------------------
+Bảng: counter
+Các file tham chiếu:
+  - E-expsheet/caav-form/test_numpr_all.py
+  - E-expsheet/caav-form/test_numpr.py
+  - daily report/get_wo_aog.sql
+  - daily report/get_mel.sql
+--------------------------------------------------------------------------------
+Bảng: counter_definition
+Các file tham chiếu:
+  - daily report/get_wo_aog.sql
+  - daily report/get_mel.sql
+--------------------------------------------------------------------------------
+Bảng: counter_template
+Các file tham chiếu:
+  - daily report/get_wo_aog.sql
+  - daily report/get_mel.sql
+--------------------------------------------------------------------------------
+Bảng: country
+Các file tham chiếu:
+  - E-expsheet/CAAV FORM 542 PEL GEN APPLICATION-COMPLETED.arp
+  - E-expsheet/FSSD008-SECTION-I.sql
+  - E-expsheet/PEL542-1.sql
+  - E-expsheet/CAAV FSSD FORM 008 REV 00-COMPLETED.arp
+  - wp/get WP status.sql
+--------------------------------------------------------------------------------
+Bảng: currency
+Các file tham chiếu:
+  - part_pooling/part_prediction.sql
+  - wp/get WP status.sql
+--------------------------------------------------------------------------------
+Bảng: db_link
+Các file tham chiếu:
+  - E-expsheet/SECTION_5.sql
+  - E-expsheet/FSSD008-RELATIVE-ADDITITON.SQL
+  - E-expsheet/FSSD008-RELATIVE.SQL
+  - E-expsheet/CAAV FSSD FORM 008 REV 00-COMPLETED.arp
+  - report/MOC_ADD_AIRWORTHINESS_SHEET_REV01.arp
+  - DLYWP_DB/summary_wo_rob_com.sql
+  - ADD_SHEET/WO_Reference_Details.sql
+  - ADD_SHEET/ADD_UNSPECIFIEDREV2.sql
+  - ADD_SHEET/OPSLIMIT.SQL
+  - daily report/get_wo_aog.sql
+  - daily report/get_mel.sql
+  - dashboard/test.sql
+--------------------------------------------------------------------------------
+Bảng: department
+Các file tham chiếu:
+  - E-expsheet/CAAV FORM 542 PEL GEN APPLICATION-COMPLETED.arp
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.txt
+  - E-expsheet/caav-form/11-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B2 VJC only.doc
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.doc
+  - E-expsheet/caav-form/09-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B1 VJC only.doc
+  - resource/MPWR_SGN.sql
+  - resource/VCA_RESOURCE.SQL
+  - resource/resource_counter_HPH.sql
+  - resource/AMO_RESOURCE.SQL
+  - resource/SGN_resource_dashboard.sql
+  - resource/resource_counter_VTE.sql
+  - resource/resource_counter_VII.sql
+  - resource/SGN_line_team_dashboard.sql
+  - resource/CXR_RESOURCE.SQL
+  - resource/resource_counter_VCA.sql
+  - resource/MPWR_online.sql
+  - resource/resource_counter_DAD.sql
+  - resource/resource_counter_SGN.sql
+  - resource/MPWR_ONLINE_LIST.sql
+  - resource/resource_couter_CXR.sql
+  - resource/counter_resource_online.sql
+  - resource/HPH_RESOURCE.SQL
+  - resource/resource_counter_PQC.sql
+  - resource/AMO_HEAD_RESOURCE.SQL
+  - resource/resource_counter_HAN.sql
+  - resource/resource_counter.sql
+  - resource/HAN_DASHBOARD/RESOURCE_ONLINE.SQL
+  - resource/HAN_DASHBOARD/RESOURCE_HAN.SQL
+  - resource/HAN_DASHBOARD/MPWR_ONLINE.SQL
+  - resource/HAN_DASHBOARD/MPWR_HAN_LINE.SQL
+  - resource/HAN_DASHBOARD/MPWR_PQS.SQL
+  - resource/HAN_DASHBOARD/HAN_resource_dashboard.sql
+  - resource/HAN_DASHBOARD/MWPR_FOR_MONTHLY.SQL
+  - resource/DAD_DASHBOARD/DAD_resource.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_MCC.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_ADD.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_TOTAL_PRESENT.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_AR.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_MF.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_247.sql
+  - resource/AMO-MPWR-ONLINE/AMO MPWR ONLINE-COMPLETED.arp
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_ADFN.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_ICT.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_TRN.sql
+  - staff/get_mpwr_for_month_rev00.sql
+  - staff/get_user.sql
+  - staff/mwpr_all_station.sql
+  - staff/get_mpwr_mothly.sql
+  - part_hangar/check_part_hagar.sql
+  - part_hangar/get_part_hg.sql
+--------------------------------------------------------------------------------
+Bảng: direction
+Các file tham chiếu:
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.txt
+  - E-expsheet/caav-form/11-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B2 VJC only.doc
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.doc
+  - E-expsheet/caav-form/09-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B1 VJC only.doc
+--------------------------------------------------------------------------------
+Bảng: event_effectivity
+Các file tham chiếu:
+  - ADD_SHEET/ADD_UNSPECIFIED.sql
+--------------------------------------------------------------------------------
+Bảng: event_effectivity_link
+Các file tham chiếu:
+  - ADD_SHEET/ADD_UNSPECIFIED.sql
+--------------------------------------------------------------------------------
+Bảng: event_template
+Các file tham chiếu:
+  - E-expsheet/delete_jobcard.sql
+  - E-expsheet/SECTION_5.sql
+  - report/BRAKE INDICATION MONITORING.arp
+  - resource/GPU-DASHBOARD/wp_actual_time.sql
+  - backup/feedback_listtask_backup.sql
+  - backup/feedback.sql
+  - backup/structure_list.sql
+  - backup/structure.sql
+  - backup/dailycheck.sql
+  - backup/cabinlisttask.sql
+  - backup/owplisttask.sql
+  - DLYWP_DB/PCD_WP_TASK_LIST.sql
+  - DLYWP_DB/PCD_CABIN.sql
+  - DLYWP_DB/PCD_SRUCTURE.sql
+  - wp/daily_list.sql
+  - wp/PCD_WP_DEFER_TOTAL.sql
+  - wp/PCD_BSI_COUTER.sql
+  - wp/feedback_list.sql
+  - wp/defer_list.sql
+  - wp/brake_monitor_ver01.sql
+  - wp/PCD_WP_FEEDBACK.sql
+  - wp/PCD_WP_TASK_LIST.sql
+  - wp/brake_monitoring.sql
+  - wp/defer.sql
+  - wp/PCD_WP_ENGRUN.sql
+  - wp/check_jc.sql
+  - wp/brake_mon_wo.sql
+  - wp/tasklist_manhours.sql
+  - wp/PCD_WP_DAILYCHECK.sql
+  - ADD_SHEET/ADD_UNSPECIFIEDREV2.sql
+  - ADD_SHEET/ADD_UNSPECIFIED.sql
+  - daily report/daily_wp.sql
+  - daily report/structure_list.sql
+  - daily report/get_Mhours_wp.sql
+--------------------------------------------------------------------------------
+Bảng: extension_reason
+Các file tham chiếu:
+  - wp/get WP status.sql
+  - wp/wp_auto_gen.sql
+--------------------------------------------------------------------------------
+Bảng: fl2_header
+Các file tham chiếu:
+  - wp/check_groundtime.sql
+--------------------------------------------------------------------------------
+Bảng: fl2_leg
+Các file tham chiếu:
+  - wp/check_groundtime.sql
+--------------------------------------------------------------------------------
+Bảng: forecast
+Các file tham chiếu:
+  - E-expsheet/SECTION_5.sql
+  - resource/AMO-MPWR-ONLINE/AMO MPWR ONLINE-COMPLETED.arp
+  - DLYWP_DB/summary_wo_rob_com.sql
+  - maint_control/ADD_7D_WO.SQL
+  - wp/get WP status.sql
+  - daily report/wo_over_due_ver01.sql
+  - daily report/add7day_wo.sql
+--------------------------------------------------------------------------------
+Bảng: forecast_dimension
+Các file tham chiếu:
+  - report/MOC_ADD_AIRWORTHINESS_SHEET_REV01.arp
+  - DLYWP_DB/wr_monitoring.sql
+  - maint_control/ADD_7D_WO.SQL
+  - maint_control/ADD_7D_WO_COLS.SQL
+  - ADD_SHEET/latest_transfer_info.sql
+  - daily report/WR_MONITOR.SQL
+  - daily report/get_wo_aog.sql
+  - daily report/wooverdue.sql
+  - daily report/add7day_wo.sql
+  - dashboard/dashboardAmosMobile.sql
+  - dashboard/Ac_count.sql
+  - dashboard/wo_overdue_moc.sql
+--------------------------------------------------------------------------------
+Bảng: history
+Các file tham chiếu:
+  - E-expsheet/CAAV FSSD FORM 008 REV 00-COMPLETED.arp
+--------------------------------------------------------------------------------
+Bảng: ipc_reference
+Các file tham chiếu:
+  - part_pooling/part_forecast.sql
+--------------------------------------------------------------------------------
+Bảng: leg_additional
+Các file tham chiếu:
+  - wp/check_groundtime.sql
+--------------------------------------------------------------------------------
+Bảng: limitation_config
+Các file tham chiếu:
+  - dashboard/MP_OPS.sql
+  - dashboard/MOPS_MP.sql
+--------------------------------------------------------------------------------
+Bảng: location
+Các file tham chiếu:
+  - E-expsheet/CAAV FORM 542 PEL GEN APPLICATION-COMPLETED.arp
+  - E-expsheet/CAAV SECTION 5 REV 00.arp
+  - E-expsheet/CAAV FSSD FORM 008 REV 00-COMPLETED.arp
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.txt
+  - E-expsheet/caav-form/11-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B2 VJC only.doc
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.doc
+  - E-expsheet/caav-form/09-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B1 VJC only.doc
+  - report/MOC_ADD_AIRWORTHINESS_SHEET_REV01.arp
+  - resource/VCA_RESOURCE.SQL
+  - resource/SGN_resource_dashboard.sql
+  - resource/CXR_RESOURCE.SQL
+  - resource/MPWR_online.sql
+  - resource/MPWR_ONLINE_LIST.sql
+  - resource/MPWR_MONTHLY.sql
+  - resource/HPH_RESOURCE.SQL
+  - resource/resource_counter_PQC.sql
+  - resource/HAN_DASHBOARD/RESOURCE_ONLINE.SQL
+  - resource/HAN_DASHBOARD/MPWR_ONLINE.SQL
+  - resource/HAN_DASHBOARD/HAN_resource_dashboard.sql
+  - resource/HAN_DASHBOARD/MWPR_FOR_MONTHLY.SQL
+  - resource/DAD_DASHBOARD/DAD_resource.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_MCC.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_ADD.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_TOTAL_PRESENT.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_AR.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_MF.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_247.sql
+  - resource/AMO-MPWR-ONLINE/AMO MPWR ONLINE-COMPLETED.arp
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_ADFN.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_ICT.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_TRN.sql
+  - resource/GPU-DASHBOARD/gpu-status.sql
+  - DLYWP_DB/summary_wo_rob_com.sql
+  - maint_control/ADD_NEXT_DUE_7D.SQL
+  - maint_control/ADD7D_CCS_WO_SR.SQL
+  - wp/get WP status.sql
+  - staff/mwpr_all_station.sql
+  - staff/get_mpwr_mothly.sql
+  - amos_defect/timeCaptureGpu monitoring on AMOS.md
+  - daily report/OPS_LIMIT_RP.sql
+  - daily report/add7day_sr.sql
+  - dashboard/MOPS_MP_SR.sql
+  - part_hangar/check_part_hagar.sql
+  - part_hangar/get_part_hg.sql
+--------------------------------------------------------------------------------
+Bảng: location_restriction
+Các file tham chiếu:
+  - maint_control/ADD_NEXT_DUE_7D.SQL
+  - maint_control/ADD7D_CCS_WO_SR.SQL
+  - daily report/OPS_LIMIT_RP.sql
+  - daily report/add7day_sr.sql
+  - dashboard/MOPS_MP_SR.sql
+--------------------------------------------------------------------------------
+Bảng: location_type
+Các file tham chiếu:
+  - maint_control/ADD_NEXT_DUE_7D.SQL
+  - maint_control/ADD7D_CCS_WO_SR.SQL
+  - daily report/OPS_LIMIT_RP.sql
+  - daily report/add7day_sr.sql
+  - dashboard/MOPS_MP_SR.sql
+--------------------------------------------------------------------------------
+Bảng: maint_event_ext_reason
+Các file tham chiếu:
+  - backup/feedback_listtask_backup.sql
+  - backup/feedback.sql
+  - wp/daily_list.sql
+  - wp/PCD_WP_DEFER_TOTAL.sql
+  - wp/feedback_list.sql
+  - wp/defer_list.sql
+  - wp/PCD_WP_FEEDBACK.sql
+  - wp/defer.sql
+  - daily report/daily_wp.sql
+  - daily report/structure_list.sql
+--------------------------------------------------------------------------------
+Bảng: measure_unit
+Các file tham chiếu:
+  - part_pooling/part_nogo_ver01.sql
+  - part_pooling/part_measure_unit.sql
+  - part_pooling/part_forecast.sql
+  - part_pooling/part_nogo.sql
+  - wp/oxygen_measurement.sql
+--------------------------------------------------------------------------------
+Bảng: measurement
+Các file tham chiếu:
+  - E-expsheet/caav-form/KET_QUA_OJT_TASKS.csv
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.txt
+  - E-expsheet/caav-form/11-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B2 VJC only.doc
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.doc
+  - E-expsheet/caav-form/09-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B1 VJC only.doc
+--------------------------------------------------------------------------------
+Bảng: message
+Các file tham chiếu:
+  - E-expsheet/caav-form/KET_QUA_OJT_TASKS.csv
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.txt
+  - E-expsheet/caav-form/11-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B2 VJC only.doc
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.doc
+  - E-expsheet/caav-form/09-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B1 VJC only.doc
+--------------------------------------------------------------------------------
+Bảng: moc_daily_note
+Các file tham chiếu:
+  - daily report/request_maint_to_omc.sql
+--------------------------------------------------------------------------------
+Bảng: moc_daily_records
+Các file tham chiếu:
+  - backup/structure_list.sql
+  - backup/structure.sql
+  - backup/dailycheck.sql
+  - backup/cabinlisttask.sql
+  - backup/owplisttask.sql
+  - DLYWP_DB/PCD_WP_TASK_LIST.sql
+  - DLYWP_DB/AC_STATUS_COUNT.sql
+  - DLYWP_DB/MOC_AC_COUNT.sql
+  - wp/PCD_WP_DEFER_TOTAL.sql
+  - wp/PCD_WP_FEEDBACK.sql
+  - wp/PCD_WP_TASK_LIST.sql
+  - wp/get_groundtime.sql
+  - wp/AOG_WP_STATISTICS.SQL
+  - wp/tasklist_manhours.sql
+  - wp/PCD_WP_DAILYCHECK.sql
+  - daily report/request_maint_to_omc.sql
+  - daily report/wooverdue.sql
+  - daily report/get_Mhours_wp.sql
+  - dashboard/dashboardAmosMobile.sql
+  - dashboard/get_ac_plan.sql
+  - dashboard/Ac_count.sql
+  - dashboard/wo_overdue_moc.sql
+--------------------------------------------------------------------------------
+Bảng: msc_ac_configuration
+Các file tham chiếu:
+  - wp/get WP status.sql
+--------------------------------------------------------------------------------
+Bảng: msc_maintenance_program
+Các file tham chiếu:
+  - wp/get WP status.sql
+--------------------------------------------------------------------------------
+Bảng: msc_mp_link
+Các file tham chiếu:
+  - wp/get WP status.sql
+--------------------------------------------------------------------------------
+Bảng: od_detail
+Các file tham chiếu:
+  - part_pooling/part_pooling.sql
+  - part_pooling/part_prediction.sql
+--------------------------------------------------------------------------------
+Bảng: od_header
+Các file tham chiếu:
+  - part_pooling/part_pooling.sql
+  - part_pooling/part_prediction.sql
+  - part_pooling/check_part_pooling.sql
+  - DLYWP_DB/summary_wo_rob_com.sql
+  - daily report/checklabelbooking.sql
+--------------------------------------------------------------------------------
+Bảng: od_rec_detail
+Các file tham chiếu:
+  - part_pooling/part_pooling.sql
+  - part_pooling/check_part_pooling.sql
+  - DLYWP_DB/summary_wo_rob_com.sql
+  - daily report/checklabelbooking.sql
+--------------------------------------------------------------------------------
+Bảng: parameters
+Các file tham chiếu:
+  - E-expsheet/caav-form/KET_QUA_OJT_TASKS.csv
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.txt
+  - E-expsheet/caav-form/11-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B2 VJC only.doc
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.doc
+  - report/AC_HOURS.arp
+  - data_transfer/output.txt
+--------------------------------------------------------------------------------
+Bảng: part
+Các file tham chiếu:
+  - part_pooling/moc_part_request.sql
+  - part_pooling/part_nogo_ver01.sql
+  - part_pooling/part_prediction.sql
+  - part_pooling/part_measure_unit.sql
+  - part_pooling/part_nogo.sql
+  - E-expsheet/CAAV FORM 542 PEL GEN APPLICATION-COMPLETED.arp
+  - E-expsheet/CAAV SECTION 5 REV 00.arp
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.txt
+  - E-expsheet/caav-form/11-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B2 VJC only.doc
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.doc
+  - E-expsheet/caav-form/09-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B1 VJC only.doc
+  - data_transfer/generate_xfile.py
+  - part_hangar/check_part_hagar.sql
+--------------------------------------------------------------------------------
+Bảng: part_description
+Các file tham chiếu:
+  - part_pooling/part_forecast.sql
+  - maint_control/ADD_NEXT_DUE_7D.SQL
+  - maint_control/ADD7D_CCS_WO_SR.SQL
+  - wp/get WP status.sql
+  - wp/wp_auto_gen.sql
+  - daily report/OPS_LIMIT_RP.sql
+  - daily report/add7day_sr.sql
+  - dashboard/MOPS_MP_SR.sql
+--------------------------------------------------------------------------------
+Bảng: part_fa_entity
+Các file tham chiếu:
+  - part_pooling/part_prediction.sql
+--------------------------------------------------------------------------------
+Bảng: part_forecast
+Các file tham chiếu:
+  - part_pooling/part_forecast.sql
+  - maint_control/ADD_NEXT_DUE_7D.SQL
+  - maint_control/ADD7D_CCS_WO_SR.SQL
+  - wp/get WP status.sql
+  - daily report/OPS_LIMIT_RP.sql
+  - daily report/add7day_sr.sql
+  - dashboard/MOPS_MP_SR.sql
+--------------------------------------------------------------------------------
+Bảng: part_location
+Các file tham chiếu:
+  - maint_control/ADD_NEXT_DUE_7D.SQL
+  - maint_control/ADD7D_CCS_WO_SR.SQL
+  - daily report/OPS_LIMIT_RP.sql
+  - daily report/add7day_sr.sql
+  - dashboard/MOPS_MP_SR.sql
+--------------------------------------------------------------------------------
+Bảng: part_request_2
+Các file tham chiếu:
+  - part_pooling/moc_part_request.sql
+--------------------------------------------------------------------------------
+Bảng: part_request_event_inf
+Các file tham chiếu:
+  - maint_control/ADD_NEXT_DUE_7D.SQL
+  - maint_control/ADD7D_CCS_WO_SR.SQL
+  - daily report/OPS_LIMIT_RP.sql
+  - daily report/add7day_sr.sql
+  - dashboard/MOPS_MP_SR.sql
+--------------------------------------------------------------------------------
+Bảng: part_special
+Các file tham chiếu:
+  - part_pooling/part_nogo.sql
+  - wp/get WP status.sql
+--------------------------------------------------------------------------------
+Bảng: pickslip_booked
+Các file tham chiếu:
+  - part_hangar/check_part_hagar.sql
+  - part_hangar/get_part_hg.sql
+  - part_hangar/pickslip.sql
+--------------------------------------------------------------------------------
+Bảng: pickslip_detail
+Các file tham chiếu:
+  - part_pooling/pickslip_detail.sql
+--------------------------------------------------------------------------------
+Bảng: pickslip_header
+Các file tham chiếu:
+  - part_pooling/pickslip_counter.sql
+  - part_hangar/check_part_hagar.sql
+  - part_hangar/get_part_hg.sql
+  - part_hangar/pickslip.sql
+--------------------------------------------------------------------------------
+Bảng: pickslip_text
+Các file tham chiếu:
+  - part_hangar/check_part_hagar.sql
+--------------------------------------------------------------------------------
+Bảng: position
+Các file tham chiếu:
+  - E-expsheet/CAAV FORM 542 PEL GEN APPLICATION-COMPLETED.arp
+  - E-expsheet/CAAV SECTION 5 REV 00.arp
+  - E-expsheet/CAAV FSSD FORM 008 REV 00-COMPLETED.arp
+  - E-expsheet/caav-form/KET_QUA_OJT_TASKS.csv
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.txt
+  - E-expsheet/caav-form/11-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B2 VJC only.doc
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.doc
+  - E-expsheet/caav-form/09-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B1 VJC only.doc
+  - report/BRAKE INDICATION MONITORING.arp
+  - report/AC_HOURS.arp
+  - report/MOC_ADD_AIRWORTHINESS_SHEET_REV01.arp
+  - resource/AMO-MPWR-ONLINE/AMO MPWR ONLINE-COMPLETED.arp
+  - staff/get_user_class.sql
+--------------------------------------------------------------------------------
+Bảng: printer
+Các file tham chiếu:
+  - E-expsheet/caav-form/KET_QUA_OJT_TASKS.csv
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.txt
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.doc
+  - E-expsheet/caav-form/09-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B1 VJC only.doc
+--------------------------------------------------------------------------------
+Bảng: reason
+Các file tham chiếu:
+  - part_pooling/part_prediction.sql
+  - backup/feedback_listtask_backup.sql
+  - backup/feedback.sql
+  - backup/PCD_WP_MAIN_STATISTICS.SQL
+  - backup/PCD_WP_STATICTIS_FOR_EACH_STATION.SQL
+  - DLYWP_DB/PCD_WP_MAN_COUNT.sql
+  - wp/daily_list.sql
+  - wp/PCD_WP_MAIN_STATISTCS.sql
+  - wp/PCD_WP_DEFER_TOTAL.sql
+  - wp/wp_task_list_each_station_ratio.sql
+  - wp/get WP status.sql
+  - wp/feedback_list.sql
+  - wp/defer_list.sql
+  - wp/MOC_HANDOVER.SQL
+  - wp/PCD_WP_FEEDBACK.sql
+  - wp/check_auto_deasignwp.sql
+  - wp/defer.sql
+  - wp/check_jc.sql
+  - wp/AOG_WP_STATISTICS.SQL
+  - wp/wp_statictis_for_each_station.sql
+  - wp/PCD_WP_STATION_STATISTIC.SQL
+  - daily report/request_maint_to_omc.sql
+  - daily report/daily_wp.sql
+  - daily report/structure_list.sql
+  - part_hangar/demo.sql
+--------------------------------------------------------------------------------
+Bảng: requirement
+Các file tham chiếu:
+  - E-expsheet/CAAV SECTION 5 REV 00.arp
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.txt
+  - E-expsheet/caav-form/11-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B2 VJC only.doc
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.doc
+  - E-expsheet/caav-form/09-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B1 VJC only.doc
+  - wp/get WP status.sql
+--------------------------------------------------------------------------------
+Bảng: rm_property_type
+Các file tham chiếu:
+  - backup/structure_list.sql
+  - backup/structure.sql
+  - backup/dailycheck.sql
+  - backup/cabinlisttask.sql
+  - backup/owplisttask.sql
+  - DLYWP_DB/PCD_WP_TASK_LIST.sql
+  - DLYWP_DB/PCD_CABIN.sql
+  - DLYWP_DB/PCD_SRUCTURE.sql
+  - wp/PCD_WP_DEFER_TOTAL.sql
+  - wp/PCD_BSI_COUTER.sql
+  - wp/PCD_WP_FEEDBACK.sql
+  - wp/PCD_WP_TASK_LIST.sql
+  - wp/PCD_WP_ENGRUN.sql
+  - wp/tasklist_manhours.sql
+  - wp/PCD_WP_DAILYCHECK.sql
+  - daily report/structure_list.sql
+  - daily report/get_Mhours_wp.sql
+--------------------------------------------------------------------------------
+Bảng: rm_property_value
+Các file tham chiếu:
+  - E-expsheet/CAAV FORM 542 PEL GEN APPLICATION-COMPLETED.arp
+  - E-expsheet/FSSD008-SECTION-I.sql
+  - E-expsheet/PEL542-1.sql
+  - E-expsheet/FSSD008-SECTION-III.sql
+  - E-expsheet/CAAV FSSD FORM 008 REV 00-COMPLETED.arp
+  - backup/list_of_change.sql
+  - ADD_SHEET/test.sql
+  - part_hangar/roster_list_backup.sql
+--------------------------------------------------------------------------------
+Bảng: rm_resource_constraint
+Các file tham chiếu:
+  - backup/structure_list.sql
+  - backup/structure.sql
+  - backup/dailycheck.sql
+  - backup/cabinlisttask.sql
+  - backup/owplisttask.sql
+  - DLYWP_DB/PCD_WP_TASK_LIST.sql
+  - DLYWP_DB/PCD_CABIN.sql
+  - DLYWP_DB/PCD_SRUCTURE.sql
+  - wp/PCD_WP_DEFER_TOTAL.sql
+  - wp/PCD_BSI_COUTER.sql
+  - wp/PCD_WP_FEEDBACK.sql
+  - wp/PCD_WP_TASK_LIST.sql
+  - wp/PCD_WP_ENGRUN.sql
+  - wp/tasklist_manhours.sql
+  - wp/PCD_WP_DAILYCHECK.sql
+  - daily report/structure_list.sql
+  - daily report/get_Mhours_wp.sql
+--------------------------------------------------------------------------------
+Bảng: rm_resource_request
+Các file tham chiếu:
+  - backup/structure_list.sql
+  - backup/structure.sql
+  - backup/dailycheck.sql
+  - backup/cabinlisttask.sql
+  - backup/owplisttask.sql
+  - DLYWP_DB/PCD_WP_TASK_LIST.sql
+  - DLYWP_DB/PCD_CABIN.sql
+  - DLYWP_DB/PCD_SRUCTURE.sql
+  - wp/PCD_WP_DEFER_TOTAL.sql
+  - wp/PCD_BSI_COUTER.sql
+  - wp/PCD_WP_FEEDBACK.sql
+  - wp/PCD_WP_TASK_LIST.sql
+  - wp/PCD_WP_ENGRUN.sql
+  - wp/tasklist_manhours.sql
+  - wp/PCD_WP_DAILYCHECK.sql
+  - daily report/structure_list.sql
+  - daily report/get_Mhours_wp.sql
+--------------------------------------------------------------------------------
+Bảng: rm_resource_requirement
+Các file tham chiếu:
+  - backup/structure_list.sql
+  - backup/structure.sql
+  - backup/dailycheck.sql
+  - backup/cabinlisttask.sql
+  - backup/owplisttask.sql
+  - DLYWP_DB/PCD_WP_TASK_LIST.sql
+  - DLYWP_DB/PCD_CABIN.sql
+  - DLYWP_DB/PCD_SRUCTURE.sql
+  - wp/PCD_WP_DEFER_TOTAL.sql
+  - wp/PCD_BSI_COUTER.sql
+  - wp/PCD_WP_FEEDBACK.sql
+  - wp/PCD_WP_TASK_LIST.sql
+  - wp/PCD_WP_ENGRUN.sql
+  - wp/tasklist_manhours.sql
+  - wp/PCD_WP_DAILYCHECK.sql
+  - daily report/structure_list.sql
+  - daily report/get_Mhours_wp.sql
+--------------------------------------------------------------------------------
+Bảng: rotables
+Các file tham chiếu:
+  - resource/GPU_time.sql
+  - resource/GPU-DASHBOARD/gpu-status.sql
+  - resource/GPU-DASHBOARD/GPU_DETAIL.sql
+  - resource/GPU-DASHBOARD/GPU_TOTAL.sql
+  - resource/GPU-DASHBOARD/wp_actual_time.sql
+  - DLYWP_DB/summary_wo_rob_com.sql
+  - maint_control/ADD_NEXT_DUE_7D.SQL
+  - maint_control/ADD7D_CCS_WO_SR.SQL
+  - wp/get WP status.sql
+  - amos_defect/timeCaptureGpu monitoring on AMOS.md
+  - daily report/OPS_LIMIT_RP.sql
+  - daily report/add7day_sr.sql
+  - dashboard/MOPS_MP_SR.sql
+  - part_hangar/check_part_hagar.sql
+  - part_hangar/get_part_hg.sql
+--------------------------------------------------------------------------------
+Bảng: scale
+Các file tham chiếu:
+  - E-expsheet/CAAV FORM 542 PEL GEN APPLICATION-COMPLETED.arp
+  - E-expsheet/CAAV SECTION 5 REV 00.arp
+  - E-expsheet/CAAV FSSD FORM 008 REV 00-COMPLETED.arp
+  - E-expsheet/caav-form/KET_QUA_OJT_TASKS.csv
+  - E-expsheet/caav-form/11-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B2 VJC only.doc
+  - E-expsheet/caav-form/09-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B1 VJC only.doc
+--------------------------------------------------------------------------------
+Bảng: service_type
+Các file tham chiếu:
+  - wp/check_groundtime.sql
+--------------------------------------------------------------------------------
+Bảng: shipment
+Các file tham chiếu:
+  - wp/get WP status.sql
+--------------------------------------------------------------------------------
+Bảng: sign
+Các file tham chiếu:
+  - part_pooling/approve_control_board.sql
+  - part_pooling/check_duplicates.sql
+  - part_pooling/check_part_pooling.sql
+  - E-expsheet/CAAV FORM 542 PEL GEN APPLICATION-COMPLETED.arp
+  - E-expsheet/CAAV SECTION 5 REV 00.arp
+  - E-expsheet/FSSD008-SECTION-I.sql
+  - E-expsheet/PEL542-1.sql
+  - E-expsheet/FSSD008-SECTION-III.sql
+  - E-expsheet/CAAV FSSD FORM 008 REV 00-COMPLETED.arp
+  - E-expsheet/caav-form/KET_QUA_OJT_TASKS.csv
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.txt
+  - E-expsheet/caav-form/11-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B2 VJC only.doc
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.doc
+  - E-expsheet/caav-form/09-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B1 VJC only.doc
+  - report/BRAKE INDICATION MONITORING.arp
+  - report/AC_HOURS.arp
+  - report/MOC_ADD_AIRWORTHINESS_SHEET_REV01.arp
+  - resource/MPWR_SGN.sql
+  - resource/FE.SQL
+  - resource/VCA_RESOURCE.SQL
+  - resource/resource_counter_HPH.sql
+  - resource/MPWR_USER.sql
+  - resource/AMO_RESOURCE.SQL
+  - resource/SGN_resource_dashboard.sql
+  - resource/resource_counter_VTE.sql
+  - resource/resource_counter_VII.sql
+  - resource/SGN_line_team_dashboard.sql
+  - resource/CXR_RESOURCE.SQL
+  - resource/resource_counter_VCA.sql
+  - resource/MPWR_online.sql
+  - resource/resource_counter_DAD.sql
+  - resource/resource_counter_SGN.sql
+  - resource/MPWR_ONLINE_LIST.sql
+  - resource/MPWR_MONTHLY.sql
+  - resource/resource_couter_CXR.sql
+  - resource/counter_resource_online.sql
+  - resource/HPH_RESOURCE.SQL
+  - resource/resource_counter_PQC.sql
+  - resource/AMO_HEAD_RESOURCE.SQL
+  - resource/resource_counter_HAN.sql
+  - resource/resource_counter.sql
+  - resource/HAN_DASHBOARD/RESOURCE_ONLINE.SQL
+  - resource/HAN_DASHBOARD/RESOURCE_HAN.SQL
+  - resource/HAN_DASHBOARD/MPWR_ONLINE.SQL
+  - resource/HAN_DASHBOARD/MPWR_HAN_LINE.SQL
+  - resource/HAN_DASHBOARD/MPWR_PQS.SQL
+  - resource/HAN_DASHBOARD/HAN_resource_dashboard.sql
+  - resource/HAN_DASHBOARD/MWPR_FOR_MONTHLY.SQL
+  - resource/DAD_DASHBOARD/DAD_resource.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_MCC.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_ADD.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_TOTAL_PRESENT.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_AR.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_MF.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_247.sql
+  - resource/AMO-MPWR-ONLINE/AMO MPWR ONLINE-COMPLETED.arp
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_ADFN.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_ICT.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_TRN.sql
+  - backup/license_check_expired.sql
+  - backup/staff_license_expired.sql
+  - backup/rostercrs_optimized.sql
+  - backup/store_roster.sql
+  - backup/rostercrs.sql
+  - backup/list_of_change.sql
+  - data_transfer/generate_xfile.py
+  - data_transfer/output.txt
+  - staff/get_mpwr_for_month_rev00.sql
+  - staff/get_user.sql
+  - staff/mwpr_all_station.sql
+  - staff/get_mpwr_mothly.sql
+  - staff/get_user_class.sql
+  - ADD_SHEET/test.sql
+  - ADD_SHEET/preferred_transfers.sql
+  - daily report/diff_closingtimever01.sql
+  - daily report/woclosedbyAM.sql
+  - daily report/diff_closingtime.sql
+  - daily report/wooverdue.sql
+  - daily report/amosmobile.sql
+  - daily report/checklabelbooking.sql
+  - daily report/get_mel.sql
+  - dashboard/test.sql
+  - dashboard/dashboardAmosMobile.sql
+  - dashboard/db_amosmobile_weekly.sql
+  - dashboard/wo_overdue_moc.sql
+  - part_hangar/check_part_hagar.sql
+  - part_hangar/get_part_hg.sql
+  - part_hangar/not_booking.sql
+  - part_hangar/roster_crs_tvj_optimized.sql
+  - part_hangar/roster_list_backup.sql
+  - part_hangar/roster_list_rev00.sql
+  - part_hangar/roster_crs_tvj.sql
+--------------------------------------------------------------------------------
+Bảng: simulation
+Các file tham chiếu:
+  - E-expsheet/caav-form/KET_QUA_OJT_TASKS.csv
+  - E-expsheet/caav-form/11-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B2 VJC only.doc
+--------------------------------------------------------------------------------
+Bảng: sp_day_entry_type
+Các file tham chiếu:
+  - resource/FE.SQL
+  - resource/HAN_DASHBOARD/MPWR_ONLINE.SQL
+--------------------------------------------------------------------------------
+Bảng: sp_shift
+Các file tham chiếu:
+  - resource/VCA_RESOURCE.SQL
+  - resource/SGN_resource_dashboard.sql
+  - resource/CXR_RESOURCE.SQL
+  - resource/MPWR_online.sql
+  - resource/MPWR_ONLINE_LIST.sql
+  - resource/MPWR_MONTHLY.sql
+  - resource/HPH_RESOURCE.SQL
+  - resource/resource_counter_PQC.sql
+  - resource/HAN_DASHBOARD/RESOURCE_ONLINE.SQL
+  - resource/HAN_DASHBOARD/MPWR_ONLINE.SQL
+  - resource/HAN_DASHBOARD/HAN_resource_dashboard.sql
+  - resource/HAN_DASHBOARD/MWPR_FOR_MONTHLY.SQL
+  - resource/DAD_DASHBOARD/DAD_resource.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_MCC.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_ADD.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_TOTAL_PRESENT.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_AR.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_MF.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_247.sql
+  - resource/AMO-MPWR-ONLINE/AMO MPWR ONLINE-COMPLETED.arp
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_ADFN.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_ICT.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_TRN.sql
+  - staff/mwpr_all_station.sql
+  - staff/get_mpwr_mothly.sql
+--------------------------------------------------------------------------------
+Bảng: sp_shift_assign
+Các file tham chiếu:
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_TOTAL_PRESENT.sql
+  - resource/AMO-MPWR-ONLINE/AMO MPWR ONLINE-COMPLETED.arp
+--------------------------------------------------------------------------------
+Bảng: sp_skill_demand
+Các file tham chiếu:
+  - resource/KPI_COMPARE.sql
+  - resource/demand_fe.sql
+--------------------------------------------------------------------------------
+Bảng: sp_user_availability
+Các file tham chiếu:
+  - resource/FE.SQL
+  - resource/VCA_RESOURCE.SQL
+  - resource/AMO_RESOURCE.SQL
+  - resource/SGN_resource_dashboard.sql
+  - resource/CXR_RESOURCE.SQL
+  - resource/MPWR_online.sql
+  - resource/resource_counter_SGN.sql
+  - resource/MPWR_ONLINE_LIST.sql
+  - resource/MPWR_MONTHLY.sql
+  - resource/counter_resource_online.sql
+  - resource/HPH_RESOURCE.SQL
+  - resource/resource_counter_PQC.sql
+  - resource/HAN_DASHBOARD/RESOURCE_ONLINE.SQL
+  - resource/HAN_DASHBOARD/MPWR_ONLINE.SQL
+  - resource/HAN_DASHBOARD/HAN_resource_dashboard.sql
+  - resource/HAN_DASHBOARD/MWPR_FOR_MONTHLY.SQL
+  - resource/DAD_DASHBOARD/DAD_resource.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_MCC.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_ADD.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_TOTAL_PRESENT.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_AR.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_MF.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_247.sql
+  - resource/AMO-MPWR-ONLINE/AMO MPWR ONLINE-COMPLETED.arp
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_ADFN.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_ICT.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_TRN.sql
+  - staff/get_mpwr_for_month_rev00.sql
+  - staff/mwpr_all_station.sql
+  - staff/get_mpwr_mothly.sql
+--------------------------------------------------------------------------------
+Bảng: spa_detail
+Các file tham chiếu:
+  - part_pooling/part_nogo_ver01.sql
+  - part_pooling/part_nogo.sql
+--------------------------------------------------------------------------------
+Bảng: spa_header
+Các file tham chiếu:
+  - part_pooling/part_nogo_ver01.sql
+--------------------------------------------------------------------------------
+Bảng: special
+Các file tham chiếu:
+  - part_pooling/part_nogo.sql
+  - E-expsheet/caav-form/KET_QUA_OJT_TASKS.csv
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.txt
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.doc
+  - resource/SGN_resource_dashboard.sql
+  - resource/HAN_DASHBOARD/RESOURCE_HAN.SQL
+  - data_transfer/output.txt
+  - wp/get WP status.sql
+--------------------------------------------------------------------------------
+Bảng: staff_pqs_class
+Các file tham chiếu:
+  - part_pooling/check_duplicates.sql
+  - E-expsheet/FSSD008-SECTION-III.sql
+  - E-expsheet/CAAV FSSD FORM 008 REV 00-COMPLETED.arp
+  - backup/rostercrs_optimized.sql
+  - backup/store_roster.sql
+  - backup/rostercrs.sql
+  - backup/list_of_change.sql
+  - staff/get_user.sql
+  - staff/get_pqs_class.sql
+  - ADD_SHEET/test.sql
+  - part_hangar/roster_crs_tvj_optimized.sql
+  - part_hangar/roster_list_backup.sql
+  - part_hangar/roster_list_rev00.sql
+  - part_hangar/roster_crs_tvj.sql
+--------------------------------------------------------------------------------
+Bảng: staff_pqs_qualification
+Các file tham chiếu:
+  - part_pooling/check_duplicates.sql
+  - E-expsheet/FSSD008-SECTION-III.sql
+  - E-expsheet/CAAV FSSD FORM 008 REV 00-COMPLETED.arp
+  - resource/MPWR_SGN.sql
+  - resource/FE.SQL
+  - resource/MPWR_online.sql
+  - resource/MPWR_ONLINE_LIST.sql
+  - resource/MPWR_MONTHLY.sql
+  - resource/MPWR_PQS.sql
+  - resource/HAN_DASHBOARD/MPWR_ONLINE.SQL
+  - resource/HAN_DASHBOARD/MPWR_PQS.SQL
+  - resource/HAN_DASHBOARD/MWPR_FOR_MONTHLY.SQL
+  - backup/license_check_expired.sql
+  - backup/staff_license_expired.sql
+  - backup/rostercrs_optimized.sql
+  - backup/store_roster.sql
+  - backup/rostercrs.sql
+  - backup/list_of_change.sql
+  - staff/get_mpwr_for_month_rev00.sql
+  - staff/get_user.sql
+  - staff/mwpr_all_station.sql
+  - staff/get_mpwr_mothly.sql
+  - ADD_SHEET/test.sql
+  - part_hangar/roster_crs_tvj_optimized.sql
+  - part_hangar/roster_list_backup.sql
+  - part_hangar/roster_list_rev00.sql
+  - part_hangar/roster_crs_tvj.sql
+--------------------------------------------------------------------------------
+Bảng: staff_pqs_type
+Các file tham chiếu:
+  - part_pooling/check_duplicates.sql
+  - E-expsheet/FSSD008-SECTION-III.sql
+  - E-expsheet/CAAV FSSD FORM 008 REV 00-COMPLETED.arp
+  - backup/license_check_expired.sql
+  - backup/staff_license_expired.sql
+  - backup/rostercrs_optimized.sql
+  - backup/store_roster.sql
+  - backup/rostercrs.sql
+  - backup/list_of_change.sql
+  - staff/update_pqs.sql
+  - staff/get_user.sql
+  - ADD_SHEET/test.sql
+  - part_hangar/roster_crs_tvj_optimized.sql
+  - part_hangar/roster_list_backup.sql
+  - part_hangar/roster_list_rev00.sql
+  - part_hangar/roster_crs_tvj.sql
+--------------------------------------------------------------------------------
+Bảng: state
+Các file tham chiếu:
+  - part_pooling/part_pooling.sql
+  - part_pooling/part_prediction.sql
+  - part_pooling/approve_control_board.sql
+  - E-expsheet/CAAV FORM 542 PEL GEN APPLICATION-COMPLETED.arp
+  - E-expsheet/SECTION_5.sql
+  - report/BRAKE INDICATION MONITORING.arp
+  - report/MOC_ADD_AIRWORTHINESS_SHEET_REV01.arp
+  - backup/feedback_listtask_backup.sql
+  - backup/feedback.sql
+  - backup/PCD_WP_MAIN_STATISTICS.SQL
+  - backup/structure_list.sql
+  - backup/structure.sql
+  - backup/dailycheck.sql
+  - backup/cabinlisttask.sql
+  - backup/owplisttask.sql
+  - backup/PCD_WP_STATICTIS_FOR_EACH_STATION.SQL
+  - DLYWP_DB/PCD_WP_MAN_COUNT.sql
+  - DLYWP_DB/summary_wo_rob_com.sql
+  - DLYWP_DB/wr_monitoring.sql
+  - DLYWP_DB/PCD_WEEKY_COUNT.sql
+  - DLYWP_DB/PCD_WP_TASK_LIST.sql
+  - DLYWP_DB/PCD_CABIN.sql
+  - DLYWP_DB/PCD_SRUCTURE.sql
+  - DLYWP_DB/PCD_WP_DAILY_COUNT.SQL
+  - maint_control/test_code.sql
+  - maint_control/JC_CHECK.sql
+  - maint_control/ADD_7D_WO.SQL
+  - wp/check_prio_task.sql
+  - wp/daily_list.sql
+  - wp/PCD_WP_MAIN_STATISTCS.sql
+  - wp/PCD_WP_DEFER_TOTAL.sql
+  - wp/wp_task_list_each_station_ratio.sql
+  - wp/get WP status.sql
+  - wp/PCD_BSI_COUTER.sql
+  - wp/feedback_list.sql
+  - wp/defer_list.sql
+  - wp/brake_monitor_ver01.sql
+  - wp/PCD_WP_FEEDBACK.sql
+  - wp/PCD_WP_TASK_LIST.sql
+  - wp/brake_monitoring.sql
+  - wp/defer.sql
+  - wp/PCD_WP_ENGRUN.sql
+  - wp/AOG_WP_STATISTICS.SQL
+  - wp/wp_statictis_for_each_station.sql
+  - wp/brake_mon_wo.sql
+  - wp/PCD_WP_STATION_STATISTIC.SQL
+  - wp/tasklist_manhours.sql
+  - wp/PCD_WP_DAILYCHECK.sql
+  - amos_defect/getDefectWoFromAmos.md
+  - ADD_SHEET/MCC_OPEN_MEL.SQL
+  - daily report/diff_closingtimever01.sql
+  - daily report/WR_MONITOR.SQL
+  - daily report/crosscheck_wo_maint.sql
+  - daily report/mp_ops copy.sql
+  - daily report/woclosedbyAM.sql
+  - daily report/diff_closingtime.sql
+  - daily report/get_wo_aog.sql
+  - daily report/defectaw.sql
+  - daily report/wooverdue.sql
+  - daily report/daily_wp.sql
+  - daily report/add7day_wo.sql
+  - daily report/woschedule.sql
+  - daily report/structure_list.sql
+  - daily report/report_counter.sql
+  - daily report/crosscheck_wo_sched.sql
+  - daily report/wo_opslimit.sql
+  - daily report/get_Mhours_wp.sql
+  - daily report/get_mel.sql
+  - dashboard/test.sql
+  - dashboard/dashboardAmosMobile.sql
+  - dashboard/MP_OPS.sql
+  - dashboard/MOPS_MP.sql
+  - dashboard/Ac_count.sql
+  - dashboard/db_amosmobile_weekly.sql
+  - dashboard/wo_overdue_moc.sql
+  - part_hangar/demo.sql
+--------------------------------------------------------------------------------
+Bảng: station
+Các file tham chiếu:
+  - part_pooling/part_nogo_ver01.sql
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.txt
+  - E-expsheet/caav-form/11-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B2 VJC only.doc
+  - E-expsheet/caav-form/CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT A VJC only 2023.doc
+  - E-expsheet/caav-form/09-2025 CAAV-FSSD Form 586 [2] 2021 AMT Log book CAT B1 VJC only.doc
+  - report/MOC_ADD_AIRWORTHINESS_SHEET_REV01.arp
+  - resource/SGN_resource_dashboard.sql
+  - resource/MPWR_ONLINE_LIST.sql
+  - resource/demand_fe.sql
+  - resource/HAN_DASHBOARD/MPWR_ONLINE.SQL
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_ADD.sql
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_MF.sql
+  - resource/AMO-MPWR-ONLINE/AMO MPWR ONLINE-COMPLETED.arp
+  - resource/AMO-MPWR-ONLINE/MPWR_ONLINE_AMO_ICT.sql
+  - resource/GPU-DASHBOARD/gpu-status.sql
+  - resource/GPU-DASHBOARD/GPU_DETAIL.sql
+  - resource/GPU-DASHBOARD/GPU_TOTAL.sql
+  - resource/GPU-DASHBOARD/wp_actual_time.sql
+  - backup/feedback_listtask_backup.sql
+  - backup/feedback.sql
+  - backup/structure_list.sql
+  - backup/structure.sql
+  - backup/dailycheck.sql
+  - backup/cabinlisttask.sql
+  - backup/owplisttask.sql
+  - backup/PCD_WP_STATICTIS_FOR_EACH_STATION.SQL
+  - DLYWP_DB/PCD_WP_TASK_LIST.sql
+  - maint_control/ADD_NEXT_DUE_7D.SQL
+  - maint_control/ADD7D_CCS_WO_SR.SQL
+  - wp/daily_list.sql
+  - wp/PCD_WP_DEFER_TOTAL.sql
+  - wp/wp_task_list_each_station_ratio.sql
+  - wp/get WP status.sql
+  - wp/PCD_WP_MAIN.sql
+  - wp/feedback_list.sql
+  - wp/defer_list.sql
+  - wp/MOC_HANDOVER.SQL
+  - wp/PCD_WP_FEEDBACK.sql
+  - wp/wp_auto_gen.sql
+  - wp/WP_heavy.sql
+  - wp/check_auto_deasignwp.sql
+  - wp/PCD_WP_TASK_LIST.sql
+  - wp/defer.sql
+  - wp/get_groundtime.sql
+  - wp/PCD_WP_MAIN_PANEL.sql
+  - wp/get_wp_list.sql
+  - wp/remark_wp.sql
+  - wp/check_jc.sql
+  - wp/wp_remark.sql
+  - wp/wp_statictis_for_each_station.sql
+  - wp/PCD_WP_STATION_STATISTIC.SQL
+  - wp/tasklist_manhours.sql
+  - wp/PCD_WP_DAILYCHECK.sql
+  - staff/mwpr_all_station.sql
+  - staff/get_mpwr_mothly.sql
+  - staff/get_user_class.sql
+  - amos_defect/timeCaptureGpu monitoring on AMOS.md
+  - daily report/exp.sql
+  - daily report/request_maint_to_omc.sql
+  - daily report/get_wo_aog.sql
+  - daily report/daily_wp.sql
+  - daily report/OPS_LIMIT_RP.sql
+  - daily report/structure_list.sql
+  - daily report/labelbooking2.sql
+  - daily report/add7day_sr.sql
+  - daily report/get_Mhours_wp.sql
+  - dashboard/MOPS_MP_SR.sql
+  - part_hangar/check_part_hagar.sql
+  - part_hangar/get_part_hg.sql
+  - part_hangar/not_booking.sql
+  - part_hangar/demo.sql
+--------------------------------------------------------------------------------
+Bảng: time_captured
+Các file tham chiếu:
+  - resource/GPU_time.sql
+  - resource/GPU-DASHBOARD/GPU_DETAIL.sql
+  - resource/GPU-DASHBOARD/GPU_TOTAL.sql
+  - resource/GPU-DASHBOARD/wp_actual_time.sql
+  - amos_defect/timeCaptureGpu monitoring on AMOS.md
+--------------------------------------------------------------------------------
+Bảng: time_captured_additional
+Các file tham chiếu:
+  - resource/GPU_time.sql
+  - resource/GPU-DASHBOARD/GPU_DETAIL.sql
+  - resource/GPU-DASHBOARD/GPU_TOTAL.sql
+  - resource/GPU-DASHBOARD/wp_actual_time.sql
+  - amos_defect/timeCaptureGpu monitoring on AMOS.md
+--------------------------------------------------------------------------------
+Bảng: time_captured_history
+Các file tham chiếu:
+  - resource/GPU-DASHBOARD/wp_actual_time.sql
+--------------------------------------------------------------------------------
+Bảng: tr_course_list
+Các file tham chiếu:
+  - staff/get_user_class.sql
+--------------------------------------------------------------------------------
+Bảng: tr_participant_list
+Các file tham chiếu:
+  - staff/get_user_class.sql
+--------------------------------------------------------------------------------
+Bảng: um_conversion
+Các file tham chiếu:
+  - part_pooling/part_measure_unit.sql
+--------------------------------------------------------------------------------
+Bảng: wb_aircraft_link
+Các file tham chiếu:
+  - wp/get WP status.sql
+--------------------------------------------------------------------------------
+Bảng: web_drive_history
+Các file tham chiếu:
+  - E-expsheet/query_webdrive_path.sql
+--------------------------------------------------------------------------------
+Bảng: wo_classification
+Các file tham chiếu:
+  - amos_defect/getDefectWoFromAmos.md
+--------------------------------------------------------------------------------
+Bảng: wo_event_link
+Các file tham chiếu:
+  - wp/tasklist_manhours.sql
+  - daily report/get_Mhours_wp.sql
+--------------------------------------------------------------------------------
+Bảng: wo_header
+Các file tham chiếu:
+  - part_pooling/approve_control_board.sql
+  - part_pooling/check_part_pooling.sql
+  - E-expsheet/SECTION_5.sql
+  - report/BRAKE INDICATION MONITORING.arp
+  - report/MOC_ADD_AIRWORTHINESS_SHEET_REV01.arp
+  - resource/GPU-DASHBOARD/wp_actual_time.sql
+  - backup/feedback_listtask_backup.sql
+  - backup/feedback.sql
+  - backup/PCD_WP_MAIN_STATISTICS.SQL
+  - backup/structure_list.sql
+  - backup/structure.sql
+  - backup/dailycheck.sql
+  - backup/cabinlisttask.sql
+  - backup/owplisttask.sql
+  - backup/PCD_WP_STATICTIS_FOR_EACH_STATION.SQL
+  - DLYWP_DB/PCD_WP_MAN_COUNT.sql
+  - DLYWP_DB/summary_wo_rob_com.sql
+  - DLYWP_DB/wr_monitoring.sql
+  - DLYWP_DB/PCD_WEEKY_COUNT.sql
+  - DLYWP_DB/PCD_WP_TASK_LIST.sql
+  - DLYWP_DB/PCD_CABIN.sql
+  - DLYWP_DB/PCD_SRUCTURE.sql
+  - DLYWP_DB/PCD_WP_DAILY_COUNT.SQL
+  - maint_control/test_code.sql
+  - maint_control/JC_CHECK.sql
+  - maint_control/ADD_7D_WO.SQL
+  - maint_control/ADD_7D_WO_COLS.SQL
+  - maint_control/ADD_NEXT_DUE_7D.SQL
+  - maint_control/ADD7D_CCS_WO_SR.SQL
+  - wp/check_prio_task.sql
+  - wp/daily_list.sql
+  - wp/PCD_WP_MAIN_STATISTCS.sql
+  - wp/PCD_WP_DEFER_TOTAL.sql
+  - wp/wp_task_list_each_station_ratio.sql
+  - wp/PCD_BSI_COUTER.sql
+  - wp/feedback_list.sql
+  - wp/defer_list.sql
+  - wp/brake_monitor_ver01.sql
+  - wp/MOC_HANDOVER.SQL
+  - wp/PCD_WP_FEEDBACK.sql
+  - wp/check_auto_deasignwp.sql
+  - wp/PCD_WP_TASK_LIST.sql
+  - wp/brake_monitoring.sql
+  - wp/defer.sql
+  - wp/oxygen_measurement.sql
+  - wp/PCD_WP_ENGRUN.sql
+  - wp/check_jc.sql
+  - wp/AOG_WP_STATISTICS.SQL
+  - wp/wp_statictis_for_each_station.sql
+  - wp/brake_mon_wo.sql
+  - wp/PCD_WP_STATION_STATISTIC.SQL
+  - wp/tasklist_manhours.sql
+  - wp/PCD_WP_DAILYCHECK.sql
+  - amos_defect/getDefectWoFromAmos.md
+  - ADD_SHEET/wo_last_workstep.sql
+  - ADD_SHEET/WO_Reference_Details.sql
+  - ADD_SHEET/ADD_UNSPECIFIEDREV2.sql
+  - ADD_SHEET/preferred_transfers.sql
+  - ADD_SHEET/MCC_OPEN_MEL.SQL
+  - ADD_SHEET/latest_transfer_info.sql
+  - ADD_SHEET/MP_FILTER.sql
+  - ADD_SHEET/OPSLIMIT.SQL
+  - ADD_SHEET/transfer_baseline.sql
+  - ADD_SHEET/OPS_FILTER.SQL
+  - daily report/diff_closingtimever01.sql
+  - daily report/WR_MONITOR.SQL
+  - daily report/crosscheck_wo_maint.sql
+  - daily report/mp_ops copy.sql
+  - daily report/woclosedbyAM.sql
+  - daily report/dailycheck_Ver01.sql
+  - daily report/diff_closingtime.sql
+  - daily report/get_wo_aog.sql
+  - daily report/defectaw.sql
+  - daily report/wooverdue.sql
+  - daily report/daily_wp.sql
+  - daily report/add7day_wo.sql
+  - daily report/check_wo_maint.sql
+  - daily report/OPS_LIMIT_RP.sql
+  - daily report/woschedule.sql
+  - daily report/structure_list.sql
+  - daily report/amosmobile.sql
+  - daily report/checklabelbooking.sql
+  - daily report/report_counter.sql
+  - daily report/crosscheck_wo_sched.sql
+  - daily report/labelbookingwosched.sql
+  - daily report/labelbooking.sql
+  - daily report/labelbooking2.sql
+  - daily report/wo_opslimit.sql
+  - daily report/add7day_sr.sql
+  - daily report/get_Mhours_wp.sql
+  - daily report/get_mel.sql
+  - dashboard/MOPS_MP_SR.sql
+  - dashboard/test.sql
+  - dashboard/dashboardAmosMobile.sql
+  - dashboard/MP_OPS.sql
+  - dashboard/MOPS_MP.sql
+  - dashboard/Ac_count.sql
+  - dashboard/db_amosmobile_weekly.sql
+  - dashboard/wo_overdue_moc.sql
+  - part_hangar/not_booking.sql
+  - part_hangar/demo.sql
+--------------------------------------------------------------------------------
+Bảng: wo_header_4
+Các file tham chiếu:
+  - report/MOC_ADD_AIRWORTHINESS_SHEET_REV01.arp
+  - DLYWP_DB/wr_monitoring.sql
+  - maint_control/ADD_7D_WO.SQL
+  - wp/get WP status.sql
+  - ADD_SHEET/MCC_OPEN_MEL.SQL
+  - daily report/WR_MONITOR.SQL
+  - daily report/add7day_wo.sql
+  - daily report/get_mel.sql
+  - dashboard/test.sql
+--------------------------------------------------------------------------------
+Bảng: wo_header_crx
+Các file tham chiếu:
+  - dashboard/test.sql
+--------------------------------------------------------------------------------
+Bảng: wo_header_more
+Các file tham chiếu:
+  - E-expsheet/SECTION_5.sql
+  - report/MOC_ADD_AIRWORTHINESS_SHEET_REV01.arp
+  - backup/feedback_listtask_backup.sql
+  - backup/feedback.sql
+  - backup/structure_list.sql
+  - backup/structure.sql
+  - backup/dailycheck.sql
+  - backup/cabinlisttask.sql
+  - backup/owplisttask.sql
+  - DLYWP_DB/PCD_WEEKY_COUNT.sql
+  - DLYWP_DB/PCD_WP_TASK_LIST.sql
+  - DLYWP_DB/PCD_CABIN.sql
+  - DLYWP_DB/PCD_SRUCTURE.sql
+  - DLYWP_DB/PCD_WP_DAILY_COUNT.SQL
+  - maint_control/ADD_7D_WO.SQL
+  - wp/daily_list.sql
+  - wp/PCD_WP_DEFER_TOTAL.sql
+  - wp/PCD_BSI_COUTER.sql
+  - wp/feedback_list.sql
+  - wp/PCD_WP_FEEDBACK.sql
+  - wp/PCD_WP_TASK_LIST.sql
+  - wp/PCD_WP_ENGRUN.sql
+  - wp/tasklist_manhours.sql
+  - wp/PCD_WP_DAILYCHECK.sql
+  - amos_defect/getDefectWoFromAmos.md
+  - ADD_SHEET/MCC_OPEN_MEL.SQL
+  - daily report/crosscheck_wo_maint.sql
+  - daily report/defectaw.sql
+  - daily report/daily_wp.sql
+  - daily report/add7day_wo.sql
+  - daily report/check_wo_maint.sql
+  - daily report/structure_list.sql
+  - daily report/get_Mhours_wp.sql
+  - daily report/get_mel.sql
+  - dashboard/test.sql
+--------------------------------------------------------------------------------
+Bảng: wo_measurement_def
+Các file tham chiếu:
+  - report/BRAKE INDICATION MONITORING.arp
+  - wp/brake_monitor_ver01.sql
+  - wp/brake_monitoring.sql
+  - wp/oxygen_measurement.sql
+--------------------------------------------------------------------------------
+Bảng: wo_measurement_item
+Các file tham chiếu:
+  - report/BRAKE INDICATION MONITORING.arp
+  - wp/brake_monitor_ver01.sql
+  - wp/brake_monitoring.sql
+  - wp/oxygen_measurement.sql
+--------------------------------------------------------------------------------
+Bảng: wo_opus
+Các file tham chiếu:
+  - dashboard/test.sql
+--------------------------------------------------------------------------------
+Bảng: wo_part_on_off
+Các file tham chiếu:
+  - part_pooling/check_part_pooling.sql
+  - daily report/amosmobile.sql
+  - daily report/checklabelbooking.sql
+  - daily report/labelbookingwosched.sql
+  - daily report/labelbooking.sql
+  - daily report/labelbooking2.sql
+  - dashboard/dashboardAmosMobile.sql
+  - part_hangar/check_part_hagar.sql
+  - part_hangar/get_part_hg.sql
+  - part_hangar/not_booking.sql
+--------------------------------------------------------------------------------
+Bảng: wo_remarks
+Các file tham chiếu:
+  - DLYWP_DB/wr_monitoring.sql
+  - maint_control/ADD_7D_WO_COLS.SQL
+  - wp/get WP status.sql
+  - daily report/WR_MONITOR.SQL
+--------------------------------------------------------------------------------
+Bảng: wo_text_action
+Các file tham chiếu:
+  - E-expsheet/SECTION_5.sql
+  - report/MOC_ADD_AIRWORTHINESS_SHEET_REV01.arp
+  - wp/get WP status.sql
+  - amos_defect/getDefectWoFromAmos.md
+  - ADD_SHEET/ADD_UNSPECIFIEDREV2.sql
+  - ADD_SHEET/MP_FILTER.sql
+  - ADD_SHEET/OPSLIMIT.SQL
+  - ADD_SHEET/OPS_FILTER.SQL
+  - daily report/mp_ops copy.sql
+  - daily report/check_wo_maint.sql
+  - daily report/labelbookingwosched.sql
+  - daily report/labelbooking.sql
+  - daily report/wo_opslimit.sql
+  - daily report/get_mel.sql
+  - dashboard/test.sql
+  - part_hangar/not_booking.sql
+--------------------------------------------------------------------------------
+Bảng: wo_text_description
+Các file tham chiếu:
+  - E-expsheet/SECTION_5.sql
+  - report/MOC_ADD_AIRWORTHINESS_SHEET_REV01.arp
+  - backup/feedback_listtask_backup.sql
+  - backup/feedback.sql
+  - backup/structure_list.sql
+  - backup/structure.sql
+  - backup/dailycheck.sql
+  - backup/cabinlisttask.sql
+  - backup/owplisttask.sql
+  - DLYWP_DB/wr_monitoring.sql
+  - DLYWP_DB/PCD_WEEKY_COUNT.sql
+  - DLYWP_DB/PCD_WP_TASK_LIST.sql
+  - DLYWP_DB/PCD_CABIN.sql
+  - DLYWP_DB/PCD_SRUCTURE.sql
+  - DLYWP_DB/PCD_WP_DAILY_COUNT.SQL
+  - maint_control/test_code.sql
+  - maint_control/ADD_7D_WO_COLS.SQL
+  - wp/daily_list.sql
+  - wp/PCD_WP_DEFER_TOTAL.sql
+  - wp/PCD_BSI_COUTER.sql
+  - wp/feedback_list.sql
+  - wp/defer_list.sql
+  - wp/PCD_WP_FEEDBACK.sql
+  - wp/PCD_WP_TASK_LIST.sql
+  - wp/defer.sql
+  - wp/PCD_WP_ENGRUN.sql
+  - wp/check_jc.sql
+  - wp/tasklist_manhours.sql
+  - wp/PCD_WP_DAILYCHECK.sql
+  - amos_defect/getDefectWoFromAmos.md
+  - ADD_SHEET/wo_last_workstep.sql
+  - ADD_SHEET/MCC_OPEN_MEL.SQL
+  - daily report/WR_MONITOR.SQL
+  - daily report/crosscheck_wo_maint.sql
+  - daily report/mp_ops copy.sql
+  - daily report/dailycheck_Ver01.sql
+  - daily report/get_wo_aog.sql
+  - daily report/defectaw.sql
+  - daily report/wooverdue.sql
+  - daily report/daily_wp.sql
+  - daily report/structure_list.sql
+  - daily report/crosscheck_wo_sched.sql
+  - daily report/wo_opslimit.sql
+  - daily report/get_Mhours_wp.sql
+  - daily report/get_mel.sql
+  - dashboard/test.sql
+  - dashboard/wo_overdue_moc.sql
+--------------------------------------------------------------------------------
+Bảng: wo_transfer
+Các file tham chiếu:
+  - report/MOC_ADD_AIRWORTHINESS_SHEET_REV01.arp
+  - wp/get WP status.sql
+  - ADD_SHEET/preferred_transfers.sql
+  - ADD_SHEET/transfer_baseline.sql
+  - daily report/get_wo_aog.sql
+  - daily report/get_mel.sql
+  - dashboard/test.sql
+--------------------------------------------------------------------------------
+Bảng: wo_transfer_dimension
+Các file tham chiếu:
+  - daily report/get_wo_aog.sql
+  - daily report/get_mel.sql
+--------------------------------------------------------------------------------
+Bảng: work_template
+Các file tham chiếu:
+  - E-expsheet/fix_template_number.sql
+  - E-expsheet/delete_jobcard.sql
+  - E-expsheet/rename-jc.sql
+  - E-expsheet/SECTION_5.sql
+  - E-expsheet/check_template_number.sql
+  - resource/GPU-DASHBOARD/wp_actual_time.sql
+  - backup/feedback_listtask_backup.sql
+  - backup/feedback.sql
+  - backup/structure_list.sql
+  - backup/structure.sql
+  - backup/dailycheck.sql
+  - backup/cabinlisttask.sql
+  - backup/owplisttask.sql
+  - DLYWP_DB/PCD_WP_TASK_LIST.sql
+  - maint_control/test_code.sql
+  - maint_control/JC_CHECK.sql
+  - wp/daily_list.sql
+  - wp/PCD_WP_DEFER_TOTAL.sql
+  - wp/feedback_list.sql
+  - wp/defer_list.sql
+  - wp/PCD_WP_FEEDBACK.sql
+  - wp/PCD_WP_TASK_LIST.sql
+  - wp/defer.sql
+  - wp/check_jc.sql
+  - wp/tasklist_manhours.sql
+  - wp/PCD_WP_DAILYCHECK.sql
+  - daily report/daily_wp.sql
+  - daily report/structure_list.sql
+  - daily report/get_Mhours_wp.sql
+--------------------------------------------------------------------------------
+Bảng: workstep_classification
+Các file tham chiếu:
+  - wp/PCD_WP_ENGRUN.sql
+--------------------------------------------------------------------------------
+Bảng: workstep_link
+Các file tham chiếu:
+  - E-expsheet/SECTION_5.sql
+  - report/BRAKE INDICATION MONITORING.arp
+  - report/MOC_ADD_AIRWORTHINESS_SHEET_REV01.arp
+  - backup/feedback_listtask_backup.sql
+  - backup/feedback.sql
+  - backup/structure_list.sql
+  - backup/structure.sql
+  - backup/dailycheck.sql
+  - backup/cabinlisttask.sql
+  - backup/owplisttask.sql
+  - DLYWP_DB/wr_monitoring.sql
+  - DLYWP_DB/PCD_WEEKY_COUNT.sql
+  - DLYWP_DB/PCD_WP_TASK_LIST.sql
+  - DLYWP_DB/PCD_CABIN.sql
+  - DLYWP_DB/PCD_SRUCTURE.sql
+  - DLYWP_DB/PCD_WP_DAILY_COUNT.SQL
+  - maint_control/test_code.sql
+  - maint_control/ADD_7D_WO_COLS.SQL
+  - wp/daily_list.sql
+  - wp/PCD_WP_DEFER_TOTAL.sql
+  - wp/PCD_BSI_COUTER.sql
+  - wp/feedback_list.sql
+  - wp/defer_list.sql
+  - wp/brake_monitor_ver01.sql
+  - wp/PCD_WP_FEEDBACK.sql
+  - wp/PCD_WP_TASK_LIST.sql
+  - wp/brake_monitoring.sql
+  - wp/defer.sql
+  - wp/oxygen_measurement.sql
+  - wp/PCD_WP_ENGRUN.sql
+  - wp/check_jc.sql
+  - wp/tasklist_manhours.sql
+  - wp/PCD_WP_DAILYCHECK.sql
+  - amos_defect/getDefectWoFromAmos.md
+  - ADD_SHEET/wo_last_workstep.sql
+  - ADD_SHEET/MCC_OPEN_MEL.SQL
+  - daily report/WR_MONITOR.SQL
+  - daily report/crosscheck_wo_maint.sql
+  - daily report/mp_ops copy.sql
+  - daily report/dailycheck_Ver01.sql
+  - daily report/get_wo_aog.sql
+  - daily report/defectaw.sql
+  - daily report/wooverdue.sql
+  - daily report/daily_wp.sql
+  - daily report/structure_list.sql
+  - daily report/crosscheck_wo_sched.sql
+  - daily report/wo_opslimit.sql
+  - daily report/get_Mhours_wp.sql
+  - daily report/get_mel.sql
+  - dashboard/test.sql
+  - dashboard/dashboardAmosMobile.sql
+  - dashboard/Ac_count.sql
+  - dashboard/wo_overdue_moc.sql
+--------------------------------------------------------------------------------
+Bảng: worktemplate_link
+Các file tham chiếu:
+  - ADD_SHEET/ADD_UNSPECIFIED.sql
+--------------------------------------------------------------------------------
+Bảng: wp_assignment
+Các file tham chiếu:
+  - E-expsheet/SECTION_5.sql
+  - backup/feedback_listtask_backup.sql
+  - backup/feedback.sql
+  - backup/PCD_WP_MAIN_STATISTICS.SQL
+  - backup/structure_list.sql
+  - backup/structure.sql
+  - backup/dailycheck.sql
+  - backup/cabinlisttask.sql
+  - backup/owplisttask.sql
+  - backup/PCD_WP_STATICTIS_FOR_EACH_STATION.SQL
+  - DLYWP_DB/PCD_WP_MAN_COUNT.sql
+  - DLYWP_DB/wr_monitoring.sql
+  - DLYWP_DB/PCD_WEEKY_COUNT.sql
+  - DLYWP_DB/PCD_WP_TASK_LIST.sql
+  - DLYWP_DB/PCD_CABIN.sql
+  - DLYWP_DB/PCD_SRUCTURE.sql
+  - DLYWP_DB/PCD_WP_DAILY_COUNT.SQL
+  - wp/check_prio_task.sql
+  - wp/daily_list.sql
+  - wp/PCD_WP_MAIN_STATISTCS.sql
+  - wp/wp_task_list_each_station_ratio.sql
+  - wp/get WP status.sql
+  - wp/PCD_BSI_COUTER.sql
+  - wp/feedback_list.sql
+  - wp/PCD_WP_FEEDBACK.sql
+  - wp/PCD_WP_TASK_LIST.sql
+  - wp/PCD_WP_ENGRUN.sql
+  - wp/check_jc.sql
+  - wp/AOG_WP_STATISTICS.SQL
+  - wp/wp_statictis_for_each_station.sql
+  - wp/PCD_WP_STATION_STATISTIC.SQL
+  - wp/tasklist_manhours.sql
+  - wp/PCD_WP_DAILYCHECK.sql
+  - daily report/diff_closingtimever01.sql
+  - daily report/WR_MONITOR.SQL
+  - daily report/woclosedbyAM.sql
+  - daily report/diff_closingtime.sql
+  - daily report/daily_wp.sql
+  - daily report/structure_list.sql
+  - daily report/get_Mhours_wp.sql
+  - dashboard/dashboardAmosMobile.sql
+  - dashboard/db_amosmobile_weekly.sql
+  - part_hangar/demo.sql
+--------------------------------------------------------------------------------
+Bảng: wp_content
+Các file tham chiếu:
+  - backup/feedback_listtask_backup.sql
+  - backup/feedback.sql
+  - backup/PCD_WP_MAIN_STATISTICS.SQL
+  - backup/structure_list.sql
+  - backup/structure.sql
+  - backup/dailycheck.sql
+  - backup/cabinlisttask.sql
+  - backup/owplisttask.sql
+  - backup/PCD_WP_STATICTIS_FOR_EACH_STATION.SQL
+  - DLYWP_DB/PCD_WP_MAN_COUNT.sql
+  - DLYWP_DB/PCD_WEEKY_COUNT.sql
+  - DLYWP_DB/PCD_WP_TASK_LIST.sql
+  - DLYWP_DB/PCD_CABIN.sql
+  - DLYWP_DB/PCD_SRUCTURE.sql
+  - DLYWP_DB/PCD_WP_DAILY_COUNT.SQL
+  - wp/daily_list.sql
+  - wp/PCD_WP_MAIN_STATISTCS.sql
+  - wp/PCD_WP_DEFER_TOTAL.sql
+  - wp/wp_task_list_each_station_ratio.sql
+  - wp/PCD_BSI_COUTER.sql
+  - wp/feedback_list.sql
+  - wp/defer_list.sql
+  - wp/PCD_WP_FEEDBACK.sql
+  - wp/PCD_WP_TASK_LIST.sql
+  - wp/defer.sql
+  - wp/PCD_WP_ENGRUN.sql
+  - wp/check_jc.sql
+  - wp/AOG_WP_STATISTICS.SQL
+  - wp/wp_statictis_for_each_station.sql
+  - wp/PCD_WP_STATION_STATISTIC.SQL
+  - wp/tasklist_manhours.sql
+  - wp/PCD_WP_DAILYCHECK.sql
+  - daily report/daily_wp.sql
+  - daily report/structure_list.sql
+  - daily report/get_Mhours_wp.sql
+  - part_hangar/demo.sql
+--------------------------------------------------------------------------------
+Bảng: wp_header
+Các file tham chiếu:
+  - E-expsheet/SECTION_5.sql
+  - resource/GPU-DASHBOARD/GPU_DETAIL.sql
+  - resource/GPU-DASHBOARD/GPU_TOTAL.sql
+  - resource/GPU-DASHBOARD/wp_actual_time.sql
+  - backup/feedback_listtask_backup.sql
+  - backup/feedback.sql
+  - backup/PCD_WP_MAIN_STATISTICS.SQL
+  - backup/structure_list.sql
+  - backup/structure.sql
+  - backup/dailycheck.sql
+  - backup/cabinlisttask.sql
+  - backup/owplisttask.sql
+  - backup/PCD_WP_STATICTIS_FOR_EACH_STATION.SQL
+  - DLYWP_DB/wr_monitoring.sql
+  - DLYWP_DB/PCD_WEEKY_COUNT.sql
+  - DLYWP_DB/PCD_WP_TASK_LIST.sql
+  - DLYWP_DB/PCD_CABIN.sql
+  - DLYWP_DB/PCD_SRUCTURE.sql
+  - DLYWP_DB/PCD_WP_DAILY_COUNT.SQL
+  - wp/check_prio_task.sql
+  - wp/daily_list.sql
+  - wp/PCD_WP_MAIN_STATISTCS.sql
+  - wp/PCD_WP_DEFER_TOTAL.sql
+  - wp/wp_task_list_each_station_ratio.sql
+  - wp/get WP status.sql
+  - wp/PCD_BSI_COUTER.sql
+  - wp/PCD_WP_MAIN.sql
+  - wp/feedback_list.sql
+  - wp/defer_list.sql
+  - wp/AOG_WP_COUNTER.SQL
+  - wp/MOC_HANDOVER.SQL
+  - wp/PCD_WP_FEEDBACK.sql
+  - wp/wp_auto_gen.sql
+  - wp/PCD_WP_MAIN_COUTER.sql
+  - wp/WP_heavy.sql
+  - wp/check_auto_deasignwp.sql
+  - wp/PCD_WP_TASK_LIST.sql
+  - wp/defer.sql
+  - wp/get_groundtime.sql
+  - wp/PCD_WP_MAIN_PANEL.sql
+  - wp/get_wp_list.sql
+  - wp/remark_wp.sql
+  - wp/PCD_WP_ENGRUN.sql
+  - wp/check_jc.sql
+  - wp/AOG_WP_STATISTICS.SQL
+  - wp/wp_remark.sql
+  - wp/wp_statictis_for_each_station.sql
+  - wp/PCD_WP_STATION_STATISTIC.SQL
+  - wp/tasklist_manhours.sql
+  - wp/PCD_WP_DAILYCHECK.sql
+  - amos_defect/timeCaptureGpu monitoring on AMOS.md
+  - daily report/diff_closingtimever01.sql
+  - daily report/exp.sql
+  - daily report/WR_MONITOR.SQL
+  - daily report/woclosedbyAM.sql
+  - daily report/diff_closingtime.sql
+  - daily report/daily_wp.sql
+  - daily report/structure_list.sql
+  - daily report/get_Mhours_wp.sql
+  - dashboard/dashboardAmosMobile.sql
+  - dashboard/db_amosmobile_weekly.sql
+  - part_hangar/demo.sql
+--------------------------------------------------------------------------------
+Bảng: wp_history
+Các file tham chiếu:
+  - backup/PCD_WP_STATICTIS_FOR_EACH_STATION.SQL
+  - wp/wp_task_list_each_station_ratio.sql
+  - wp/get WP status.sql
+  - wp/MOC_HANDOVER.SQL
+  - wp/check_auto_deasignwp.sql
+  - wp/wp_statictis_for_each_station.sql
+  - wp/PCD_WP_STATION_STATISTIC.SQL
+  - part_hangar/demo.sql
+--------------------------------------------------------------------------------
+Bảng: wp_name
+Các file tham chiếu:
+  - DLYWP_DB/wr_monitoring.sql
+  - wp/MOC_HANDOVER.SQL
+  - wp/WP_heavy.sql
+  - wp/check_auto_deasignwp.sql
+  - wp/remark_wp.sql
+  - wp/check_jc.sql
+  - wp/wp_remark.sql
+  - daily report/WR_MONITOR.SQL
+--------------------------------------------------------------------------------
+Bảng: wp_priority_codes
+Các file tham chiếu:
+  - wp/get WP status.sql
+--------------------------------------------------------------------------------
+Bảng: wp_status
+Các file tham chiếu:
+  - part_pooling/part_forecast.sql
+  - wp/get WP status.sql
+  - wp/AOG_WP_COUNTER.SQL
+  - wp/wp_auto_gen.sql
+  - wp/PCD_WP_MAIN_COUTER.sql
+  - wp/PCD_WP_MAIN_PANEL.sql
+  - wp/get_wp_list.sql
+  - wp/AOG_WP_STATISTICS.SQL
+--------------------------------------------------------------------------------

@@ -45,9 +45,9 @@ FROM
     LEFT JOIN time_captured_history ON time_captured_history.bookingno_i = time_captured.bookingno_i   
     LEFT JOIN rotables ON time_captured.psn = rotables.psn
 
-    JOIN wo_header ON wo_header.event_perfno_i = time_captured_history.primkey
-    JOIN event_template ON event_template.template_revisionno_i = wo_header.template_revisionno_i
-    JOIN work_template ON work_template.wtno_i = event_template.wtno_i
+    LEFT JOIN wo_header ON wo_header.event_perfno_i = time_captured_history.primkey
+    LEFT JOIN event_template ON event_template.template_revisionno_i = wo_header.template_revisionno_i
+    LEFT JOIN work_template ON work_template.wtno_i = event_template.wtno_i
                       AND work_template.wtno_i = 368233
 WHERE
     (wpno LIKE '%OWP-' || TO_CHAR(CURRENT_DATE - 1, 'DDMMYY') || '%' OR wpno LIKE '%TXWP-' || TO_CHAR(CURRENT_DATE - 1, 'DDMMYY') || '%')

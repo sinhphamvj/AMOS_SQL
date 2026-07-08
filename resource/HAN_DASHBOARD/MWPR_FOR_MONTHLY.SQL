@@ -23,16 +23,16 @@ SELECT
     COUNT(DISTINCT dc.user_sign) FILTER (WHERE dc.skill = 'B2_330') AS "B2_330",
     COUNT(DISTINCT dc.user_sign) FILTER (WHERE dc.skill = 'A_330') AS "A_330",
     -- total MPWR
-    COUNT(DISTINCT dc.user_sign) FILTER (WHERE dc.skill IN ('B1_PW', 'B1_CFM','B1_330','B2_PW','B2_CFM','B2_330','A_PW','A_CFM','A_330', 'MECH', 'TRAINEE_MECH')) AS "TOTAL"
+ COUNT(DISTINCT dc.user_sign) FILTER (WHERE dc.skill IN ('B1_PW', 'B1_CFM','B1_330','B2_PW','B2_CFM','B2_330','A_PW','A_CFM','A_330', 'MECH', 'TRAINEE_MECH')) AS "TOTAL"
 FROM
     (
     SELECT
         d.day,
         s.user_sign,
         CASE
-           WHEN spq.pqs_type_no_i = 1378 AND spq.ac_type = 'A320' AND spq.ac_sub_type = '-271N' THEN 'A_PW'
-            WHEN spq.pqs_type_no_i = 1378 AND spq.ac_type = 'A320' AND spq.ac_sub_type <> '-271N' THEN 'A_CFM'
-            WHEN spq.pqs_type_no_i = 1378 AND spq.ac_type = 'A330' THEN 'A_330'
+           WHEN spq.pqs_type_no_i = 1378 AND spq.ac_type = 'A320' AND spq.ac_sub_type = '-271N' AND s.skill_shop NOT LIKE '%B%' THEN 'A_PW' 
+            WHEN spq.pqs_type_no_i = 1378 AND spq.ac_type = 'A320' AND spq.ac_sub_type <> '-271N' AND s.skill_shop NOT LIKE '%B%' THEN 'A_CFM'
+            WHEN spq.pqs_type_no_i = 1378 AND spq.ac_type = 'A330' AND s.skill_shop NOT LIKE '%B%' THEN 'A_330'
 
             WHEN spq.pqs_type_no_i = 1379 AND spq.ac_type = 'A320' AND spq.ac_sub_type = '-271N' THEN 'B1_PW'
             WHEN spq.pqs_type_no_i = 1379 AND spq.ac_type = 'A320' AND spq.ac_sub_type <> '-271N' THEN 'B1_CFM'

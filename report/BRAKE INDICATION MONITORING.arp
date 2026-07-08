@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0" xsi:schemaLocation="http://www.swiss-as.com/xml/report_3.0 http://www.swiss-as.com/xml/report_3.0.xsd http://www.swiss-as.com/xml/datasource_2.0 http://www.swiss-as.com/xml/datasource_2.0.xsd" xmlns="http://www.swiss-as.com/xml/report_3.0">
+  <header>
+    <report_id>VJC.REP.1000365</report_id>
+    <revision_number>0</revision_number>
+    <meta name="serialization">v3</meta>
+    <rights>
+      <access_right name="visibleToCustomer">true</access_right>
+    </rights>
+  </header>
+  <page_master>
+    <view class="PageReportView" id="3504">
+      <attribute name="position">0 0</attribute>
+      <attribute name="size">700 1000</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="color">000000</attribute>
+      <attribute name="margin">0 0 0 0</attribute>
+      <attribute name="padding">0 0 0 0</attribute>
+      <attribute name="border">0 SOLID 000000</attribute>
+      <attribute name="header-size">0</attribute>
+      <attribute name="footer-size">25</attribute>
+      <attribute name="ref">VJC.REP.1000073</attribute>
+      <attribute name="orientation">PORTRAIT</attribute>
+    </view>
+    <content/>
+  </page_master>
+  <content>
+    <view class="DatasourceTableView" id="3506">
+      <attribute name="name">DatasourceTable_26</attribute>
+      <attribute name="position">41 33</attribute>
+      <attribute name="size">623 56</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="header-height">0</attribute>
+      <attribute name="row-height">16</attribute>
+      <attribute name="column-resize">LAST</attribute>
+      <attribute name="repeat-header">NO</attribute>
+      <attribute name="minimum-rows">0</attribute>
+      <column_model class="TableViewColumnModel">
+        <column class="TableViewColumn" id="COL2">
+          <attribute name="width">45</attribute>
+          <view class="LabelReportView" id="3509" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">45 0</attribute>
+            <attribute name="visible">NO</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">27.Dec.2024  02:56</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text">STT</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="3510" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">45 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes>
+              <conditional_attribute id="1">
+                <attribute name="background-color">FF6666</attribute>
+                <conditions>
+                  <condition class="GenericStyleCondition">
+                    <field id="1">@PCD_WP_TASK_LIST.PRI@</field>
+                    <field id="2">M</field>
+                    <operator negated="NO">EQUALS</operator>
+                  </condition>
+                </conditions>
+              </conditional_attribute>
+            </conditional_attributes>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">27.Dec.2024  02:56</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text">@BRK_MEASUREMENT.#ROW@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">50</attribute>
+          <view class="LabelReportView" id="3513" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 0</attribute>
+            <attribute name="visible">NO</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">12.Jul.2025  09:06</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">A/C</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="3514" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">12.Jul.2025  09:06</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">@BRK_MEASUREMENT.AC_REG@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">100</attribute>
+          <view class="LabelReportView" id="3517" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">100 0</attribute>
+            <attribute name="visible">NO</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">12.Jul.2025  09:06</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">CLOSED DATE</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="3518" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">100 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">12.Jul.2025  09:06</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">@BRK_MEASUREMENT.CLOSED_DATE@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">90</attribute>
+          <view class="LabelReportView" id="3521" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">90 0</attribute>
+            <attribute name="visible">NO</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">10.Nov.2025  04:37</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">BRAKE 1 (MM)</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="3522" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">90 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes>
+              <conditional_attribute id="1">
+                <attribute name="background-color">FF3300</attribute>
+                <conditions>
+                  <condition class="GenericStyleCondition">
+                    <field id="1">@BRK_MEASUREMENT.BRAKE_1@</field>
+                    <field id="2">2.10</field>
+                    <operator negated="NO">IS_SMALLER</operator>
+                  </condition>
+                </conditions>
+              </conditional_attribute>
+              <conditional_attribute id="2">
+                <attribute name="background-color">FFFF00</attribute>
+                <conditions>
+                  <condition class="GenericStyleCondition">
+                    <field id="1">@BRK_MEASUREMENT.BRAKE_1@</field>
+                    <field id="2">5.10</field>
+                    <operator negated="NO">IS_SMALLER</operator>
+                  </condition>
+                </conditions>
+              </conditional_attribute>
+            </conditional_attributes>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">10.Nov.2025  04:37</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">@BRK_MEASUREMENT.BRAKE_1@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">90</attribute>
+          <view class="LabelReportView" id="3525" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">90 0</attribute>
+            <attribute name="visible">NO</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">27.Dec.2024  03:56</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text">BRAKE 2(MM)</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="3526" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">90 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes>
+              <conditional_attribute id="1">
+                <attribute name="background-color">FF3300</attribute>
+                <conditions>
+                  <condition class="GenericStyleCondition">
+                    <field id="1">@BRK_MEASUREMENT.BRAKE_2@</field>
+                    <field id="2">2.10</field>
+                    <operator negated="NO">IS_SMALLER</operator>
+                  </condition>
+                </conditions>
+              </conditional_attribute>
+              <conditional_attribute id="2">
+                <attribute name="background-color">FFFF00</attribute>
+                <conditions>
+                  <condition class="GenericStyleCondition">
+                    <field id="1">@BRK_MEASUREMENT.BRAKE_2@</field>
+                    <field id="2">5.10</field>
+                    <operator negated="NO">IS_SMALLER</operator>
+                  </condition>
+                </conditions>
+              </conditional_attribute>
+            </conditional_attributes>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">29.Jan.2026  03:51</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">@BRK_MEASUREMENT.BRAKE_2@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">90</attribute>
+          <view class="LabelReportView" id="3529" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">90 0</attribute>
+            <attribute name="visible">NO</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">10.Nov.2025  04:19</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">BRAKE 3(MM)</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="3530" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">90 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes>
+              <conditional_attribute id="1">
+                <attribute name="background-color">FF3300</attribute>
+                <conditions>
+                  <condition class="GenericStyleCondition">
+                    <field id="1">@BRK_MEASUREMENT.BRAKE_3@</field>
+                    <field id="2">2.10</field>
+                    <operator negated="NO">IS_SMALLER</operator>
+                  </condition>
+                </conditions>
+              </conditional_attribute>
+              <conditional_attribute id="2">
+                <attribute name="background-color">FFFF00</attribute>
+                <conditions>
+                  <condition class="GenericStyleCondition">
+                    <field id="1">@BRK_MEASUREMENT.BRAKE_3@</field>
+                    <field id="2">5.10</field>
+                    <operator negated="NO">IS_SMALLER</operator>
+                  </condition>
+                </conditions>
+              </conditional_attribute>
+            </conditional_attributes>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">10.Nov.2025  04:19</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">@BRK_MEASUREMENT.BRAKE_3@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">91</attribute>
+          <view class="LabelReportView" id="3533" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">91 0</attribute>
+            <attribute name="visible">NO</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">29.Jan.2026  03:47</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">BRAKE 4(MM)</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="3534" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">91 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes>
+              <conditional_attribute id="1">
+                <attribute name="background-color">FF3300</attribute>
+                <conditions>
+                  <condition class="GenericStyleCondition">
+                    <field id="1">@BRK_MEASUREMENT.BRAKE_4@</field>
+                    <field id="2">2.10</field>
+                    <operator negated="NO">IS_SMALLER</operator>
+                  </condition>
+                </conditions>
+              </conditional_attribute>
+              <conditional_attribute id="2">
+                <attribute name="background-color">FFFF00</attribute>
+                <conditions>
+                  <condition class="GenericStyleCondition">
+                    <field id="1">@BRK_MEASUREMENT.BRAKE_4@</field>
+                    <field id="2">5.10</field>
+                    <operator negated="NO">IS_SMALLER</operator>
+                  </condition>
+                </conditions>
+              </conditional_attribute>
+            </conditional_attributes>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">29.Jan.2026  03:47</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">@BRK_MEASUREMENT.BRAKE_4@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn">
+          <attribute name="width">67</attribute>
+          <view class="LabelReportView" id="3567" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">67 0</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">20.May.2026  03:29</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="3568" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">67 16</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes>
+              <conditional_attribute id="1">
+                <attribute name="background-color">FF3300</attribute>
+                <conditions>
+                  <condition class="GenericStyleCondition">
+                    <field id="1">@BRK_MEASUREMENT.PRI@</field>
+                    <field id="2">1</field>
+                    <operator negated="NO">EQUALS</operator>
+                  </condition>
+                </conditions>
+              </conditional_attribute>
+              <conditional_attribute id="2">
+                <attribute name="background-color">FFFF00</attribute>
+                <conditions>
+                  <condition class="GenericStyleCondition">
+                    <field id="1">@BRK_MEASUREMENT.PRI@</field>
+                    <field id="2">2</field>
+                    <operator negated="NO">EQUALS</operator>
+                  </condition>
+                </conditions>
+              </conditional_attribute>
+            </conditional_attributes>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">20.May.2026  03:29</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">@BRK_MEASUREMENT.PRI@</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+      </column_model>
+      <attribute name="data-source">BRK_MEASUREMENT</attribute>
+    </view>
+    <view class="DatasourceTableView" id="3535">
+      <attribute name="name">DatasourceTable_2</attribute>
+      <attribute name="position">41 13</attribute>
+      <attribute name="size">623 27</attribute>
+      <attribute name="visible">YES</attribute>
+      <attribute name="auto-resize">NO</attribute>
+      <attribute name="rotation">0.0</attribute>
+      <conditional_attributes/>
+      <attribute name="header-height">20</attribute>
+      <attribute name="row-height">0</attribute>
+      <attribute name="column-resize">LAST</attribute>
+      <attribute name="repeat-header">NO</attribute>
+      <attribute name="minimum-rows">0</attribute>
+      <column_model class="TableViewColumnModel">
+        <column class="TableViewColumn" id="COL2">
+          <attribute name="width">45</attribute>
+          <view class="LabelReportView" id="3538" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">45 20</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">27.Dec.2024  02:56</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text">STT</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="3539" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">45 0</attribute>
+            <attribute name="visible">NO</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes>
+              <conditional_attribute id="1">
+                <attribute name="background-color">FF6666</attribute>
+                <conditions>
+                  <condition class="GenericStyleCondition">
+                    <field id="1">@PCD_WP_TASK_LIST.PRI@</field>
+                    <field id="2">M</field>
+                    <operator negated="NO">EQUALS</operator>
+                  </condition>
+                </conditions>
+              </conditional_attribute>
+            </conditional_attributes>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">27.Dec.2024  02:56</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">50</attribute>
+          <view class="LabelReportView" id="3542" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 20</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">12.Jul.2025  09:06</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">A/C</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="3543" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">50 0</attribute>
+            <attribute name="visible">NO</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">12.Jul.2025  09:06</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">100</attribute>
+          <view class="LabelReportView" id="3546" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">100 20</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">12.Jul.2025  09:06</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">CLOSED DATE</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="3547" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">100 0</attribute>
+            <attribute name="visible">NO</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">12.Jul.2025  09:06</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">LEFT</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">90</attribute>
+          <view class="LabelReportView" id="3550" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">90 20</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">10.Nov.2025  04:37</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">BRAKE 1 (MM)</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="3551" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">90 0</attribute>
+            <attribute name="visible">NO</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">10.Nov.2025  04:37</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">LEFT</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">90</attribute>
+          <view class="LabelReportView" id="3554" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">90 20</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">27.Dec.2024  03:56</attribute>
+            <attribute name="user-sign">VJC1138</attribute>
+            <attribute name="text">BRAKE 2(MM)</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="3555" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">90 0</attribute>
+            <attribute name="visible">NO</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">29.Jan.2026  03:51</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">LEFT</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">90</attribute>
+          <view class="LabelReportView" id="3558" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">90 20</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">10.Nov.2025  04:19</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">BRAKE 3(MM)</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="3559" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">90 0</attribute>
+            <attribute name="visible">NO</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">10.Nov.2025  04:19</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">LEFT</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn" id="">
+          <attribute name="width">91</attribute>
+          <view class="LabelReportView" id="3562" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">91 20</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">29.Jan.2026  03:47</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">BRAKE 4(MM)</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="3563" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">91 0</attribute>
+            <attribute name="visible">NO</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">29.Jan.2026  03:47</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">LEFT</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+        <column class="TableViewColumn">
+          <attribute name="width">67</attribute>
+          <view class="LabelReportView" id="3565" usage="header">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">67 20</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">NO</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="background-color">C0C0C0</attribute>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">0 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">20.May.2026  03:29</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text">PRI</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif BOLD 12</attribute>
+            <attribute name="text-align">CENTER</attribute>
+            <attribute name="line-break">WORD</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+          <view class="LabelReportView" id="3566" usage="cell">
+            <attribute name="position">0 0</attribute>
+            <attribute name="size">67 0</attribute>
+            <attribute name="visible">YES</attribute>
+            <attribute name="auto-resize">YES</attribute>
+            <attribute name="rotation">0.0</attribute>
+            <conditional_attributes/>
+            <attribute name="color">000000</attribute>
+            <attribute name="margin">0 0 0 0</attribute>
+            <attribute name="padding">2 0 0 0</attribute>
+            <attribute name="border">1 SOLID 000000</attribute>
+            <attribute name="date-time">20.May.2026  03:29</attribute>
+            <attribute name="user-sign">VJC4679</attribute>
+            <attribute name="text-decoration">NONE</attribute>
+            <attribute name="font">SansSerif PLAIN 10</attribute>
+            <attribute name="text-align">LEFT</attribute>
+            <attribute name="line-break">AS_IS</attribute>
+            <attribute name="splitable">NO</attribute>
+            <attribute name="trimWhitespaceAroundWildcard">NO</attribute>
+            <attribute name="antialias">false</attribute>
+          </view>
+        </column>
+      </column_model>
+    </view>
+  </content>
+  <dataSourceList>
+    <ds:dataSource xmlns:ds="http://www.swiss-as.com/xml/datasource_2.0" id="VAR" type="PARAMETER_DATASOURCE" version="2.0">
+      <ds:description>Contains all user defined variables and constants.</ds:description>
+      <ds:columnDescriptors>
+        <ds:columnDescriptor amosType="ALPHANUM" description="BRAKE INDICATION MONITORING" id="TITLE"/>
+      </ds:columnDescriptors>
+      <ds:configurationParameters>
+        <ds:value amosType="NONE" description="TITLE" id="TITLE">
+          <ds:map>
+            <ds:keyValuePair>
+              <ds:key>multi</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>mandatory</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>selectionValues</ds:key>
+              <ds:data>*</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>relativeDate</ds:key>
+              <ds:data>false</ds:data>
+            </ds:keyValuePair>
+            <ds:keyValuePair>
+              <ds:key>defaultValue</ds:key>
+              <ds:data>BRAKE INDICATION MONITORING</ds:data>
+            </ds:keyValuePair>
+          </ds:map>
+        </ds:value>
+      </ds:configurationParameters>
+    </ds:dataSource>
+    <ds:dataSource xmlns:ds="http://www.swiss-as.com/xml/datasource_2.0" id="BRK_MEASUREMENT" type="SQL_EDITOR_DATASOURCE" version="2.0">
+      <ds:description>GET DATA FROM THE LAST JC PERF IN WEEKLY CHK</ds:description>
+      <ds:columnDescriptors>
+        <ds:columnDescriptor amosType="ALPHANUM" description="wo_header.ac_registr AS &quot;AC_REG&quot;" id="AC_REG"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description=" &#10;    TO_CHAR(DATE '1971-12-31' + wo_header.closing_date'DD.MON.YYYY') AS &quot;CLOSED_DATE&quot;" id="CLOSED_DATE"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="MAX(CASE WHEN wom_def.name = 'BRAKE_1' THEN wom_item.value_num END) AS &quot;BRAKE_1&quot;" id="BRAKE_1"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="MAX(CASE WHEN wom_def.name = 'BRAKE_2' THEN wom_item.value_num END) AS &quot;BRAKE_2&quot;" id="BRAKE_2"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="MAX(CASE WHEN wom_def.name = 'BRAKE_3' THEN wom_item.value_num END) AS &quot;BRAKE_3&quot;" id="BRAKE_3"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="MAX(CASE WHEN wom_def.name = 'BRAKE_4' THEN wom_item.value_num END) AS &quot;BRAKE_4&quot;" id="BRAKE_4"/>
+        <ds:columnDescriptor amosType="ALPHANUM" description="CASE &#10;        WHEN b.&quot;BRAKE_1&quot; &lt;= 2.0 OR b.&quot;BRAKE_2&quot; &lt;= 2.0 OR b.&quot;BRAKE_3&quot; &lt;= 2.0 OR b.&quot;BRAKE_4&quot; &lt;= 2.0 THEN 1&#10;        WHEN (b.&quot;BRAKE_1&quot; &gt; 2.0 AND b.&quot;BRAKE_1&quot; &lt;= 5.0) OR &#10;             (b.&quot;BRAKE_2&quot; &gt; 2.0 AND b.&quot;BRAKE_2&quot; &lt;= 5.0) OR &#10;             (b.&quot;BRAKE_3&quot; &gt; 2.0 AND b.&quot;BRAKE_3&quot; &lt;= 5.0) OR &#10;             (b.&quot;BRAKE_4&quot; &gt; 2.0 AND b.&quot;BRAKE_4&quot; &lt;= 5.0) THEN 2&#10;        ELSE 3&#10;    END AS &quot;PRI&quot;" id="PRI"/>
+      </ds:columnDescriptors>
+      <ds:configurationParameters/>
+      <ds:sqlEditorDataSource>
+        <se:sqlStatement xmlns:se="http://www.swiss-as.com/xml/sqlStatement_2.0" type="TEXT_EDITOR" version="2.0">
+          <se:textStatement>WITH target_wo AS (
+    SELECT DISTINCT ON (wo_header.ac_registr)
+           wo_header.event_perfno_i AS "WO"
+    FROM wo_header
+    JOIN event_template ON wo_header.template_revisionno_i = event_template.template_revisionno_i
+    JOIN workstep_link AS wsl ON wo_header.event_perfno_i = wsl.event_perfno_i 
+    JOIN wo_measurement_item ON wo_measurement_item.workstep_linkno_i = wsl.workstep_linkno_i 
+    WHERE event_template.wtno_i IN (280832, 280413, 281041)
+      AND wo_header.event_type = 'JC'
+      AND wo_header.state = 'C'
+      AND wo_header.event_perfno_i &gt; 0
+      AND (DATE '1971-12-31' + wo_header.closing_date) :: date &gt;= (current_timestamp - interval '16 day') :: date
+    ORDER BY wo_header.ac_registr, wo_header.event_perfno_i DESC
+)
+SELECT 
+    b."AC_REG", 
+    b."CLOSED_DATE",
+    b."BRAKE_1", 
+    b."BRAKE_2", 
+    b."BRAKE_3", 
+    b."BRAKE_4",
+    CASE 
+        WHEN b."BRAKE_1" &lt;= 2.0 OR b."BRAKE_2" &lt;= 2.0 OR b."BRAKE_3" &lt;= 2.0 OR b."BRAKE_4" &lt;= 2.0 THEN 1
+        WHEN (b."BRAKE_1" &gt; 2.0 AND b."BRAKE_1" &lt;= 5.0) OR 
+             (b."BRAKE_2" &gt; 2.0 AND b."BRAKE_2" &lt;= 5.0) OR 
+             (b."BRAKE_3" &gt; 2.0 AND b."BRAKE_3" &lt;= 5.0) OR 
+             (b."BRAKE_4" &gt; 2.0 AND b."BRAKE_4" &lt;= 5.0) THEN 2
+        ELSE 3
+    END AS "PRI"
+FROM (
+    SELECT 
+        wo_header.ac_registr AS "AC_REG", 
+        TO_CHAR(DATE '1971-12-31' + wo_header.closing_date, 'DD.MON.YYYY') AS "CLOSED_DATE",
+        MAX(CASE WHEN wom_def.name = 'BRAKE_1' THEN wom_item.value_num END) AS "BRAKE_1", 
+        MAX(CASE WHEN wom_def.name = 'BRAKE_2' THEN wom_item.value_num END) AS "BRAKE_2", 
+        MAX(CASE WHEN wom_def.name = 'BRAKE_3' THEN wom_item.value_num END) AS "BRAKE_3", 
+        MAX(CASE WHEN wom_def.name = 'BRAKE_4' THEN wom_item.value_num END) AS "BRAKE_4" 
+    FROM ( 
+        SELECT 
+            wo_measurement_itemno_i, 
+            wo_measurement_defno_i, 
+            value_num, 
+            measure_date, 
+            created_by, 
+            created_date, 
+            workstep_linkno_i   
+        FROM wo_measurement_item 
+    ) AS wom_item 
+    JOIN wo_measurement_def AS wom_def ON wom_item.wo_measurement_defno_i = wom_def.wo_measurement_defno_i 
+    JOIN workstep_link AS wsl ON wom_item.workstep_linkno_i = wsl.workstep_linkno_i 
+    JOIN wo_header ON wo_header.event_perfno_i = wsl.event_perfno_i 
+    JOIN target_wo ON wo_header.event_perfno_i = target_wo."WO"
+    GROUP BY wo_header.ac_registr, wo_header.closing_date
+) b
+ORDER BY "PRI" ASC</se:textStatement>
+        </se:sqlStatement>
+      </ds:sqlEditorDataSource>
+    </ds:dataSource>
+  </dataSourceList>
+</report>

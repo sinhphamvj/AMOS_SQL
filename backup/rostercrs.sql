@@ -27,9 +27,9 @@ SELECT
         WHEN staff_pqs_type.type_label NOT LIKE 'CAT A' AND valid_staff.ac_type = 'A320'
             THEN 'CAT II/III, RVSM, PBN'
         WHEN staff_pqs_type.type_label NOT LIKE 'CAT A' AND valid_staff.ac_type = 'A330' AND valid_staff.notes LIKE '%8c%'
-            THEN 'EDTO; CPDLC & ADS-C,MNPS,PBCS; PBN, CAT II&III, RVSM'
-        WHEN staff_pqs_type.type_label NOT LIKE 'CAT A' AND valid_staff.ac_type = 'A330'
             THEN 'EDTO; CPDLC & ADS-C,MNPS,PBCS; PBN, CAT II&III, RVSM,RII/DI'
+        WHEN staff_pqs_type.type_label NOT LIKE 'CAT A' AND valid_staff.ac_type = 'A330'
+            THEN 'EDTO; CPDLC & ADS-C,MNPS,PBCS; PBN, CAT II&III, RVSM'
         ELSE ''
     END AS SPECIAL_OPERATION
 FROM

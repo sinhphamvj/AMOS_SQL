@@ -15,13 +15,14 @@ SELECT
     "END_TIME",
     "GROUND_TIME",
     "PRI",
+    "RECORDED_HOURS",
+    "TOTAL_HOURS",
+    "QTY",
+    "SCOPE_STAFF",
     "DESCRIPTION",
     "ACTION_TAKEN",
     "ACTION_TAKEN_HTML",
-    "OTHER_REQUIREMENTS",
-    "TOTAL_HOURS",
-    "QTY",
-    "SCOPE_STAFF"
+    "OTHER_REQUIREMENTS"
 FROM (
     -- Subquery for wp_assignment
     SELECT
@@ -73,13 +74,15 @@ TO_CHAR(
                      END AS "GROUND_TIME",
 
         wo_header.prio AS "PRI",
+        time_captured.duration as "RECORDED_HOURS",
+        rm_resource_requirement.total_hours AS "TOTAL_HOURS",
+        SUM(rm_resource_requirement.resource_quantity) AS "QTY",
+        rm_resource_constraint.char_value AS "SCOPE_STAFF",
         CASE WHEN wo_header.event_type = 'JC' THEN work_template.template_title ELSE wo_text_description.header END AS "DESCRIPTION",
         wo_text_description.text AS "ACTION_TAKEN",
         wo_text_description.text_html AS "ACTION_TAKEN_HTML",
-        wo_header_more.other AS "OTHER_REQUIREMENTS",
-        rm_resource_requirement.total_hours AS "TOTAL_HOURS",
-        SUM(rm_resource_requirement.resource_quantity) AS "QTY",
-        rm_resource_constraint.char_value AS "SCOPE_STAFF"
+        wo_header_more.other AS "OTHER_REQUIREMENTS"
+       
     FROM
         wp_assignment
         JOIN wp_header ON wp_header.wpno_i = wp_assignment.wpno_i 
@@ -127,7 +130,8 @@ AND NOT (COALESCE(wo_text_description.header, '') = 'PERFORM CHECK: STAYOVER CHE
         work_template.template_title,
         workstep_link.descno_i,
         rm_resource_request.request_owner_amos_key,
-rm_resource_requirement.resource_requirement_noi
+rm_resource_requirement.resource_requirement_noi,
+time_captured.duration
 
     UNION
     
@@ -181,22 +185,23 @@ TO_CHAR(
                      END AS "GROUND_TIME",
 
         wo_header.prio AS "PRI",
-        CASE WHEN wo_header.event_type = 'JC' THEN work_template.template_title ELSE wo_text_description.header END AS "DESCRIPTION",
-        wo_text_description.text AS "ACTION_TAKEN",
-        wo_text_description.text_html AS "ACTION_TAKEN_HTML",
-        wo_header_more.other AS "OTHER_REQUIREMENTS",
+          time_captured.duration as "RECORDED_HOURS",
           (
             SELECT SUM(rreq_sub.total_hours)
             FROM rm_resource_requirement rreq_sub
             JOIN rm_resource_request rreq_inner ON rreq_sub.resource_request_noi = rreq_inner.resource_request_noi
- LEFT JOIN rm_resource_constraint ON rm_resource_requirement.resource_requirement_noi = rm_resource_constraint.resource_requirement_noi
+  LEFT JOIN rm_resource_constraint ON rm_resource_requirement.resource_requirement_noi = rm_resource_constraint.resource_requirement_noi
 LEFT JOIN rm_property_type ON rm_resource_constraint.property_type_no_i = rm_property_type.property_type_no_i 
             JOIN workstep_link ws_link_sub ON rreq_inner.request_owner_amos_key = ws_link_sub.descno_i
             WHERE ws_link_sub.event_perfno_i =  wp_content.event_perfno_i
 and rm_property_type.resource_category = 'STAFF'
         ) AS "TOTAL_HOURS",
         SUM(rm_resource_requirement.resource_quantity) AS "QTY",
-        rm_resource_constraint.char_value AS "SCOPE_STAFF"
+        rm_resource_constraint.char_value AS "SCOPE_STAFF",
+        CASE WHEN wo_header.event_type = 'JC' THEN work_template.template_title ELSE wo_text_description.header END AS "DESCRIPTION",
+        wo_text_description.text AS "ACTION_TAKEN",
+        wo_text_description.text_html AS "ACTION_TAKEN_HTML",
+        wo_header_more.other AS "OTHER_REQUIREMENTS"
         
     FROM
         wp_content
@@ -244,7 +249,8 @@ AND NOT (COALESCE(wo_text_description.header, '') = 'PERFORM CHECK: STAYOVER CHE
         work_template.template_title,
         workstep_link.descno_i,
         rm_resource_request.request_owner_amos_key,
-rm_resource_requirement.resource_requirement_noi
+      rm_resource_requirement.resource_requirement_noi,
+      time_captured.duration
 ) AS combined_subquery
 ORDER BY
     CASE

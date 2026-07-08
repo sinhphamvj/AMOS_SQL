@@ -33,4 +33,4 @@ WHERE
     (   wpno LIKE '%OWP-'  || TO_CHAR(TO_DATE('@VAR.CHECK_DATE@', 'DD.Mon.YYYY'), 'DDMMYY') || '%'
      OR wpno LIKE '%TXWP-' || TO_CHAR(TO_DATE('@VAR.CHECK_DATE@', 'DD.Mon.YYYY'), 'DDMMYY') || '%')
     AND rotables.partno IS NOT NULL
-    AND wp_header.station = 'HAN'
+

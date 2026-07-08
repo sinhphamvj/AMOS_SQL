@@ -30,9 +30,9 @@ SELECT
         WHEN spt.type_label NOT LIKE 'CAT A' AND spq.ac_type = 'A320'
             THEN 'CAT II/III, RVSM, PBN'
         WHEN spt.type_label NOT LIKE 'CAT A' AND spq.ac_type = 'A330' AND spq.notes LIKE '%8c%'
-            THEN 'EDTO; CPDLC & ADS-C,MNPS,PBCS; PBN, CAT II&III, RVSM'
-        WHEN spt.type_label NOT LIKE 'CAT A' AND spq.ac_type = 'A330'
             THEN 'EDTO; CPDLC & ADS-C,MNPS,PBCS; PBN, CAT II&III, RVSM,RII/DI'
+        WHEN spt.type_label NOT LIKE 'CAT A' AND spq.ac_type = 'A330'
+            THEN 'EDTO; CPDLC & ADS-C,MNPS,PBCS; PBN, CAT II&III, RVSM'
         ELSE ''
     END                                                             AS SPECIAL_OPERATION
 FROM
@@ -67,7 +67,11 @@ FROM
               'SMS-MANAGER',
               'PDA',
               'SMS-GSE',
-              'GSE - QUALIFIED COURSE'
+              'GSE - QUALIFIED COURSE',
+              'BASE MAINTENANCE SOP',
+              'LAOS REGULATION',
+              'TTS-LAOS-REG',
+              'TTS-LAOS-REG-REC'
           )
           AND spc2.pqs_class_id NOT IN ('RECURRENT', 'GSE-GO')
     ) expired ON expired.employee_no_i = s.employee_no_i

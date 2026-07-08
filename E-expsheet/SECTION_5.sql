@@ -6,8 +6,9 @@ SELECT
     TRIM(SUBSTRING(b.text FROM 'MAINTENANCE RECORD:\s*(.*)$')) AS "MAINT RECORD",
     dl.classification AS "CAT",
     b.text,
-    b.created_by,
-    TO_CHAR(DATE '1971-12-31' + b.created_date, 'DD.MON.YYYY') AS "CREATED_DATE",
+    b.sign_performed AS "TRAINEE",
+    b.mech_sign AS "SUPERVISOR",
+    TO_CHAR(DATE '1971-12-31' + b.action_date, 'DD.MON.YYYY') AS "CREATED_DATE",
     b.other as "MHR",
     CAST(REPLACE(wt.template_number, ',', '.') AS NUMERIC) AS "ID",
     dl.ref_type AS "TASK_TYPE",
@@ -20,10 +21,11 @@ FROM (
     SELECT 
         wo_header.event_perfno_i,
         wo_header.template_revisionno_i,
+        wo_header.mech_sign,
         wo_text_description.text,
-        wo_text_description.created_by,
+        wo_text_action.sign_performed,
+        wo_text_action.action_date,
         wo_text_description.desc_comment AS "REMARKS",
-        wo_text_description.created_date,
         wp_header.wpno_i,
         wo_header_more.other,
         -- Chuyển số WO lấy được sang SỐ NGUYÊN luôn
@@ -45,10 +47,11 @@ FROM (
     JOIN wo_header ON wp_assignment.event_perfno_i = wo_header.event_perfno_i
     JOIN workstep_link ON wo_header.event_perfno_i = workstep_link.event_perfno_i
     LEFT JOIN wo_header_more ON wo_header_more.event_perfno_i = wo_header.event_perfno_i
+    JOIN wo_text_action ON wo_header.event_perfno_i = wo_text_action.event_perfno_i
     JOIN wo_text_description ON wo_text_description.descno_i = workstep_link.descno_i
     WHERE 
         -- Bộ chốt ID của bạn (sẽ làm tập query nhỏ đi ngay lập tức trước khi chạy subquery)
-        wp_header.wpno LIKE '%EXP-VJC2741%'
+        wp_header.wpno = 'EXP-VJC2741-CAAV-CATB1-REV00'
         AND wo_header.event_type = 'JC'
         AND wo_header.state = 'C'
         
@@ -65,12 +68,14 @@ WHERE EXISTS (
      JOIN db_link sub_dl ON wta.actionno_i::VARCHAR = sub_dl.source_pk
                         AND sub_dl.source_type = 'WOA'
                         AND sub_dl.ref_type IN ('MEL','AMM','CDL','SRM','NTM','TSM','DOC_REF')
+                        
      WHERE 
          -- Sử dụng toán tử `=` số học thuần chuẩn, Database Index sẽ scan thẳng vào
          wta.event_perfno_i = b.extracted_wo_id 
          -- Dù toán tử LIKE này quét hai đầu tốn thời gian, nhưng nó đã được hạ tải tối đa vì
          -- số lượng rows lọt xuống cấp độ này đã bị thu hẹp bởi CTE và JOIN/WHERE bên trên
          AND sub_dl.description LIKE '%' || dl.description || '%'
+         AND wta.sign_performed = b.mech_sign
 )
 OR
 EXISTS (

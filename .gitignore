@@ -1,4 +1,5 @@
 .agents/
 amos_db_schema/
-.claude/
 .venv/
+__pycache__/
+data_transfer/csv_data/
